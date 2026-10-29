@@ -279,7 +279,7 @@
       },
       "cards": [
         {
-          "q": "What are the government's two income sources named by NCERT?",
+          "q": "Which two sources of government income does NCERT give as examples?",
           "a": "Taxation and running public sector enterprises."
         },
         {
@@ -370,7 +370,7 @@
           "a": "Inefficient management of the Indian economy in the 1980s."
         },
         {
-          "q": "Name four 1980s mistakes that led to the crisis (NCERT).",
+          "q": "Name the 1980s mistakes that NCERT says led to the crisis.",
           "a": "Spending beyond revenue, big spending without immediate returns (social sector, defence), low PSU income, borrowed forex used for consumption; no curb on wasteful spending or push for exports."
         }
       ]
@@ -442,7 +442,7 @@
           "say": "The conditions were: remove restrictions on the private sector, reduce the role of the government in many areas, and remove trade restrictions between India and other countries."
         }
       ],
-      "beyond": "To raise emergency loans in 1991, India pledged part of its gold reserves abroad, a moment often cited as the low point of the crisis.",
+      "beyond": "Beyond the book: the IMF lends to countries facing balance of payments trouble; the World Bank lends for long-term development projects; both were set up in 1944. To raise emergency loans in 1991, India also pledged part of its gold reserves abroad, a moment often cited as the low point of the crisis.",
       "examAngle": "NCERT's own wording is useful in exams: reserves 'not sufficient for even a fortnight' (3.1) and 'not adequate to finance imports for more than two weeks' (3.2). They mean the same thing. Remember the $7 billion loan, and that the World Bank's formal name is the IBRD.",
       "quiz": {
         "q": "How much did India receive as a loan from the World Bank and IMF in 1991, according to NCERT?",
@@ -467,6 +467,10 @@
         {
           "q": "What loan did India get in 1991 and what policy followed?",
           "a": "$7 billion from the World Bank and IMF; India agreed to their conditions and announced the New Economic Policy (NEP)."
+        },
+        {
+          "q": "IMF vs World Bank, in one line each (beyond NCERT)?",
+          "a": "IMF: lends to countries facing balance of payments trouble. World Bank: lends for long-term development projects. Both set up in 1944."
         }
       ]
     },
@@ -649,7 +653,7 @@
           "items": [
             {
               "icon": "🔓",
-              "text": "Licensing abolished except alcohol, cigarettes, hazardous chemicals, industrial explosives, electronics, aerospace, drugs and pharmaceuticals"
+              "text": "Licensing abolished for almost all, except alcohol, cigarettes, hazardous chemicals, industrial explosives, electronics, aerospace, drugs and pharmaceuticals"
             },
             {
               "icon": "⚛️",
@@ -752,12 +756,12 @@
               "text": "Private sector banks, Indian and foreign, allowed"
             },
             {
-              "icon": "7️⃣",
+              "icon": "📈",
               "text": "Foreign investment limit in banks raised to about 74%"
             },
             {
               "icon": "🏢",
-              "text": "Qualifying banks can open branches without RBI approval"
+              "text": "Qualifying banks can open branches and rationalise existing ones without RBI approval"
             },
             {
               "icon": "🔒",
@@ -768,7 +772,7 @@
               "text": "Foreign Institutional Investors (FIIs) can invest in Indian markets"
             }
           ],
-          "say": "The reforms allowed private sector banks, Indian and foreign. Foreign investment in banks was raised to around 74 percent. Banks meeting certain conditions can set up new branches without R B I approval. But R B I kept certain managerial aspects to protect account-holders and the nation. And Foreign Institutional Investors, or F I Is, such as merchant bankers, mutual funds and pension funds, can now invest in Indian financial markets."
+          "say": "The reforms allowed private sector banks, Indian and foreign. Foreign investment in banks was raised to around 74 percent. Banks meeting certain conditions can set up new branches and rationalise existing ones without R B I approval. But R B I kept certain managerial aspects to protect account-holders and the nation. And Foreign Institutional Investors, or F I Is, such as merchant bankers, mutual funds and pension funds, can now invest in Indian financial markets."
         }
       ],
       "beyond": "The RBI controls how much money banks keep through tools like the Cash Reserve Ratio (CRR, a share of deposits kept with RBI) and the Statutory Liquidity Ratio (SLR, a share kept in safe assets like government securities). Both are core RBI Grade B topics.",
@@ -831,7 +835,7 @@
               "e.g. GST, customs duty"
             ]
           },
-          "say": "The government's taxation and public expenditure policies together are called its fiscal policy. There are two types of taxes. Direct taxes are on the incomes of individuals and the profits of businesses, like income tax and corporation tax. Indirect taxes are levied on goods and services."
+          "say": "The government's taxation and public expenditure policies together are called its fiscal policy. There are two types of taxes. Direct taxes are on the incomes of individuals and the profits of businesses, like income tax and corporation tax. Indirect taxes are levied on goods and services. Examples, beyond the book, are G S T and customs duty."
         },
         {
           "kind": "flow",
@@ -983,7 +987,7 @@
               "Same machine now costs ₹2,500: dearer at home"
             ]
           },
-          "say": "Beyond the book, here's how devaluation works, with round numbers. Devaluation means the government lowers the rupee's official value, so each dollar buys more rupees. Say a dollar goes from 20 to 25 rupees. An Indian shirt costing 200 rupees now sells abroad for 8 dollars instead of 10, so exports get cheaper and sell more. But an imported 100-dollar machine now costs 2,500 rupees instead of 2,000, so imports get dearer. More exports and fewer imports bring in foreign exchange."
+          "say": "Beyond the book: devaluation means the government lowers the rupee's official value, so each dollar buys more rupees. Say a dollar goes from 20 to 25 rupees. An Indian shirt costing 200 rupees now sells abroad for 8 dollars instead of 10, so exports get cheaper and sell more. But an imported 100-dollar machine now costs 2,500 rupees instead of 2,000, so imports get dearer. An everyday picture: it's like a sale on everything Indian for foreign buyers, and a price hike on everything foreign for Indian buyers."
         },
         {
           "kind": "points",
@@ -1322,8 +1326,8 @@
           "left": {
             "title": "Result",
             "items": [
-              "Status improved these companies' performance",
-              "Many were set up in the 1950s–60s for self-reliance"
+              "Many were set up in the 1950s–60s for self-reliance",
+              "Status improved these companies' performance"
             ]
           },
           "right": {
@@ -1357,6 +1361,10 @@
         {
           "q": "NCERT's examples of Maharatnas, Navratnas and Miniratnas?",
           "a": "Maharatnas: IOC, SAIL. Navratnas: HAL, MTNL, IRCTC. Miniratnas: BSNL, Airports Authority of India."
+        },
+        {
+          "q": "Where does the name 'Navratna' come from (NCERT)?",
+          "a": "The nine jewels (Navratnas) of King Vikramaditya's court: eminent people in art, literature and knowledge."
         }
       ]
     },
@@ -1402,7 +1410,7 @@
             "Often in another country",
             "Fast communication and IT make it possible"
           ],
-          "say": "Outsourcing is one important outcome. A company hires a regular service from an outside source, mostly from other countries, that was earlier provided internally, like legal advice, computer services, advertising or security. It has grown because of fast communication, especially information technology."
+          "say": "Outsourcing is one important outcome. A company hires a regular service from an outside source, mostly from other countries, that was earlier provided internally, like legal advice, computer services, advertising or security. It has grown because of fast communication, especially information technology. NCERT's Recap calls outsourcing a major emerging activity in both industry and services."
         },
         {
           "kind": "points",
@@ -1504,7 +1512,7 @@
               "e.g. a foreign pension fund buying Indian shares"
             ]
           },
-          "say": "NCERT names both kinds of foreign investment but doesn't define them, so here's the difference, beyond the book. Foreign direct investment, F D I, means building or buying into a business for the long term, with a say in management, like a foreign carmaker setting up a factory in India. Foreign institutional investment, F I I, means buying shares and bonds in financial markets. It can move in and out quickly, like a foreign pension fund buying Indian shares."
+          "say": "NCERT names both kinds of foreign investment but doesn't define them, so here's the difference, beyond the book. Foreign direct investment, F D I, means building or buying into a business for the long term, with a say in management, like a foreign carmaker setting up a factory in India. Foreign institutional investment, F I I, means buying shares and bonds in financial markets. It can move in and out quickly, like a foreign pension fund buying Indian shares. Think of buying a house to live in and run, versus buying shares you could sell tomorrow."
         },
         {
           "kind": "points",
@@ -1543,7 +1551,7 @@
               "text": "Dr Reddy's: plants and research centres worldwide"
             }
           ],
-          "say": "Globalisation runs both ways. NCERT's Box 3.2 shows Indian companies expanding abroad. O N G C Videsh, a subsidiary of the public sector Oil and Natural Gas Corporation, has projects in 16 countries. Tata Steel, founded in 1907, operates in 26 countries and sells in 50, employing nearly 50,000 people abroad. H C L Technologies has offices in 31 countries. And Dr Reddy's grew from a small supplier into a company with plants and research centres around the world."
+          "say": "Globalisation runs both ways. NCERT's Box 3.2 shows Indian companies expanding abroad. O N G C Videsh, a subsidiary of the public sector Oil and Natural Gas Corporation, has projects in 16 countries. Tata Steel, founded in 1907, operates in 26 countries and sells in 50, employing nearly 50,000 people abroad. H C L Technologies has offices in 31 countries. And Dr Reddy's grew from a small supplier into a company with plants and research centres around the world. These figures are NCERT's snapshot, from rediff dot com in 2014."
         }
       ],
       "beyond": "Since 2014, India's regulator SEBI has used the term Foreign Portfolio Investor (FPI) in place of FII. A foreign stake of 10% or more in a company is generally counted as FDI, and smaller stakes as portfolio investment.",
@@ -1593,7 +1601,7 @@
               "text": "World Trade Organisation (WTO) founded as its successor"
             }
           ],
-          "say": "The General Agreement on Tariffs and Trade, or G A T T, was set up in 1948 with 23 countries, to administer multilateral trade agreements with equal opportunities for all countries. In 1995, the World Trade Organisation, the W T O, was founded as its successor."
+          "say": "The General Agreement on Tariffs and Trade, or G A T T, was set up in 1948 with 23 countries, to administer multilateral trade agreements with equal opportunities for all countries. In 1995, the World Trade Organisation, the W T O, was founded as its successor. NCERT writes it as the General Agreement on Trade and Tariff; the official name is the General Agreement on Tariffs and Trade, so use that in exams."
         },
         {
           "kind": "points",
@@ -1652,11 +1660,11 @@
             "title": "Critics ask",
             "items": [
               "Most trade is among developed nations",
-              "Rich countries attack poor countries' farm subsidies",
+              "Developed countries file complaints over farm subsidies",
               "Developing countries open up but get no access"
             ]
           },
-          "say": "As an important member, India has pushed for fair global rules and the interests of developing countries, and kept its commitments by removing quantitative restrictions and reducing tariffs. But some scholars question its value. Most international trade happens among developed nations. Developed countries complain about farm subsidies in developing countries, while developing countries feel cheated: forced to open their markets, without access to developed markets."
+          "say": "As an important member, India has pushed for fair global rules and the interests of developing countries, and kept its commitments by removing quantitative restrictions and reducing tariffs. But some scholars question its value. Most international trade happens among developed nations. While developed countries file complaints over agricultural subsidies, developing countries feel cheated: forced to open their markets, without access to developed markets."
         }
       ],
       "beyond": "The WTO is headquartered in Geneva, Switzerland. Its top decision-making body is the Ministerial Conference, which meets about every two years.",
@@ -1706,7 +1714,7 @@
             "value": "9.4%",
             "label": "GDP growth, 2021–22"
           },
-          "say": "Three decades on, how did the economy do? In economics, growth is measured by G D P. NCERT's Table 3.1 shows G D P growth rising from 5.6 percent in 1980 to 91, to 9.4 percent in 2021-22."
+          "say": "Three decades on, how did the economy do? Growth is measured by G D P, gross domestic product: the total value of the final goods and services a country produces in a year. NCERT's Table 3.1 shows G D P growth rising from 5.6 percent in 1980 to 91, to 9.4 percent in 2021-22."
         },
         {
           "kind": "bars",
@@ -1795,7 +1803,7 @@
               "display": "3.2"
             }
           ],
-          "say": "By 2007 to 12, services led at 10 percent, industry grew 7.4 percent, and agriculture just 3.2 percent. NCERT's reading: agriculture's growth declined, industry fluctuated, and services rose, so G D P growth is mainly driven by the service sector; the Recap puts it as agriculture and industry growth going down. 2012-13 saw a setback across sectors."
+          "say": "By 2007 to 12, services led at 10 percent, industry grew 7.4 percent, and agriculture just 3.2 percent. NCERT's reading: agriculture's growth declined, industry fluctuated, and services rose, so G D P growth is mainly driven by the service sector; the Recap puts it as agriculture and industry growth going down. 2012-13 saw a setback across sectors. One caution: NCERT says services grew faster than overall G D P during 2007 to 2022, yet in the table's 2021-22 column services, at 9.2, are just below the total of 9.4."
         },
         {
           "kind": "points",
@@ -1990,7 +1998,7 @@
               "text": "Fiscal management"
             }
           ],
-          "say": "The reforms have been widely criticised for failing to address basic problems in employment, agriculture, industry, infrastructure and fiscal management. Scholars point out that reform-led growth hasn't generated enough jobs. Let's start with agriculture, where NCERT says the reforms haven't benefited farmers and growth has been decelerating."
+          "say": "The reforms have been widely criticised for failing to address basic problems in employment, agriculture, industry, infrastructure and fiscal management. Scholars point out that reform-led growth hasn't generated enough jobs. Let's start with agriculture, where NCERT says the reforms haven't benefited farmers and growth has been decelerating. NCERT adds, though, that the evidence so far shows this criticism is not completely true, and asks what you think."
         },
         {
           "kind": "points",
@@ -2013,19 +2021,20 @@
               "text": "Shift to export cash crops pushed up food grain prices"
             }
           ],
-          "say": "Since 1991, public investment in farm infrastructure, like irrigation, power, roads, market linkages, and research and extension, has fallen. Partial removal of the fertiliser subsidy raised costs, hurting small and marginal farmers. Lower import duties, low minimum support prices, or M S P, and lifting quantitative restrictions exposed farmers to international competition. And export-oriented policies shifted farming from food grains to cash crops, putting pressure on food grain prices."
+          "say": "Since 1991, public investment in farm infrastructure, like irrigation, power, roads, market linkages, and research and extension, has fallen. Partial removal of the fertiliser subsidy raised costs, hurting small and marginal farmers. Lower import duties, low minimum support prices, or M S P, the price at which the government promises to buy certain crops, and lifting quantitative restrictions exposed farmers to international competition. And export-oriented policies shifted farming from food grains to cash crops, putting pressure on food grain prices."
         },
         {
           "kind": "flow",
           "heading": "Mahadeva's story (NCERT)",
           "steps": [
             "Groundnut farmer in drought-prone Anantpur, Andhra Pradesh",
-            "No new irrigation; less research; crop disease",
+            "Spent ₹10,000; earned ₹14,000 (2 quintals × ₹7,000)",
+            "No major irrigation; crop disease; less research and extension",
             "Lower subsidy raises his costs",
             "Cheap imported edible oils flood the market",
             "He can't sell at a price that covers his cost"
           ],
-          "say": "NCERT tells the story of Mahadeva, a groundnut farmer in drought-prone Anantpur, Andhra Pradesh. After the reforms, the government didn't build major irrigation, and less research meant his crop disease went unsolved. Lower subsidies raised his costs. Then cheap imported edible oils flooded local markets after import restrictions were removed. Mahadeva couldn't sell his groundnut at a price that covered his cost."
+          "say": "NCERT tells the story of Mahadeva, a groundnut farmer in drought-prone Anantpur, Andhra Pradesh. He used to spend 10,000 rupees on his half-acre plot and earn 14,000: two quintals at 7,000 rupees each. After the reforms, the government didn't undertake any major irrigation project. His groundnut faced crop disease, while research and extension work went down. Lower subsidies raised his costs. Then cheap imported edible oils flooded local markets after import restrictions were removed. Mahadeva couldn't sell his groundnut at a price that covered his cost."
         }
       ],
       "beyond": "Minimum support price (MSP) is the price at which the government promises to buy certain crops from farmers. It is announced each season on the advice of the Commission for Agricultural Costs and Prices (CACP).",
@@ -2062,13 +2071,21 @@
       ],
       "scenes": [
         {
-          "kind": "flow",
+          "kind": "points",
           "heading": "Why industry slowed",
-          "steps": [
-            "Cheaper imports replace demand for Indian goods",
-            "Too little investment in infrastructure like power",
-            "Domestic makers face import competition",
-            "Industrial growth slows down"
+          "items": [
+            {
+              "icon": "📦",
+              "text": "Cheaper imports replace demand for Indian goods"
+            },
+            {
+              "icon": "⚔️",
+              "text": "Domestic makers face import competition"
+            },
+            {
+              "icon": "⚡",
+              "text": "Too little investment in infrastructure like power"
+            }
           ],
           "say": "Industrial growth also slowed, NCERT says, because demand for industrial products fell. Cheaper imports replaced demand for domestic goods, so Indian manufacturers faced competition from imports. And infrastructure, including power supply, stayed inadequate for lack of investment."
         },
@@ -2149,7 +2166,7 @@
             },
             {
               "year": "2022-23",
-              "text": "About ₹46,000 crore mobilised"
+              "text": "About ₹46,000 crore mobilised (NCERT's figure)"
             }
           ],
           "say": "Every year, the government sets a disinvestment target. In 1991-92, it aimed to raise 2,500 crore rupees through disinvestment, and NCERT says it mobilised 3,040 crore rupees, more than the target. In 2022-23, it raised about 46,000 crore rupees."
@@ -2197,8 +2214,8 @@
           "say": "Reforms also limited growth in public expenditure, especially in social sectors. Tax cuts meant to raise revenue and curb evasion didn't increase tax revenue. Lower tariffs reduced revenue from customs duties, and tax incentives to attract foreign investors reduced it further. NCERT says this hurt developmental and welfare spending."
         }
       ],
-      "beyond": "Disinvestment targets were often missed. Since the 2024-25 Interim Budget, the Budget no longer gives a separate disinvestment target; disinvestment and asset monetisation are counted together as ‘miscellaneous capital receipts’ (₹80,000 crore budgeted for 2026-27).",
-      "examAngle": "Exercise 9 (should profit-making PSUs be privatised?) and Exercise 16 (reforms and social justice). Use the critics' points here: undervaluation, proceeds used to fill revenue gaps, and squeezed welfare spending.",
+      "beyond": "NCERT's line 'mobilise ₹3,040 crore more than the target' can be misread as ₹3,040 crore over the target; the 1991-92 receipts were about ₹3,040 crore in total. Disinvestment targets were often missed. Since the 2024-25 Interim Budget, the Budget no longer gives a separate disinvestment target; disinvestment and asset monetisation are counted together as ‘miscellaneous capital receipts’ (₹80,000 crore budgeted for 2026-27).",
+      "examAngle": "Exercise 9 (should profit-making PSUs be privatised?): either view if argued. For: financial discipline, modernisation, private capital and management, FDI. Against: assets undervalued, proceeds used to fill revenue gaps; and NCERT’s Box 3.1 notes the government decided to keep profitable PSEs public and let them grow globally. Exercise 16 (reforms and social justice): use the critics’ points here, including squeezed welfare spending.",
       "quiz": {
         "q": "According to NCERT's critics, how were disinvestment proceeds mostly used?",
         "options": [
@@ -2289,7 +2306,7 @@
               "text": "Not in agriculture and industry, which support millions"
             }
           ],
-          "say": "In India, some studies say the early 1990s crisis grew out of deep-rooted inequalities, and the externally advised reform package made them worse. Growth raised incomes mainly for high-income groups, concentrated in services like telecommunication, information technology, finance, entertainment, travel and hospitality, real estate and trade, rather than in agriculture and industry, which give livelihoods to millions."
+          "say": "In India, some studies say the early 1990s crisis grew out of deep-rooted inequalities, and the externally advised reform package made them worse. Growth increased the income and quality of consumption of only high-income groups, and was concentrated in services like telecommunication, information technology, finance, entertainment, travel and hospitality, real estate and trade, rather than in agriculture and industry, which give livelihoods to millions."
         }
       ],
       "beyond": "Siricilla, in NCERT's Andhra Pradesh, has been in Telangana since the state was formed in 2014.",
