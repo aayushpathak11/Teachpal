@@ -30,46 +30,87 @@ export function renderPractice(ctx) {
   const body = page.querySelector(".body");
   const banks = ctx.chapters.filter((c) => ctx.practice[c.id]);
 
-  const home = () => {
-    const stats = (ids) => {
-      const tried = ids.filter((id) => ctx.state.practice[id]);
-      const right = tried.filter((id) => ctx.state.practice[id].lastCorrect).length;
-      return tried.length ? `${right}/${tried.length} right last time` : "not started";
-    };
+  // One chapter scope for the whole tab, so the written list stays short.
+  // "" = all chapters mixed: interleaved MCQs, and one summary row per chapter.
+  const MIXED = "";
+  let scope = ctx.state.settings.practiceChapter;
+  if (scope === undefined || (scope !== MIXED && !banks.some((c) => c.id === scope)))
+    scope = banks.some((c) => c.id === ctx.chapter?.id) ? ctx.chapter.id : banks[0]?.id;
+  const setScope = (id) => {
+    scope = id;
+    ctx.state.settings.practiceChapter = id;
+    ctx.commit({ quiet: true });
+    home();
+  };
+
+  const stats = (ids) => {
+    const tried = ids.filter((id) => ctx.state.practice[id]);
+    const right = tried.filter((id) => ctx.state.practice[id].lastCorrect).length;
+    return tried.length ? `${right}/${tried.length} right last time` : "not started";
+  };
+  const essayStats = (items) => {
+    const done = items.filter((it) => ctx.state.essays[it.id]);
+    if (!done.length) return `${items.length} questions · not started`;
+    const avg = done.reduce((a, it) => a + ctx.state.essays[it.id].score, 0) / done.length;
+    return `${done.length}/${items.length} answered · average ${avg.toFixed(1)}/10`;
+  };
+
+  const home = (focusId) => {
+    const ch = banks.find((c) => c.id === scope);
+    const mcqs = ch ? ctx.practice[ch.id].mcq : banks.flatMap((c) => ctx.practice[c.id].mcq);
     body.replaceChildren(
       h(`<div>
+        <div class="box practice-start">
+          <label for="practice-scope">Chapter</label>
+          <select id="practice-scope">${banks.map((c, i) => `<option value="${esc(c.id)}">${i + 1}. ${esc(c.title)}</option>`).join("")}<option value="">All chapters, mixed</option></select>
+        </div>
         <div class="section-h">Phase 1 · MCQ sets</div>
         <div class="box practice-start">
-          <label for="mcq-scope">Chapters</label>
-          <select id="mcq-scope"><option value="">All chapters, mixed</option>${banks.map((c) => `<option value="${esc(c.id)}">${esc(c.title)}</option>`).join("")}</select>
-          <button class="btn primary big" data-start>Start ${SET_SIZE} questions</button>
+          <p class="prompt">${mcqs.length} questions${ch ? "" : " from every chapter, interleaved"} · ${stats(mcqs.map((m) => m.id))}</p>
+          <button class="btn primary big" data-start>Start ${Math.min(SET_SIZE, mcqs.length)} questions</button>
           <p class="prompt">Questions you missed come first. You'll rate your confidence before seeing each answer.</p>
         </div>
         <div class="section-h">Phase 2 · Written answers</div>
         <div class="essay-list"></div>
       </div>`)
     );
-    body.querySelector("[data-start]").onclick = () => runSet(body.querySelector("#mcq-scope").value);
+    const sel = body.querySelector("#practice-scope");
+    sel.value = scope;
+    sel.onchange = () => setScope(sel.value);
+    body.querySelector("[data-start]").onclick = () => runSet(scope);
     const list = body.querySelector(".essay-list");
-    for (const ch of banks) {
-      const items = ctx.practice[ch.id].descriptive || [];
-      if (!items.length) continue;
-      list.append(h(`<div class="list-h">${esc(ch.title)} · MCQs: ${stats(ctx.practice[ch.id].mcq.map((m) => m.id))}</div>`));
-      for (const it of items) {
-        const s = ctx.state.essays[it.id];
-        const row = h(`
-          <button class="reel-row">
-            <span class="t"><small>${esc(it.source || "")}</small>${esc(it.q)}</span>
-            ${s ? `<span class="pill ${s.score >= 7 ? "ok" : s.score >= 4 ? "na" : "no"}">${s.score}/10</span>` : `<span class="pill na">new</span>`}
-          </button>`);
-        row.onclick = () => openEssay(it);
+
+    if (!ch) {
+      // Mixed: a short summary per chapter instead of every question.
+      for (const c of banks) {
+        const items = ctx.practice[c.id].descriptive || [];
+        if (!items.length) continue;
+        const row = h(`<button class="reel-row"><span class="t">${esc(c.title)}<small>${esc(essayStats(items))}</small></span><span class="pill na">Open</span></button>`);
+        row.onclick = () => setScope(c.id);
         list.append(row);
       }
+      return;
     }
+    const items = ctx.practice[ch.id].descriptive || [];
+    if (!items.length) return list.append(h(`<p class="prompt">No written questions for this chapter yet.</p>`));
+    list.append(h(`<div class="list-h">${esc(essayStats(items))}</div>`));
+    for (const it of items) {
+      const s = ctx.state.essays[it.id];
+      const row = h(`
+        <button class="reel-row" data-id="${esc(it.id)}">
+          <span class="t"><small>${esc(it.source || "")}</small>${esc(it.q)}</span>
+          ${s ? `<span class="pill ${s.score >= 7 ? "ok" : s.score >= 4 ? "na" : "no"}">${s.score}/10</span>` : `<span class="pill na">new</span>`}
+        </button>`);
+      row.onclick = () => openEssay(it);
+      list.append(row);
+    }
+    // Coming back from an answer: return to the same spot in the list.
+    const back = focusId && list.querySelector(`[data-id="${CSS.escape(focusId)}"]`);
+    if (back) requestAnimationFrame(() => back.scrollIntoView({ block: "center" }));
   };
 
   const openEssay = (it) => {
-    body.replaceChildren(essayView(it, { saved: null, onResult: (r) => ctx.recordEssay(it.id, r), onBack: home }));
+    body.replaceChildren(essayView(it, { saved: null, onResult: (r) => ctx.recordEssay(it.id, r), onBack: () => home(it.id) }));
     page.scrollTop = 0;
   };
 
@@ -124,7 +165,7 @@ export function renderPractice(ctx) {
         b.onclick = () => ctx.openReel(ch.id, reel.id);
         rw.append(b);
       }
-      body.querySelector("[data-home]").onclick = home;
+      body.querySelector("[data-home]").onclick = () => home();
       body.querySelector("[data-again]").onclick = () => runSet(chapterId);
     };
     show();
