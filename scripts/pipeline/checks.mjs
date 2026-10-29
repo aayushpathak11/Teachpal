@@ -27,9 +27,16 @@ export function lintChapter(ch) {
         const spoken = years.filter((y) => String(s.say).includes(y)).sort((a, b) => String(s.say).indexOf(a) - String(s.say).indexOf(b));
         if (missing.length === 0 && spoken.join() !== years.join()) out.push(issue(r.id, where, "minor", "timeline events are narrated in a different order from the screen", "Narrate the events in on-screen order."));
       }
+      if (s.kind === "quote") {
+        // A verbatim quote on screen must also be read verbatim (ch02 lesson).
+        const norm = (t) => String(t).toLowerCase().replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim();
+        const said = norm(s.say);
+        const parts = String(s.text).split(/\.\.\.|…/).map(norm).filter((x) => x.split(" ").length >= 4);
+        if (parts.some((x) => !said.includes(x))) out.push(issue(r.id, where, "minor", "quote is not read word for word in the narration", "Introduce the quote, then read it verbatim."));
+      }
       if (s.kind === "quote" && /\b(NCERT|Box\s*\d)/i.test(s.by || "")) out.push(issue(r.id, where, "minor", `quote attributed to "${s.by}"; quote scenes must be verbatim`, "Use the book's exact words, or switch to a points scene."));
       const screen = JSON.stringify({ ...s, say: undefined });
-      const abbr = screen.match(/\b(TN|AP|UP|MP|WB|J&K|GVA|IMR|ESI)\b/g);
+      const abbr = screen.match(/\b(TN|AP|UP|MP|WB|J&K|GVA|IMR|ESI|PSUs?|DPSP|IPR|SSIs?|MSMEs?)\b/g);
       if (abbr && !abbr.every((a) => String(s.say).includes(a) || /\(/.test(screen))) out.push(issue(r.id, where, "minor", `abbreviation on screen without explanation: ${[...new Set(abbr)].join(", ")}`, "Write it out in full or explain it at first use."));
       if (/\b(both|all|none) of the above\b/i.test(s.say || "")) out.push(issue(r.id, where, "minor", "narration refers to 'the above'", "Name the items instead."));
       const w = words(s.say);
