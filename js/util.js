@@ -23,3 +23,20 @@ export function relTime(ms) {
   if (hrs < 36) return `${hrs} h`;
   return `${Math.round(hrs / 24)} days`;
 }
+
+// Grow a textarea with its content so it never scrolls on its own. On phones an
+// inner-scrolling textarea swallows the swipe meant to scroll the page.
+export function autoGrow(ta) {
+  const fit = () => {
+    ta.style.height = "auto";
+    ta.style.height = `${ta.scrollHeight + 2}px`;
+  };
+  ta.addEventListener("input", fit);
+  requestAnimationFrame(fit);
+  return fit;
+}
+
+// Bring freshly shown feedback into view, below the answer the learner just wrote.
+export function reveal(el) {
+  requestAnimationFrame(() => el.scrollIntoView({ behavior: "smooth", block: "start" }));
+}

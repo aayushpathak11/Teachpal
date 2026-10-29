@@ -1,4 +1,4 @@
-import { esc, h } from "./util.js";
+import { autoGrow, esc, h, reveal } from "./util.js";
 import { askJSON, explainPrompt, followUpPrompt } from "./ai.js";
 
 // Explain-it-back: a day after a reel, the learner explains it from memory;
@@ -17,12 +17,15 @@ export function explainCard(reel, { onDone }) {
   const ta = el.querySelector("textarea");
   const btn = el.querySelector("[data-check]");
   const out = el.querySelector(".result");
+  autoGrow(ta);
   ta.addEventListener("input", () => (btn.disabled = ta.value.trim().split(/\s+/).length < 8));
 
   btn.onclick = async () => {
     btn.disabled = true;
     ta.readOnly = true;
+    ta.blur();
     out.innerHTML = `<div class="box">Thinking…</div>`;
+    reveal(out);
     const res = await askJSON(explainPrompt(reel, ta.value.trim()));
     const d = res.data;
     if (d && Number.isFinite(+d.score)) {
@@ -34,6 +37,9 @@ export function explainCard(reel, { onDone }) {
         ${d.followUp ? `<div class="box exam"><h4>Why? One follow-up</h4><p>${esc(d.followUp)}</p>
           <textarea rows="3" id="followup-${esc(reel.id)}" placeholder="Your answer…"></textarea>
           <div class="row"><button class="btn" data-skip>Skip</button><button class="btn primary" data-fu>Answer</button></div><div class="fu-out"></div></div>` : ""}`;
+      const fu = out.querySelector(`#followup-${CSS.escape(reel.id)}`);
+      if (fu) autoGrow(fu);
+      reveal(out);
       const finish = () => onDone({ score });
       if (!d.followUp) return out.append(nextBtn(finish));
       out.querySelector("[data-skip]").onclick = () => finish();
