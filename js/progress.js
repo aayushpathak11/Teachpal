@@ -42,7 +42,7 @@ export function renderProgress(ctx) {
       <div class="section-h">Narration voice</div>
       <div class="voice-box">
         <div class="row"><select id="voice-select" aria-label="Narration voice"></select><button class="btn" data-preview>▶ Preview</button></div>
-        <p class="voice-tip">★ = natural-sounding. If every voice sounds robotic, add a better one to your device:
+        <p class="voice-tip">The recorded voice sounds the most natural. ★ = a natural-sounding device voice. If a device voice sounds robotic, add a better one to your device:
           <b>iPhone</b>: Settings → Accessibility → Spoken Content → Voices → English → download an "Enhanced" or "Premium" voice.
           <b>Android</b>: install Speech Services by Google, then download English (India).
           <b>Windows</b>: open the app in Microsoft Edge, which has "Natural" voices. Then reload.</p>
@@ -52,24 +52,34 @@ export function renderProgress(ctx) {
     </div>`);
 
   const sel = page.querySelector("#voice-select");
+  const hasRecorded = ctx.chapters.some((c) => c.audio);
+  const usingRecorded = () => hasRecorded && (!state.settings.voiceURI || state.settings.voiceURI === "recorded");
   const fillVoices = () => {
     const list = tts.englishVoices();
     const cur = tts.currentVoice();
-    sel.innerHTML = list.length
-      ? list.map((v) => `<option value="${esc(v.voiceURI)}" ${v === cur ? "selected" : ""}>${tts.voiceScore(v) >= 40 ? "★ " : ""}${esc(v.name)} (${esc(v.lang)})</option>`).join("")
-      : `<option>No voices on this device (captions only)</option>`;
-    sel.disabled = !list.length;
+    const rec = hasRecorded ? `<option value="recorded" ${usingRecorded() ? "selected" : ""}>★ TeachPal natural voice (recorded)</option>` : "";
+    sel.innerHTML =
+      rec +
+      list.map((v) => `<option value="${esc(v.voiceURI)}" ${!usingRecorded() && v === cur ? "selected" : ""}>${tts.voiceScore(v) >= 40 ? "★ " : ""}${esc(v.name)} (${esc(v.lang)})</option>`).join("");
+    if (!rec && !list.length) sel.innerHTML = `<option>No voices on this device (captions only)</option>`;
+    sel.disabled = !rec && !list.length;
   };
   fillVoices();
   tts.onVoicesChanged(fillVoices);
+  const preview = () => {
+    const ch = ctx.chapter;
+    const clip = usingRecorded() && ctx.clipFor(ch, ch.reels[0], "s0");
+    const opts = { ...state.settings, muted: false };
+    if (clip) return tts.playClip(clip, opts);
+    tts.speak("In 1947, about 85 percent of Indians depended on agriculture. Let's see why it stagnated.", opts);
+  };
   sel.onchange = () => {
     state.settings.voiceURI = sel.value;
-    tts.setPreferredVoice(sel.value);
+    if (sel.value !== "recorded") tts.setPreferredVoice(sel.value);
     ctx.commit({ quiet: true });
-    tts.speak("This is how your reels will sound.", state.settings);
+    preview();
   };
-  page.querySelector("[data-preview]").onclick = () =>
-    tts.speak("In 1947, about 85 percent of Indians depended on agriculture. Let's see why it stagnated.", { ...state.settings, muted: false });
+  page.querySelector("[data-preview]").onclick = preview;
 
   const chWrap = page.querySelector(".chapters");
   for (const ch of ctx.chapters) {

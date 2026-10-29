@@ -72,6 +72,13 @@ export function forSpeech(text) {
     .replace(/\s*[—–]\s*/g, ", ");
 }
 
+// Short stable hash of a narration text, used to tell whether a recording is stale.
+export function textHash(text) {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < text.length; i++) h = Math.imul(h ^ text.charCodeAt(i), 16777619);
+  return (h >>> 0).toString(36);
+}
+
 export function splitSentences(text) {
   return text.match(/[^.!?]+[.!?]+["')\]]*|[^.!?]+$/g)?.map((s) => s.trim()).filter(Boolean) || [text];
 }
@@ -81,8 +88,23 @@ export function estimateMs(text, rate = 1) {
   return Math.round((words / (2.6 * rate)) * 1000 + 350);
 }
 
+// One shared <audio> element for recorded narration. It is unlocked inside the
+// Start tap, so later scenes can play without another tap on iPhone.
+let audioEl = null;
+const SILENCE = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YQAAAAA=";
+function player() {
+  if (!audioEl) {
+    audioEl = new Audio();
+    audioEl.preload = "auto";
+  }
+  return audioEl;
+}
+
 export function unlock() {
   // Must run inside a user gesture so mobile browsers allow later speech.
+  const a = player();
+  a.src = SILENCE;
+  a.play().catch(() => {});
   if (!synth) return;
   pickVoice();
   const u = new SpeechSynthesisUtterance(" ");
@@ -96,6 +118,64 @@ export function cancel() {
   finishCurrent = null;
   f?.(true);
   synth?.cancel();
+  if (audioEl && !audioEl.paused) audioEl.pause();
+}
+
+// Plays one recorded segment ({src, start, end, sents}). Resolves like speak():
+// true if cancelled, false when finished; "failed" if the audio couldn't play,
+// so the caller can fall back to the device voice.
+export function playClip(clip, { rate = 1, muted = false, onSentence } = {}) {
+  cancel();
+  const my = token;
+  return new Promise((resolve) => {
+    let done = false;
+    const timers = [];
+    const a = player();
+    const finish = (result) => {
+      if (done) return;
+      done = true;
+      timers.forEach(clearTimeout);
+      a.removeEventListener("timeupdate", tick);
+      if (finishCurrent === finish) finishCurrent = null;
+      if (result !== true && !a.paused) a.pause();
+      resolve(result);
+    };
+    finishCurrent = finish;
+    let shown = -1;
+    const tick = () => {
+      const t = a.currentTime;
+      const k = clip.sents.reduce((n, s, i) => (t + 0.05 >= s ? i : n), 0);
+      if (k !== shown) onSentence?.((shown = k));
+      if (t >= clip.end) finish(false);
+    };
+
+    if (muted) {
+      clip.sents.forEach((s, i) => timers.push(setTimeout(() => my === token && onSentence?.(i), ((s - clip.start) * 1000) / rate)));
+      timers.push(setTimeout(() => finish(false), ((clip.end - clip.start) * 1000) / rate));
+      return;
+    }
+
+    const start = () => {
+      if (done) return;
+      try {
+        a.currentTime = clip.start;
+      } catch {
+        return finish("failed");
+      }
+      a.playbackRate = rate;
+      a.addEventListener("timeupdate", tick);
+      a.play().catch(() => finish("failed"));
+      // Backstop in case timeupdate stops (backgrounded tab, stalled network).
+      timers.push(setTimeout(() => finish(false), ((clip.end - clip.start) * 1000) / rate + 6000));
+    };
+    if (!a.src.endsWith(clip.src) || a.src === SILENCE) {
+      a.src = clip.src;
+      a.addEventListener("loadedmetadata", start, { once: true });
+      a.addEventListener("error", () => finish("failed"), { once: true });
+      timers.push(setTimeout(() => a.readyState < 1 && finish("failed"), 10000));
+      a.load();
+    } else start();
+  });
 }
 
 // Resolves to true if cancelled, false if it finished normally.

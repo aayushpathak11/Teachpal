@@ -6,6 +6,7 @@ import { renderReview } from "./review.js";
 import { renderProgress } from "./progress.js";
 import { esc, h } from "./util.js";
 import * as tts from "./tts.js";
+import { textHash } from "./tts.js";
 
 const view = document.getElementById("view");
 const startEl = document.getElementById("start");
@@ -30,6 +31,19 @@ const ctx = {
       r.cards.map((c, i) => ({ key: cardKey(ch.id, r.id, i), chapterId: ch.id, reelId: r.id, reelTitle: r.title, reelEmoji: r.emoji, q: c.q, a: c.a }))
     );
   },
+  // A recorded narration segment for this scene ("s0", "s1", …) or the quiz, if
+  // the learner uses the recorded voice and the recording matches the current text.
+  clipFor(ch, reel, key) {
+    const v = ctx.state.settings.voiceURI;
+    if (v && v !== "recorded") return null;
+    const rec = ch.audio?.reels?.[reel.id];
+    const seg = rec?.segments?.[key];
+    if (!seg) return null;
+    const text = key === "quiz" ? "Quick check. " + reel.quiz.q : reel.scenes[+key.slice(1)]?.say;
+    if (!text || seg.h !== textHash(text)) return null;
+    return { src: `${ch.audioBase}${rec.file}`, start: seg.start, end: seg.end, sents: seg.sents };
+  },
+
   allCardRefs() {
     return ctx.chapters.flatMap((ch) => ctx.cardRefs(ch));
   },
@@ -138,7 +152,16 @@ document.addEventListener("visibilitychange", () => {
 // ---------- boot ----------
 async function boot() {
   const index = await (await fetch("content/index.json")).json();
-  ctx.chapters = await Promise.all(index.chapters.map(async (c) => ({ ...(await (await fetch(`content/${c.file}`)).json()), status: c.status })));
+  ctx.chapters = await Promise.all(
+    index.chapters.map(async (c) => {
+      const ch = { ...(await (await fetch(`content/${c.file}`)).json()), status: c.status };
+      if (c.audio) {
+        ch.audioBase = `content/${c.audio.replace(/[^/]+$/, "")}`;
+        ch.audio = await fetch(`content/${c.audio}`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+      }
+      return ch;
+    })
+  );
   selectChapter(ctx.state.lastFeed?.chapter || ctx.chapters[0].id);
   tts.setPreferredVoice(ctx.state.settings.voiceURI);
   refreshChrome();

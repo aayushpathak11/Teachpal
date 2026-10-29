@@ -44,6 +44,10 @@ The single source of rules for writing and reviewing reels. The in-chat workflow
 - The app's speech cleanup reads %, ₹, number ranges, <, ~, "e.g." and "WW II" aloud correctly. Still prefer words in `say` ("about 7 percent"). Keep symbols for on-screen text.
 - Spell out abbreviations the way they should be spoken, and say a name the way the learner should remember it.
 
+## Voice and pronunciation
+- Narration is recorded with Kokoro. The user wanted a natural, Indian-sounding voice, because the device voices sounded robotic.
+- When a word is mispronounced (Indian names, Hindi terms, abbreviations), add a respelling to `docs/pronunciations.json`. Abbreviations read letter by letter are written with spaces ("N C E R T").
+
 ## Workflow habits
 - Run the independent reviewer and the web fact-checker in parallel, each with fresh context. Fix everything major, and the minor issues that are cheap to fix.
 - A round-2 review checks only changed reels, and must confirm that round-1 fixes were actually applied. Applying the suggested fix text without re-reading it once caused a new error. *(ch01: GVA)*

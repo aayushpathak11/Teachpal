@@ -49,6 +49,11 @@ Tell it to read the PDF itself and to report only real problems.
 - Re-run steps 3-5 on the **changed reels only**, then stop when no blocker or major issues remain, or after 2 rounds.
 - Minor issues: fix the ones that are clearly right and cheap to fix, and list the rest in the report.
 
+## 6b. Record narration
+- After the text is final, record it with Kokoro following `scripts/audio/README.md` (setup, `prepare.mjs`, `synth.py`), using the voice in `docs/voice.json`. Run it in the background while you write the report.
+- Add `"audio": "audio/<id>/manifest.json"` to the chapter's entry in `content/index.json`, and publish `content/audio/<id>/*` with the chapter.
+- If the user reports a mispronounced word, add it to `docs/pronunciations.json` and re-record the affected chapters.
+
 ## 7. Report
 Write `content/reports/<id>.md` with these sections: Status (reviewed / needs attention), counts (reels, scenes, cards, review rounds, issues fixed), coverage (x/y high-importance facts), open issues by severity, reviewer scores per reel, a fact-check table (claim, verdict, correction, sources), and any facts still not covered.
 

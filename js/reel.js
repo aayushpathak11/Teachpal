@@ -132,16 +132,20 @@ export class Reel {
     this.caption.innerHTML = sentences.map((s) => `<span>${esc(s)} </span>`).join("");
     const spans = [...this.caption.children];
     const { rate, muted } = this.settings;
-    this.setSegments(i, tts.estimateMs(scene.say, rate));
+    const clip = this.ctx.clipFor(this.chapter, this.reel, `s${i}`);
+    this.setSegments(i, clip ? ((clip.end - clip.start) * 1000) / rate : tts.estimateMs(scene.say, rate));
 
-    const cancelled = await tts.speak(scene.say, {
+    const opts = {
       rate,
       muted,
       onSentence: (k) => {
         spans.forEach((sp, j) => (sp.style.opacity = j === k ? 1 : 0.45));
         if (spans[k]) this.caption.scrollTop = spans[k].offsetTop - 10;
       },
-    });
+    };
+    // Recorded narration when available; the device voice otherwise or if it fails.
+    let cancelled = clip ? await tts.playClip(clip, opts) : "failed";
+    if (cancelled === "failed") cancelled = await tts.speak(scene.say, opts);
     if (cancelled || !this.active || this.paused || this.sceneIdx !== i || this.mode !== "scenes") return;
     this.segs[i].classList.add("done");
     this.play(i + 1);
@@ -217,7 +221,12 @@ export class Reel {
       <div class="after"></div>`;
     p.hidden = false;
     p.scrollTop = 0;
-    if (this.active) tts.speak("Quick check. " + q.q, this.settings);
+    if (this.active) {
+      const clip = this.ctx.clipFor(this.chapter, this.reel, "quiz");
+      (clip ? tts.playClip(clip, this.settings) : Promise.resolve("failed")).then((r) => {
+        if (r === "failed" && this.mode === "quiz") tts.speak("Quick check. " + q.q, this.settings);
+      });
+    }
 
     p.querySelector(".opts").addEventListener("click", (e) => {
       const btn = e.target.closest(".opt");
