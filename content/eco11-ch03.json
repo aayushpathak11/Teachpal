@@ -516,6 +516,26 @@
           "say": "The policies fall into two groups. Stabilisation measures are short-term: they correct weaknesses in the balance of payments and bring inflation under control. Simply put, keep enough foreign exchange reserves and keep rising prices in check. Structural reforms are long-term: they improve the economy's efficiency and international competitiveness by removing rigidities in various sectors."
         },
         {
+          "kind": "compare",
+          "heading": "An analogy",
+          "extra": true,
+          "left": {
+            "title": "Stabilisation = emergency care",
+            "items": [
+              "Stop the bleeding now",
+              "1991: rebuild forex reserves, control prices"
+            ]
+          },
+          "right": {
+            "title": "Structural reform = lifestyle change",
+            "items": [
+              "Get fit so the illness doesn't return",
+              "1991: abolish industrial licensing, cut tariffs"
+            ]
+          },
+          "say": "An analogy, beyond the book. Stabilisation is like emergency treatment for a patient: stop the bleeding now. In 1991, that meant rebuilding foreign exchange reserves and controlling prices. Structural reform is like changing the patient's lifestyle so the illness doesn't return: abolishing industrial licensing and cutting tariffs, so the economy becomes efficient for the long run."
+        },
+        {
           "kind": "points",
           "heading": "Inflation, in one line",
           "extra": true,
@@ -567,6 +587,10 @@
         {
           "q": "Define inflation (beyond NCERT).",
           "a": "A sustained rise in the general level of prices."
+        },
+        {
+          "q": "Give one 1991 example each of a stabilisation and a structural measure.",
+          "a": "Stabilisation: rebuilding forex reserves and controlling inflation. Structural: abolishing industrial licensing, cutting tariffs."
         }
       ]
     },
@@ -748,7 +772,7 @@
         }
       ],
       "beyond": "The RBI controls how much money banks keep through tools like the Cash Reserve Ratio (CRR, a share of deposits kept with RBI) and the Statutory Liquidity Ratio (SLR, a share kept in safe assets like government securities). Both are core RBI Grade B topics.",
-      "examAngle": "Exercise 3 (why RBI changed from controller to facilitator) and Exercise 4 (how RBI controls commercial banks: cash banks keep, interest rates, nature of lending).",
+      "examAngle": "Exercise 3 (the exercise says 'controller', the text says 'regulator'): rules and controls had become hindrances to growth, so the reforms let the financial sector take decisions on many matters without consulting the RBI; private and foreign banks entered and FIIs could invest, while the RBI kept managerial aspects to protect account-holders. Exercise 4: the RBI controls banks by deciding the money they keep with themselves, fixing interest rates and deciding the nature of lending.",
       "quiz": {
         "q": "A major aim of financial sector reforms, according to NCERT, was to change RBI's role from:",
         "options": [
@@ -772,6 +796,10 @@
         {
           "q": "Give three examples of Foreign Institutional Investors (NCERT).",
           "a": "Merchant bankers, mutual funds and pension funds."
+        },
+        {
+          "q": "Why did the RBI's role change from regulator (Exercise 3 says 'controller') to facilitator?",
+          "a": "To remove controls that hampered growth: the financial sector could decide many matters without consulting the RBI. The RBI kept managerial aspects to protect account-holders."
         }
       ]
     },
@@ -831,13 +859,48 @@
             {
               "icon": "🇮🇳",
               "text": "'One nation, one tax and one market'"
-            },
-            {
-              "icon": "✂️",
-              "text": "Simpler procedures, lower rates"
             }
           ],
-          "say": "Indirect taxes were reformed to create a common national market. In 2016, the Constitution was amended so that both the Union government and the states could levy the Goods and Services Tax, or G S T. It's expected to raise revenue, reduce tax evasion and create one nation, one tax and one market. Procedures were also simplified, and rates substantially lowered, to encourage compliance."
+          "say": "Indirect taxes were reformed to create a common national market. In 2016, the Constitution was amended so that both the Union government and the states could levy the Goods and Services Tax, or G S T. It's expected to raise revenue, reduce tax evasion and create one nation, one tax and one market."
+        },
+        {
+          "kind": "points",
+          "heading": "What GST changed",
+          "extra": true,
+          "items": [
+            {
+              "icon": "🧾",
+              "text": "Before: central excise, service tax, state VAT, entry tax and more, varying by state"
+            },
+            {
+              "icon": "1️⃣",
+              "text": "From 1 July 2017: one tax on the supply of goods and services, shared by Centre and states"
+            },
+            {
+              "icon": "🛣️",
+              "text": "Like one toll pass for the whole country instead of a booth at every state border"
+            }
+          ],
+          "say": "Beyond the book: what G S T actually changed. Before it, a product could be taxed many times over, through central excise, service tax, and state VAT and entry taxes that differed from state to state. G S T, in force since 1 July 2017, replaced many of these with a single tax on the supply of goods and services, shared by the Centre and the states. Think of one toll pass for the whole country instead of a toll booth at every state border."
+        },
+        {
+          "kind": "points",
+          "heading": "Tax reform in general: simplification",
+          "items": [
+            {
+              "icon": "✂️",
+              "text": "Many procedures simplified"
+            },
+            {
+              "icon": "📉",
+              "text": "Rates substantially lowered"
+            },
+            {
+              "icon": "🤝",
+              "text": "Aim: better compliance by taxpayers"
+            }
+          ],
+          "say": "Separately, NCERT notes another component of tax reform: simplification. To encourage better compliance by taxpayers, many procedures were simplified and rates substantially lowered."
         }
       ],
       "beyond": "The 2016 amendment was the 101st Constitutional Amendment, and GST came into force on 1 July 2017. It replaced many central and state indirect taxes.",
@@ -865,6 +928,10 @@
         {
           "q": "What did the 2016 constitutional amendment enable, and what is GST's slogan?",
           "a": "The Union and states could levy the Goods and Services Tax; 'one nation, one tax and one market'."
+        },
+        {
+          "q": "What is GST and when did it start (beyond NCERT)?",
+          "a": "A single indirect tax on the supply of goods and services, shared by Centre and states, replacing many earlier taxes; in force from 1 July 2017."
         }
       ]
     },
@@ -890,8 +957,8 @@
               "text": "This increased the inflow of foreign exchange"
             },
             {
-              "icon": "📈",
-              "text": "Rupee value freed from government control"
+              "icon": "🧭",
+              "text": "Set the tone for freeing the rupee's value from government control"
             }
           ],
           "say": "The first important external reform was in the foreign exchange market. In 1991, as an immediate step to resolve the balance of payments crisis, the rupee was devalued against foreign currencies. This increased the inflow of foreign exchange, and set the tone for freeing the rupee's value from government control."
@@ -988,7 +1055,27 @@
               "e.g. a quota"
             ]
           },
-          "say": "To protect domestic industry, India kept a regime of quantitative restrictions on imports, with tight control over imports and very high tariffs. A tariff is a tax on imported goods. A quantitative restriction, or Q R, is a limit on the quantity that can be imported or exported, like a quota. NCERT says these policies reduced efficiency and competitiveness, slowing manufacturing growth."
+          "say": "To protect domestic industry, India kept a regime of quantitative restrictions on imports, with tight control over imports and very high tariffs. NCERT says these policies reduced efficiency and competitiveness, slowing manufacturing growth. In plain terms, beyond the book: a tariff is a tax on imported goods, and a quantitative restriction, or Q R, is a limit on the quantity that can be imported or exported, like a quota."
+        },
+        {
+          "kind": "compare",
+          "heading": "Tariff vs quota, in a picture",
+          "extra": true,
+          "left": {
+            "title": "Tariff = an entry fee",
+            "items": [
+              "Anyone can come in, at a price",
+              "Works through price"
+            ]
+          },
+          "right": {
+            "title": "Quota = a guest list",
+            "items": [
+              "Only a fixed number get in",
+              "Works through quantity"
+            ]
+          },
+          "say": "An analogy, beyond the book. A tariff is like an entry fee at a gate: anyone can come in, but it costs more. A quota is like a guest list: only a fixed number get in, however much they'd pay. NCERT gives a real quota example later: the U S A kept quotas on textile imports from India and China."
         },
         {
           "kind": "points",
@@ -1010,19 +1097,19 @@
           "say": "Trade and investment reforms aimed to raise the international competitiveness of industry, bring in foreign investment and technology, and promote efficiency. They had three parts: dismantling quantitative restrictions on imports and exports, reducing tariff rates, and removing licensing procedures for imports."
         },
         {
-          "kind": "timeline",
+          "kind": "points",
           "heading": "Key results",
-          "events": [
+          "items": [
             {
-              "year": "1990s",
+              "icon": "📄",
               "text": "Import licensing abolished, except hazardous and environmentally sensitive industries"
             },
             {
-              "year": "2001",
-              "text": "From April: QRs on manufactured consumer goods and farm products fully removed"
+              "icon": "🗓️",
+              "text": "From April 2001: QRs on manufactured consumer goods and farm products fully removed"
             },
             {
-              "year": "Since",
+              "icon": "🚢",
               "text": "Export duties removed, to help Indian goods compete abroad"
             }
           ],
@@ -1054,6 +1141,10 @@
         {
           "q": "Why were export duties removed?",
           "a": "To increase the competitive position of Indian goods in international markets."
+        },
+        {
+          "q": "Tariff vs quota?",
+          "a": "Tariff: a tax that makes imports dearer (works through price). Quota: a fixed limit on the quantity allowed in."
         }
       ]
     },
@@ -1102,7 +1193,23 @@
               "text": "Expected to attract foreign direct investment"
             }
           ],
-          "say": "Privatising public sector enterprises, or P S Es, by selling part of their equity, meaning shares, to the public is called disinvestment. The government's stated purpose was mainly to improve financial discipline and help modernisation, using private capital and managerial skills to improve the P S Us. It also hoped privatisation would give a strong push to foreign direct investment."
+          "say": "Privatising public sector enterprises, or P S Es, by selling part of their equity, meaning shares, to the public is called disinvestment. The government's stated purpose was mainly to improve financial discipline and help modernisation, using private capital and managerial skills to improve the P S Us. It also hoped privatisation would give a strong push to foreign direct investment, or F D I: foreigners building or buying into businesses in India for the long term."
+        },
+        {
+          "kind": "points",
+          "heading": "Disinvestment, made concrete",
+          "extra": true,
+          "items": [
+            {
+              "icon": "🏪",
+              "text": "Like a family selling a few shares of its shop to neighbours, but still running it"
+            },
+            {
+              "icon": "🇮🇳",
+              "text": "Example: LIC's IPO, May 2022: about 3.5% of the government's stake sold to the public"
+            }
+          ],
+          "say": "An analogy, beyond the book. A family sells a few shares of its shop to neighbours: it raises cash, but still runs the shop. A real Indian example: in May 2022, the government sold about 3.5 percent of its stake in L I C, the Life Insurance Corporation, to the public, and kept control."
         },
         {
           "kind": "compare",
@@ -1146,7 +1253,7 @@
         },
         {
           "q": "Define disinvestment and its stated purpose.",
-          "a": "Selling part of PSEs' equity to the public; purpose: improve financial discipline and facilitate modernisation using private capital and management."
+          "a": "Selling part of PSEs' equity to the public; purpose: improve financial discipline and facilitate modernisation using private capital and management. Example (beyond NCERT): LIC's 2022 IPO, about 3.5% of the government's stake."
         },
         {
           "q": "Strategic sale vs minority sale (beyond NCERT)?",
@@ -1200,14 +1307,14 @@
             },
             {
               "icon": "💎",
-              "text": "Navratnas: Hindustan Aeronautics, Mahanagar Telephone Nigam"
+              "text": "Navratnas: Hindustan Aeronautics, Mahanagar Telephone Nigam, IRCTC"
             },
             {
               "icon": "🔹",
               "text": "Miniratnas: Bharat Sanchar Nigam, Airports Authority of India"
             }
           ],
-          "say": "NCERT's examples. Maharatnas: Indian Oil Corporation and Steel Authority of India. Navratnas: Hindustan Aeronautics and Mahanagar Telephone Nigam. Miniratnas: Bharat Sanchar Nigam and the Airports Authority of India."
+          "say": "NCERT's examples. Maharatnas: Indian Oil Corporation and Steel Authority of India. Navratnas: Hindustan Aeronautics, Mahanagar Telephone Nigam, and the Indian Railway Catering and Tourism Corporation, I R C T C. Miniratnas: Bharat Sanchar Nigam and the Airports Authority of India."
         },
         {
           "kind": "compare",
@@ -1240,7 +1347,7 @@
           "Maharatna: Bharat Sanchar Nigam"
         ],
         "answer": 0,
-        "why": "NCERT: Maharatnas – IOC, SAIL; Navratnas – HAL, MTNL; Miniratnas – BSNL, Airports Authority of India."
+        "why": "NCERT: Maharatnas – IOC, SAIL; Navratnas – HAL, MTNL, IRCTC; Miniratnas – BSNL, Airports Authority of India."
       },
       "cards": [
         {
@@ -1249,7 +1356,7 @@
         },
         {
           "q": "NCERT's examples of Maharatnas, Navratnas and Miniratnas?",
-          "a": "Maharatnas: IOC, SAIL. Navratnas: HAL, MTNL. Miniratnas: BSNL, Airports Authority of India."
+          "a": "Maharatnas: IOC, SAIL. Navratnas: HAL, MTNL, IRCTC. Miniratnas: BSNL, Airports Authority of India."
         }
       ]
     },
@@ -1278,9 +1385,13 @@
             {
               "icon": "🌍",
               "text": "Events miles away affect India: a 'borderless world'"
+            },
+            {
+              "icon": "🔗",
+              "text": "Recap: the outcome of liberalisation and privatisation"
             }
           ],
-          "say": "Globalisation is generally understood as integrating a country's economy with the world economy. But NCERT calls it a complex phenomenon: it creates networks and activities that cross economic, social and geographical boundaries, so that events miles away can influence what happens in India. It's turning the world into one whole, a borderless world."
+          "say": "Globalisation is generally understood as integrating a country's economy with the world economy. But NCERT calls it a complex phenomenon: it creates networks and activities that cross economic, social and geographical boundaries, so that events miles away can influence what happens in India. It's turning the world into one whole, a borderless world. NCERT's Recap puts it simply: globalisation is the outcome of the policies of liberalisation and privatisation."
         },
         {
           "kind": "flow",
@@ -1333,7 +1444,7 @@
         }
       ],
       "beyond": "Developed countries often oppose outsourcing because it moves jobs away from their own workers. This is the second half of NCERT's Exercise 10.",
-      "examAngle": "Exercise 10 (is outsourcing good for India? Why do developed countries oppose it?) and Exercise 11 (India's advantages: low wages, skilled manpower).",
+      "examAngle": "Exercise 10: largely yes: outsourcing creates jobs (NCERT's Fig. 3.1 calls it 'a new employment opportunity in big cities'), brings in foreign exchange (Fig. 3.2: IT is a major contributor to exports) and builds skills; developed countries oppose it because jobs move from their workers to low-wage countries. Exercise 11: low wage rates and availability of skilled manpower. The Recap adds that outsourcing is emerging as a major activity in industrial and service sectors.",
       "quiz": {
         "q": "According to NCERT, what made India a destination for global outsourcing?",
         "options": [
@@ -1357,6 +1468,10 @@
         {
           "q": "What two advantages make India a favourite outsourcing destination (Exercise 11)?",
           "a": "Low wage rates and availability of skilled manpower."
+        },
+        {
+          "q": "According to NCERT's Recap, globalisation is the outcome of which policies?",
+          "a": "Liberalisation and privatisation."
         }
       ]
     },
@@ -1545,14 +1660,14 @@
         }
       ],
       "beyond": "The WTO is headquartered in Geneva, Switzerland. Its top decision-making body is the Ministerial Conference, which meets about every two years.",
-      "examAngle": "Exercise 2 (why join the WTO?), Exercise 6(ii) bilateral vs multilateral and 6(iii) tariff vs non-tariff barriers. Dates: GATT 1948 (23 countries), WTO 1995.",
+      "examAngle": "Exercise 2: membership gives a rule-based trading regime where nations can't place arbitrary restrictions, greater market access as tariff and non-tariff barriers fall, and a voice in framing global rules; India uses it to advocate the interests of developing countries. Exercise 6(ii) bilateral vs multilateral and 6(iii) tariff vs non-tariff barriers. Dates: GATT 1948 (23 countries), WTO 1995. NCERT spells GATT as 'General Agreement on Trade and Tariff'; the official name is 'General Agreement on Tariffs and Trade'.",
       "quiz": {
         "q": "Which is correct about GATT and the WTO, according to NCERT?",
         "options": [
           "GATT was set up in 1948 with 23 countries; the WTO replaced it in 1995",
-          "The WTO was set up in 1948; GATT replaced it in 1995",
-          "GATT was set up in 1991 to give India its $7 billion loan",
-          "The WTO and GATT were both founded in 1995 by India"
+          "GATT was set up in 1948 with 23 countries; the WTO replaced it in 1991",
+          "GATT was set up in 1995 with 23 countries; the WTO replaced it in 2001",
+          "GATT was set up in 1948 with 123 countries; the WTO replaced it in 1995"
         ],
         "answer": 0,
         "why": "NCERT: GATT was established in 1948 with 23 countries; the WTO was founded in 1995 as its successor."
@@ -1592,6 +1707,49 @@
             "label": "GDP growth, 2021–22"
           },
           "say": "Three decades on, how did the economy do? In economics, growth is measured by G D P. NCERT's Table 3.1 shows G D P growth rising from 5.6 percent in 1980 to 91, to 9.4 percent in 2021-22."
+        },
+        {
+          "kind": "bars",
+          "heading": "Overall GDP growth by period (%)",
+          "unit": "%",
+          "bars": [
+            {
+              "label": "1980–91",
+              "value": 5.6,
+              "display": "5.6"
+            },
+            {
+              "label": "1992–2001",
+              "value": 6.4,
+              "display": "6.4"
+            },
+            {
+              "label": "2002–07",
+              "value": 7.8,
+              "display": "7.8"
+            },
+            {
+              "label": "2007–12",
+              "value": 8.2,
+              "display": "8.2"
+            },
+            {
+              "label": "2012–13",
+              "value": 5.6,
+              "display": "5.6"
+            },
+            {
+              "label": "2013–14",
+              "value": 6.6,
+              "display": "6.6"
+            },
+            {
+              "label": "2021–22",
+              "value": 9.4,
+              "display": "9.4"
+            }
+          ],
+          "say": "Here's the whole row from Table 3.1. Overall G D P grew 5.6 percent a year in 1980 to 91, then 6.4 in 1992 to 2001, 7.8 in 2002 to 07, and 8.2 in 2007 to 12. It dipped to 5.6 in 2012-13, recovered to 6.6 in 2013-14, and reached 9.4 in 2021-22."
         },
         {
           "kind": "bars",
@@ -1637,7 +1795,27 @@
               "display": "3.2"
             }
           ],
-          "say": "By 2007 to 12, services led at 10 percent, industry grew 7.4 percent, and agriculture just 3.2 percent. NCERT's reading: agriculture's growth declined, industry fluctuated, and services rose, so G D P growth is mainly driven by the service sector. Services grew faster than overall G D P during 2007 to 2022, though 2012-13 saw a setback across sectors."
+          "say": "By 2007 to 12, services led at 10 percent, industry grew 7.4 percent, and agriculture just 3.2 percent. NCERT's reading: agriculture's growth declined, industry fluctuated, and services rose, so G D P growth is mainly driven by the service sector; the Recap puts it as agriculture and industry growth going down. 2012-13 saw a setback across sectors."
+        },
+        {
+          "kind": "points",
+          "heading": "GDP and GVA, in plain words",
+          "extra": true,
+          "items": [
+            {
+              "icon": "🇮🇳",
+              "text": "GDP: total value of final goods and services produced in the country in a year"
+            },
+            {
+              "icon": "➕",
+              "text": "Gross value added (GVA): the value each producer adds, output minus inputs used up"
+            },
+            {
+              "icon": "🍞",
+              "text": "Baker buys flour for ₹60, sells bread for ₹100: value added ₹40"
+            }
+          ],
+          "say": "Beyond the book, two terms. G D P is the total value of all final goods and services produced in a country in a year. G V A, gross value added, measures the value each producer adds: a baker who buys flour for 60 rupees and sells bread for 100 adds 40. India reports growth sector by sector as G V A."
         },
         {
           "kind": "points",
@@ -1680,6 +1858,14 @@
         {
           "q": "What trend in sector growth does NCERT see after 1991?",
           "a": "Agriculture's growth declined, industry fluctuated, services rose, so GDP growth is mainly driven by services."
+        },
+        {
+          "q": "GDP vs GVA in one line?",
+          "a": "GDP: value of all final goods and services produced in a year. GVA: value added by producers (output minus inputs). NCERT: GVA = GDP + subsidies on production − indirect taxes."
+        },
+        {
+          "q": "Overall GDP growth by period (NCERT Table 3.1)?",
+          "a": "1980-91: 5.6; 1992-2001: 6.4; 2002-07: 7.8; 2007-12: 8.2; 2012-13: 5.6; 2013-14: 6.6; 2021-22: 9.4 (%)."
         }
       ]
     },
