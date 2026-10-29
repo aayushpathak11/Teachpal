@@ -2,7 +2,9 @@ import { loadState, saveState, resetState, markActive, streak, mergeState } from
 import * as sync from "./sync.js";
 import { newCard, grade } from "./srs.js";
 import { createFeed } from "./feed.js";
-import { renderReview } from "./review.js";
+import { renderToday, dueCount } from "./today.js";
+import { renderPractice } from "./practice.js";
+import { scheduleMcq, scheduleExplain, firstExplainDue } from "./schedule.js";
 import { renderProgress } from "./progress.js";
 import { esc, h } from "./util.js";
 import * as tts from "./tts.js";
@@ -19,6 +21,7 @@ const ctx = {
   state: loadState(),
   chapters: [],
   chapter: null,
+  practice: {}, // chapterId -> practice bank (MCQs, descriptive questions)
 
   commit({ quiet } = {}) {
     saveState(ctx.state);
@@ -48,9 +51,39 @@ const ctx = {
     return ctx.chapters.flatMap((ch) => ctx.cardRefs(ch));
   },
 
+  allMcqs() {
+    return ctx.chapters.flatMap((ch) => (ctx.practice[ch.id]?.mcq || []).map((m) => ({ ...m, chapterId: ch.id, chapterTitle: ch.title })));
+  },
+
+  recordMcq(id, correct, conf) {
+    ctx.state.practice[id] = scheduleMcq(ctx.state.practice[id], correct, conf);
+    markActive(ctx.state);
+    ctx.commit();
+  },
+
+  recordEssay(id, r) {
+    ctx.state.essays[id] = { score: r.score, ai: r.ai, last: r.last, answer: String(r.answer).slice(0, 3000) };
+    markActive(ctx.state);
+    ctx.commit();
+  },
+
+  recordExplain(chId, reelId, score) {
+    const k = `${chId}/${reelId}`;
+    ctx.state.explain[k] = scheduleExplain(ctx.state.explain[k], score);
+    markActive(ctx.state);
+    ctx.commit();
+  },
+
+  recordPretest(ch, reel, choice) {
+    ctx.state.pretest[`${ch.id}/${reel.id}`] = { at: Date.now(), last: Date.now(), choice, correct: choice === reel.quiz.answer };
+    ctx.commit({ quiet: true });
+  },
+
   recordQuiz(ch, reel, correct) {
     const now = Date.now();
     ctx.state.reels[`${ch.id}/${reel.id}`] = { seen: now, quiz: { correct, at: now } };
+    const ek = `${ch.id}/${reel.id}`;
+    if (!ctx.state.explain[ek]) ctx.state.explain[ek] = { due: firstExplainDue(now), attempts: 0, last: now }; // explain it back tomorrow
     reel.cards.forEach((_, i) => {
       const k = cardKey(ch.id, reel.id, i);
       const existing = ctx.state.cards[k];
@@ -88,8 +121,7 @@ const ctx = {
 
 // ---------- chrome ----------
 function refreshChrome() {
-  const now = Date.now();
-  const due = Object.values(ctx.state.cards).filter((c) => c.due <= now).length;
+  const due = ctx.chapters.length ? dueCount(ctx) : 0;
   const badge = document.getElementById("due-badge");
   badge.hidden = !due;
   badge.textContent = due > 99 ? "99+" : due;
@@ -132,7 +164,7 @@ function showTab(name) {
     view.replaceChildren(feed.el);
     feed.start();
   } else {
-    pageEl.replaceChildren(name === "review" ? renderReview(ctx) : renderProgress(ctx));
+    pageEl.replaceChildren(name === "today" ? renderToday(ctx) : name === "practice" ? renderPractice(ctx) : renderProgress(ctx));
     view.replaceChildren(pageEl);
   }
   refreshChrome();
@@ -155,6 +187,7 @@ async function boot() {
   ctx.chapters = await Promise.all(
     index.chapters.map(async (c) => {
       const ch = { ...(await (await fetch(`content/${c.file}`)).json()), status: c.status };
+      if (c.practice) ctx.practice[ch.id] = await fetch(`content/${c.practice}`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
       if (c.audio) {
         ch.audioBase = `content/${c.audio.replace(/[^/]+$/, "")}`;
         ch.audio = await fetch(`content/${c.audio}`).then((r) => (r.ok ? r.json() : null)).catch(() => null);

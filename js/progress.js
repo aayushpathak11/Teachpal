@@ -14,6 +14,13 @@ export function renderProgress(ctx) {
   const quizzes = Object.values(state.reels).map((r) => r.quiz).filter(Boolean);
   const acc = quizzes.length ? Math.round((100 * quizzes.filter((q) => q.correct).length) / quizzes.length) : null;
 
+  const prac = Object.values(state.practice || {});
+  const pracAcc = prac.length ? Math.round((100 * prac.filter((p) => p.lastCorrect).length) / prac.length) : null;
+  const sure = prac.filter((p) => p.conf === "sure");
+  const calib = sure.length ? Math.round((100 * sure.filter((p) => p.lastCorrect).length) / sure.length) : null;
+  const essays = Object.values(state.essays || {});
+  const essayAvg = essays.length ? (essays.reduce((s, e) => s + e.score, 0) / essays.length).toFixed(1) : null;
+
   const forecast = Array.from({ length: 7 }, (_, d) => {
     const end = new Date();
     end.setHours(24, 0, 0, 0);
@@ -34,6 +41,10 @@ export function renderProgress(ctx) {
         <div class="stat-tile"><div class="n">${acc == null ? "–" : acc + "%"}</div><div class="l">quiz accuracy</div></div>
         <div class="stat-tile"><div class="n">${cards.filter((c) => c.ivl < MATURE_DAYS).length}</div><div class="l">cards learning</div></div>
         <div class="stat-tile"><div class="n">${cards.filter((c) => c.ivl >= MATURE_DAYS).length}</div><div class="l">cards mastered (21+ day gap)</div></div>
+        <div class="stat-tile"><div class="n">${pracAcc == null ? "–" : pracAcc + "%"}</div><div class="l">practice MCQs right (latest try)</div></div>
+        <div class="stat-tile"><div class="n">${calib == null ? "–" : calib + "%"}</div><div class="l">right when you said "Sure"</div></div>
+        <div class="stat-tile"><div class="n">${essayAvg ?? "–"}</div><div class="l">average written-answer score /10</div></div>
+        <div class="stat-tile"><div class="n">${Object.values(state.explain || {}).filter((x) => x.attempts).length}</div><div class="l">reels explained back</div></div>
       </div>
       <div class="section-h">Reviews due, next 7 days</div>
       <div class="forecast">${forecast
@@ -47,6 +58,8 @@ export function renderProgress(ctx) {
           <b>Android</b>: install Speech Services by Google, then download English (India).
           <b>Windows</b>: open the app in Microsoft Edge, which has "Natural" voices. Then reload.</p>
       </div>
+      <div class="section-h">Learning settings</div>
+      <label class="setting"><input type="checkbox" id="set-pretest" ${state.settings.pretest !== false ? "checked" : ""}> <span><b>Guess first.</b> Show each new reel's question before it plays. Trying first, even wrongly, makes the answer stick.</span></label>
       <div class="chapters"></div>
       <button class="danger" data-reset>Reset all progress</button>
     </div>`);
@@ -80,6 +93,11 @@ export function renderProgress(ctx) {
     preview();
   };
   page.querySelector("[data-preview]").onclick = preview;
+
+  page.querySelector("#set-pretest").onchange = (e) => {
+    state.settings.pretest = e.target.checked;
+    ctx.commit({ quiet: true });
+  };
 
   const chWrap = page.querySelector(".chapters");
   for (const ch of ctx.chapters) {

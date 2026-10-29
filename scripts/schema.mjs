@@ -54,3 +54,30 @@ export function validateChapter(ch) {
   });
   return errors;
 }
+
+// Practice bank (content/practice/<id>.json): exam-style MCQs and descriptive questions.
+export const STATEMENT_OPTIONS = /^(\d( and \d)? only|Both \d and \d|Neither \d nor \d|All of [1-9 ,and]+|None of [1-9 ,and]+)$/;
+export function validatePractice(pr, chapter) {
+  const errors = [];
+  const reelIds = new Set(chapter.reels.map((r) => r.id));
+  const ids = new Set();
+  const str = (v) => typeof v === "string" && v.trim().length > 0;
+  (pr.mcq || []).forEach((m, i) => {
+    const p = `mcq[${i}] ${m.id || ""}`;
+    if (!str(m.id) || ids.has(m.id)) errors.push(`${p}: missing or duplicate id`);
+    ids.add(m.id);
+    if (!str(m.q) || !Array.isArray(m.options) || m.options.length !== 4) errors.push(`${p}: needs q and 4 options`);
+    if (!Number.isInteger(m.answer) || m.answer < 0 || m.answer > 3) errors.push(`${p}: bad answer index`);
+    if (!str(m.why)) errors.push(`${p}: needs why`);
+    if (m.reelId && !reelIds.has(m.reelId)) errors.push(`${p}: unknown reelId ${m.reelId}`);
+  });
+  (pr.descriptive || []).forEach((d, i) => {
+    const p = `descriptive[${i}] ${d.id || ""}`;
+    if (!str(d.id) || ids.has(d.id)) errors.push(`${p}: missing or duplicate id`);
+    ids.add(d.id);
+    if (!str(d.q) || !Array.isArray(d.keyPoints) || d.keyPoints.length < 3) errors.push(`${p}: needs q and at least 3 keyPoints`);
+    for (const r of d.reelIds || []) if (!reelIds.has(r)) errors.push(`${p}: unknown reelId ${r}`);
+  });
+  if (!(pr.mcq || []).length) errors.push("practice bank has no MCQs");
+  return errors;
+}

@@ -6,7 +6,8 @@
       "title": "Indian Economy on the Eve of Independence",
       "subject": "Economics · Class 11",
       "status": "reviewed",
-      "audio": "audio/eco11-ch01/manifest.json"
+      "audio": "audio/eco11-ch01/manifest.json",
+      "practice": "practice/eco11-ch01.json"
     },
     {
       "id": "eco11-ch02",
@@ -14,7 +15,8 @@
       "title": "Indian Economy 1950–1990",
       "subject": "Economics · Class 11",
       "status": "reviewed",
-      "audio": "audio/eco11-ch02/manifest.json"
+      "audio": "audio/eco11-ch02/manifest.json",
+      "practice": "practice/eco11-ch02.json"
     }
   ]
 }

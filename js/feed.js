@@ -94,11 +94,11 @@ export function createFeed(chapter, ctx) {
         <h2>Chapter complete</h2>
         <p>${answered.length}/${chapter.reels.length} questions answered · <b>${correct}</b> correct.</p>
         ${missed.length ? `<p>Worth a rewatch: ${missed.map((r) => esc(r.title)).join(", ")}.</p>` : ""}
-        <p>Your recall cards are scheduled. Come back to <b>Review</b> each day; that's where the long-term memory gets built.</p>
-        <button class="btn primary big" data-review>Go to Review</button>
+        <p>Your recall cards are scheduled, and tomorrow you'll explain these ideas back from memory. Come back to <b>Today</b> each day; that's where the long-term memory gets built. For exam-style questions, open <b>Practice</b>.</p>
+        <button class="btn primary big" data-review>Go to Today</button>
         <button class="btn" data-top>↑ Back to first reel</button>
       </div>`));
-    it.slot.querySelector("[data-review]").onclick = () => ctx.goTab("review");
+    it.slot.querySelector("[data-review]").onclick = () => ctx.goTab("today");
     it.slot.querySelector("[data-top]").onclick = () => scrollToIndex(0);
   }
 

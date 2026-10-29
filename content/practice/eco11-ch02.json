@@ -1,0 +1,526 @@
+{
+  "chapter": "eco11-ch02",
+  "mcq": [
+    {
+      "id": "c2m1",
+      "reelId": "what-is-a-plan",
+      "q": "Consider the following statements about the Planning Commission:\n1. It was set up in 1950.\n2. The Finance Minister was its Chairperson.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 0,
+      "why": "Set up in 1950 with the Prime Minister (not the Finance Minister) as its Chairperson."
+    },
+    {
+      "id": "c2m2",
+      "reelId": "goal-growth",
+      "q": "According to NCERT, the goals of India's five year plans were:",
+      "options": [
+        "Growth, modernisation, self-reliance and equity",
+        "Growth, stability, privatisation and equity",
+        "Growth, globalisation, self-reliance and equity",
+        "Liberalisation, modernisation, self-reliance and equity"
+      ],
+      "answer": 0,
+      "why": "The four goals: growth, modernisation, self-reliance (the Recap says self-sufficiency) and equity."
+    },
+    {
+      "id": "c2m3",
+      "reelId": "ipr-1956",
+      "q": "Consider the following statements about the Industrial Policy Resolution of 1956:\n1. It formed the basis of the First Five Year Plan.\n2. It classified industries into three categories.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 1,
+      "why": "IPR 1956 had three categories of industries, and it formed the basis of the Second Five Year Plan."
+    },
+    {
+      "id": "c2m4",
+      "reelId": "small-scale-industry",
+      "q": "The Karve Committee (1955), which noted the role of small-scale industries in rural development, was also called the:",
+      "options": [
+        "Village and Small-Scale Industries Committee",
+        "Industrial Licensing and Small Units Committee",
+        "Rural Industries and Planning Committee",
+        "Small Enterprises Development Committee"
+      ],
+      "answer": 0,
+      "why": "NCERT: the Village and Small-Scale Industries Committee, also called the Karve Committee, 1955."
+    },
+    {
+      "id": "c2m5",
+      "reelId": "green-revolution",
+      "q": "According to NCERT, the second phase of the Green Revolution, when HYV technology spread to more states and crops, was roughly:",
+      "options": [
+        "Mid-1970s to mid-1980s",
+        "Mid-1950s to mid-1960s",
+        "Mid-1960s to mid-1970s",
+        "Mid-1980s to mid-1990s"
+      ],
+      "answer": 0,
+      "why": "First phase: about mid-1960s to mid-1970s (Punjab, Andhra Pradesh, Tamil Nadu; wheat). Second phase: mid-1970s to mid-1980s."
+    },
+    {
+      "id": "c2m6",
+      "reelId": "service-sector-puzzle",
+      "q": "Which of the following correctly gives a sector's share of India's GDP in 1990-91, as per NCERT's table?",
+      "options": [
+        "Services: 40.5 per cent",
+        "Industry: 30.5 per cent",
+        "Agriculture: 44.9 per cent",
+        "Agriculture: 59.0 per cent"
+      ],
+      "answer": 0,
+      "why": "1990-91: agriculture 34.9, industry 24.6, services 40.5. (59.0 was agriculture's share in 1950-51.)"
+    },
+    {
+      "id": "c2m7",
+      "reelId": "import-substitution",
+      "q": "Consider the following statements about protection under import substitution:\n1. A tariff is a tax on imported goods.\n2. A quota specifies the quantity of goods that can be imported.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "why": "Both are NCERT's definitions of the two forms of protection."
+    },
+    {
+      "id": "c2m8",
+      "reelId": "land-ceiling",
+      "q": "Consider the following statements about land ceiling:\n1. It means fixing the minimum size of land every farmer must own.\n2. Land ceiling laws were implemented quickly, without being challenged in courts.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 3,
+      "why": "Land ceiling fixes the MAXIMUM size of land an individual can own, and big landlords challenged the laws in courts, delaying implementation."
+    },
+    {
+      "id": "c2m9",
+      "reelId": "mahalanobis",
+      "q": "Which of the following is NOT associated with P.C. Mahalanobis, according to NCERT?",
+      "options": [
+        "The Indian Statistical Institute, Calcutta",
+        "The journal Sankhya",
+        "The Second Five Year Plan",
+        "The Industrial Policy Resolution, 1948"
+      ],
+      "answer": 3,
+      "why": "NCERT links Mahalanobis to the ISI, Sankhya and the Second Plan. The 1948 Industrial Policy Resolution isn't credited to him."
+    },
+    {
+      "id": "c2m10",
+      "reelId": "small-scale-industry",
+      "q": "Why were some products reserved for small-scale industries?",
+      "options": [
+        "They could not compete with big industrial firms",
+        "They were owned and run by the government",
+        "They exported most of their production",
+        "They used more capital than large firms"
+      ],
+      "answer": 0,
+      "why": "NCERT: small-scale industries cannot compete with big firms, so they had to be shielded, including through reservation."
+    },
+    {
+      "id": "c2m11",
+      "reelId": "marketed-surplus",
+      "q": "Consider the following statements about the Green Revolution period:\n1. A good proportion of rice and wheat was sold in the market as marketed surplus.\n2. As a result, food grain prices rose relative to other items of consumption.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 0,
+      "why": "Food grain prices declined (not rose) relative to other items, which benefited low-income groups."
+    },
+    {
+      "id": "c2m12",
+      "reelId": "what-went-wrong",
+      "q": "Which public sector bread-making firm does NCERT say was sold to the private sector in 2001?",
+      "options": [
+        "Modern Bread",
+        "Britannia",
+        "Hindustan Bakeries",
+        "Bharat Foods"
+      ],
+      "answer": 0,
+      "why": "NCERT's example: Modern Bread, run by the state as if the private sector couldn't make bread, sold to the private sector in 2001."
+    },
+    {
+      "id": "c2m13",
+      "reelId": "mahalanobis",
+      "q": "Consider the following statements about P.C. Mahalanobis:\n1. He was born in 1893 in Calcutta.\n2. He was made a Fellow of Britain's Royal Society in 1945.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "why": "Both are from NCERT Box 2.3."
+    },
+    {
+      "id": "c2m14",
+      "reelId": "what-is-a-plan",
+      "q": "Consider the following statements about planning in India:\n1. The idea of five year plans was borrowed from the USA.\n2. The long-term plan over twenty years is called the perspective plan.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 1,
+      "why": "Five year plans were borrowed from the former Soviet Union, the pioneer in national planning; the 20-year plan is the 'perspective plan'."
+    },
+    {
+      "id": "c2m15",
+      "reelId": "industry-report-card",
+      "q": "Match: which pair from NCERT's Exercise 19 is correct?",
+      "options": [
+        "HYV seeds: seeds that give a large proportion of output",
+        "Quota: a tax charged on imported goods",
+        "Subsidy: tax collected from farmers' produce",
+        "GDP: value of all goods imported in one year"
+      ],
+      "answer": 0,
+      "why": "HYV seeds give a large proportion of output. A quota is the quantity that can be imported; a subsidy is monetary assistance for production; GDP is the money value of all final goods and services produced in one year."
+    },
+    {
+      "id": "c2m16",
+      "reelId": "small-scale-industry",
+      "q": "According to NCERT, a small-scale industrial unit in 1950 was one that invested a maximum of:",
+      "options": [
+        "₹5 lakh",
+        "₹50 lakh",
+        "₹1 lakh",
+        "₹25 lakh"
+      ],
+      "answer": 0,
+      "why": "₹5 lakh in 1950; NCERT gives the present limit as ₹1 crore."
+    },
+    {
+      "id": "c2m17",
+      "reelId": "what-went-wrong",
+      "q": "The excessive regulation in which licences were misused to block competitors came to be called the:",
+      "options": [
+        "Permit licence raj",
+        "Commanding heights",
+        "Inward looking strategy",
+        "Mixed economy model"
+      ],
+      "answer": 0,
+      "why": "NCERT: the excessive regulation of what came to be called the permit licence raj prevented certain firms from becoming more efficient."
+    },
+    {
+      "id": "c2m18",
+      "reelId": "import-substitution",
+      "q": "According to NCERT, serious thought to promoting exports was not given until the:",
+      "options": [
+        "Mid-1980s",
+        "Mid-1950s",
+        "Early 1970s",
+        "Late 1990s"
+      ],
+      "answer": 0,
+      "why": "NCERT: nor was any serious thought given to promote exports until the mid-1980s."
+    }
+  ],
+  "descriptive": [
+    {
+      "id": "c2d1",
+      "source": "Exercise 1",
+      "words": 60,
+      "reelIds": [
+        "what-is-a-plan"
+      ],
+      "q": "Define a plan.",
+      "keyPoints": [
+        "A plan spells out how the resources of a nation should be put to use",
+        "It has general goals and specific objectives",
+        "To be achieved within a specified period of time",
+        "In India, plans were of five years (an idea borrowed from the former Soviet Union)"
+      ]
+    },
+    {
+      "id": "c2d3",
+      "source": "Exercise 3",
+      "words": 80,
+      "reelIds": [
+        "what-is-a-plan",
+        "goal-growth"
+      ],
+      "q": "Why should plans have goals?",
+      "keyPoints": [
+        "A plan should have clearly specified goals",
+        "Resources are limited, so each plan must choose which goal gets priority",
+        "Goals can conflict (e.g. modern technology vs employment), so planners balance them",
+        "Policies should not contradict the four goals: growth, modernisation, self-reliance, equity"
+      ]
+    },
+    {
+      "id": "c2d4",
+      "source": "Exercise 4",
+      "words": 60,
+      "reelIds": [
+        "green-revolution"
+      ],
+      "q": "What are High Yielding Variety (HYV) seeds?",
+      "keyPoints": [
+        "Seeds that give a large proportion of output (high yield)",
+        "Used especially for wheat and rice in the Green Revolution",
+        "Need fertiliser, pesticide and regular water in correct proportions",
+        "So farmers needed irrigation and money for inputs"
+      ]
+    },
+    {
+      "id": "c2d5",
+      "source": "Exercise 5",
+      "words": 60,
+      "reelIds": [
+        "marketed-surplus"
+      ],
+      "q": "What is marketable surplus?",
+      "keyPoints": [
+        "NCERT defines marketed surplus: the portion of agricultural produce sold in the market by farmers",
+        "(Beyond the book) marketable surplus is what could be sold: output minus farmers' own needs",
+        "A large marketed surplus lowered food grain prices relative to other goods, helping the poor",
+        "It let the government procure grain for buffer stocks"
+      ]
+    },
+    {
+      "id": "c2d2",
+      "source": "Exercise 2",
+      "words": 150,
+      "reelIds": [
+        "choosing-a-system",
+        "three-questions"
+      ],
+      "q": "Why did India opt for planning?",
+      "keyPoints": [
+        "To promote the welfare of all rather than a few",
+        "To raise living standards (the First Plan's central objective)",
+        "The market alone would leave the great majority behind (distribution by purchasing power)",
+        "A mixed economy: the state plans, with the private sector part of the plan effort",
+        "Nehru and others sought an alternative to extreme capitalism and socialism: the best features of socialism without its drawbacks; Soviet-style change of ownership wasn't possible in a democracy"
+      ]
+    },
+    {
+      "id": "c2d6",
+      "source": "Exercise 6",
+      "words": 150,
+      "reelIds": [
+        "land-to-the-tiller",
+        "land-ceiling"
+      ],
+      "q": "Explain the need and type of land reforms implemented in the agriculture sector.",
+      "keyPoints": [
+        "Land reforms: primarily a change in the ownership of landholdings (text); Exercise 19 calls them improvements in agriculture to raise productivity",
+        "Need: intermediaries (zamindars, jagirdars) collected rent without improving land; low productivity; India imported food from the USA",
+        "Type 1: abolition of intermediaries, land to the tiller; some 200 lakh tenants came into direct contact with the government, freed from exploitation",
+        "Type 2: land ceiling, fixing the maximum land an individual can own",
+        "Limits: loopholes, evictions, court delays; success in Kerala and West Bengal"
+      ]
+    },
+    {
+      "id": "c2d7",
+      "source": "Exercise 7",
+      "words": 150,
+      "reelIds": [
+        "green-revolution",
+        "gr-risks",
+        "marketed-surplus"
+      ],
+      "q": "What is the Green Revolution? Why was it implemented and how did it benefit the farmers? Explain in brief.",
+      "keyPoints": [
+        "Large increase in food grain output from HYV seeds, especially wheat and rice",
+        "Needed because productivity was low and agriculture depended on the monsoon",
+        "Made India self-sufficient in food grains",
+        "Marketed surplus; food prices fell relative to other goods; buffer stocks",
+        "Small farmers also gained through low-interest loans, subsidised fertiliser and research institutes"
+      ]
+    },
+    {
+      "id": "c2d8",
+      "source": "Exercise 8",
+      "words": 120,
+      "reelIds": [
+        "goal-selfreliance-equity"
+      ],
+      "q": "Explain 'growth with equity' as a planning objective.",
+      "keyPoints": [
+        "Growth alone may not improve how most people live",
+        "Benefits must reach the poor, not only the rich",
+        "Everyone should meet basic needs: food, a decent house, education and health care",
+        "Inequality in the distribution of wealth should be reduced"
+      ]
+    },
+    {
+      "id": "c2d9",
+      "source": "Exercise 9",
+      "words": 120,
+      "reelIds": [
+        "goal-modernisation"
+      ],
+      "q": "Does modernisation as a planning objective create contradiction in the light of employment generation? Explain.",
+      "keyPoints": [
+        "Modernisation means adopting new technology (and a modern social outlook)",
+        "Modern technology can raise output but reduce the need for labour",
+        "This conflicts with the goal of increasing employment",
+        "Planners must balance the goals, which NCERT calls a very difficult job"
+      ]
+    },
+    {
+      "id": "c2d10",
+      "source": "Exercise 10",
+      "words": 120,
+      "reelIds": [
+        "goal-selfreliance-equity"
+      ],
+      "q": "Why was it necessary for a developing country like India to follow self-reliance as a planning objective?",
+      "keyPoints": [
+        "Avoid imports of goods India could produce itself, especially food",
+        "Reduce dependence on foreign countries",
+        "A recently freed nation feared that dependence on imported food, foreign technology and capital would leave its sovereignty vulnerable",
+        "Stressed by the first seven five year plans"
+      ]
+    },
+    {
+      "id": "c2d11",
+      "source": "Exercise 11",
+      "words": 150,
+      "reelIds": [
+        "goal-growth",
+        "service-sector-puzzle"
+      ],
+      "q": "What is sectoral composition of an economy? Is it necessary that the service sector should contribute maximum to GDP of an economy? Comment.",
+      "keyPoints": [
+        "Sectoral (structural) composition: the contribution of agriculture, industry and services to GDP",
+        "NCERT: in some countries agriculture's growth contributes more to GDP growth, in others the service sector's; India's agriculture share was over 50% at first",
+        "Usual path: agriculture declines, industry becomes dominant, then services at higher development",
+        "India's change was peculiar: services 40.59% by 1990, ahead of agriculture and industry",
+        "So not necessary; it depends on the stage and path of development"
+      ]
+    },
+    {
+      "id": "c2d12",
+      "source": "Exercise 12",
+      "words": 120,
+      "reelIds": [
+        "why-public-sector"
+      ],
+      "q": "Why was the public sector given a leading role in industrial development during the planning period?",
+      "keyPoints": [
+        "Industrialists lacked capital for big ventures",
+        "The market was too small to encourage major projects",
+        "Socialist pattern: the state controls the commanding heights (industries vital to the economy)",
+        "Private sector policies would complement the public sector"
+      ]
+    },
+    {
+      "id": "c2d13",
+      "source": "Exercise 13",
+      "words": 100,
+      "reelIds": [
+        "marketed-surplus"
+      ],
+      "q": "Explain the statement that the green revolution enabled the government to procure sufficient food grains to build its stocks that could be used during times of shortage.",
+      "keyPoints": [
+        "HYV seeds raised rice and wheat output",
+        "A good share was sold as marketed surplus",
+        "The government could procure enough grain from the market",
+        "Built a buffer stock for times of food shortage"
+      ]
+    },
+    {
+      "id": "c2d14",
+      "source": "Exercise 14",
+      "words": 150,
+      "reelIds": [
+        "subsidies-debate"
+      ],
+      "q": "While subsidies encourage farmers to use new technology, they are a huge burden on government finances. Discuss the usefulness of subsidies in the light of this fact.",
+      "keyPoints": [
+        "Subsidies were needed to encourage adoption of risky new HYV technology, especially by small farmers",
+        "Against: purpose served; a substantial share benefits the fertiliser industry and farmers in the more prosperous regions; huge burden on government finances",
+        "Prices as signals: subsidised inputs are overused and harm the environment",
+        "For: farming is risky and most farmers are poor; removal raises inequality",
+        "Balanced view: target subsidies so poor farmers benefit"
+      ]
+    },
+    {
+      "id": "c2d15",
+      "source": "Exercise 15",
+      "words": 120,
+      "reelIds": [
+        "stuck-in-farming"
+      ],
+      "q": "Why, despite the implementation of green revolution, 65 per cent of India's population continued to be engaged in the agriculture sector till 1990?",
+      "keyPoints": [
+        "Agriculture's share of GDP fell significantly, but not its share of people (67.5% in 1950 to 64.9% in 1990)",
+        "Industrial and service sectors did not absorb workers from agriculture",
+        "Output could have grown with fewer workers",
+        "Economists call this an important failure of 1950–1990 policies"
+      ]
+    },
+    {
+      "id": "c2d16",
+      "source": "Exercise 16",
+      "words": 150,
+      "reelIds": [
+        "what-went-wrong",
+        "industry-report-card"
+      ],
+      "q": "Though public sector is very essential for industries, many public sector undertakings incur huge losses and are a drain on the economy's resources. Discuss the usefulness of public sector undertakings in the light of this fact.",
+      "keyPoints": [
+        "Contribution: by 1990 industry became well diversified, largely due to the public sector",
+        "Industry's GDP share rose from 13% (1950-51) to 24.6% (1990-91), with about 6% annual growth",
+        "Criticism: no distinction between what only the state can do (defence) and what private firms can also do; monopolies kept (telecom waits, Modern Bread, hotels)",
+        "Many PSUs made huge losses but kept running, since a government undertaking is hard to close: a drain on limited resources",
+        "Counter-view: judge PSUs on welfare, not profits; these conflicts led to the new economic policy of 1991"
+      ]
+    },
+    {
+      "id": "c2d17",
+      "source": "Exercise 17",
+      "words": 100,
+      "reelIds": [
+        "import-substitution"
+      ],
+      "q": "Explain how import substitution can protect domestic industry.",
+      "keyPoints": [
+        "Replace imports with domestic production (inward looking trade strategy)",
+        "Tariffs: a tax on imports makes them more expensive and discourages their use",
+        "Quotas: limit the quantity that can be imported",
+        "Domestic firms are shielded from foreign competition while they learn to compete",
+        "Also prevented foreign exchange being spent on imports of luxury goods"
+      ]
+    },
+    {
+      "id": "c2d18",
+      "source": "Exercise 18",
+      "words": 150,
+      "reelIds": [
+        "ipr-1956"
+      ],
+      "q": "Why and how was private sector regulated under the IPR 1956?",
+      "keyPoints": [
+        "Why: socialist pattern of society; state control of the commanding heights",
+        "How: three categories of industries (state-only; private supplementing the state; the rest private)",
+        "No new industry without a government licence",
+        "Licences easier in backward regions, with concessions, for regional equality",
+        "Licences needed to expand output or diversify"
+      ]
+    }
+  ]
+}

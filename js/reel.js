@@ -47,12 +47,14 @@ export class Reel {
         </div>
         <div class="panel quiz-panel" hidden></div>
         <div class="panel info-panel" hidden></div>
+        <div class="panel pretest-panel" hidden></div>
       </div>`);
 
     this.stage = el.querySelector(".stage");
     this.caption = el.querySelector(".caption");
     this.segs = [...el.querySelectorAll(".seg")];
     this.quizPanel = el.querySelector(".quiz-panel");
+    this.pretestPanel = el.querySelector(".pretest-panel");
     this.infoPanel = el.querySelector(".info-panel");
 
     el.querySelector(".tapzones").addEventListener("click", (e) => {
@@ -88,7 +90,46 @@ export class Reel {
     this.paused = false;
     this.el.classList.remove("is-paused");
     this.syncSide();
+    if (this.mode === "pretest") return;
+    if (this.mode === "scenes" && this.sceneIdx === 0 && this.needsPretest()) return this.showPretest();
     if (this.mode === "scenes") this.play(this.sceneIdx);
+  }
+
+  // ---------- pretest: guess first, then learn (the pretesting effect) ----------
+  needsPretest() {
+    const key = `${this.chapter.id}/${this.reel.id}`;
+    const st = this.ctx.state;
+    return st.settings.pretest !== false && !st.reels[key] && !st.pretest[key];
+  }
+
+  showPretest() {
+    tts.cancel();
+    this.mode = "pretest";
+    const q = this.reel.quiz;
+    const order = shuffle(q.options.map((_, i) => i));
+    const p = this.pretestPanel;
+    p.innerHTML = `
+      <div class="kicker">Before you watch · take a guess</div>
+      <h3>${esc(q.q)}</h3>
+      <p class="prompt">Guessing is fine, even wrong guesses help you remember the answer. You'll see the answer after the reel.</p>
+      <div class="opts">${order.map((i, pos) => `<button class="opt" data-i="${i}">${String.fromCharCode(65 + pos)}. ${esc(q.options[i])}</button>`).join("")}</div>
+      <button class="btn" data-i="-1">I have no idea, just start</button>`;
+    p.hidden = false;
+    p.scrollTop = 0;
+    p.onclick = (e) => {
+      const b = e.target.closest("[data-i]");
+      if (!b || this.mode !== "pretest") return;
+      const choice = +b.dataset.i;
+      this.ctx.recordPretest(this.chapter, this.reel, choice);
+      p.querySelectorAll("button").forEach((x) => (x.disabled = true));
+      if (choice >= 0) b.classList.add("picked");
+      p.append(h(`<div class="box">👀 Noted. Watch for the answer in this reel.</div>`));
+      setTimeout(() => {
+        p.hidden = true;
+        this.mode = "scenes";
+        if (this.active) this.play(0);
+      }, 1100);
+    };
   }
 
   deactivate() {
@@ -242,9 +283,14 @@ export class Reel {
       });
       this.ctx.recordQuiz(this.chapter, this.reel, correct);
       const r = this.reel;
+      const pre = this.ctx.state.pretest[`${this.chapter.id}/${this.reel.id}`];
+      const preNote =
+        pre && pre.choice >= 0 && Date.now() - pre.at < 864e5
+          ? `<div class="box"><h4>Before the reel you guessed</h4>${esc(q.options[pre.choice])} ${pre.correct ? "✅ and you were right." : "❌, and now you know why."}</div>`
+          : "";
       p.querySelector(".after").innerHTML = `
-        <div class="why ${correct ? "" : "bad"}"><b>${correct ? "✅ Correct!" : "❌ Not quite."}</b> ${esc(q.why || "")}</div>
-        <div class="box"><h4>🧠 Added to your recall deck</h4>${r.cards.length} card${r.cards.length > 1 ? "s" : ""} from this reel will come back ${correct ? "tomorrow" : "later today, since you missed this one"}.</div>
+        <div class="why ${correct ? "" : "bad"}"><b>${correct ? "✅ Correct!" : "❌ Not quite."}</b> ${esc(q.why || "")}</div>${preNote}
+        <div class="box"><h4>🧠 Added to your recall deck</h4>${r.cards.length} card${r.cards.length > 1 ? "s" : ""} from this reel will come back ${correct ? "tomorrow" : "later today, since you missed this one"}. Tomorrow you'll also explain this reel back from memory.</div>
         ${r.beyond ? `<div class="box extra"><h4>🔭 Beyond NCERT</h4>${esc(r.beyond)}</div>` : ""}
         ${r.examAngle ? `<div class="box exam"><h4>🎯 ${esc(this.chapter.exam || "Exam")} angle</h4>${esc(r.examAngle)}</div>` : ""}
         <div class="row"><button class="btn" data-replay>↺ Replay reel</button></div>

@@ -1,6 +1,7 @@
 // Validates every chapter listed in content/index.json.
 import { readFile } from "node:fs/promises";
-import { validateChapter } from "./schema.mjs";
+import { validateChapter, validatePractice } from "./schema.mjs";
+import { existsSync } from "node:fs";
 
 const root = new URL("../content/", import.meta.url);
 const index = JSON.parse(await readFile(new URL("index.json", root), "utf8"));
@@ -11,7 +12,14 @@ for (const entry of index.chapters) {
   if (ch.id !== entry.id) errors.push(`id "${ch.id}" does not match index entry "${entry.id}"`);
   const scenes = ch.reels.reduce((n, r) => n + r.scenes.length, 0);
   const cards = ch.reels.reduce((n, r) => n + r.cards.length, 0);
-  console.log(`${errors.length ? "✗" : "✓"} ${entry.file}: ${ch.reels.length} reels, ${scenes} scenes, ${cards} cards`);
+  const prUrl = new URL(`practice/${entry.id}.json`, root);
+  let practice = "no practice bank";
+  if (existsSync(prUrl)) {
+    const pr = JSON.parse(await readFile(prUrl, "utf8"));
+    errors.push(...validatePractice(pr, ch).map((e) => `practice: ${e}`));
+    practice = `${pr.mcq.length} MCQs, ${(pr.descriptive || []).length} descriptive`;
+  }
+  console.log(`${errors.length ? "✗" : "✓"} ${entry.file}: ${ch.reels.length} reels, ${scenes} scenes, ${cards} cards; ${practice}`);
   errors.forEach((e) => console.log("   " + e));
   failed ||= errors.length > 0;
 }

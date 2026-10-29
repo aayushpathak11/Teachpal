@@ -4,13 +4,17 @@
 const KEY = "teachpal:v1";
 
 function blank() {
-  return { cards: {}, reels: {}, days: [], settings: { rate: 1, muted: false }, lastFeed: null };
+  return { cards: {}, reels: {}, practice: {}, essays: {}, explain: {}, pretest: {}, days: [], settings: { rate: 1, muted: false, pretest: true }, lastFeed: null };
 }
 
 export function loadState() {
   try {
     const raw = localStorage.getItem(KEY);
-    if (raw) return { ...blank(), ...JSON.parse(raw) };
+    if (raw) {
+      const s = { ...blank(), ...JSON.parse(raw) };
+      s.settings = { ...blank().settings, ...s.settings };
+      return s;
+    }
   } catch {}
   return blank();
 }
@@ -59,6 +63,11 @@ export function mergeState(local, remote) {
   for (const [k, v] of Object.entries(local.reels || {})) {
     const r = out.reels[k];
     if (!r || (v.quiz?.at || 0) > (r.quiz?.at || 0)) out.reels[k] = v;
+  }
+  // v2 items: keep whichever side touched each entry last.
+  for (const k of ["practice", "essays", "explain", "pretest"]) {
+    out[k] = { ...(remote[k] || {}) };
+    for (const [id, v] of Object.entries(local[k] || {})) if (!out[k][id] || (v.last || 0) >= (out[k][id].last || 0)) out[k][id] = v;
   }
   out.days = [...new Set([...(remote.days || []), ...(local.days || [])])].sort().slice(-400);
   out.settings = { ...local.settings, ...(remote.settings || {}) };

@@ -1,0 +1,446 @@
+{
+  "chapter": "eco11-ch01",
+  "mcq": [
+    {
+      "id": "c1m1",
+      "reelId": "national-income-estimates",
+      "q": "Consider the following statements about colonial India:\n1. V.K.R.V. Rao's estimates of national income were considered very significant.\n2. The colonial government made a sincere attempt to estimate India's national income.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 0,
+      "why": "NCERT: the colonial government never made any sincere attempt; among individual estimators, Rao's estimates were considered very significant."
+    },
+    {
+      "id": "c1m2",
+      "reelId": "modern-industry",
+      "q": "Arrange these events in chronological order (earliest first), using NCERT's dates:",
+      "options": [
+        "Suez Canal opens, first census, TISCO, Tata Airlines",
+        "First census, Suez Canal opens, TISCO, Tata Airlines",
+        "Suez Canal opens, TISCO, first census, Tata Airlines",
+        "First census, TISCO, Suez Canal opens, Tata Airlines"
+      ],
+      "answer": 0,
+      "why": "Suez Canal 1869, first census 1881, TISCO 1907, Tata Airlines 1932. (Suez: foreign-trade reel; census: demographic-transition reel.)"
+    },
+    {
+      "id": "c1m3",
+      "reelId": "occupational-structure",
+      "q": "According to NCERT's occupational structure of colonial India, the agricultural sector's share of the workforce was usually:",
+      "options": [
+        "70–75 per cent",
+        "50–55 per cent",
+        "85–90 per cent",
+        "60–65 per cent"
+      ],
+      "answer": 0,
+      "why": "Section 1.7: agriculture's share of the workforce stayed at a high of 70–75%. (Separately, about 85% of the population lived in villages and depended on agriculture: don't mix the two figures.)"
+    },
+    {
+      "id": "c1m4",
+      "reelId": "modern-industry",
+      "q": "Consider the following statements about early modern industry in India:\n1. Jute mills were mainly located in the western parts of the country.\n2. Cotton textile mills were mainly dominated by Indians.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 1,
+      "why": "Cotton textile mills, mainly dominated by Indians, were in western India (Maharashtra, Gujarat); jute mills, dominated by foreigners, were mainly concentrated in Bengal."
+    },
+    {
+      "id": "c1m5",
+      "reelId": "health-literacy",
+      "q": "Which of the following is correctly matched for India around independence, as per NCERT?",
+      "options": [
+        "Infant mortality rate: 218 per thousand",
+        "Life expectancy at birth: 44 years",
+        "Overall literacy rate: 26 per cent",
+        "Female literacy rate: 17 per cent"
+      ],
+      "answer": 0,
+      "why": "NCERT: IMR about 218 per thousand, life expectancy about 32 years, overall literacy below 16%, female literacy about 7%."
+    },
+    {
+      "id": "c1m6",
+      "reelId": "drain-of-wealth",
+      "q": "According to NCERT, consider the following statements about India's export surplus during colonial rule:\n1. It brought large inflows of gold and silver into India.\n2. It was used to pay for the expenses of an office set up by the colonial government in Britain.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 1,
+      "why": "NCERT: 'this export surplus did not result in any flow of gold or silver into India'. It paid for the colonial office in Britain, for wars fought by the British government and for invisible imports: the drain of Indian wealth."
+    },
+    {
+      "id": "c1m7",
+      "reelId": "roads-canals-telegraph",
+      "q": "Which of the following was NOT a purpose of colonial infrastructure according to NCERT?",
+      "options": [
+        "Mobilising the army within India",
+        "Carrying raw materials to the ports",
+        "Maintaining law and order by telegraph",
+        "Providing basic amenities to the people"
+      ],
+      "answer": 3,
+      "why": "NCERT: the real motive was to serve colonial interests (army movement, raw materials to ports, law and order), not to provide basic amenities to the people."
+    },
+    {
+      "id": "c1m8",
+      "reelId": "occupational-structure",
+      "q": "The Madras Presidency of colonial India comprised areas of which present-day states?",
+      "options": [
+        "Tamil Nadu, Andhra Pradesh, Kerala and Karnataka",
+        "Gujarat, Maharashtra, Goa and coastal Karnataka",
+        "Odisha, West Bengal, Bihar and parts of Assam",
+        "Punjab, Haryana, Rajasthan and western Delhi"
+      ],
+      "answer": 0,
+      "why": "NCERT, section 1.7: the Madras Presidency comprised areas of present-day Tamil Nadu, Andhra Pradesh, Kerala and Karnataka."
+    },
+    {
+      "id": "c1m9",
+      "reelId": "zamindari-revenue",
+      "q": "Consider the following statements about the zamindari system:\n1. Under it, the profit from agriculture went to the zamindars instead of the cultivators.\n2. The terms of revenue settlement fixed dates for depositing revenue, failing which zamindars lost their rights.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "why": "Both are NCERT points: profits went to zamindars, and the revenue settlement's fixed dates made zamindars squeeze cultivators."
+    },
+    {
+      "id": "c1m10",
+      "reelId": "capital-goods-public-sector",
+      "q": "In NCERT's terms, a capital goods industry is one that:",
+      "options": [
+        "Produces machine tools used to make articles for consumption",
+        "Produces luxury goods mainly for export to rich nations",
+        "Is owned and financed entirely by the colonial government",
+        "Produces food grains and raw materials for British mills"
+      ],
+      "answer": 0,
+      "why": "Capital goods industries produce machine tools, which are in turn used to produce articles for current consumption."
+    },
+    {
+      "id": "c1m11",
+      "reelId": "capital-goods-public-sector",
+      "q": "During colonial rule, the public sector's area of operation was confined mainly to:",
+      "options": [
+        "Railways, power generation, communications and ports",
+        "Iron and steel, cement, sugar and paper mills",
+        "Cotton textiles, jute mills and handicrafts",
+        "Banking, insurance, shipping and aviation"
+      ],
+      "answer": 0,
+      "why": "NCERT: the public sector was confined to railways, power generation, communications, ports and some departmental undertakings."
+    },
+    {
+      "id": "c1m12",
+      "reelId": "foreign-trade",
+      "q": "Apart from Britain, which countries does NCERT name as India's trading partners under colonial rule?",
+      "options": [
+        "China, Ceylon (Sri Lanka) and Persia (Iran)",
+        "Japan, Burma (Myanmar) and Afghanistan",
+        "France, Portugal and the Netherlands",
+        "USA, Germany and the Soviet Union"
+      ],
+      "answer": 0,
+      "why": "More than half of India's foreign trade was restricted to Britain; the rest was allowed with a few countries like China, Ceylon and Persia."
+    },
+    {
+      "id": "c1m13",
+      "reelId": "demographic-transition",
+      "q": "Consider the following statements about India's demographic transition:\n1. Before 1921, India was in the first stage of demographic transition.\n2. The second stage began after 1947.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 0,
+      "why": "NCERT: before 1921 India was in the first stage; the second stage began after 1921 (not 1947)."
+    },
+    {
+      "id": "c1m14",
+      "reelId": "national-income-estimates",
+      "q": "Who among the following is NOT named by NCERT as an estimator of India's national income during the colonial period?",
+      "options": [
+        "R.C. Dutt",
+        "R.C. Desai",
+        "William Digby",
+        "Findlay Shirras"
+      ],
+      "answer": 0,
+      "why": "The estimators: Dadabhai Naoroji, William Digby, Findlay Shirras, V.K.R.V. Rao and R.C. Desai. R.C. Dutt wrote 'Economic History of India'; don't confuse him with Desai."
+    },
+    {
+      "id": "c1m15",
+      "reelId": "why-1947",
+      "q": "Who described India as 'the pivot of our Empire' in 1894?",
+      "options": [
+        "Viceroy Victor Alexander Bruce (Lord Elgin)",
+        "Governor-General Lord Cornwallis",
+        "Viceroy Lord Curzon",
+        "Governor-General Lord Dalhousie"
+      ],
+      "answer": 0,
+      "why": "NCERT's opening quote is from the Viceroy of British India in 1894, printed as 'Victor Alexander Vruce', i.e. Victor Alexander Bruce, Lord Elgin."
+    },
+    {
+      "id": "c1m16",
+      "reelId": "agriculture-stagnation",
+      "q": "According to NCERT, about what share of India's population lived in villages and depended on agriculture under colonial rule?",
+      "options": [
+        "About 85 per cent",
+        "About 65 per cent",
+        "About 50 per cent",
+        "About 95 per cent"
+      ],
+      "answer": 0,
+      "why": "About 85% lived in villages and depended on agriculture directly or indirectly. (Agriculture's share of the workforce was 70–75%.)"
+    },
+    {
+      "id": "c1m17",
+      "reelId": "roads-canals-telegraph",
+      "q": "The Coast Canal, built at huge cost but abandoned because a parallel railway out-competed it, was on the coast of:",
+      "options": [
+        "Orissa",
+        "Bengal",
+        "Gujarat",
+        "Malabar"
+      ],
+      "answer": 0,
+      "why": "NCERT: the Coast Canal on the Orissa coast failed to compete with the railways running parallel to it and had to be abandoned."
+    },
+    {
+      "id": "c1m18",
+      "reelId": "health-literacy",
+      "q": "Consider the following statements about colonial India's high mortality (NCERT):\n1. Water-borne and air-borne diseases were rampant.\n2. Frequent natural calamities and famines pauperised the people.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "why": "Both are NCERT causes, along with unavailable or inadequate public health facilities."
+    }
+  ],
+  "descriptive": [
+    {
+      "id": "c1d1",
+      "source": "Exercise 1",
+      "words": 150,
+      "reelIds": [
+        "why-1947",
+        "deindustrialisation",
+        "agriculture-stagnation",
+        "drain-of-wealth"
+      ],
+      "q": "What was the focus of the economic policies pursued by the colonial government in India? What were the impacts of these policies?",
+      "keyPoints": [
+        "Focus: concerned more with protecting and promoting Britain's economic interests than with developing the Indian economy",
+        "India turned into a supplier of raw materials for British industry",
+        "And a consumer (market) for Britain's finished goods",
+        "Impacts: de-industrialisation and decline of handicrafts",
+        "Agricultural stagnation and low growth (under 2% aggregate, about 0.5% per capita)",
+        "Drain of wealth through the export surplus"
+      ]
+    },
+    {
+      "id": "c1d3",
+      "source": "Exercise 3",
+      "words": 150,
+      "reelIds": [
+        "agriculture-stagnation",
+        "zamindari-revenue",
+        "commercialisation"
+      ],
+      "q": "What were the main causes of India's agricultural stagnation during the colonial period?",
+      "keyPoints": [
+        "Land settlement systems, especially zamindari: profits went to zamindars",
+        "Zamindars only collected rent; revenue settlement terms (fixed dates) made them harsh",
+        "Low technology",
+        "Lack of irrigation facilities",
+        "Negligible use of fertilisers",
+        "Despite some irrigation progress, starved of investment in terracing, flood-control, drainage and desalinisation of soil",
+        "Commercialisation: cash crops served British industry; tenants, small farmers and sharecroppers lacked resources, technology and incentive to invest"
+      ]
+    },
+    {
+      "id": "c1d5",
+      "source": "Exercise 5",
+      "words": 100,
+      "reelIds": [
+        "deindustrialisation"
+      ],
+      "q": "What was the two-fold motive behind the systematic de-industrialisation effected by the British in pre-independent India?",
+      "keyPoints": [
+        "Reduce India to an exporter of important raw materials for Britain's modern industries",
+        "Turn India into a sprawling market for Britain's finished products",
+        "So British industry could expand to Britain's maximum advantage"
+      ]
+    },
+    {
+      "id": "c1d6",
+      "source": "Exercise 6",
+      "words": 150,
+      "reelIds": [
+        "pre-british-handicrafts",
+        "deindustrialisation"
+      ],
+      "q": "The traditional handicrafts industries were ruined under British rule. Do you agree with this view? Give reasons in support of your answer.",
+      "keyPoints": [
+        "Agree: India was famous for handicrafts (cotton and silk textiles, metal and precious stone work, Dhaka muslin)",
+        "Policy aimed at de-industrialisation for Britain's benefit",
+        "Handicrafts declined with no modern industry to replace them",
+        "Massive unemployment among artisans",
+        "Demand met by cheap British imports"
+      ]
+    },
+    {
+      "id": "c1d7",
+      "source": "Exercise 7",
+      "words": 120,
+      "reelIds": [
+        "railways",
+        "roads-canals-telegraph"
+      ],
+      "q": "What objectives did the British intend to achieve through their policies of infrastructure development in India?",
+      "keyPoints": [
+        "Serve colonial interests, not provide basic amenities to the people",
+        "Roads mobilised the army within India",
+        "Roads drew raw materials from the countryside to the nearest railway station or port, for export to England and other destinations",
+        "The expensive electric telegraph served to maintain law and order",
+        "Efforts were made, but they were 'spiced with selfish motives' (Recap)"
+      ]
+    },
+    {
+      "id": "c1d8",
+      "source": "Exercise 8",
+      "words": 150,
+      "reelIds": [
+        "capital-goods-public-sector",
+        "modern-industry"
+      ],
+      "q": "Critically appraise some of the shortfalls of the industrial policy pursued by the British colonial administration.",
+      "keyPoints": [
+        "Systematic de-industrialisation; handicrafts not replaced by modern industry",
+        "Hardly any capital goods industry",
+        "Very slow growth of modern industry, mostly cotton and jute",
+        "Industrial sector's growth rate and share of GDP/GVA very small",
+        "Public sector very limited (railways, power, communications, ports)"
+      ]
+    },
+    {
+      "id": "c1d9",
+      "source": "Exercise 9",
+      "words": 120,
+      "reelIds": [
+        "drain-of-wealth"
+      ],
+      "q": "What do you understand by the drain of Indian wealth during the colonial period?",
+      "keyPoints": [
+        "India had a large export surplus",
+        "It brought no gold or silver into India",
+        "It paid for an office set up by the colonial government in Britain",
+        "And for wars fought by the British government and imports of invisible items",
+        "Essentials (food grains, clothes, kerosene) were scarce at home"
+      ]
+    },
+    {
+      "id": "c1d11",
+      "source": "Exercise 11",
+      "words": 120,
+      "reelIds": [
+        "demographic-transition",
+        "health-literacy"
+      ],
+      "q": "Give a quantitative appraisal of India's demographic profile during the colonial period.",
+      "keyPoints": [
+        "First census 1881 (it revealed uneven population growth); census every 10 years after",
+        "Before 1921, first stage of demographic transition; second stage after 1921",
+        "Neither the total population nor its growth rate was very high at this stage",
+        "Overall literacy below 16%, female literacy about 7%",
+        "Infant mortality about 218 per thousand; life expectancy about 32 years",
+        "High mortality (inadequate public health, water- and air-borne diseases); extensive poverty"
+      ]
+    },
+    {
+      "id": "c1d12",
+      "source": "Exercise 12",
+      "words": 120,
+      "reelIds": [
+        "occupational-structure"
+      ],
+      "q": "Highlight the salient features of India's pre-independence occupational structure.",
+      "keyPoints": [
+        "Little sign of change",
+        "Agriculture 70–75% of the workforce",
+        "Manufacturing about 10%, services 15–20%",
+        "Growing regional variation",
+        "Madras, Bombay, Bengal: less dependence on agriculture; Orissa, Rajasthan, Punjab: more"
+      ]
+    },
+    {
+      "id": "c1d13",
+      "source": "Exercise 13",
+      "words": 150,
+      "reelIds": [
+        "challenges-1947"
+      ],
+      "q": "Underscore some of India's most crucial economic challenges at the time of independence.",
+      "keyPoints": [
+        "Agriculture: surplus labour and extremely low productivity",
+        "Industry: needed modernisation, diversification, capacity building and public investment",
+        "Foreign trade oriented to feed Britain's Industrial Revolution",
+        "Infrastructure needed upgrading, expansion and public orientation",
+        "Rampant poverty and unemployment needed welfare-oriented policy"
+      ]
+    },
+    {
+      "id": "c1d15",
+      "source": "Exercise 15",
+      "words": 120,
+      "reelIds": [
+        "foreign-trade",
+        "drain-of-wealth"
+      ],
+      "q": "Indicate the volume and direction of trade at the time of independence.",
+      "keyPoints": [
+        "Volume: a large export surplus, at a huge cost to the economy; restrictive colonial policies on commodity production, trade and tariffs hurt trade",
+        "Composition: exporter of primary products, importer of finished consumer goods and light machinery",
+        "Direction: Britain kept monopoly control over exports and imports; more than half of trade restricted to Britain",
+        "The rest with a few countries such as China, Ceylon and Persia",
+        "Suez Canal (1869) intensified British control"
+      ]
+    },
+    {
+      "id": "c1d16",
+      "source": "Exercise 16",
+      "words": 150,
+      "reelIds": [
+        "railways",
+        "challenges-1947"
+      ],
+      "q": "Were there any positive contributions made by the British in India? Discuss.",
+      "keyPoints": [
+        "Some positives: railways (long-distance travel, broke geographical and cultural barriers), roads, ports, telegraph, posts",
+        "But their real motive was to serve colonial interests, not to provide amenities",
+        "Railways fostered commercialisation of agriculture, hurting village self-sufficiency; social benefits outweighed by huge economic loss",
+        "Costs: drain of wealth, de-industrialisation, agricultural stagnation",
+        "Conclusion: infrastructure efforts were made, but they were 'spiced with selfish motives'"
+      ]
+    }
+  ]
+}

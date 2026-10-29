@@ -359,6 +359,40 @@ button { font: inherit; color: inherit; }
 .voice-box .row .btn { flex: none; }
 .voice-tip { margin: 0; color: var(--muted); font-size: 12.5px; line-height: 1.5; }
 
+/* ---------- v2: practice, today, explain ---------- */
+.session-bar { height: 4px; border-radius: 2px; background: var(--panel-2); overflow: hidden; margin-bottom: 8px; }
+.session-bar i { display: block; height: 100%; background: var(--accent); }
+.mcq-q { font-size: 17px; font-weight: 600; line-height: 1.45; }
+.opt.picked { border-color: var(--accent); background: rgba(255,204,77,.12); }
+.conf { display: grid; gap: 8px; }
+.conf .row .btn { flex: 1; }
+.box.warn { border-color: rgba(255,204,77,.6); }
+.box.warn h4 { color: var(--accent); }
+.box.good h4 { color: var(--good); }
+.score { font-size: 54px; font-weight: 900; color: var(--accent); line-height: 1; }
+.score small { font-size: 20px; color: var(--muted); font-weight: 600; }
+.essay, .practice-start { display: grid; gap: 12px; }
+.essay h3 { margin: 0; font-size: 19px; line-height: 1.35; }
+.essay textarea, .explain textarea, .box textarea { width: 100%; background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 12px; padding: 12px; font: inherit; font-size: 15px; line-height: 1.5; resize: vertical; }
+.essay .row { align-items: center; }
+.essay .wc { color: var(--muted); font-size: 13px; flex: 1; }
+.practice-start select { background: var(--panel-2); color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 10px; font: inherit; }
+.practice-start label { font-size: 13px; color: var(--muted); }
+.essay-list { display: grid; gap: 8px; }
+.list-h { font-size: 13px; color: var(--muted); margin-top: 8px; }
+.reel-row .t small { display: block; color: var(--accent); font-size: 11px; font-weight: 700; margin: 0 0 2px; }
+.kp { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+.kp li.ok { color: var(--good); }
+.kp li.no { color: var(--muted); }
+.tick { display: flex; gap: 8px; align-items: flex-start; font-size: 14px; margin: 6px 0; }
+.link { background: none; border: 0; color: var(--accent); padding: 0; cursor: pointer; justify-self: start; font-size: 14px; }
+.grades3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.setting { display: flex; gap: 10px; align-items: flex-start; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 12px; font-size: 14px; line-height: 1.45; }
+.setting input { margin-top: 3px; }
+details.box summary { cursor: pointer; }
+.fc.explain textarea { margin-top: 4px; }
+.tabbar button { font-size: 11px; }
+
 /* ---------- end of feed ---------- */
 .end { height: 100%; display: flex; flex-direction: column; justify-content: center; gap: 14px; padding: 24px 20px; background: radial-gradient(circle at 50% 20%, rgba(61,220,151,.2), transparent 60%), var(--bg); }
 .end .big { font-size: 60px; }
