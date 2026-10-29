@@ -29,18 +29,42 @@ No build step and no dependencies are needed to run the app. To use it on your p
 
 Progress is stored in your browser on that device (`localStorage`).
 
-## Add your next chapter
+## Add your next chapter: the content pipeline
 
-The content for each chapter is a JSON file in `content/`. To generate one from a chapter PDF with Claude:
+The content for each chapter is a JSON file in `content/`. New chapters are made by a pipeline that writes, reviews and fixes them before you see them:
+
+```
+ PDF ─► 1. PLAN ─────► 2. WRITE ─────► 3. CHECK ────────────────────────► 4. PUBLISH
+        extract every   reels in        ├─ lint (code, no AI)              content/<id>.json
+        fact, outline   batches of 3,   ├─ reviewer (fresh Claude call,    content/reports/<id>.md
+        12-20 reels     style-matched   │   checks every claim vs the PDF)
+                                        ├─ coverage (every key fact taught?)
+                                        ├─ fact-checker (web search, verifies
+                                        │   "Beyond NCERT" claims with sources)
+                                        └─ blocker/major issues? ─► REVISE those reels ─► check again
+                                           (up to --rounds times, default 2)
+```
 
 ```bash
 npm install
 export ANTHROPIC_API_KEY=sk-ant-...
+
+# Generate a new chapter
 npm run generate -- ~/Downloads/keec102.pdf --id eco11-ch02 --subject "Economics · Class 11"
-npm run validate
+
+# Audit an existing chapter against its PDF (reports only, changes nothing)
+npm run review -- ~/Downloads/keec101.pdf --chapter content/eco11-ch01.json
 ```
 
-The generator sends the PDF to Claude together with two finished reels from chapter 1 as a style reference. It validates the output, writes `content/<id>.json`, and adds the chapter to `content/index.json`. When the app has more than one chapter, the top bar becomes a chapter picker. Skim the generated **Beyond NCERT** facts before you rely on them.
+**Why a fixed pipeline and not a free-roaming agent.** Code decides the order of steps, so cost and behaviour are predictable and a failed step is easy to rerun (the plan and draft are cached in `.work/<id>/`). Each step is a separate, focused Claude call. The reviewer doesn't share the writer's context, so it judges the reels on their own merits instead of trusting the writer's reasoning. The one open-ended step is the fact-checker, which decides for itself what to search for and is capped at a set number of searches.
+
+**What you get:** the chapter file, with `status: "reviewed"` or `"needs-attention"` in `content/index.json`, and a report listing open issues, reviewer scores, coverage of the key facts, and a fact-check table with sources. Read the report's open issues before you study a chapter marked `needs-attention`.
+
+**Options:** `--rounds N` (fix rounds) · `--no-web` (skip the web fact-check) · `--fresh` (ignore the cached plan and draft) · `--effort low|medium|high|xhigh|max` · `--concurrency N`. A 15-page chapter takes roughly 25-40 API calls. The PDF is cached between calls, so after the first call it is cheap to resend; the report shows the exact token use and an estimated cost.
+
+`npm test` runs the whole pipeline offline with a stand-in for Claude. It plants a wrong quiz answer, a false date and a coverage gap, then checks that each one is caught and fixed.
+
+When the app has more than one chapter, the top bar becomes a chapter picker.
 
 ## Project layout
 
@@ -54,7 +78,8 @@ js/srs.js                   spaced-repetition scheduler
 js/review.js, progress.js   review queue and progress dashboard
 js/tts.js, store.js         narration, local persistence
 content/                    chapter JSON files and index
-scripts/                    dev server, validator, PDF → chapter generator
+scripts/                    dev server, validator
+scripts/pipeline/           PDF → reviewed chapter pipeline (plan, write, review, fact-check, revise) + offline test
 ```
 
 ## Ideas for what's next

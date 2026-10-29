@@ -1,4 +1,4 @@
-import { esc, h } from "./util.js";
+import { esc, h, shuffle } from "./util.js";
 import { renderScene } from "./scenes.js";
 import * as tts from "./tts.js";
 
@@ -209,10 +209,11 @@ export class Reel {
     this.segs[this.segs.length - 1].classList.add("done");
     const q = this.reel.quiz;
     const p = this.quizPanel;
+    const order = shuffle(q.options.map((_, i) => i)); // new order each time, so position can't be memorised
     p.innerHTML = `
       <div class="kicker">Quick check · answer before you scroll</div>
       <h3>${esc(q.q)}</h3>
-      <div class="opts">${q.options.map((o, i) => `<button class="opt" data-i="${i}">${String.fromCharCode(65 + i)}. ${esc(o)}</button>`).join("")}</div>
+      <div class="opts">${order.map((i, pos) => `<button class="opt" data-i="${i}">${String.fromCharCode(65 + pos)}. ${esc(q.options[i])}</button>`).join("")}</div>
       <div class="after"></div>`;
     p.hidden = false;
     p.scrollTop = 0;
@@ -224,7 +225,8 @@ export class Reel {
       tts.cancel();
       const chosen = +btn.dataset.i;
       const correct = chosen === q.answer;
-      p.querySelectorAll(".opt").forEach((b, i) => {
+      p.querySelectorAll(".opt").forEach((b) => {
+        const i = +b.dataset.i;
         b.disabled = true;
         if (i === q.answer) b.classList.add("right");
         else if (i === chosen) b.classList.add("wrong");
