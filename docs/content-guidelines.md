@@ -12,6 +12,8 @@ The single source of rules for writing and reviewing reels. The in-chat workflow
   - a recall card.
 
   The reviewer checks that a beginner could explain each one afterwards. *(user, ch03)*
+- The checklist applies to **every** core concept, including stabilisation vs structural reform, tariff vs quota, GST and GDP vs GVA, not just the headline ones. A definition alone is not enough. An analogy or example that sits only in `beyond` doesn't count, because `beyond` isn't narrated. *(ch03: 5 concepts had only definitions)*
+- Don't use a term in one reel and define it three reels later (FDI). Gloss it in a clause at first use. *(ch03)*
 - Never treat two related measures as the same thing. GDP and GVA are related but different. *(ch01, round 2)*
 - Terms to gloss at first use include PSU (public sector undertaking), excise duty (a tax on goods produced in the country), foreign exchange (foreign currency needed to pay for imports), the Directive Principles (guidelines in the Constitution for state policy), and "commanding heights" (complete state control of the industries vital to the economy). *(ch02)*
 
@@ -28,6 +30,10 @@ The single source of rules for writing and reviewing reels. The in-chat workflow
 - A verbatim quote on screen is also read verbatim in the narration (introduce it, then read it word for word). *(ch02)*
 - Don't describe NCERT's numbers with your own arithmetic ("the table rounds 40.59 to 40.5" is wrong: it would round to 40.6). Just state both figures and where each comes from. *(ch02)*
 - Name the source of a box when NCERT gives one (Box 2.5 is from Thomas Sowell's *Basic Economics*). *(ch02)*
+- Keep NCERT's hedges and quantifiers: "set the tone to free" the rupee is not "freed"; "almost all" products; "only high-income groups". Also keep NCERT's own caveats on a criticism ("not completely true"). *(ch03)*
+- List **every** example in a box, even when the reprint's layout is garbled. Read the PDF line by line. *(ch03: IRCTC, the third Navratna, was dropped)*
+- Don't attach a general point to a specific heading. NCERT's "simplification, lower rates" is about tax reform in general, not a GST outcome. *(ch03)*
+- When NCERT's text and its own table disagree, teach the text and point out the table figure (services "faster than GDP" vs 9.2 < 9.4 in 2021-22). *(ch03)*
 
 ## Labelling outside material
 - Anything not in the chapter goes in a scene with `"extra": true` or in `beyond`. That includes general definitions, your own calculations (such as the rule of 70), later history (the Planning Commission in 1950), and causal inferences. Inside narration, flag it out loud as "beyond the book". *(ch01)*
@@ -40,6 +46,7 @@ The single source of rules for writing and reviewing reels. The in-chat workflow
 - Book–author pairs NCERT cites, and warnings about names that are easy to confuse (R.C. Dutt the author vs R.C. Desai the income estimator). *(ch01)*
 - Where NCERT differs from the commonly known fact, teach both and say which one to answer with: railways introduced 1850 vs first passenger train 1853; first census 1881 vs the 1872 non-synchronous count; the book's misprint "Vruce" for Bruce. List these under "Things to keep in mind" in the report. *(ch01)*
 - Causes lists must be complete. For high mortality, famines and natural calamities belong alongside health and disease. *(ch01)*
+- Teach the chapter's tables in full: the total row of every period, not only the endpoints. MCQs ask for table figures. *(ch03: Table 3.1)*
 
 ## Quizzes and cards
 - Exactly one defensible answer, **even using knowledge from outside NCERT**. A distractor must be clearly wrong, not merely "not the book's answer". *(ch01: Jamdani is also a fine Dhaka muslin.)*
@@ -55,6 +62,7 @@ The single source of rules for writing and reviewing reels. The in-chat workflow
 - Key points must answer the exact question asked. Definitions get the definition as the core point; extras are marked "(Optional)", so a correct standard answer can't lose marks. Accept both NCERT terms where they differ. *(c2d3, c2d5)*
 - Don't credit an achievement to the wrong cause in a rubric. Industry's GDP-share rise is credited to import substitution (Recap); diversification is credited to the public sector. *(c2d16)*
 - When NCERT's "present" figures are out of date, say so in the `why` (₹1 crore SSI limit vs today's MSME limits). *(c2m16)*
+- Inferences that aren't in NCERT go in the rubric as "(Optional)". If NCERT gives a fixed number of answers ("two advantages"), the rubric's core points are exactly those. *(c3d3, c3d13)*
 
 ## Visuals that match the narration
 - Every item on screen gets spoken, in the **same order**: timeline events, flow steps, list items. *(ch01: the timeline and narration order didn't match.)*
