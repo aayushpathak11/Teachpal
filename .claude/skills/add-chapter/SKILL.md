@@ -9,6 +9,8 @@ The user studies for RBI Grade B with no background in economics. They send one 
 
 Do every step, in order. Don't skip the review or the fact-check, even for a short chapter.
 
+**Before writing anything, read `docs/content-guidelines.md`.** It holds every lesson from earlier chapters' reviews and the user's feedback. Writing follows it, the reviewer checks against it, and step 9 adds to it.
+
 ## 0. Sync first
 - Hosted app: see `HOSTING.md` for the artifact URL. The **artifact is the durable copy** (GitHub push may be blocked and this container is temporary).
 - If `content/` here is missing chapters that the live app has, pull them back with the Artifact tool: `action: "read"`, `url`, `paths: ["content/index.json", "content/<id>.json", …]`. Then copy them into `content/`.
@@ -19,6 +21,7 @@ Do every step, in order. Don't skip the review or the fact-check, even for a sho
 - Write `.work/<id>/plan.json` as described in `planPrompt()`: every exam-relevant fact as an atomic statement with section and importance, plus 12-20 reels (one concept each, in chapter order) with factIds. Every high-importance fact must be assigned to a reel.
 
 ## 2. Write
+- Follow `docs/content-guidelines.md` point by point. In particular: NCERT's exact wording for verdicts, verbatim-only quote scenes, everything outside the book labelled extra, every on-screen item narrated in order, jargon explained, Recap and every exercise question covered, quizzes with exactly one defensible answer even using outside knowledge.
 - Write `content/<id>.json` following `writePrompt()` and the style of `content/eco11-ch01.json`: 3-5 scenes per reel, spoken-style narration that explains *why*, concrete Indian examples, a quiz with exactly one defensible answer (no "all/none of the above"; the app shuffles options), 2-3 recall cards, `beyond`, and `examAngle`.
 - Use the book's exact numbers and names. Anything not from the book goes in a scene with `"extra": true` or in `beyond`, never attributed to NCERT.
 - Keep `factIds` on each reel.
@@ -31,6 +34,7 @@ Do every step, in order. Don't skip the review or the fact-check, even for a sho
 Spawn a **general-purpose subagent** as the reviewer. It must not be given your reasoning, only:
 - the PDF path, the chapter file path and `.work/<id>/plan.json`
 - the instructions from `reviewPrompt()` plus `coveragePrompt()` (high-importance facts only)
+- `docs/content-guidelines.md`, with the instruction to flag any breach of it
 - the output shape `{"issues":[{reelId, where, severity, type, problem, fix}], "scores":[{reelId, accuracy, clarity, engagement}], "missing":[{factId, reelId, note}]}`, saved to `.work/<id>/review-<round>.json`
 
 Tell it to read the PDF itself and to report only real problems.
@@ -55,5 +59,10 @@ Write `content/reports/<id>.md` with these sections: Status (reviewed / needs at
 - Republish to the **same URL** from `HOSTING.md` with the Artifact tool: `file_path: dist/artifact/index.html`, `url`, and `files` mapping only what changed (at minimum `content/index.json` and `content/<id>.json`, plus `content/reports/<id>.md`; any changed `js/*.js` or `css/app.css` too). Omit `capabilities` so the db declaration is kept, and omit `icon`.
 - Commit on the working branch and try to push; if the push is refused, say so in one line.
 
-## 9. Tell the user
+## 9. Learn: save the lessons
+- For every issue that the reviewer, the fact-checker or the user found and that could recur in other chapters, add a one-line rule to `docs/content-guidelines.md` under the right heading, tagged with the chapter id.
+- If a script could catch it reliably, add a check to `scripts/pipeline/checks.mjs` (it runs in `lint.mjs` and the API pipeline), and confirm it raises no false alarm on the existing chapters.
+- The user's preferences (tone, voice, depth, format) go in the guidelines too.
+
+## 10. Tell the user
 In a few lines: what the chapter now contains, what the review caught and fixed, any open issues to be careful about, and that the app has updated (reload it). Mention reels they had trouble with if the progress data shows it (`ArtifactData` `get` on `progress/<their id>` is readable by the owner).

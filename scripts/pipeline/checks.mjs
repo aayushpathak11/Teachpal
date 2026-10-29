@@ -18,9 +18,23 @@ export function lintChapter(ch) {
     const n = r.scenes?.length || 0;
     if (n < 3 || n > 6) out.push(issue(r.id, "scenes", "minor", `${n} scenes; aim for 3-5`, "Adjust the number of scenes."));
     (r.scenes || []).forEach((s, i) => {
+      const where = `scene ${i + 1}`;
+      // Lessons from ch01's reviews (docs/content-guidelines.md).
+      if (s.kind === "timeline") {
+        const years = (s.events || []).map((e) => e.year.trim()).filter((y) => /^\d{4}$/.test(y)); // plain years only
+        const missing = years.filter((y) => !String(s.say).includes(y));
+        if (missing.length) out.push(issue(r.id, where, "minor", `timeline year(s) ${missing.join(", ")} shown but never spoken`, "Narrate every timeline event, in the on-screen order."));
+        const spoken = years.filter((y) => String(s.say).includes(y)).sort((a, b) => String(s.say).indexOf(a) - String(s.say).indexOf(b));
+        if (missing.length === 0 && spoken.join() !== years.join()) out.push(issue(r.id, where, "minor", "timeline events are narrated in a different order from the screen", "Narrate the events in on-screen order."));
+      }
+      if (s.kind === "quote" && /\b(NCERT|Box\s*\d)/i.test(s.by || "")) out.push(issue(r.id, where, "minor", `quote attributed to "${s.by}"; quote scenes must be verbatim`, "Use the book's exact words, or switch to a points scene."));
+      const screen = JSON.stringify({ ...s, say: undefined });
+      const abbr = screen.match(/\b(TN|AP|UP|MP|WB|J&K|GVA|IMR|ESI)\b/g);
+      if (abbr && !abbr.every((a) => String(s.say).includes(a) || /\(/.test(screen))) out.push(issue(r.id, where, "minor", `abbreviation on screen without explanation: ${[...new Set(abbr)].join(", ")}`, "Write it out in full or explain it at first use."));
+      if (/\b(both|all|none) of the above\b/i.test(s.say || "")) out.push(issue(r.id, where, "minor", "narration refers to 'the above'", "Name the items instead."));
       const w = words(s.say);
-      if (w < 12) out.push(issue(r.id, `scene ${i + 1}`, "minor", `narration is only ${w} words`, "Explain the visual in 2-5 sentences."));
-      if (w > 100) out.push(issue(r.id, `scene ${i + 1}`, "minor", `narration is ${w} words (too long for one scene)`, "Split the scene or tighten the narration."));
+      if (w < 12) out.push(issue(r.id, where, "minor", `narration is only ${w} words`, "Explain the visual in 2-5 sentences."));
+      if (w > 100) out.push(issue(r.id, where, "minor", `narration is ${w} words (too long for one scene)`, "Split the scene or tighten the narration."));
     });
     const opts = r.quiz?.options || [];
     if (opts.length !== 4) out.push(issue(r.id, "quiz", "minor", `${opts.length} options; use 4`, "Give exactly 4 options."));

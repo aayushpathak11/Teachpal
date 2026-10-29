@@ -1,3 +1,8 @@
+import { readFileSync } from "node:fs";
+
+// Lessons from earlier chapters' reviews; every chapter-reading stage follows them.
+const GUIDELINES = readFileSync(new URL("../../docs/content-guidelines.md", import.meta.url), "utf8");
+
 // Prompts for each pipeline stage. Every stage that reads the chapter shares one
 // system prompt (so the cached prefix, system + PDF, is reused); the stage's job
 // goes in the user message after the PDF.
@@ -6,7 +11,11 @@ export const commonSystem = (exam) => `You are part of TeachPal's content pipeli
 
 The chapter PDF is the source of truth. Anything presented as coming from the book must match it exactly: numbers, dates, names and attributions. Material from outside the book is allowed only when you are highly confident it is accurate, and it must always be labelled as extra.
 
-Each message gives you one stage of the pipeline. Do exactly that stage and respond with only the JSON object it asks for: no prose and no markdown fences.`;
+Each message gives you one stage of the pipeline. Do exactly that stage and respond with only the JSON object it asks for: no prose and no markdown fences.
+
+Writers must follow, and reviewers must check against, these content guidelines (learned from reviewing earlier chapters):
+
+${GUIDELINES}`;
 
 export const SCENE_GUIDE = `Scene kinds and their fields (every scene also needs "say", the spoken narration, and may have "extra": true when its content is not from the book):
 - hook: emoji, big (short punchy line), sub
