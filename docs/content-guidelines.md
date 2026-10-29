@@ -5,6 +5,13 @@ The single source of rules for writing and reviewing reels. The in-chat workflow
 ## The learner
 - An adult preparing for RBI Grade B (Phase 1 GA/ESI, Phase 2 ESI and Finance) with **no background in economics**. They study on a phone, in short sessions.
 - Explain every term of art and abbreviation at first use, for example: ESI (Economic and Social Issues, an RBI Grade B Phase 2 paper), GDP, IMR. *(ch01: "ESI" and "GVA" were left unexplained.)*
+- **Core technical concepts get conceptual clarity, not just a gloss** (the user asked for this). A concept the chapter depends on (balance of payments, fiscal deficit, foreign exchange reserves, devaluation, disinvestment, FDI vs FII and similar) gets its own reel, or at least a full scene, with:
+  - a plain-language definition,
+  - an everyday analogy (e.g. the balance of payments as a household's earnings and spending with the outside world),
+  - a real Indian example, and
+  - a recall card.
+
+  The reviewer checks that a beginner could explain each one afterwards. *(user, ch03)*
 - Never treat two related measures as the same thing. GDP and GVA are related but different. *(ch01, round 2)*
 - Terms to gloss at first use include PSU (public sector undertaking), excise duty (a tax on goods produced in the country), foreign exchange (foreign currency needed to pay for imports), the Directive Principles (guidelines in the Constitution for state policy), and "commanding heights" (complete state control of the industries vital to the economy). *(ch02)*
 

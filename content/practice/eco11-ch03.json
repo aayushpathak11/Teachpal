@@ -1,0 +1,554 @@
+{
+  "chapter": "eco11-ch03",
+  "mcq": [
+    {
+      "id": "c3m1",
+      "reelId": "turning-point-1991",
+      "q": "Consider the following statements about India's economic crisis of 1991, as described by NCERT:\n1. India's foreign exchange reserves were not sufficient to import petroleum and other important items for even a fortnight.\n2. The crisis originated in the inefficient management of the Indian economy in the 1980s.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "why": "NCERT: reserves fell to a level not sufficient for even a fortnight, and the origin of the crisis can be traced to the inefficient management of the economy in the 1980s."
+    },
+    {
+      "id": "c3m2",
+      "reelId": "concept-bop-forex",
+      "q": "India pays for imports such as petroleum mainly in dollars. According to NCERT, where do these dollars normally come from?",
+      "options": [
+        "Earnings from India's exports",
+        "Printing of new currency notes by the RBI",
+        "Income tax paid by Indian citizens",
+        "Profits of state electricity boards"
+      ],
+      "answer": 0,
+      "why": "NCERT: imports like petroleum are paid for in dollars, which are earned from exports. Printing rupees or collecting rupee taxes does not create dollars."
+    },
+    {
+      "id": "c3m3",
+      "reelId": "how-crisis-built",
+      "q": "Which of the following is NOT one of the causes of the 1991 crisis given by NCERT?",
+      "options": [
+        "A sudden ban on India's exports by the World Trade Organisation",
+        "Development spending that overshot the government's revenue",
+        "Borrowed foreign exchange spent on meeting consumption needs",
+        "Low income from public sector undertakings"
+      ],
+      "answer": 0,
+      "why": "The WTO was set up only in 1995, and NCERT names no export ban. The other three are among NCERT's causes."
+    },
+    {
+      "id": "c3m4",
+      "reelId": "crisis-and-imf",
+      "q": "In 1991, India approached two international institutions and received a loan. Which pair, and how much?",
+      "options": [
+        "IBRD (World Bank) and IMF; $7 billion",
+        "IMF and Asian Development Bank; $7 billion",
+        "IBRD (World Bank) and IMF; $2 billion",
+        "WTO and IMF; $10 billion"
+      ],
+      "answer": 0,
+      "why": "NCERT: India approached the International Bank for Reconstruction and Development (World Bank) and the International Monetary Fund, and received $7 billion as loan."
+    },
+    {
+      "id": "c3m5",
+      "reelId": "nep-two-kinds",
+      "q": "Consider the following statements about the New Economic Policy's measures:\n1. Stabilisation measures are long-term measures meant to improve international competitiveness.\n2. Structural reform measures are short-term measures meant to control inflation.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 3,
+      "why": "Both are swapped. Stabilisation is short-term (correct balance of payments weaknesses, control inflation); structural reform is long-term (efficiency and international competitiveness by removing rigidities)."
+    },
+    {
+      "id": "c3m6",
+      "reelId": "industrial-deregulation",
+      "q": "After the 1991 reforms, industrial licensing was abolished for almost all products. Which of the following still needs a licence, according to NCERT?",
+      "options": [
+        "Industrial explosives",
+        "Cotton textiles",
+        "Steel",
+        "Cement"
+      ],
+      "answer": 0,
+      "why": "NCERT's list: alcohol, cigarettes, hazardous chemicals, industrial explosives, electronics, aerospace, and drugs and pharmaceuticals."
+    },
+    {
+      "id": "c3m7",
+      "reelId": "industrial-deregulation",
+      "q": "According to NCERT, which industries are the only ones now reserved for the public sector?",
+      "options": [
+        "A part of atomic energy generation and some core railway transport activities",
+        "Defence production, banking and a part of atomic energy generation",
+        "Coal mining, some core railway transport activities and civil aviation",
+        "Telecommunications, petroleum refining and all power generation"
+      ],
+      "answer": 0,
+      "why": "NCERT: only a part of atomic energy generation and some core activities in railway transport remain reserved for the public sector."
+    },
+    {
+      "id": "c3m8",
+      "reelId": "financial-sector",
+      "q": "Consider the following statements about financial sector reforms after 1991:\n1. The aim was to change the RBI's role from regulator to facilitator of the financial sector.\n2. The RBI gave up all its powers over the managerial aspects of banks.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 0,
+      "why": "NCERT: the RBI moved from regulator to facilitator, but certain managerial aspects have been retained with the RBI to safeguard the interests of account holders and the nation."
+    },
+    {
+      "id": "c3m9",
+      "reelId": "financial-sector",
+      "q": "According to NCERT, after the reforms the limit of foreign investment in banks was raised to around:",
+      "options": [
+        "74 per cent",
+        "26 per cent",
+        "49 per cent",
+        "100 per cent"
+      ],
+      "answer": 0,
+      "why": "NCERT: the foreign investment limit in banks was raised to around 74 per cent."
+    },
+    {
+      "id": "c3m10",
+      "reelId": "tax-reforms-gst",
+      "q": "Why, according to NCERT, have direct tax rates been reduced continuously since 1991?",
+      "options": [
+        "High rates were an important reason for tax evasion",
+        "The IMF loan conditions required income tax to be abolished",
+        "Indirect taxes were raised steeply to make up for the loss",
+        "Direct taxes were moved from the Centre to the states"
+      ],
+      "answer": 0,
+      "why": "NCERT: it was felt that high rates of income tax were an important reason for tax evasion; moderate rates encourage savings and voluntary disclosure of income."
+    },
+    {
+      "id": "c3m11",
+      "reelId": "concept-devaluation",
+      "q": "If the rupee is devalued against the dollar, which of these follows?",
+      "options": [
+        "More rupees are needed to buy one dollar, so Indian exports become cheaper abroad",
+        "Fewer rupees are needed to buy one dollar, so imports become cheaper in India",
+        "More rupees are needed to buy one dollar, so imports become cheaper in India",
+        "Fewer rupees are needed to buy one dollar, so Indian exports become cheaper abroad"
+      ],
+      "answer": 0,
+      "why": "Devaluation lowers the rupee's value: a dollar costs more rupees, so Indian goods get cheaper for foreign buyers and imports get dearer. NCERT says the 1991 devaluation increased the inflow of foreign exchange."
+    },
+    {
+      "id": "c3m12",
+      "reelId": "trade-reforms",
+      "q": "Quantitative restrictions on imports of manufactured consumer goods and agricultural products were fully removed from:",
+      "options": [
+        "April 2001",
+        "July 1991",
+        "January 1995",
+        "April 2016"
+      ],
+      "answer": 0,
+      "why": "NCERT: quantitative restrictions on imports of manufactured consumer goods and agricultural products were fully removed from April 2001."
+    },
+    {
+      "id": "c3m13",
+      "reelId": "trade-reforms",
+      "q": "Match the trade barrier with its type:\nA. A 20 per cent duty on imported cars\nB. A ceiling of 1,000 tonnes on imported sugar\n1. Tariff\n2. Quantitative restriction (non-tariff barrier)",
+      "options": [
+        "A-1, B-2",
+        "A-2, B-1",
+        "A-1, B-1",
+        "A-2, B-2"
+      ],
+      "answer": 0,
+      "why": "A tariff is a tax on imports, so it raises their price. A quota fixes the quantity that may come in; it is a non-tariff barrier."
+    },
+    {
+      "id": "c3m14",
+      "reelId": "privatisation-disinvestment",
+      "q": "According to NCERT, privatisation means shedding the ownership or management of a government-owned enterprise. In what two ways is this done?",
+      "options": [
+        "By the government withdrawing from ownership and management, or by outright sale",
+        "By converting public sector enterprises into cooperatives, or by closing them down",
+        "By handing enterprises to state governments, or by listing them abroad",
+        "By nationalising private banks, or by merging public sector enterprises"
+      ],
+      "answer": 0,
+      "why": "NCERT: government companies are converted into private companies in two ways: withdrawal of the government from ownership and management, and outright sale of public sector companies."
+    },
+    {
+      "id": "c3m15",
+      "reelId": "navratnas",
+      "q": "Match the public sector enterprise with the status NCERT gives as its example:\nA. Indian Oil Corporation\nB. Mahanagar Telephone Nigam Limited (MTNL)\nC. Airports Authority of India\n1. Maharatna\n2. Navratna\n3. Miniratna",
+      "options": [
+        "A-1, B-2, C-3",
+        "A-2, B-1, C-3",
+        "A-1, B-3, C-2",
+        "A-3, B-2, C-1"
+      ],
+      "answer": 0,
+      "why": "NCERT's examples: Maharatnas — Indian Oil Corporation, Steel Authority of India; Navratnas — Hindustan Aeronautics, MTNL; Miniratnas — BSNL, Airports Authority of India."
+    },
+    {
+      "id": "c3m16",
+      "reelId": "wto-gatt",
+      "q": "Arrange in chronological order:\n1. The WTO is founded as the successor to GATT\n2. GATT is established with 23 countries\n3. India announces the New Economic Policy after its balance of payments crisis",
+      "options": [
+        "2, 3, 1",
+        "3, 2, 1",
+        "2, 1, 3",
+        "1, 2, 3"
+      ],
+      "answer": 0,
+      "why": "GATT 1948, the New Economic Policy 1991, the WTO 1995."
+    },
+    {
+      "id": "c3m17",
+      "reelId": "growth-scorecard",
+      "q": "According to NCERT's Table 3.1, GDP growth in the reform period has been driven mainly by which sector?",
+      "options": [
+        "Services",
+        "Agriculture",
+        "Industry",
+        "Mining"
+      ],
+      "answer": 0,
+      "why": "NCERT: agricultural growth declined and industry fluctuated, while services grew; GDP growth is mainly driven by the growth in the service sector."
+    },
+    {
+      "id": "c3m18",
+      "reelId": "reform-gains",
+      "q": "Consider the following statements, based on NCERT:\n1. Foreign investment (FDI and FII) rose from about US$100 million in 1990-91 to US$23 billion in 2022-23.\n2. Foreign exchange reserves rose from about US$6 billion in 1990-91 to about US$646 billion in 2023-24.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "why": "Both are NCERT's figures."
+    },
+    {
+      "id": "c3m19",
+      "reelId": "agriculture-after-reforms",
+      "q": "Which of the following is NOT a reason NCERT gives for agriculture being hurt by the reforms?",
+      "options": [
+        "Land ceiling laws were brought back in every state",
+        "Public investment in agricultural infrastructure fell",
+        "Partial removal of the fertiliser subsidy raised production costs",
+        "Lower import duties exposed farmers to international competition"
+      ],
+      "answer": 0,
+      "why": "NCERT names falling public investment, the partial removal of fertiliser subsidy, lower import duties, low minimum support prices and the shift to export cash crops. Land ceilings are not mentioned."
+    },
+    {
+      "id": "c3m20",
+      "reelId": "disinvestment-fiscal",
+      "q": "Consider the following statements about disinvestment, based on NCERT:\n1. Critics say the money raised was used mainly to develop public sector enterprises and social infrastructure.\n2. The 1991-92 target was ₹2,500 crore.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "1 only",
+        "2 only",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 1,
+      "why": "The target was ₹2,500 crore. Critics say the proceeds were used to offset the shortage of government revenue rather than to develop PSEs or social infrastructure, and that PSE assets were undervalued."
+    }
+  ],
+  "descriptive": [
+    {
+      "id": "c3d1",
+      "source": "Exercise 1",
+      "words": 150,
+      "reelIds": [
+        "turning-point-1991",
+        "how-crisis-built",
+        "crisis-and-imf"
+      ],
+      "q": "Why were reforms introduced in India?",
+      "keyPoints": [
+        "1991 crisis in the balance of payments: the government could not repay its borrowings from abroad",
+        "Foreign exchange reserves fell to a level not sufficient to import petroleum and other essentials for even a fortnight",
+        "Prices of essential goods rose sharply",
+        "Rooted in inefficient management in the 1980s: spending exceeded revenue, borrowing became unsustainable, imports grew without matching exports",
+        "India took a $7 billion loan from the World Bank (IBRD) and IMF, which asked it to liberalise, open up to the private sector and remove trade restrictions",
+        "Reforms (the New Economic Policy) aimed at a more competitive environment and removing barriers to the entry and growth of firms"
+      ]
+    },
+    {
+      "id": "c3d2",
+      "source": "Exercise 2",
+      "words": 120,
+      "reelIds": [
+        "wto-gatt"
+      ],
+      "q": "Why is it necessary to become a member of the WTO?",
+      "keyPoints": [
+        "The WTO sets up a rule-based trading regime in which countries cannot place arbitrary restrictions on trade",
+        "Members get better access to world markets as tariff and non-tariff barriers are removed",
+        "It aims to enlarge production and trade of services and make optimum use of world resources, while protecting the environment",
+        "Membership gives a voice in shaping trade rules; India uses it to advocate the interests of developing countries",
+        "(Optional) Staying out would leave a country facing others' barriers without a say"
+      ]
+    },
+    {
+      "id": "c3d3",
+      "source": "Exercise 3",
+      "words": 120,
+      "reelIds": [
+        "financial-sector"
+      ],
+      "q": "Why did the RBI have to change its role from controller to facilitator of the financial sector in India?",
+      "keyPoints": [
+        "Before 1991 the RBI decided how much money banks kept, interest rates and the nature of lending, which left little room for banks' own decisions",
+        "Reforms aimed to let the financial sector make decisions on many matters without consulting the RBI",
+        "Freer, competitive banks (private and foreign banks entered) could serve a growing economy better and more efficiently",
+        "Foreign capital and FIIs were invited in, which needed a market-friendly framework",
+        "The RBI still retains certain managerial aspects to safeguard account holders and the nation"
+      ]
+    },
+    {
+      "id": "c3d4",
+      "source": "Exercise 4",
+      "words": 100,
+      "reelIds": [
+        "financial-sector"
+      ],
+      "q": "How is the RBI controlling the commercial banks?",
+      "keyPoints": [
+        "The RBI decides the amount of money banks keep with themselves (reserve requirements)",
+        "It fixes or influences interest rates",
+        "It decides the nature of lending to various sectors",
+        "After reforms banks need not seek RBI approval for many decisions (e.g. opening branches if they qualify), but managerial aspects stay with the RBI"
+      ]
+    },
+    {
+      "id": "c3d5",
+      "source": "Exercise 5",
+      "words": 80,
+      "reelIds": [
+        "concept-devaluation"
+      ],
+      "q": "What do you understand by devaluation of rupee?",
+      "keyPoints": [
+        "Devaluation is a deliberate reduction in the value of the rupee against foreign currencies",
+        "After it, more rupees are needed to buy one unit of foreign currency (e.g. a dollar)",
+        "Indian exports become cheaper abroad and imports dearer, so exports rise and imports fall",
+        "In 1991 the rupee was devalued to resolve the balance of payments crisis; it increased the inflow of foreign exchange"
+      ]
+    },
+    {
+      "id": "c3d6",
+      "source": "Exercise 6(i)",
+      "words": 80,
+      "reelIds": [
+        "privatisation-disinvestment"
+      ],
+      "q": "Distinguish between strategic sale and minority sale.",
+      "keyPoints": [
+        "Strategic sale: the government sells a large stake (usually a majority) along with management control to a private buyer",
+        "Minority sale: the government sells a small part of its shares (less than half) to the public or institutions and keeps ownership and control",
+        "In a strategic sale the enterprise becomes private; in a minority sale it stays a public sector enterprise",
+        "(Optional) Example: Air India's sale to the Tata group (strategic); selling a few per cent of shares in a PSU on the stock market (minority)"
+      ]
+    },
+    {
+      "id": "c3d7",
+      "source": "Exercise 6(ii)",
+      "words": 80,
+      "reelIds": [
+        "wto-gatt"
+      ],
+      "q": "Distinguish between bilateral and multilateral trade.",
+      "keyPoints": [
+        "Bilateral trade: trade between two countries under terms they agree with each other",
+        "Multilateral trade: trade among many countries under common rules, such as those of the WTO",
+        "Bilateral agreements give preferences only to the partner; multilateral rules apply equally to all members",
+        "(Optional) The WTO covers both bilateral and multilateral trade"
+      ]
+    },
+    {
+      "id": "c3d8",
+      "source": "Exercise 6(iii)",
+      "words": 80,
+      "reelIds": [
+        "trade-reforms",
+        "industry-after-reforms"
+      ],
+      "q": "Distinguish between tariff and non-tariff barriers.",
+      "keyPoints": [
+        "Tariff barrier: a tax (duty) on imports that makes them dearer",
+        "Non-tariff barrier: any restriction other than a tax, such as a quota (quantitative restriction), licences or standards",
+        "Tariffs work through price; non-tariff barriers often limit quantity directly",
+        "(Optional) NCERT's example of a non-tariff barrier: the USA's quota on textile imports from India and China"
+      ]
+    },
+    {
+      "id": "c3d9",
+      "source": "Exercise 7",
+      "words": 80,
+      "reelIds": [
+        "trade-reforms"
+      ],
+      "q": "Why are tariffs imposed?",
+      "keyPoints": [
+        "To make imported goods more expensive and so discourage their use",
+        "To protect domestic industries from foreign competition",
+        "To raise revenue for the government (customs duty)",
+        "(Optional) To save foreign exchange; NCERT notes that very high tariffs reduced efficiency, so they were cut after 1991"
+      ]
+    },
+    {
+      "id": "c3d10",
+      "source": "Exercise 8",
+      "words": 60,
+      "reelIds": [
+        "trade-reforms"
+      ],
+      "q": "What is the meaning of quantitative restrictions?",
+      "keyPoints": [
+        "Quantitative restrictions (quotas) fix the maximum quantity of a good that can be imported (or exported)",
+        "They are non-tariff barriers: they limit quantity directly rather than through price",
+        "India dismantled them after 1991; those on manufactured consumer goods and agricultural products were fully removed from April 2001"
+      ]
+    },
+    {
+      "id": "c3d11",
+      "source": "Exercise 9",
+      "words": 150,
+      "reelIds": [
+        "privatisation-disinvestment",
+        "navratnas",
+        "disinvestment-fiscal"
+      ],
+      "q": "Those public sector undertakings which are making profits should be privatised. Do you agree with this view? Why?",
+      "keyPoints": [
+        "Takes a clear position (either view is acceptable if argued)",
+        "Case for: privatisation can improve financial discipline and modernisation, bring private capital and managerial skill, and give impetus to FDI",
+        "Case against: profitable PSUs earn revenue for the government and serve strategic and social goals; many were set up in the 1950s-60s for self-reliance",
+        "Critics say PSE assets were undervalued in disinvestment and the proceeds were used to offset revenue shortage rather than develop PSEs or social infrastructure",
+        "Granting autonomy (Navratna, Maharatna status) improved PSU performance without selling them; the government decided to retain them and let them expand globally"
+      ]
+    },
+    {
+      "id": "c3d12",
+      "source": "Exercise 10",
+      "words": 150,
+      "reelIds": [
+        "globalisation-outsourcing"
+      ],
+      "q": "Do you think outsourcing is good for India? Why are developed countries opposing it?",
+      "keyPoints": [
+        "Outsourcing: a company hires regular services from outside sources, mostly other countries, that were earlier provided internally",
+        "Good for India: creates jobs (BPOs, call centres, accounting, banking services, film editing, teaching etc.), brings foreign exchange and builds skills",
+        "(Optional) Limits: benefits go mostly to skilled urban workers; the work can be low-end and insecure",
+        "Developed countries oppose it because jobs and income move from their workers to low-wage countries like India, raising unemployment at home"
+      ]
+    },
+    {
+      "id": "c3d13",
+      "source": "Exercise 11",
+      "words": 100,
+      "reelIds": [
+        "globalisation-outsourcing"
+      ],
+      "q": "India has certain advantages which make it a favourite outsourcing destination. What are these advantages?",
+      "keyPoints": [
+        "Low wage rates",
+        "Availability of skilled manpower",
+        "Growth of information technology and communications that lets services be delivered from far away",
+        "(Optional) A large English-speaking workforce and time-zone differences that allow round-the-clock service"
+      ]
+    },
+    {
+      "id": "c3d14",
+      "source": "Exercise 12",
+      "words": 120,
+      "reelIds": [
+        "navratnas"
+      ],
+      "q": "Do you think the Navratna policy of the government helps in improving the performance of public sector undertakings in India? How?",
+      "keyPoints": [
+        "Navratna (and Maharatna, Miniratna) status gives PSUs greater financial, managerial and operational autonomy",
+        "With freedom to take decisions and invest, they can compete efficiently and expand, including globally",
+        "NCERT says the status resulted in better performance of these companies",
+        "(Optional) Critics' point: some saw disinvestment of these companies as partial privatisation; the government later decided to retain them"
+      ]
+    },
+    {
+      "id": "c3d15",
+      "source": "Exercise 13",
+      "words": 120,
+      "reelIds": [
+        "growth-scorecard",
+        "verdict-lpg"
+      ],
+      "q": "What are the major factors responsible for the high growth of the service sector?",
+      "keyPoints": [
+        "Liberalisation and globalisation opened services such as telecom, banking and finance to private and foreign firms",
+        "Growth of information technology and outsourcing (BPOs, call centres, software) brought foreign demand",
+        "Availability of cheap, skilled manpower",
+        "Growth in services such as telecommunication, IT, finance, entertainment, travel and hospitality, real estate and trade",
+        "Inflow of foreign investment"
+      ]
+    },
+    {
+      "id": "c3d16",
+      "source": "Exercise 14",
+      "words": 150,
+      "reelIds": [
+        "agriculture-after-reforms"
+      ],
+      "q": "Agriculture sector appears to be adversely affected by the reform process. Why?",
+      "keyPoints": [
+        "Public investment in agricultural infrastructure (irrigation, power, roads, market linkages, research and extension) fell",
+        "Partial removal of the fertiliser subsidy raised production costs, hurting small and marginal farmers",
+        "Lower import duties, low minimum support prices and the lifting of quantitative restrictions exposed farmers to international competition",
+        "Shift from food crops to export-oriented cash crops put pressure on food grain prices",
+        "(Optional) NCERT's example: Mahadeva, a groundnut farmer in drought-prone Anantpur hit by cheap imported edible oils"
+      ]
+    },
+    {
+      "id": "c3d17",
+      "source": "Exercise 15",
+      "words": 120,
+      "reelIds": [
+        "industry-after-reforms"
+      ],
+      "q": "Why has the industrial sector performed poorly in the reform period?",
+      "keyPoints": [
+        "Demand for domestic goods fell because cheaper imports replaced them",
+        "Investment in infrastructure, including power supply, remained inadequate",
+        "Developing countries had to open up, but India lacks access to developed countries' markets because of their non-tariff barriers",
+        "Example: India removed quotas on textile exports but the USA kept its quota on textile imports from India and China"
+      ]
+    },
+    {
+      "id": "c3d18",
+      "source": "Exercise 16",
+      "words": 200,
+      "reelIds": [
+        "reform-gains",
+        "disinvestment-fiscal",
+        "verdict-lpg"
+      ],
+      "q": "Discuss economic reforms in India in the light of social justice and welfare.",
+      "keyPoints": [
+        "Gains: higher growth, a big rise in foreign investment and foreign exchange reserves, rising exports, prices kept under control",
+        "Reform-led growth has not generated sufficient employment",
+        "Agriculture suffered (less public investment, lower subsidies, international competition), hurting small farmers",
+        "Limits on public expenditure, especially on social sectors, and falling tax and customs revenue cut welfare spending",
+        "Growth concentrated in services rather than agriculture and industry; disparities widened",
+        "Siricilla: ending subsidised power led to a crisis among powerloom workers and 50 suicides",
+        "Balanced conclusion: reforms brought opportunities but need to be combined with welfare for the poor"
+      ]
+    }
+  ]
+}

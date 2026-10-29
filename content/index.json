@@ -17,6 +17,14 @@
       "status": "reviewed",
       "audio": "audio/eco11-ch02/manifest.json",
       "practice": "practice/eco11-ch02.json"
+    },
+    {
+      "id": "eco11-ch03",
+      "file": "eco11-ch03.json",
+      "title": "Liberalisation, Privatisation and Globalisation: An Appraisal",
+      "subject": "Economics · Class 11",
+      "status": "draft",
+      "practice": "practice/eco11-ch03.json"
     }
   ]
 }

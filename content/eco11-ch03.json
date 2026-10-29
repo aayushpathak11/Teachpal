@@ -1,0 +1,2134 @@
+{
+  "id": "eco11-ch03",
+  "subject": "Economics · Class 11 · Indian Economic Development",
+  "chapter": 3,
+  "title": "Liberalisation, Privatisation and Globalisation: an Appraisal",
+  "source": "NCERT Class 11, Indian Economic Development, Chapter 3 (Reprint 2026-27)",
+  "exam": "RBI Grade B",
+  "reels": [
+    {
+      "id": "turning-point-1991",
+      "title": "1991: the turning point",
+      "emoji": "🔄",
+      "section": "3.1",
+      "factIds": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "scenes": [
+        {
+          "kind": "quote",
+          "text": "There is a consensus in the world today that economic development is not all and the GDP is not necessarily a measure of progress of a society.",
+          "by": "K.R. Narayanan, Former President of India",
+          "say": "The chapter opens with former President K R Narayanan: There is a consensus in the world today that economic development is not all and the GDP is not necessarily a measure of progress of a society. Keep that in mind as we judge the 1991 reforms."
+        },
+        {
+          "kind": "compare",
+          "heading": "Was 1950–1990 a success? Two views",
+          "left": {
+            "title": "Critics",
+            "items": [
+              "Rules and laws meant to control the economy",
+              "Ended up hampering growth and development"
+            ]
+          },
+          "right": {
+            "title": "Supporters",
+            "items": [
+              "Growth in savings",
+              "A diversified industrial sector",
+              "Expanding farm output and food security"
+            ]
+          },
+          "say": "Since independence, India ran a mixed economy. Some scholars argue that its many rules and laws, meant to control and regulate the economy, ended up hampering growth. Others say India, starting from near stagnation, grew its savings, built a diversified industrial sector and expanded farm output enough to ensure food security."
+        },
+        {
+          "kind": "points",
+          "heading": "1991: the crisis",
+          "items": [
+            {
+              "icon": "💸",
+              "text": "Couldn't repay borrowings from abroad (external debt)"
+            },
+            {
+              "icon": "⛽",
+              "text": "Foreign exchange reserves not enough for even a fortnight of imports"
+            },
+            {
+              "icon": "📈",
+              "text": "Rising prices of essential goods"
+            }
+          ],
+          "say": "Then, in 1991, India hit an economic crisis over its external debt. The government couldn't repay what it had borrowed from abroad. Foreign exchange reserves, which India keeps to import petroleum and other important items, dropped so low they wouldn't last even a fortnight. And prices of essential goods were rising. This pushed the government into a new set of policies."
+        },
+        {
+          "kind": "flow",
+          "heading": "This chapter",
+          "steps": [
+            "Background of the crisis",
+            "The reforms: liberalisation, privatisation, globalisation",
+            "Their impact on each sector"
+          ],
+          "say": "So this chapter covers three things: the background of the crisis, the reforms the government adopted, known as liberalisation, privatisation and globalisation, and their impact on different sectors of the economy."
+        }
+      ],
+      "beyond": "The reforms were launched in July 1991 by Prime Minister P.V. Narasimha Rao's government, with Manmohan Singh as Finance Minister.",
+      "examAngle": "Exercise 1 (why were reforms introduced?) starts here: the 1991 crisis in external debt, forex reserves and prices. 'LPG' is a staple of RBI Grade B ESI.",
+      "quiz": {
+        "q": "In 1991, India's foreign exchange reserves had fallen to a level that was:",
+        "options": [
+          "Not sufficient for even a fortnight of imports",
+          "Enough for about one year of imports",
+          "Enough for about six months of imports",
+          "Higher than ever before in India's history"
+        ],
+        "answer": 0,
+        "why": "NCERT: foreign exchange reserves dropped to levels that were not sufficient for even a fortnight."
+      },
+      "cards": [
+        {
+          "q": "What three problems made up India's 1991 crisis (NCERT)?",
+          "a": "Inability to repay borrowings from abroad, forex reserves too low for even a fortnight of imports, and rising prices of essential goods."
+        },
+        {
+          "q": "Who said GDP is 'not necessarily a measure of progress of a society'?",
+          "a": "K.R. Narayanan, former President of India (the chapter's opening quote)."
+        }
+      ]
+    },
+    {
+      "id": "concept-bop-forex",
+      "title": "Concept: balance of payments & forex reserves",
+      "emoji": "🏦",
+      "section": "3.1, 3.2",
+      "factIds": [
+        "F3",
+        "F4"
+      ],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "Why India needs dollars",
+          "items": [
+            {
+              "icon": "⛽",
+              "text": "Imports like petroleum are paid for in dollars"
+            },
+            {
+              "icon": "📦",
+              "text": "We earn those dollars from our exports"
+            },
+            {
+              "icon": "🏦",
+              "text": "Foreign exchange reserves: the stock of foreign currency kept for imports"
+            }
+          ],
+          "say": "Start with a simple fact from NCERT. When India imports goods like petroleum, it pays in dollars, and it earns those dollars from its exports. The foreign currency the country keeps aside, mainly to pay for imports like petroleum, is its foreign exchange reserves."
+        },
+        {
+          "kind": "points",
+          "heading": "Balance of payments, defined",
+          "extra": true,
+          "items": [
+            {
+              "icon": "📒",
+              "text": "A record of all transactions between a country and the rest of the world in a period"
+            },
+            {
+              "icon": "➕",
+              "text": "Money coming in: exports, remittances, foreign investment, loans"
+            },
+            {
+              "icon": "➖",
+              "text": "Money going out: imports, interest, loan repayments"
+            }
+          ],
+          "say": "NCERT uses the term balance of payments without defining it, so here's the standard definition, beyond the book. The balance of payments, or B o P, is a record of all money transactions between a country and the rest of the world in a period. Money coming in: exports, remittances, foreign investment and loans. Money going out: imports, interest and loan repayments."
+        },
+        {
+          "kind": "compare",
+          "heading": "Think of a household",
+          "extra": true,
+          "left": {
+            "title": "A family",
+            "items": [
+              "Salary coming in",
+              "Bills and EMIs going out",
+              "Savings account as a cushion"
+            ]
+          },
+          "right": {
+            "title": "A country",
+            "items": [
+              "Exports and inflows",
+              "Imports and debt payments",
+              "Forex reserves as a cushion"
+            ]
+          },
+          "say": "An analogy. A family has salary coming in and bills and loan payments going out, with a savings account as a cushion. A country has exports and inflows coming in, imports and debt payments going out, and forex reserves as its cushion. When outflows keep beating inflows, the cushion drains. That's a balance of payments crisis."
+        },
+        {
+          "kind": "hook",
+          "emoji": "🚨",
+          "big": "1991: the cushion was almost empty.",
+          "sub": "A balance of payments crisis",
+          "say": "That is exactly what happened in 1991. Outflows had exceeded inflows for years, and the reserves cushion was nearly empty. NCERT's Unit introduction puts it plainly: a crisis in the balance of payments led to the economic reforms."
+        }
+      ],
+      "beyond": "The balance of payments has two main parts. The current account covers trade in goods and services, plus income and transfers. The capital account covers investment and loans. RBI publishes India's BoP data every quarter.",
+      "examAngle": "Balance of payments is core RBI Grade B material (Phase 1 GA and Phase 2 ESI/Finance). Be able to explain it in one line and link it to 1991.",
+      "quiz": {
+        "q": "According to NCERT, India pays for imports like petroleum mainly with:",
+        "options": [
+          "Dollars earned from its exports",
+          "Rupees printed by the RBI for trade",
+          "Gold borrowed from the World Bank",
+          "Taxes collected from importers"
+        ],
+        "answer": 0,
+        "why": "NCERT: when we import goods like petroleum, we pay in dollars, which we earn from our exports."
+      },
+      "cards": [
+        {
+          "q": "What are foreign exchange reserves, and what does India keep them for?",
+          "a": "The stock of foreign currency a country holds; India keeps them mainly to import petroleum and other important items."
+        },
+        {
+          "q": "Define balance of payments (standard definition, beyond NCERT).",
+          "a": "A record of all transactions between a country and the rest of the world in a period: inflows (exports, investment, loans) and outflows (imports, interest, repayments)."
+        },
+        {
+          "q": "What kind of crisis triggered the 1991 reforms?",
+          "a": "A balance of payments crisis: foreign exchange reserves had nearly run out."
+        }
+      ]
+    },
+    {
+      "id": "concept-deficit",
+      "title": "Concept: the government's deficit",
+      "emoji": "🧾",
+      "section": "3.2",
+      "factIds": [
+        "F4"
+      ],
+      "scenes": [
+        {
+          "kind": "flow",
+          "heading": "How the government is funded",
+          "steps": [
+            "Income: taxes and public sector enterprises",
+            "Expenditure: policies and administration",
+            "Spending more than income = a deficit",
+            "The deficit is covered by borrowing"
+          ],
+          "say": "To run its policies and administration, NCERT says, the government raises money from sources like taxation and running public sector enterprises. When its expenditure is more than its income, the gap is called a deficit, and the government borrows to cover it."
+        },
+        {
+          "kind": "points",
+          "heading": "Who the government borrows from",
+          "items": [
+            {
+              "icon": "🏦",
+              "text": "Banks"
+            },
+            {
+              "icon": "👥",
+              "text": "People within the country"
+            },
+            {
+              "icon": "🌍",
+              "text": "International financial institutions"
+            }
+          ],
+          "say": "It borrows from banks, from people within the country, and from international financial institutions. Borrowing isn't wrong in itself. The trouble starts when it keeps growing faster than the government's ability to repay."
+        },
+        {
+          "kind": "points",
+          "heading": "Fiscal deficit",
+          "extra": true,
+          "items": [
+            {
+              "icon": "➖",
+              "text": "Total expenditure minus total receipts, not counting borrowing"
+            },
+            {
+              "icon": "📏",
+              "text": "Usually quoted as a percentage of GDP"
+            },
+            {
+              "icon": "💳",
+              "text": "Like a household that keeps funding its bills on credit"
+            }
+          ],
+          "say": "Beyond the book, the key measure is the fiscal deficit: the government's total expenditure minus its total receipts, not counting borrowings. In other words, how much it must borrow in a year. It's usually quoted as a percentage of G D P. Think of a household that keeps paying its bills on a credit card: fine for a while, dangerous if it never stops."
+        }
+      ],
+      "beyond": "India's FRBM Act (Fiscal Responsibility and Budget Management Act, 2003) set rules to bring the fiscal deficit down. The Union Budget states each year's fiscal deficit target.",
+      "examAngle": "Fiscal deficit is one of the most-asked RBI Grade B terms. Know the definition, and link the 1980s deficits to the 1991 crisis.",
+      "quiz": {
+        "q": "According to NCERT, when the government's expenditure is more than its income, it:",
+        "options": [
+          "Borrows to finance the deficit",
+          "Must close down public enterprises",
+          "Stops all development spending",
+          "Asks the RBI to fix interest rates"
+        ],
+        "answer": 0,
+        "why": "NCERT: when expenditure is more than income, the government borrows to finance the deficit from banks, people and international financial institutions."
+      },
+      "cards": [
+        {
+          "q": "What are the government's two income sources named by NCERT?",
+          "a": "Taxation and running public sector enterprises."
+        },
+        {
+          "q": "From whom does the government borrow to finance a deficit (NCERT)?",
+          "a": "Banks, people within the country, and international financial institutions."
+        },
+        {
+          "q": "Define fiscal deficit (beyond NCERT).",
+          "a": "Total government expenditure minus total receipts excluding borrowings, i.e. what it must borrow in a year."
+        }
+      ]
+    },
+    {
+      "id": "how-crisis-built",
+      "title": "How the crisis built up in the 1980s",
+      "emoji": "🧱",
+      "section": "3.2",
+      "factIds": [
+        "F5"
+      ],
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "🧱",
+          "big": "The crisis was built over a decade.",
+          "sub": "Inefficient management of the economy in the 1980s",
+          "say": "NCERT traces the origin of the financial crisis to the inefficient management of the Indian economy in the 1980s. It didn't happen overnight. Let's see how it built up, brick by brick."
+        },
+        {
+          "kind": "points",
+          "heading": "Spending without matching revenue",
+          "items": [
+            {
+              "icon": "🎯",
+              "text": "Spent beyond revenue to fight unemployment, poverty and population growth"
+            },
+            {
+              "icon": "🛡️",
+              "text": "Big shares went to areas with no immediate returns: social sector, defence"
+            },
+            {
+              "icon": "🏭",
+              "text": "Public sector undertakings didn't earn enough"
+            },
+            {
+              "icon": "🧾",
+              "text": "Not enough raised from taxation"
+            }
+          ],
+          "say": "Even though revenues were very low, development policies needed the government to overshoot its revenue to tackle unemployment, poverty and population growth. That spending didn't generate extra revenue. Large shares went to areas without immediate returns, like the social sector and defence. Income from public sector undertakings wasn't high, and the government couldn't raise enough through taxation."
+        },
+        {
+          "kind": "points",
+          "heading": "And on the foreign side",
+          "items": [
+            {
+              "icon": "🛍️",
+              "text": "Borrowed foreign exchange was spent on consumption"
+            },
+            {
+              "icon": "🚫",
+              "text": "No attempt to cut 'profligate' (wasteful) spending"
+            },
+            {
+              "icon": "📦",
+              "text": "Too little attention to boosting exports"
+            }
+          ],
+          "say": "At times, foreign exchange borrowed from other countries and international institutions was spent on meeting consumption needs, not on things that would earn it back. There was no attempt to reduce such profligate, meaning wasteful, spending, and not enough attention to boosting exports to pay for the growing imports."
+        }
+      ],
+      "beyond": "Economists often describe the 1980s as growth fuelled by borrowing, with both a large fiscal deficit and a large current account deficit. They call these the 'twin deficits'.",
+      "examAngle": "Exercise 1 asks why reforms were introduced. List these causes before the 1991 trigger: overspending without revenue, low PSU income, forex used for consumption, and neglect of exports.",
+      "quiz": {
+        "q": "According to NCERT, how was borrowed foreign exchange sometimes used in the 1980s?",
+        "options": [
+          "To meet consumption needs",
+          "To build new export industries",
+          "To repay all past foreign loans",
+          "To build up gold reserves"
+        ],
+        "answer": 0,
+        "why": "NCERT: at times, foreign exchange borrowed from other countries and international financial institutions was spent on meeting consumption needs."
+      },
+      "cards": [
+        {
+          "q": "What does NCERT say was the origin of the 1991 financial crisis?",
+          "a": "Inefficient management of the Indian economy in the 1980s."
+        },
+        {
+          "q": "Name four 1980s mistakes that led to the crisis (NCERT).",
+          "a": "Spending beyond revenue, big spending without immediate returns (social sector, defence), low PSU income, borrowed forex used for consumption; no curb on wasteful spending or push for exports."
+        }
+      ]
+    },
+    {
+      "id": "crisis-and-imf",
+      "title": "Two weeks of reserves: the 1991 crisis",
+      "emoji": "⏳",
+      "section": "3.2",
+      "factIds": [
+        "F6",
+        "F7"
+      ],
+      "scenes": [
+        {
+          "kind": "flow",
+          "heading": "The late 1980s spiral",
+          "steps": [
+            "Expenditure far exceeds revenue",
+            "Borrowing becomes unsustainable",
+            "Prices of essential goods rise; imports outrun exports",
+            "Reserves cover barely two weeks of imports"
+          ],
+          "say": "In the late 1980s, government expenditure exceeded revenue by such large margins that borrowing to cover it became unsustainable. Prices of many essential goods rose sharply. Imports grew very fast without matching exports. Reserves fell to a level not enough to finance imports for more than two weeks."
+        },
+        {
+          "kind": "points",
+          "heading": "No one would lend",
+          "items": [
+            {
+              "icon": "💵",
+              "text": "Not enough foreign exchange even to pay interest to international lenders"
+            },
+            {
+              "icon": "🚪",
+              "text": "No country or international funder willing to lend to India"
+            }
+          ],
+          "say": "There wasn't even enough foreign exchange to pay the interest owed to international lenders. And no country or international funder was willing to lend to India."
+        },
+        {
+          "kind": "flow",
+          "heading": "The rescue",
+          "steps": [
+            "India approaches the World Bank (IBRD) and the IMF",
+            "Receives $7 billion as a loan",
+            "Conditions: liberalise and open up",
+            "India agrees: New Economic Policy (NEP)"
+          ],
+          "say": "India approached the International Bank for Reconstruction and Development, popularly called the World Bank, and the International Monetary Fund, the I M F. It received 7 billion dollars as a loan. In return, they expected India to liberalise and open up the economy. India agreed, and announced the New Economic Policy, or N E P."
+        },
+        {
+          "kind": "points",
+          "heading": "The conditionalities",
+          "items": [
+            {
+              "icon": "🔓",
+              "text": "Remove restrictions on the private sector"
+            },
+            {
+              "icon": "📉",
+              "text": "Reduce the role of the government in many areas"
+            },
+            {
+              "icon": "🌐",
+              "text": "Remove trade restrictions between India and other countries"
+            }
+          ],
+          "say": "The conditions were: remove restrictions on the private sector, reduce the role of the government in many areas, and remove trade restrictions between India and other countries."
+        }
+      ],
+      "beyond": "To raise emergency loans in 1991, India pledged part of its gold reserves abroad, a moment often cited as the low point of the crisis.",
+      "examAngle": "NCERT's own wording is useful in exams: reserves 'not sufficient for even a fortnight' (3.1) and 'not adequate to finance imports for more than two weeks' (3.2). They mean the same thing. Remember the $7 billion loan, and that the World Bank's formal name is the IBRD.",
+      "quiz": {
+        "q": "How much did India receive as a loan from the World Bank and IMF in 1991, according to NCERT?",
+        "options": [
+          "$7 billion",
+          "$70 billion",
+          "$700 million",
+          "$17 billion"
+        ],
+        "answer": 0,
+        "why": "NCERT: India approached the IBRD (World Bank) and the IMF and received $7 billion as loan to manage the crisis."
+      },
+      "cards": [
+        {
+          "q": "What is the formal name of the World Bank (as given by NCERT)?",
+          "a": "The International Bank for Reconstruction and Development (IBRD)."
+        },
+        {
+          "q": "What conditions came with the 1991 World Bank and IMF loan?",
+          "a": "Liberalise and open up: remove restrictions on the private sector, reduce the government's role, remove trade restrictions."
+        },
+        {
+          "q": "What loan did India get in 1991 and what policy followed?",
+          "a": "$7 billion from the World Bank and IMF; India agreed to their conditions and announced the New Economic Policy (NEP)."
+        }
+      ]
+    },
+    {
+      "id": "nep-two-kinds",
+      "title": "The NEP: stabilisation vs structural reform",
+      "emoji": "🧰",
+      "section": "3.2",
+      "factIds": [
+        "F8"
+      ],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "The thrust of the NEP",
+          "items": [
+            {
+              "icon": "🏁",
+              "text": "A more competitive environment in the economy"
+            },
+            {
+              "icon": "🚪",
+              "text": "Remove barriers to entry and growth of firms"
+            }
+          ],
+          "say": "The New Economic Policy was a wide-ranging set of reforms. Its thrust, NCERT says, was creating a more competitive environment in the economy, and removing the barriers to entry and growth of firms."
+        },
+        {
+          "kind": "compare",
+          "heading": "Two kinds of measures",
+          "left": {
+            "title": "Stabilisation (short-term)",
+            "items": [
+              "Correct weaknesses in the balance of payments",
+              "Bring inflation under control",
+              "Keep enough forex; keep prices in check"
+            ]
+          },
+          "right": {
+            "title": "Structural reform (long-term)",
+            "items": [
+              "Improve the economy's efficiency",
+              "Raise international competitiveness",
+              "Remove rigidities across sectors"
+            ]
+          },
+          "say": "The policies fall into two groups. Stabilisation measures are short-term: they correct weaknesses in the balance of payments and bring inflation under control. Simply put, keep enough foreign exchange reserves and keep rising prices in check. Structural reforms are long-term: they improve the economy's efficiency and international competitiveness by removing rigidities in various sectors."
+        },
+        {
+          "kind": "points",
+          "heading": "Inflation, in one line",
+          "extra": true,
+          "items": [
+            {
+              "icon": "📈",
+              "text": "Inflation: a sustained rise in the general level of prices"
+            },
+            {
+              "icon": "🛒",
+              "text": "Same ₹100 buys less than before"
+            }
+          ],
+          "say": "Beyond the book, a quick definition. Inflation is a sustained rise in the general level of prices, so the same hundred rupees buys less than before. Controlling it is one of the RBI's main jobs."
+        },
+        {
+          "kind": "flow",
+          "heading": "Three heads of reform",
+          "steps": [
+            "Liberalisation",
+            "Privatisation",
+            "Globalisation"
+          ],
+          "say": "The government's policies fall under three heads: liberalisation, privatisation and globalisation, often called L P G. The next reels take them one by one."
+        }
+      ],
+      "beyond": "India's inflation target, under the flexible inflation-targeting framework adopted in 2016, is 4% consumer price inflation, with a band of 2 to 6%. RBI's Monetary Policy Committee works to it.",
+      "examAngle": "A classic short answer: distinguish stabilisation (short-term: BoP, inflation) from structural reform (long-term: efficiency, competitiveness). Then name the three heads: L, P, G.",
+      "quiz": {
+        "q": "According to NCERT, stabilisation measures under the NEP were:",
+        "options": [
+          "Short-term, to correct the balance of payments and control inflation",
+          "Long-term, to improve efficiency and international competitiveness",
+          "Short-term, to sell public sector companies to private firms",
+          "Long-term, to raise taxes on all imported goods"
+        ],
+        "answer": 0,
+        "why": "Stabilisation: short-term (BoP weaknesses, inflation). Structural reforms: long-term (efficiency, competitiveness, removing rigidities)."
+      },
+      "cards": [
+        {
+          "q": "Stabilisation vs structural reform measures?",
+          "a": "Stabilisation: short-term, correct balance of payments weaknesses and control inflation. Structural: long-term, improve efficiency and international competitiveness by removing rigidities."
+        },
+        {
+          "q": "What was the thrust of the New Economic Policy (NCERT)?",
+          "a": "A more competitive environment and removing barriers to entry and growth of firms."
+        },
+        {
+          "q": "Define inflation (beyond NCERT).",
+          "a": "A sustained rise in the general level of prices."
+        }
+      ]
+    },
+    {
+      "id": "industrial-deregulation",
+      "title": "Liberalisation 1: freeing industry",
+      "emoji": "🏭",
+      "section": "3.3",
+      "factIds": [
+        "F9",
+        "F10",
+        "F11"
+      ],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "Liberalisation: ending the controls",
+          "items": [
+            {
+              "icon": "🌱",
+              "text": "A few steps in the 1980s: licensing, export-import policy, technology, fiscal policy, foreign investment"
+            },
+            {
+              "icon": "💥",
+              "text": "1991 reforms: far more comprehensive"
+            }
+          ],
+          "say": "Liberalisation means ending the restrictions that had become hindrances to growth, and opening up sectors of the economy. A few liberalisation measures came in the 1980s, in industrial licensing, export-import policy, technology upgradation, fiscal policy and foreign investment. But the 1991 reforms were far more comprehensive."
+        },
+        {
+          "kind": "points",
+          "heading": "The old controls on industry",
+          "items": [
+            {
+              "icon": "📝",
+              "text": "Licence needed to start a firm, close it, or decide output"
+            },
+            {
+              "icon": "🚫",
+              "text": "Private sector barred from many industries"
+            },
+            {
+              "icon": "🏠",
+              "text": "Some goods only by small-scale industries"
+            },
+            {
+              "icon": "🏷️",
+              "text": "Controls on price fixation and distribution"
+            }
+          ],
+          "say": "Before 1991, industry was controlled in four ways. Industrial licensing: every entrepreneur needed government permission to start a firm, close it, or decide how much to produce. The private sector wasn't allowed in many industries. Some goods could only be made by small-scale industries. And there were controls on fixing prices and distributing selected products."
+        },
+        {
+          "kind": "points",
+          "heading": "After 1991",
+          "items": [
+            {
+              "icon": "🔓",
+              "text": "Licensing abolished except alcohol, cigarettes, hazardous chemicals, industrial explosives, electronics, aerospace, drugs and pharmaceuticals"
+            },
+            {
+              "icon": "⚛️",
+              "text": "Reserved for the public sector: part of atomic energy, some core railway activities"
+            },
+            {
+              "icon": "🏠",
+              "text": "Many small-scale goods dereserved"
+            },
+            {
+              "icon": "🏷️",
+              "text": "Markets now set prices in most industries"
+            }
+          ],
+          "say": "The reforms removed many of these. Industrial licensing was abolished for almost all products except alcohol, cigarettes, hazardous chemicals, industrial explosives, electronics, aerospace, and drugs and pharmaceuticals. The only industries still reserved for the public sector are a part of atomic energy generation and some core activities in railway transport. Many goods made by small-scale industries were dereserved. And in most industries, the market now sets prices."
+        }
+      ],
+      "beyond": "Compare with Chapter 2: IPR 1956 reserved 17 industries for the state (Schedule A). After 1991, almost all of that list was opened up.",
+      "examAngle": "MCQ favourites: which industries still need a licence, and the only two areas still reserved for the public sector (part of atomic energy generation, and core railway transport activities).",
+      "quiz": {
+        "q": "According to NCERT, which industries are still reserved for the public sector after the reforms?",
+        "options": [
+          "A part of atomic energy generation and some core railway activities",
+          "Banking, insurance, telecommunications and the whole of civil aviation",
+          "Iron and steel, cement, fertilisers and heavy electrical machinery",
+          "Coal mining, oil refining, ports and all defence equipment production"
+        ],
+        "answer": 0,
+        "why": "NCERT: the only industries now reserved for the public sector are a part of atomic energy generation and some core activities in railway transport."
+      },
+      "cards": [
+        {
+          "q": "For which products is an industrial licence still required (NCERT)?",
+          "a": "Alcohol, cigarettes, hazardous chemicals, industrial explosives, electronics, aerospace, and drugs and pharmaceuticals."
+        },
+        {
+          "q": "What were the four kinds of industrial controls before 1991?",
+          "a": "Industrial licensing (start, close, output), private sector barred from many industries, some goods only by SSIs, controls on prices and distribution."
+        },
+        {
+          "q": "What does 'dereserved' mean in the reforms?",
+          "a": "Goods once reserved for small-scale industries were opened to other producers."
+        }
+      ]
+    },
+    {
+      "id": "financial-sector",
+      "title": "Liberalisation 2: the financial sector and RBI",
+      "emoji": "🏦",
+      "section": "3.3",
+      "factIds": [
+        "F12",
+        "F13"
+      ],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "What is the financial sector?",
+          "items": [
+            {
+              "icon": "🏦",
+              "text": "Commercial banks and investment banks"
+            },
+            {
+              "icon": "📊",
+              "text": "Stock exchange operations"
+            },
+            {
+              "icon": "💱",
+              "text": "The foreign exchange market"
+            }
+          ],
+          "say": "The financial sector includes financial institutions such as commercial banks and investment banks, stock exchange operations, and the foreign exchange market. In India it's regulated by the Reserve Bank of India, the R B I."
+        },
+        {
+          "kind": "points",
+          "heading": "How RBI controls banks (NCERT)",
+          "items": [
+            {
+              "icon": "💰",
+              "text": "Decides how much money banks can keep with themselves"
+            },
+            {
+              "icon": "📉",
+              "text": "Fixes interest rates"
+            },
+            {
+              "icon": "🧭",
+              "text": "Decides the nature of lending to various sectors"
+            }
+          ],
+          "say": "All banks follow R B I's norms and regulations. The R B I decides the amount of money banks can keep with themselves, fixes interest rates, and decides the nature of lending to various sectors. A major aim of the reforms was to change R B I's role from regulator to facilitator, letting the financial sector decide many matters without consulting the R B I."
+        },
+        {
+          "kind": "points",
+          "heading": "What changed",
+          "items": [
+            {
+              "icon": "🏛️",
+              "text": "Private sector banks, Indian and foreign, allowed"
+            },
+            {
+              "icon": "7️⃣",
+              "text": "Foreign investment limit in banks raised to about 74%"
+            },
+            {
+              "icon": "🏢",
+              "text": "Qualifying banks can open branches without RBI approval"
+            },
+            {
+              "icon": "🔒",
+              "text": "Managerial aspects stay with RBI to protect account-holders"
+            },
+            {
+              "icon": "🌍",
+              "text": "Foreign Institutional Investors (FIIs) can invest in Indian markets"
+            }
+          ],
+          "say": "The reforms allowed private sector banks, Indian and foreign. Foreign investment in banks was raised to around 74 percent. Banks meeting certain conditions can set up new branches without R B I approval. But R B I kept certain managerial aspects to protect account-holders and the nation. And Foreign Institutional Investors, or F I Is, such as merchant bankers, mutual funds and pension funds, can now invest in Indian financial markets."
+        }
+      ],
+      "beyond": "The RBI controls how much money banks keep through tools like the Cash Reserve Ratio (CRR, a share of deposits kept with RBI) and the Statutory Liquidity Ratio (SLR, a share kept in safe assets like government securities). Both are core RBI Grade B topics.",
+      "examAngle": "Exercise 3 (why RBI changed from controller to facilitator) and Exercise 4 (how RBI controls commercial banks: cash banks keep, interest rates, nature of lending).",
+      "quiz": {
+        "q": "A major aim of financial sector reforms, according to NCERT, was to change RBI's role from:",
+        "options": [
+          "Regulator to facilitator",
+          "Facilitator to regulator",
+          "Lender to borrower",
+          "Banker to tax collector"
+        ],
+        "answer": 0,
+        "why": "NCERT: one of the major aims of financial sector reforms is to reduce the role of RBI from regulator to facilitator of the financial sector."
+      },
+      "cards": [
+        {
+          "q": "How does the RBI control commercial banks (NCERT, Exercise 4)?",
+          "a": "It decides how much money banks can keep with themselves, fixes interest rates, and decides the nature of lending to various sectors."
+        },
+        {
+          "q": "What was the foreign investment limit in banks raised to?",
+          "a": "Around 74 per cent."
+        },
+        {
+          "q": "Give three examples of Foreign Institutional Investors (NCERT).",
+          "a": "Merchant bankers, mutual funds and pension funds."
+        }
+      ]
+    },
+    {
+      "id": "tax-reforms-gst",
+      "title": "Liberalisation 3: tax reforms and GST",
+      "emoji": "🧾",
+      "section": "3.3",
+      "factIds": [
+        "F14",
+        "F15"
+      ],
+      "scenes": [
+        {
+          "kind": "compare",
+          "heading": "Fiscal policy: two kinds of tax",
+          "left": {
+            "title": "Direct taxes",
+            "items": [
+              "On incomes of individuals",
+              "On profits of businesses",
+              "e.g. income tax, corporation tax"
+            ]
+          },
+          "right": {
+            "title": "Indirect taxes",
+            "items": [
+              "Levied on goods and services",
+              "e.g. GST, customs duty"
+            ]
+          },
+          "say": "The government's taxation and public expenditure policies together are called its fiscal policy. There are two types of taxes. Direct taxes are on the incomes of individuals and the profits of businesses, like income tax and corporation tax. Indirect taxes are levied on goods and services."
+        },
+        {
+          "kind": "flow",
+          "heading": "Why lower income tax?",
+          "steps": [
+            "High income tax rates caused tax evasion",
+            "Rates cut continuously since 1991",
+            "Moderate rates encourage savings and honest disclosure",
+            "Corporation tax also gradually reduced"
+          ],
+          "say": "Since 1991, taxes on individual incomes have been cut continuously, because high income tax rates were seen as a major reason for tax evasion. It's now widely accepted that moderate rates encourage savings and voluntary disclosure of income. The once very high corporation tax was also gradually reduced."
+        },
+        {
+          "kind": "points",
+          "heading": "GST: one nation, one tax",
+          "items": [
+            {
+              "icon": "📜",
+              "text": "2016: Constitution amended so the Union and states can levy GST"
+            },
+            {
+              "icon": "💰",
+              "text": "Expected to raise revenue and reduce tax evasion"
+            },
+            {
+              "icon": "🇮🇳",
+              "text": "'One nation, one tax and one market'"
+            },
+            {
+              "icon": "✂️",
+              "text": "Simpler procedures, lower rates"
+            }
+          ],
+          "say": "Indirect taxes were reformed to create a common national market. In 2016, the Constitution was amended so that both the Union government and the states could levy the Goods and Services Tax, or G S T. It's expected to raise revenue, reduce tax evasion and create one nation, one tax and one market. Procedures were also simplified, and rates substantially lowered, to encourage compliance."
+        }
+      ],
+      "beyond": "The 2016 amendment was the 101st Constitutional Amendment, and GST came into force on 1 July 2017. It replaced many central and state indirect taxes.",
+      "examAngle": "Know NCERT's definition of fiscal policy, the direct vs indirect difference, why rates were cut (evasion, savings, disclosure), and GST's slogan.",
+      "quiz": {
+        "q": "According to NCERT, why were income tax rates cut after 1991?",
+        "options": [
+          "High rates were a major reason for tax evasion",
+          "The IMF banned income tax in India",
+          "Income tax was replaced entirely by GST",
+          "Indirect taxes had been abolished"
+        ],
+        "answer": 0,
+        "why": "NCERT: it was felt that high rates of income tax were an important reason for tax evasion; moderate rates encourage savings and voluntary disclosure."
+      },
+      "cards": [
+        {
+          "q": "Define fiscal policy (NCERT).",
+          "a": "The government's taxation and public expenditure policies, taken together."
+        },
+        {
+          "q": "Direct vs indirect taxes?",
+          "a": "Direct: on incomes of individuals and profits of businesses (income tax, corporation tax). Indirect: levied on goods and services (e.g. GST)."
+        },
+        {
+          "q": "What did the 2016 constitutional amendment enable, and what is GST's slogan?",
+          "a": "The Union and states could levy the Goods and Services Tax; 'one nation, one tax and one market'."
+        }
+      ]
+    },
+    {
+      "id": "concept-devaluation",
+      "title": "Concept: devaluation and exchange rates",
+      "emoji": "💱",
+      "section": "3.3",
+      "factIds": [
+        "F16"
+      ],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "Foreign exchange reform, 1991",
+          "items": [
+            {
+              "icon": "⬇️",
+              "text": "The rupee was devalued against foreign currencies"
+            },
+            {
+              "icon": "💵",
+              "text": "This increased the inflow of foreign exchange"
+            },
+            {
+              "icon": "📈",
+              "text": "Rupee value freed from government control"
+            }
+          ],
+          "say": "The first important external reform was in the foreign exchange market. In 1991, as an immediate step to resolve the balance of payments crisis, the rupee was devalued against foreign currencies. This increased the inflow of foreign exchange, and set the tone for freeing the rupee's value from government control."
+        },
+        {
+          "kind": "compare",
+          "heading": "Devaluation, with an example",
+          "extra": true,
+          "left": {
+            "title": "Before",
+            "items": [
+              "$1 = ₹20",
+              "A $10 Indian shirt costs ₹200 to make",
+              "Imported $100 machine costs ₹2,000"
+            ]
+          },
+          "right": {
+            "title": "After devaluation",
+            "items": [
+              "$1 = ₹25",
+              "Same ₹200 shirt now sells for $8: cheaper abroad",
+              "Same machine now costs ₹2,500: dearer at home"
+            ]
+          },
+          "say": "Beyond the book, here's how devaluation works, with round numbers. Devaluation means the government lowers the rupee's official value, so each dollar buys more rupees. Say a dollar goes from 20 to 25 rupees. An Indian shirt costing 200 rupees now sells abroad for 8 dollars instead of 10, so exports get cheaper and sell more. But an imported 100-dollar machine now costs 2,500 rupees instead of 2,000, so imports get dearer. More exports and fewer imports bring in foreign exchange."
+        },
+        {
+          "kind": "points",
+          "heading": "Today: the market decides",
+          "items": [
+            {
+              "icon": "⚖️",
+              "text": "Exchange rates set by the demand and supply of foreign exchange"
+            },
+            {
+              "icon": "🏦",
+              "text": "More often than not, markets, not the government"
+            }
+          ],
+          "say": "Now, more often than not, NCERT says, markets determine exchange rates, based on the demand and supply of foreign exchange. If more people want dollars than are on offer, the dollar gets dearer in rupees, and the other way round."
+        }
+      ],
+      "beyond": "In July 1991, the rupee was devalued in two steps, about 18 to 19 percent in total. Devaluation means a government lowering a fixed rate. Depreciation means a market-driven fall, which is how the rupee usually moves today.",
+      "examAngle": "Exercise 5: what is devaluation of the rupee? Define it, say why India did it in 1991 (BoP crisis; boost forex inflow), and note that markets now set the rate.",
+      "quiz": {
+        "q": "According to NCERT, devaluing the rupee in 1991 led to:",
+        "options": [
+          "An increase in the inflow of foreign exchange",
+          "A sharp fall in India's exports",
+          "Fixed exchange rates set by the RBI",
+          "Cheaper imports of petroleum"
+        ],
+        "answer": 0,
+        "why": "NCERT: the rupee was devalued against foreign currencies, which led to an increase in the inflow of foreign exchange."
+      },
+      "cards": [
+        {
+          "q": "What is devaluation of the rupee?",
+          "a": "Lowering the rupee's official value against foreign currencies, so a dollar buys more rupees: exports get cheaper abroad, imports dearer."
+        },
+        {
+          "q": "Why did India devalue the rupee in 1991 (NCERT)?",
+          "a": "As an immediate measure to resolve the balance of payments crisis; it increased the inflow of foreign exchange."
+        },
+        {
+          "q": "How are exchange rates determined now (NCERT)?",
+          "a": "More often than not, by the market, based on the demand and supply of foreign exchange."
+        }
+      ]
+    },
+    {
+      "id": "trade-reforms",
+      "title": "Liberalisation 4: opening trade",
+      "emoji": "🚢",
+      "section": "3.3",
+      "factIds": [
+        "F17"
+      ],
+      "scenes": [
+        {
+          "kind": "compare",
+          "heading": "Two old shields, defined",
+          "left": {
+            "title": "Tariff",
+            "items": [
+              "A tax on imported goods",
+              "Makes imports dearer"
+            ]
+          },
+          "right": {
+            "title": "Quantitative restriction (QR)",
+            "items": [
+              "A limit on how much can be imported or exported",
+              "e.g. a quota"
+            ]
+          },
+          "say": "To protect domestic industry, India kept a regime of quantitative restrictions on imports, with tight control over imports and very high tariffs. A tariff is a tax on imported goods. A quantitative restriction, or Q R, is a limit on the quantity that can be imported or exported, like a quota. NCERT says these policies reduced efficiency and competitiveness, slowing manufacturing growth."
+        },
+        {
+          "kind": "points",
+          "heading": "The trade reforms aimed at",
+          "items": [
+            {
+              "icon": "1️⃣",
+              "text": "Dismantling quantitative restrictions on imports and exports"
+            },
+            {
+              "icon": "2️⃣",
+              "text": "Reducing tariff rates"
+            },
+            {
+              "icon": "3️⃣",
+              "text": "Removing licensing procedures for imports"
+            }
+          ],
+          "say": "Trade and investment reforms aimed to raise the international competitiveness of industry, bring in foreign investment and technology, and promote efficiency. They had three parts: dismantling quantitative restrictions on imports and exports, reducing tariff rates, and removing licensing procedures for imports."
+        },
+        {
+          "kind": "timeline",
+          "heading": "Key results",
+          "events": [
+            {
+              "year": "1990s",
+              "text": "Import licensing abolished, except hazardous and environmentally sensitive industries"
+            },
+            {
+              "year": "2001",
+              "text": "From April: QRs on manufactured consumer goods and farm products fully removed"
+            },
+            {
+              "year": "Since",
+              "text": "Export duties removed, to help Indian goods compete abroad"
+            }
+          ],
+          "say": "Import licensing was abolished, except for hazardous and environmentally sensitive industries. From April 2001, quantitative restrictions on imports of manufactured consumer goods and agricultural products were fully removed. And export duties were removed, to make Indian goods more competitive in international markets."
+        }
+      ],
+      "beyond": "Removing QRs by April 2001 was one of India's WTO commitments. Today India protects trade mainly through tariffs, with some anti-dumping duties.",
+      "examAngle": "Exercise 7 (why are tariffs imposed? To protect domestic industry by making imports dearer) and Exercise 8 (meaning of quantitative restrictions: limits on the quantity of imports or exports).",
+      "quiz": {
+        "q": "From when were quantitative restrictions on imports of manufactured consumer goods and agricultural products fully removed?",
+        "options": [
+          "April 2001",
+          "July 1991",
+          "January 1995",
+          "April 2016"
+        ],
+        "answer": 0,
+        "why": "NCERT: quantitative restrictions on imports of manufactured consumer goods and agricultural products were fully removed from April 2001."
+      },
+      "cards": [
+        {
+          "q": "What are quantitative restrictions (Exercise 8)?",
+          "a": "Limits on the quantity of goods that can be imported or exported (e.g. quotas)."
+        },
+        {
+          "q": "What were the three aims of the trade reforms (NCERT)?",
+          "a": "Dismantle quantitative restrictions on imports and exports, reduce tariff rates, remove licensing procedures for imports."
+        },
+        {
+          "q": "Why were export duties removed?",
+          "a": "To increase the competitive position of Indian goods in international markets."
+        }
+      ]
+    },
+    {
+      "id": "privatisation-disinvestment",
+      "title": "Privatisation and disinvestment",
+      "emoji": "🏷️",
+      "section": "3.4",
+      "factIds": [
+        "F18"
+      ],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "Privatisation: two routes",
+          "items": [
+            {
+              "icon": "↩️",
+              "text": "Government withdraws from ownership and management of public sector companies"
+            },
+            {
+              "icon": "🏷️",
+              "text": "Outright sale of public sector companies"
+            }
+          ],
+          "say": "Privatisation means shedding the ownership or management of a government-owned enterprise. NCERT gives two routes: the government withdraws from ownership and management of public sector companies, or it sells them outright."
+        },
+        {
+          "kind": "points",
+          "heading": "Disinvestment",
+          "items": [
+            {
+              "icon": "📄",
+              "text": "Selling part of the equity (shares) of public sector enterprises (PSEs) to the public"
+            },
+            {
+              "icon": "📏",
+              "text": "Aim: financial discipline and modernisation"
+            },
+            {
+              "icon": "🤝",
+              "text": "Use private capital and managerial skills"
+            },
+            {
+              "icon": "🌍",
+              "text": "Expected to attract foreign direct investment"
+            }
+          ],
+          "say": "Privatising public sector enterprises, or P S Es, by selling part of their equity, meaning shares, to the public is called disinvestment. The government's stated purpose was mainly to improve financial discipline and help modernisation, using private capital and managerial skills to improve the P S Us. It also hoped privatisation would give a strong push to foreign direct investment."
+        },
+        {
+          "kind": "compare",
+          "heading": "Strategic vs minority sale",
+          "extra": true,
+          "left": {
+            "title": "Strategic sale",
+            "items": [
+              "Sells a large stake",
+              "Management control passes to the buyer",
+              "e.g. Air India sold to the Tata group (2022)"
+            ]
+          },
+          "right": {
+            "title": "Minority sale",
+            "items": [
+              "Sells less than half the shares",
+              "Government keeps control"
+            ]
+          },
+          "say": "Exercise 6 asks you to distinguish a strategic sale from a minority sale, which NCERT doesn't explain, so this is beyond the book. In a strategic sale, the government sells a large stake and management control passes to the buyer. Air India, sold to the Tata group in 2022, is an example. In a minority sale, the government sells less than half the shares, often to the public, and keeps control."
+        }
+      ],
+      "beyond": "Disinvestment is handled by DIPAM, the Department of Investment and Public Asset Management in the Ministry of Finance. NCERT lists its website among the chapter's references.",
+      "examAngle": "Exercise 6(i), strategic vs minority sale, needs the beyond-the-book definitions. Also know NCERT's two routes to privatisation, and its definition of disinvestment.",
+      "quiz": {
+        "q": "According to NCERT, 'disinvestment' means:",
+        "options": [
+          "Selling part of the equity of public sector enterprises to the public",
+          "Government buying shares of loss-making private companies",
+          "Closing down every public sector enterprise",
+          "Stopping all foreign investment in Indian firms"
+        ],
+        "answer": 0,
+        "why": "NCERT: privatisation of PSEs by selling off part of their equity to the public is known as disinvestment."
+      },
+      "cards": [
+        {
+          "q": "What are the two routes to privatisation (NCERT)?",
+          "a": "Government withdrawal from ownership and management of public sector companies, or their outright sale."
+        },
+        {
+          "q": "Define disinvestment and its stated purpose.",
+          "a": "Selling part of PSEs' equity to the public; purpose: improve financial discipline and facilitate modernisation using private capital and management."
+        },
+        {
+          "q": "Strategic sale vs minority sale (beyond NCERT)?",
+          "a": "Strategic: a large stake with management control to the buyer (e.g. Air India to Tatas). Minority: under half the shares, government keeps control."
+        }
+      ]
+    },
+    {
+      "id": "navratnas",
+      "title": "Maharatnas, Navratnas, Miniratnas",
+      "emoji": "💎",
+      "section": "Box 3.1",
+      "factIds": [
+        "F19",
+        "F20"
+      ],
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "💎",
+          "big": "Nine jewels of a royal court, now public companies.",
+          "sub": "Box 3.1: Navratnas and public enterprise policies",
+          "say": "The name comes from the famous Navratnas, the nine jewels of King Vikramaditya's court: eminent people in art, literature and knowledge. Since the reforms, the government has given top public sector enterprises special jewel-like status."
+        },
+        {
+          "kind": "points",
+          "heading": "Why the status?",
+          "items": [
+            {
+              "icon": "⚙️",
+              "text": "Improve efficiency, infuse professionalism"
+            },
+            {
+              "icon": "🌍",
+              "text": "Compete better in a liberalised global market"
+            },
+            {
+              "icon": "🔑",
+              "text": "More financial, managerial and operational autonomy"
+            }
+          ],
+          "say": "To improve efficiency, bring in professionalism and help them compete in the liberalised global environment, the government declares certain public sector enterprises as maharatnas, navratnas and miniratnas. They get greater financial, managerial and operational autonomy in their decisions, so they can run efficiently and increase profits."
+        },
+        {
+          "kind": "points",
+          "heading": "NCERT's examples",
+          "items": [
+            {
+              "icon": "👑",
+              "text": "Maharatnas: Indian Oil Corporation, Steel Authority of India"
+            },
+            {
+              "icon": "💎",
+              "text": "Navratnas: Hindustan Aeronautics, Mahanagar Telephone Nigam"
+            },
+            {
+              "icon": "🔹",
+              "text": "Miniratnas: Bharat Sanchar Nigam, Airports Authority of India"
+            }
+          ],
+          "say": "NCERT's examples. Maharatnas: Indian Oil Corporation and Steel Authority of India. Navratnas: Hindustan Aeronautics and Mahanagar Telephone Nigam. Miniratnas: Bharat Sanchar Nigam and the Airports Authority of India."
+        },
+        {
+          "kind": "compare",
+          "heading": "The debate",
+          "left": {
+            "title": "Result",
+            "items": [
+              "Status improved these companies' performance",
+              "Many were set up in the 1950s–60s for self-reliance"
+            ]
+          },
+          "right": {
+            "title": "Criticism and update",
+            "items": [
+              "Scholars: partly privatised through disinvestment instead",
+              "Later: government chose to keep them public and let them grow globally"
+            ]
+          },
+          "say": "Many of these profitable companies were set up in the 1950s and 60s, when self-reliance mattered, to build infrastructure and provide jobs. Granting the status improved their performance. Scholars allege that instead of helping them grow, the government partly privatised them through disinvestment. More recently, it has decided to keep them in the public sector and let them expand in global markets."
+        }
+      ],
+      "beyond": "These statuses change over time. Hindustan Aeronautics, listed by NCERT as a Navratna, was upgraded to Maharatna in 2024. Use NCERT's list for NCERT questions, and current lists for current-affairs questions.",
+      "examAngle": "Exercise 12: does the navratna policy improve PSU performance? Yes, through autonomy and professionalism, but note the critics' point about disinvestment. Expect MCQs matching companies to their category.",
+      "quiz": {
+        "q": "Which pair is correctly matched as per NCERT's Box 3.1?",
+        "options": [
+          "Maharatna: Steel Authority of India",
+          "Miniratna: Indian Oil Corporation",
+          "Navratna: Airports Authority of India",
+          "Maharatna: Bharat Sanchar Nigam"
+        ],
+        "answer": 0,
+        "why": "NCERT: Maharatnas – IOC, SAIL; Navratnas – HAL, MTNL; Miniratnas – BSNL, Airports Authority of India."
+      },
+      "cards": [
+        {
+          "q": "What does Maharatna/Navratna/Miniratna status give a public sector enterprise?",
+          "a": "Greater financial, managerial and operational autonomy, to improve efficiency and compete globally."
+        },
+        {
+          "q": "NCERT's examples of Maharatnas, Navratnas and Miniratnas?",
+          "a": "Maharatnas: IOC, SAIL. Navratnas: HAL, MTNL. Miniratnas: BSNL, Airports Authority of India."
+        }
+      ]
+    },
+    {
+      "id": "globalisation-outsourcing",
+      "title": "Globalisation and outsourcing",
+      "emoji": "🌐",
+      "section": "3.5",
+      "factIds": [
+        "F21",
+        "F22"
+      ],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "Globalisation",
+          "items": [
+            {
+              "icon": "🌐",
+              "text": "Integration of the country's economy with the world economy"
+            },
+            {
+              "icon": "🕸️",
+              "text": "Networks across economic, social and geographical boundaries"
+            },
+            {
+              "icon": "🌍",
+              "text": "Events miles away affect India: a 'borderless world'"
+            }
+          ],
+          "say": "Globalisation is generally understood as integrating a country's economy with the world economy. But NCERT calls it a complex phenomenon: it creates networks and activities that cross economic, social and geographical boundaries, so that events miles away can influence what happens in India. It's turning the world into one whole, a borderless world."
+        },
+        {
+          "kind": "flow",
+          "heading": "Outsourcing",
+          "steps": [
+            "A company used to do a service in-house",
+            "Now it hires it from an outside provider",
+            "Often in another country",
+            "Fast communication and IT make it possible"
+          ],
+          "say": "Outsourcing is one important outcome. A company hires a regular service from an outside source, mostly from other countries, that was earlier provided internally, like legal advice, computer services, advertising or security. It has grown because of fast communication, especially information technology."
+        },
+        {
+          "kind": "points",
+          "heading": "What gets outsourced to India",
+          "items": [
+            {
+              "icon": "📞",
+              "text": "Voice-based business processes: BPOs and call centres"
+            },
+            {
+              "icon": "📚",
+              "text": "Record keeping, accountancy, banking services"
+            },
+            {
+              "icon": "🎬",
+              "text": "Music recording, film editing, book transcription"
+            },
+            {
+              "icon": "🩺",
+              "text": "Clinical advice, even teaching"
+            }
+          ],
+          "say": "Many services are outsourced to India: voice-based business processes, known as B P Os or call centres, record keeping, accountancy, banking services, music recording, film editing, book transcription, clinical advice, and even teaching. With the internet, text, voice and visual data can be sent across continents in real time."
+        },
+        {
+          "kind": "points",
+          "heading": "Why India?",
+          "items": [
+            {
+              "icon": "💲",
+              "text": "Low wage rates"
+            },
+            {
+              "icon": "🎓",
+              "text": "Available skilled manpower"
+            }
+          ],
+          "say": "Why India? NCERT gives two reasons: low wage rates and the availability of skilled manpower. So companies can get the work done at lower cost, with a reasonable degree of skill and accuracy. That has made India a destination for global outsourcing since the reforms."
+        }
+      ],
+      "beyond": "Developed countries often oppose outsourcing because it moves jobs away from their own workers. This is the second half of NCERT's Exercise 10.",
+      "examAngle": "Exercise 10 (is outsourcing good for India? Why do developed countries oppose it?) and Exercise 11 (India's advantages: low wages, skilled manpower).",
+      "quiz": {
+        "q": "According to NCERT, what made India a destination for global outsourcing?",
+        "options": [
+          "Low wage rates and available skilled manpower",
+          "High import tariffs and strict licensing",
+          "A ban on foreign companies in services",
+          "Free electricity for IT companies"
+        ],
+        "answer": 0,
+        "why": "NCERT: the low wage rates and availability of skilled manpower in India have made it a destination for global outsourcing."
+      },
+      "cards": [
+        {
+          "q": "Define outsourcing (NCERT).",
+          "a": "A company hiring regular service from external sources, mostly from other countries, which was previously provided internally."
+        },
+        {
+          "q": "Name five services outsourced to India.",
+          "a": "BPOs/call centres, record keeping, accountancy, banking services, music recording, film editing, book transcription, clinical advice, teaching."
+        },
+        {
+          "q": "What two advantages make India a favourite outsourcing destination (Exercise 11)?",
+          "a": "Low wage rates and availability of skilled manpower."
+        }
+      ]
+    },
+    {
+      "id": "concept-fdi-fii",
+      "title": "Concept: FDI vs FII, and India goes global",
+      "emoji": "🌍",
+      "section": "3.3, 3.6, Box 3.2",
+      "factIds": [
+        "F23"
+      ],
+      "scenes": [
+        {
+          "kind": "compare",
+          "heading": "Two kinds of foreign investment",
+          "extra": true,
+          "left": {
+            "title": "FDI: foreign direct investment",
+            "items": [
+              "Builds or buys into a business",
+              "Long-term, with a say in management",
+              "e.g. a foreign carmaker's factory in India"
+            ]
+          },
+          "right": {
+            "title": "FII: foreign institutional investment",
+            "items": [
+              "Buys shares and bonds in markets",
+              "Can move in and out quickly",
+              "e.g. a foreign pension fund buying Indian shares"
+            ]
+          },
+          "say": "NCERT names both kinds of foreign investment but doesn't define them, so here's the difference, beyond the book. Foreign direct investment, F D I, means building or buying into a business for the long term, with a say in management, like a foreign carmaker setting up a factory in India. Foreign institutional investment, F I I, means buying shares and bonds in financial markets. It can move in and out quickly, like a foreign pension fund buying Indian shares."
+        },
+        {
+          "kind": "points",
+          "heading": "Why the difference matters",
+          "extra": true,
+          "items": [
+            {
+              "icon": "🏗️",
+              "text": "FDI brings factories, jobs and technology, and stays"
+            },
+            {
+              "icon": "🌬️",
+              "text": "FII is 'hot money': quick to leave in a crisis"
+            }
+          ],
+          "say": "Why it matters: F D I brings factories, jobs and technology, and tends to stay. F I I money, sometimes called hot money, can leave quickly when there's trouble, which can shake the stock market and the rupee."
+        },
+        {
+          "kind": "points",
+          "heading": "Box 3.2: Indian companies go global",
+          "items": [
+            {
+              "icon": "🛢️",
+              "text": "ONGC Videsh: projects in 16 countries"
+            },
+            {
+              "icon": "🔩",
+              "text": "Tata Steel (founded 1907): operations in 26 countries, sells in 50"
+            },
+            {
+              "icon": "💻",
+              "text": "HCL Technologies: offices in 31 countries"
+            },
+            {
+              "icon": "💊",
+              "text": "Dr Reddy's: plants and research centres worldwide"
+            }
+          ],
+          "say": "Globalisation runs both ways. NCERT's Box 3.2 shows Indian companies expanding abroad. O N G C Videsh, a subsidiary of the public sector Oil and Natural Gas Corporation, has projects in 16 countries. Tata Steel, founded in 1907, operates in 26 countries and sells in 50, employing nearly 50,000 people abroad. H C L Technologies has offices in 31 countries. And Dr Reddy's grew from a small supplier into a company with plants and research centres around the world."
+        }
+      ],
+      "beyond": "Since 2014, India's regulator SEBI has used the term Foreign Portfolio Investor (FPI) in place of FII. A foreign stake of 10% or more in a company is generally counted as FDI, and smaller stakes as portfolio investment.",
+      "examAngle": "FDI vs FII is a frequent RBI Grade B question. Give long-term vs short-term, control vs no control, and an example of each.",
+      "quiz": {
+        "q": "A foreign company setting up its own manufacturing plant in India is an example of:",
+        "options": [
+          "Foreign direct investment (FDI)",
+          "Foreign institutional investment (FII)",
+          "A quantitative restriction",
+          "Disinvestment"
+        ],
+        "answer": 0,
+        "why": "Building or buying into a business for the long term, with management control, is FDI. FII is buying shares and bonds in financial markets."
+      },
+      "cards": [
+        {
+          "q": "FDI vs FII (beyond NCERT)?",
+          "a": "FDI: long-term investment in a business with a say in management (e.g. a factory). FII: buying shares and bonds in financial markets, can exit quickly."
+        },
+        {
+          "q": "Give two examples from NCERT's Box 3.2 of Indian companies abroad.",
+          "a": "ONGC Videsh (projects in 16 countries); Tata Steel (26 countries, sells in 50); HCL (offices in 31 countries); Dr Reddy's."
+        }
+      ]
+    },
+    {
+      "id": "wto-gatt",
+      "title": "The WTO and its critics",
+      "emoji": "🌐",
+      "section": "3.5",
+      "factIds": [
+        "F24",
+        "F25"
+      ],
+      "scenes": [
+        {
+          "kind": "timeline",
+          "heading": "From GATT to WTO",
+          "events": [
+            {
+              "year": "1948",
+              "text": "GATT (General Agreement on Tariffs and Trade) set up with 23 countries"
+            },
+            {
+              "year": "1995",
+              "text": "World Trade Organisation (WTO) founded as its successor"
+            }
+          ],
+          "say": "The General Agreement on Tariffs and Trade, or G A T T, was set up in 1948 with 23 countries, to administer multilateral trade agreements with equal opportunities for all countries. In 1995, the World Trade Organisation, the W T O, was founded as its successor."
+        },
+        {
+          "kind": "points",
+          "heading": "What the WTO aims for",
+          "items": [
+            {
+              "icon": "📏",
+              "text": "A rule-based trading regime: no arbitrary trade restrictions"
+            },
+            {
+              "icon": "📈",
+              "text": "Enlarge production and trade of services"
+            },
+            {
+              "icon": "🌍",
+              "text": "Optimum use of world resources; protect the environment"
+            },
+            {
+              "icon": "🚧",
+              "text": "Remove tariff and non-tariff barriers, for goods and services"
+            }
+          ],
+          "say": "The W T O aims for a rule-based trading regime, where nations can't place arbitrary restrictions on trade. It also aims to enlarge production and trade of services, ensure optimum use of world resources and protect the environment. Its agreements cover goods and services, and promote both bilateral and multilateral trade by removing tariff and non-tariff barriers."
+        },
+        {
+          "kind": "compare",
+          "heading": "Two pairs of terms",
+          "extra": true,
+          "left": {
+            "title": "Bilateral vs multilateral",
+            "items": [
+              "Bilateral: trade deal between two countries",
+              "Multilateral: among many countries at once"
+            ]
+          },
+          "right": {
+            "title": "Tariff vs non-tariff barrier",
+            "items": [
+              "Tariff: a tax on imports",
+              "Non-tariff: any other obstacle, e.g. quotas, strict standards"
+            ]
+          },
+          "say": "Exercise 6 asks you to distinguish these, so here are the definitions, beyond the book. Bilateral trade is between two countries; multilateral trade involves many countries at once. A tariff barrier is a tax on imports. A non-tariff barrier is any other obstacle, like quotas or very strict product standards."
+        },
+        {
+          "kind": "compare",
+          "heading": "India and the WTO",
+          "left": {
+            "title": "India's role",
+            "items": [
+              "Pushes for fair rules for developing countries",
+              "Removed QRs and cut tariffs as committed"
+            ]
+          },
+          "right": {
+            "title": "Critics ask",
+            "items": [
+              "Most trade is among developed nations",
+              "Rich countries attack poor countries' farm subsidies",
+              "Developing countries open up but get no access"
+            ]
+          },
+          "say": "As an important member, India has pushed for fair global rules and the interests of developing countries, and kept its commitments by removing quantitative restrictions and reducing tariffs. But some scholars question its value. Most international trade happens among developed nations. Developed countries complain about farm subsidies in developing countries, while developing countries feel cheated: forced to open their markets, without access to developed markets."
+        }
+      ],
+      "beyond": "The WTO is headquartered in Geneva, Switzerland. Its top decision-making body is the Ministerial Conference, which meets about every two years.",
+      "examAngle": "Exercise 2 (why join the WTO?), Exercise 6(ii) bilateral vs multilateral and 6(iii) tariff vs non-tariff barriers. Dates: GATT 1948 (23 countries), WTO 1995.",
+      "quiz": {
+        "q": "Which is correct about GATT and the WTO, according to NCERT?",
+        "options": [
+          "GATT was set up in 1948 with 23 countries; the WTO replaced it in 1995",
+          "The WTO was set up in 1948; GATT replaced it in 1995",
+          "GATT was set up in 1991 to give India its $7 billion loan",
+          "The WTO and GATT were both founded in 1995 by India"
+        ],
+        "answer": 0,
+        "why": "NCERT: GATT was established in 1948 with 23 countries; the WTO was founded in 1995 as its successor."
+      },
+      "cards": [
+        {
+          "q": "When were GATT and the WTO set up?",
+          "a": "GATT: 1948, with 23 countries. WTO: 1995, as GATT's successor."
+        },
+        {
+          "q": "What are the WTO's aims (NCERT)?",
+          "a": "A rule-based trading regime without arbitrary restrictions; enlarge production and trade of services; optimum use of world resources; protect the environment."
+        },
+        {
+          "q": "Bilateral vs multilateral trade; tariff vs non-tariff barrier?",
+          "a": "Bilateral: two countries; multilateral: many. Tariff: a tax on imports; non-tariff: other obstacles such as quotas or strict standards."
+        }
+      ]
+    },
+    {
+      "id": "growth-scorecard",
+      "title": "Growth after 1991: the scorecard",
+      "emoji": "📊",
+      "section": "3.6",
+      "factIds": [
+        "F26",
+        "F27",
+        "F28"
+      ],
+      "scenes": [
+        {
+          "kind": "stat",
+          "value": "5.6%",
+          "label": "GDP growth, 1980–91",
+          "compare": {
+            "value": "9.4%",
+            "label": "GDP growth, 2021–22"
+          },
+          "say": "Three decades on, how did the economy do? In economics, growth is measured by G D P. NCERT's Table 3.1 shows G D P growth rising from 5.6 percent in 1980 to 91, to 9.4 percent in 2021-22."
+        },
+        {
+          "kind": "bars",
+          "heading": "Average growth by sector, 1980–91 (%)",
+          "unit": "%",
+          "bars": [
+            {
+              "label": "Industry",
+              "value": 7.1,
+              "display": "7.1"
+            },
+            {
+              "label": "Services",
+              "value": 6.7,
+              "display": "6.7"
+            },
+            {
+              "label": "Agriculture",
+              "value": 3.6,
+              "display": "3.6"
+            }
+          ],
+          "say": "Before the reforms, from 1980 to 91, industry grew 7.1 percent a year, services 6.7 percent, and agriculture 3.6 percent."
+        },
+        {
+          "kind": "bars",
+          "heading": "Average growth by sector, 2007–12 (%)",
+          "unit": "%",
+          "bars": [
+            {
+              "label": "Services",
+              "value": 10,
+              "display": "10"
+            },
+            {
+              "label": "Industry",
+              "value": 7.4,
+              "display": "7.4"
+            },
+            {
+              "label": "Agriculture",
+              "value": 3.2,
+              "display": "3.2"
+            }
+          ],
+          "say": "By 2007 to 12, services led at 10 percent, industry grew 7.4 percent, and agriculture just 3.2 percent. NCERT's reading: agriculture's growth declined, industry fluctuated, and services rose, so G D P growth is mainly driven by the service sector. Services grew faster than overall G D P during 2007 to 2022, though 2012-13 saw a setback across sectors."
+        },
+        {
+          "kind": "points",
+          "heading": "GDP vs GVA",
+          "items": [
+            {
+              "icon": "📏",
+              "text": "The 2021-22 sector figures are GVA (gross value added)"
+            },
+            {
+              "icon": "🧮",
+              "text": "NCERT: GVA = GDP + subsidies on production − indirect taxes"
+            }
+          ],
+          "say": "One note on the table: its 2021-22 sector figures are gross value added, or G V A, not G D P. NCERT explains that G V A is estimated from G D P by adding subsidies on production and subtracting indirect taxes. So the two are close, but not the same."
+        }
+      ],
+      "beyond": "India switched to the GVA-based way of reporting sector growth in 2015, with 2011-12 as the base year.",
+      "examAngle": "Know the headline numbers (5.6% in 1980-91, 9.4% in 2021-22) and the trend: services drive growth. Exercise 13 asks why services grew fast; link it to IT, outsourcing and globalisation.",
+      "quiz": {
+        "q": "According to NCERT's Table 3.1, which sector drove India's GDP growth in the reform period?",
+        "options": [
+          "Services",
+          "Agriculture",
+          "Mining",
+          "Handicrafts"
+        ],
+        "answer": 0,
+        "why": "NCERT: agriculture's growth declined, industry fluctuated and services rose, indicating GDP growth is mainly driven by the service sector."
+      },
+      "cards": [
+        {
+          "q": "GDP growth before and after reforms (NCERT Table 3.1)?",
+          "a": "5.6% in 1980-91; 9.4% in 2021-22."
+        },
+        {
+          "q": "How does NCERT say GVA is estimated from GDP?",
+          "a": "By adding subsidies on production and subtracting indirect taxes."
+        },
+        {
+          "q": "What trend in sector growth does NCERT see after 1991?",
+          "a": "Agriculture's growth declined, industry fluctuated, services rose, so GDP growth is mainly driven by services."
+        }
+      ]
+    },
+    {
+      "id": "reform-gains",
+      "title": "The gains: investment, reserves, exports",
+      "emoji": "🏆",
+      "section": "3.6",
+      "factIds": [
+        "F29"
+      ],
+      "scenes": [
+        {
+          "kind": "stat",
+          "value": "$6 billion",
+          "label": "forex reserves, 1990-91",
+          "compare": {
+            "value": "$646 billion",
+            "label": "forex reserves, 2023-24"
+          },
+          "say": "Remember the reserves that couldn't last two weeks? NCERT says foreign exchange reserves rose from about 6 billion dollars in 1990-91 to about 646 billion dollars in 2023-24. India is now one of the largest holders of foreign exchange reserves in the world."
+        },
+        {
+          "kind": "stat",
+          "value": "$100 million",
+          "label": "foreign investment (FDI + FII), 1990-91",
+          "compare": {
+            "value": "$23 billion",
+            "label": "foreign investment, 2022-23"
+          },
+          "say": "Opening up led to a rapid rise in foreign investment. Foreign investment, which includes foreign direct investment and foreign institutional investment, rose from about 100 million dollars in 1990-91 to 23 billion dollars in 2022-23."
+        },
+        {
+          "kind": "points",
+          "heading": "India the exporter",
+          "items": [
+            {
+              "icon": "🚗",
+              "text": "Auto parts"
+            },
+            {
+              "icon": "💊",
+              "text": "Pharmaceutical goods"
+            },
+            {
+              "icon": "⚙️",
+              "text": "Engineering goods"
+            },
+            {
+              "icon": "💻",
+              "text": "IT software"
+            },
+            {
+              "icon": "🧵",
+              "text": "Textiles"
+            }
+          ],
+          "say": "Since 1991, India has become a successful exporter of auto parts, pharmaceutical goods, engineering goods, I T software and textiles. And NCERT adds that rising prices have also been kept under control."
+        }
+      ],
+      "beyond": "RBI publishes forex reserve figures every week in its Weekly Statistical Supplement. Reserves are made up of foreign currency assets, gold, SDRs and India's reserve position with the IMF.",
+      "examAngle": "Classic 'then vs now' numbers: forex reserves $6 billion to $646 billion; foreign investment $100 million to $23 billion. These are the reform's clearest successes.",
+      "quiz": {
+        "q": "According to NCERT, India's foreign exchange reserves rose from about $6 billion in 1990-91 to about:",
+        "options": [
+          "$646 billion in 2023-24",
+          "$64 billion in 2023-24",
+          "$23 billion in 2022-23",
+          "$6,460 billion in 2023-24"
+        ],
+        "answer": 0,
+        "why": "NCERT: from about US $6 billion in 1990-91 to about US $646 billion in 2023-24. ($23 billion is the foreign investment figure for 2022-23.)"
+      },
+      "cards": [
+        {
+          "q": "Forex reserves before and after reforms (NCERT)?",
+          "a": "About $6 billion in 1990-91 to about $646 billion in 2023-24."
+        },
+        {
+          "q": "Foreign investment (FDI + FII) before and after reforms (NCERT)?",
+          "a": "About $100 million in 1990-91 to $23 billion in 2022-23."
+        },
+        {
+          "q": "Name five exports India became successful in after 1991.",
+          "a": "Auto parts, pharmaceutical goods, engineering goods, IT software and textiles."
+        }
+      ]
+    },
+    {
+      "id": "agriculture-after-reforms",
+      "title": "Why farmers lost out",
+      "emoji": "🌾",
+      "section": "3.6",
+      "factIds": [
+        "F30",
+        "F31",
+        "F38"
+      ],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "The critique of reforms",
+          "items": [
+            {
+              "icon": "👷",
+              "text": "Employment"
+            },
+            {
+              "icon": "🌾",
+              "text": "Agriculture"
+            },
+            {
+              "icon": "🏭",
+              "text": "Industry"
+            },
+            {
+              "icon": "🛤️",
+              "text": "Infrastructure"
+            },
+            {
+              "icon": "🧾",
+              "text": "Fiscal management"
+            }
+          ],
+          "say": "The reforms have been widely criticised for failing to address basic problems in employment, agriculture, industry, infrastructure and fiscal management. Scholars point out that reform-led growth hasn't generated enough jobs. Let's start with agriculture, where NCERT says the reforms haven't benefited farmers and growth has been decelerating."
+        },
+        {
+          "kind": "points",
+          "heading": "What hurt agriculture",
+          "items": [
+            {
+              "icon": "🚜",
+              "text": "Public investment fell: irrigation, power, roads, market links, research"
+            },
+            {
+              "icon": "🧪",
+              "text": "Partial removal of fertiliser subsidy raised costs for small farmers"
+            },
+            {
+              "icon": "🌍",
+              "text": "Lower import duties, low minimum support prices (MSP) and no QRs: foreign competition"
+            },
+            {
+              "icon": "💰",
+              "text": "Shift to export cash crops pushed up food grain prices"
+            }
+          ],
+          "say": "Since 1991, public investment in farm infrastructure, like irrigation, power, roads, market linkages, and research and extension, has fallen. Partial removal of the fertiliser subsidy raised costs, hurting small and marginal farmers. Lower import duties, low minimum support prices, or M S P, and lifting quantitative restrictions exposed farmers to international competition. And export-oriented policies shifted farming from food grains to cash crops, putting pressure on food grain prices."
+        },
+        {
+          "kind": "flow",
+          "heading": "Mahadeva's story (NCERT)",
+          "steps": [
+            "Groundnut farmer in drought-prone Anantpur, Andhra Pradesh",
+            "No new irrigation; less research; crop disease",
+            "Lower subsidy raises his costs",
+            "Cheap imported edible oils flood the market",
+            "He can't sell at a price that covers his cost"
+          ],
+          "say": "NCERT tells the story of Mahadeva, a groundnut farmer in drought-prone Anantpur, Andhra Pradesh. After the reforms, the government didn't build major irrigation, and less research meant his crop disease went unsolved. Lower subsidies raised his costs. Then cheap imported edible oils flooded local markets after import restrictions were removed. Mahadeva couldn't sell his groundnut at a price that covered his cost."
+        }
+      ],
+      "beyond": "Minimum support price (MSP) is the price at which the government promises to buy certain crops from farmers. It is announced each season on the advice of the Commission for Agricultural Costs and Prices (CACP).",
+      "examAngle": "Exercise 14: why was agriculture adversely affected by reforms? List the four reasons: falling public investment, fertiliser subsidy cuts, import liberalisation with low MSP, and the shift to cash crops.",
+      "quiz": {
+        "q": "According to NCERT, which of these hurt Indian agriculture after the reforms?",
+        "options": [
+          "Fall in public investment in farm infrastructure",
+          "A big rise in fertiliser subsidies",
+          "Higher import duties on farm products",
+          "New quantitative restrictions on imports"
+        ],
+        "answer": 0,
+        "why": "NCERT: public investment in agricultural infrastructure fell; fertiliser subsidy was partially removed; import duties were reduced and QRs lifted."
+      },
+      "cards": [
+        {
+          "q": "Give four reasons agriculture suffered after the reforms (Exercise 14).",
+          "a": "Falling public investment in infrastructure; partial removal of fertiliser subsidy; lower import duties, low MSP and removal of QRs; shift to export cash crops pressuring food grain prices."
+        },
+        {
+          "q": "What does the Mahadeva case in NCERT show?",
+          "a": "A groundnut farmer in Anantpur lost out: no irrigation, less research, lower subsidy, and cheap imported edible oils meant he couldn't cover his costs."
+        }
+      ]
+    },
+    {
+      "id": "industry-after-reforms",
+      "title": "Industry's slowdown and non-tariff barriers",
+      "emoji": "🏭",
+      "section": "3.6",
+      "factIds": [
+        "F32"
+      ],
+      "scenes": [
+        {
+          "kind": "flow",
+          "heading": "Why industry slowed",
+          "steps": [
+            "Cheaper imports replace demand for Indian goods",
+            "Too little investment in infrastructure like power",
+            "Domestic makers face import competition",
+            "Industrial growth slows down"
+          ],
+          "say": "Industrial growth also slowed, NCERT says, because demand for industrial products fell. Cheaper imports replaced demand for domestic goods, so Indian manufacturers faced competition from imports. And infrastructure, including power supply, stayed inadequate for lack of investment."
+        },
+        {
+          "kind": "points",
+          "heading": "A one-way street?",
+          "items": [
+            {
+              "icon": "🚪",
+              "text": "Developing countries must open up to goods and capital from rich countries"
+            },
+            {
+              "icon": "🏚️",
+              "text": "Local industries and jobs suffer"
+            }
+          ],
+          "say": "In a globalised world, developing countries are compelled to open up to a greater flow of goods and capital from developed countries, making their industries vulnerable to imports. So globalisation is often seen as creating conditions that hurt local industries and jobs in developing countries."
+        },
+        {
+          "kind": "compare",
+          "heading": "Non-tariff barriers: NCERT's example",
+          "left": {
+            "title": "India",
+            "items": [
+              "Removed all quota restrictions on its textile and clothing exports"
+            ]
+          },
+          "right": {
+            "title": "USA",
+            "items": [
+              "Kept quotas on textile imports from India and China"
+            ]
+          },
+          "say": "And India still lacks access to developed countries' markets because of high non-tariff barriers. NCERT's example: although India removed all quota restrictions on exports of textiles and clothing, the U S A did not remove its quota restrictions on textile imports from India and China."
+        }
+      ],
+      "beyond": "Many non-tariff barriers today take the form of strict product standards. Examples are food safety and pesticide limits, and technical rules on electronics.",
+      "examAngle": "Exercise 15: why did industry perform poorly? Cheaper imports, inadequate infrastructure investment, and developed countries' non-tariff barriers (the USA's textile quota example).",
+      "quiz": {
+        "q": "What example does NCERT give of a non-tariff barrier faced by India?",
+        "options": [
+          "The USA keeping quotas on textile imports from India and China",
+          "India cutting its own export duties on cotton textiles and clothing",
+          "The WTO lowering its tariffs on Indian textiles and readymade garments",
+          "Britain putting a special tax on software exports coming from India"
+        ],
+        "answer": 0,
+        "why": "NCERT: although India removed quota restrictions on textile and clothing exports, the USA did not remove its quota restriction on textile imports from India and China."
+      },
+      "cards": [
+        {
+          "q": "Why did industrial growth slow after the reforms (NCERT)?",
+          "a": "Falling demand due to cheaper imports, inadequate infrastructure investment (e.g. power), and competition from imports."
+        },
+        {
+          "q": "NCERT's example of a non-tariff barrier?",
+          "a": "The USA kept quota restrictions on textile imports from India and China, even after India removed its textile quotas."
+        }
+      ]
+    },
+    {
+      "id": "disinvestment-fiscal",
+      "title": "Disinvestment and fiscal policy: the critique",
+      "emoji": "🧮",
+      "section": "3.6",
+      "factIds": [
+        "F33",
+        "F34"
+      ],
+      "scenes": [
+        {
+          "kind": "timeline",
+          "heading": "Disinvestment targets",
+          "events": [
+            {
+              "year": "1991-92",
+              "text": "Target ₹2,500 crore; NCERT: ₹3,040 crore mobilised, more than the target"
+            },
+            {
+              "year": "2022-23",
+              "text": "About ₹46,000 crore mobilised"
+            }
+          ],
+          "say": "Every year, the government sets a disinvestment target. In 1991-92, it aimed to raise 2,500 crore rupees through disinvestment, and NCERT says it mobilised 3,040 crore rupees, more than the target. In 2022-23, it raised about 46,000 crore rupees."
+        },
+        {
+          "kind": "points",
+          "heading": "The critics",
+          "items": [
+            {
+              "icon": "📉",
+              "text": "PSE assets undervalued and sold to the private sector"
+            },
+            {
+              "icon": "💸",
+              "text": "A substantial loss to the government"
+            },
+            {
+              "icon": "🕳️",
+              "text": "Proceeds used to fill revenue gaps, not to build PSEs or social infrastructure"
+            }
+          ],
+          "say": "Critics say the assets of public sector enterprises were undervalued and sold to the private sector, a substantial loss to the government. And the money raised was used to make up for shortfalls in government revenue, rather than to develop the enterprises or build social infrastructure."
+        },
+        {
+          "kind": "points",
+          "heading": "Reforms and fiscal policy",
+          "items": [
+            {
+              "icon": "✂️",
+              "text": "Limits on public spending, especially in social sectors"
+            },
+            {
+              "icon": "🧾",
+              "text": "Tax cuts didn't raise revenue as hoped"
+            },
+            {
+              "icon": "🚢",
+              "text": "Lower tariffs meant less customs revenue"
+            },
+            {
+              "icon": "🎁",
+              "text": "Tax incentives for foreign investors cut revenue further"
+            }
+          ],
+          "say": "Reforms also limited growth in public expenditure, especially in social sectors. Tax cuts meant to raise revenue and curb evasion didn't increase tax revenue. Lower tariffs reduced revenue from customs duties, and tax incentives to attract foreign investors reduced it further. NCERT says this hurt developmental and welfare spending."
+        }
+      ],
+      "beyond": "The disinvestment target is announced in each Union Budget. It has often been missed in recent years.",
+      "examAngle": "Exercise 9 (should profit-making PSUs be privatised?) and Exercise 16 (reforms and social justice). Use the critics' points here: undervaluation, proceeds used to fill revenue gaps, and squeezed welfare spending.",
+      "quiz": {
+        "q": "According to NCERT's critics, how were disinvestment proceeds mostly used?",
+        "options": [
+          "To offset the shortage of government revenue",
+          "To build new public sector enterprises",
+          "To expand social infrastructure across India",
+          "To raise subsidies for small farmers"
+        ],
+        "answer": 0,
+        "why": "NCERT: critics point out that disinvestment proceeds were used to offset the shortage of government revenues rather than to develop PSEs and social infrastructure."
+      },
+      "cards": [
+        {
+          "q": "Disinvestment: 1991-92 target and result, and 2022-23 (NCERT)?",
+          "a": "1991-92: target ₹2,500 crore, ₹3,040 crore mobilised, more than the target; 2022-23: about ₹46,000 crore."
+        },
+        {
+          "q": "Two criticisms of disinvestment (NCERT)?",
+          "a": "PSE assets were undervalued and sold (a loss to the government); proceeds offset revenue shortages instead of developing PSEs or social infrastructure."
+        },
+        {
+          "q": "How did reforms hurt government revenue (NCERT)?",
+          "a": "Tax cuts didn't raise revenue, lower tariffs cut customs revenue, and tax incentives to foreign investors reduced it further, so welfare spending suffered."
+        }
+      ]
+    },
+    {
+      "id": "verdict-lpg",
+      "title": "The verdict on LPG, and Siricilla",
+      "emoji": "⚖️",
+      "section": "3.7, Box 3.3",
+      "factIds": [
+        "F35",
+        "F36",
+        "F37"
+      ],
+      "scenes": [
+        {
+          "kind": "flow",
+          "heading": "Box 3.3: the Siricilla tragedy",
+          "steps": [
+            "Power reforms end subsidised electricity; tariffs rise steeply",
+            "Powerloom weavers' wages are tied to cloth output",
+            "Power cuts mean wage cuts",
+            "Crisis: 50 powerloom workers die by suicide in Siricilla"
+          ],
+          "say": "Box 3.3 shows reforms' human cost. Power sector reforms in many states ended subsidised electricity and raised tariffs steeply. Powerloom workers in Andhra Pradesh are paid by the cloth they produce, so a power cut means a wage cut. A crisis followed, and 50 powerloom workers committed suicide in the small town of Siricilla."
+        },
+        {
+          "kind": "compare",
+          "heading": "Globalisation: opportunity or threat?",
+          "left": {
+            "title": "Opportunity",
+            "items": [
+              "Access to global markets",
+              "High technology",
+              "Indian firms become global players"
+            ]
+          },
+          "right": {
+            "title": "Threat",
+            "items": [
+              "Developed countries expand their markets",
+              "Welfare and identity of poor countries compromised",
+              "Wider disparities among nations and people"
+            ]
+          },
+          "say": "NCERT's conclusion: globalisation through liberalisation and privatisation has had positive and negative results. Some see an opportunity: greater access to global markets, high technology, and Indian firms becoming global players. Critics see a strategy of developed countries to expand their markets, which has compromised the welfare and identity of poor countries and widened disparities among nations and people."
+        },
+        {
+          "kind": "points",
+          "heading": "The Indian critique",
+          "items": [
+            {
+              "icon": "🌱",
+              "text": "The 1991 crisis came from deep-rooted inequalities"
+            },
+            {
+              "icon": "📦",
+              "text": "The externally advised reform package made inequality worse"
+            },
+            {
+              "icon": "💼",
+              "text": "Growth concentrated in services: telecom, IT, finance, entertainment, travel and hospitality, real estate, trade"
+            },
+            {
+              "icon": "🌾",
+              "text": "Not in agriculture and industry, which support millions"
+            }
+          ],
+          "say": "In India, some studies say the early 1990s crisis grew out of deep-rooted inequalities, and the externally advised reform package made them worse. Growth raised incomes mainly for high-income groups, concentrated in services like telecommunication, information technology, finance, entertainment, travel and hospitality, real estate and trade, rather than in agriculture and industry, which give livelihoods to millions."
+        }
+      ],
+      "beyond": "Siricilla, in NCERT's Andhra Pradesh, has been in Telangana since the state was formed in 2014.",
+      "examAngle": "Exercise 16 (reforms, social justice and welfare): balance the gains (growth, reserves, investment, exports) against the critique (jobs, agriculture, inequality, the Siricilla example). A must-practise descriptive question for ESI.",
+      "quiz": {
+        "q": "In NCERT's Box 3.3, what triggered the crisis among Siricilla's powerloom workers?",
+        "options": [
+          "An end to subsidised electricity and a steep rise in power tariffs",
+          "A sudden government ban on all textile exports from India to the West",
+          "A collapse in the price of imported cotton yarn that flooded local markets",
+          "A new, much higher GST rate on handloom and powerloom cloth sold in India"
+        ],
+        "answer": 0,
+        "why": "NCERT: power sector reforms ended subsidised electricity and raised power tariffs steeply; since weavers' wages were linked to output, power cuts meant wage cuts."
+      },
+      "cards": [
+        {
+          "q": "What was the Siricilla tragedy (Box 3.3)?",
+          "a": "Power reforms ended subsidised electricity and raised tariffs; powerloom weavers' output-linked wages fell; 50 powerloom workers committed suicide in Siricilla, Andhra Pradesh."
+        },
+        {
+          "q": "In which sectors does NCERT say post-reform growth was concentrated?",
+          "a": "Services such as telecom, IT, finance, entertainment, travel and hospitality, real estate and trade, not agriculture and industry."
+        }
+      ]
+    }
+  ]
+}
