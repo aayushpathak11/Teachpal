@@ -4,3 +4,4 @@ node_modules/
 dist/
 .venv-tts/
 .models/
+*.tmp.mp3
