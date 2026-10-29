@@ -19,4 +19,5 @@ Then set `"audio": "audio/<id>/manifest.json"` on the chapter's entry in `conten
 
 - **Voices:** every reel gets a randomly assigned voice from `docs/voice.json`. The user liked all 9 voices and wants variety, so the feed never sounds monotonous. The assignment is seeded by the chapter id, so it's stable across re-runs; all voices are used before any repeats, and neighbouring reels never share a voice. Change the list only when the user asks.
 - Mispronounced words: add a respelling to `docs/pronunciations.json` and re-record. Only the affected reels change, since unchanged ones are skipped.
+- Each reel's MP3 also holds its recall cards (segments `c<i>q` and `c<i>a`, after the quiz) for audio revision in the Revise tab, so editing a card re-records that reel too.
 - After editing a reel's narration, re-record the chapter. Until then, the app uses the device voice for the changed scenes only.
