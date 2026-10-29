@@ -1,0 +1,926 @@
+{
+ "chapter": "eco11-ch01",
+ "reels": {
+  "why-1947": {
+   "file": "why-1947.mp3",
+   "voice": "hm_omega:0.6+bm_george:0.4",
+   "speed": 1,
+   "segments": {
+    "s0": {
+     "h": "13006c",
+     "start": 0,
+     "end": 17.155,
+     "sents": [
+      0,
+      6.316,
+      11.843
+     ]
+    },
+    "s1": {
+     "h": "zz6kt",
+     "start": 17.905,
+     "end": 36.278,
+     "sents": [
+      17.905,
+      28.296,
+      31.625,
+      33.995
+     ]
+    },
+    "s2": {
+     "h": "1m0z6qo",
+     "start": 37.028,
+     "end": 63.53,
+     "sents": [
+      37.028,
+      48.037,
+      53.927,
+      58.067,
+      60.351
+     ]
+    },
+    "s3": {
+     "h": "18tv2g1",
+     "start": 64.28,
+     "end": 77.127,
+     "sents": [
+      64.28,
+      66.607,
+      70.619,
+      72.455
+     ]
+    },
+    "quiz": {
+     "h": "qbtqvz",
+     "start": 77.877,
+     "end": 85.495,
+     "sents": [
+      77.877,
+      79.052
+     ]
+    }
+   }
+  },
+  "pre-british-handicrafts": {
+   "file": "pre-british-handicrafts.mp3",
+   "voice": "hf_alpha",
+   "speed": 1,
+   "segments": {
+    "s0": {
+     "h": "26ll5w",
+     "start": 0,
+     "end": 9.794,
+     "sents": [
+      0,
+      2.689
+     ]
+    },
+    "s1": {
+     "h": "11fos7g",
+     "start": 10.544,
+     "end": 26.973,
+     "sents": [
+      10.544,
+      17.521
+     ]
+    },
+    "s2": {
+     "h": "1t4iw8z",
+     "start": 27.723,
+     "end": 43.001,
+     "sents": [
+      27.723,
+      34.017,
+      36.92
+     ]
+    },
+    "s3": {
+     "h": "147bgrv",
+     "start": 43.751,
+     "end": 56.917,
+     "sents": [
+      43.751,
+      46.013,
+      53.823
+     ]
+    },
+    "quiz": {
+     "h": "1msp7o3",
+     "start": 57.667,
+     "end": 65.627,
+     "sents": [
+      57.667,
+      58.841,
+      62.064
+     ]
+    }
+   }
+  },
+  "national-income-estimates": {
+   "file": "national-income-estimates.mp3",
+   "voice": "hf_alpha:0.6+bf_emma:0.4",
+   "speed": 1,
+   "segments": {
+    "s0": {
+     "h": "e2yya6",
+     "start": 0,
+     "end": 9.815,
+     "sents": [
+      0,
+      2.391
+     ]
+    },
+    "s1": {
+     "h": "11v4lxm",
+     "start": 10.565,
+     "end": 31.711,
+     "sents": [
+      10.565,
+      12.145,
+      18.525,
+      25.097
+     ]
+    },
+    "s2": {
+     "h": "f17o5q",
+     "start": 32.461,
+     "end": 54.505,
+     "sents": [
+      32.461,
+      37.199,
+      45.051,
+      48.465,
+      51.56
+     ]
+    },
+    "s3": {
+     "h": "1v2clma",
+     "start": 55.255,
+     "end": 73.795,
+     "sents": [
+      55.255,
+      65.56
+     ]
+    },
+    "quiz": {
+     "h": "128r81u",
+     "start": 74.545,
+     "end": 81.523,
+     "sents": [
+      74.545,
+      75.741
+     ]
+    }
+   }
+  },
+  "agriculture-stagnation": {
+   "file": "agriculture-stagnation.mp3",
+   "voice": "af_heart",
+   "speed": 1,
+   "segments": {
+    "s0": {
+     "h": "fxe3aw",
+     "start": 0,
+     "end": 11.885,
+     "sents": [
+      0,
+      4.481
+     ]
+    },
+    "s1": {
+     "h": "lw14ip",
+     "start": 12.635,
+     "end": 27.443,
+     "sents": [
+      12.635,
+      15.559,
+      23.112
+     ]
+    },
+    "s2": {
+     "h": "ro0y0p",
+     "start": 28.193,
+     "end": 52.326,
+     "sents": [
+      28.193,
+      34.339,
+      36.004,
+      44.176
+     ]
+    },
+    "s3": {
+     "h": "4ooiqt",
+     "start": 53.076,
+     "end": 68.205,
+     "sents": [
+      53.076,
+      60.053,
+      65.601
+     ]
+    },
+    "quiz": {
+     "h": "fimb3i",
+     "start": 68.955,
+     "end": 76.978,
+     "sents": [
+      68.955,
+      70.129
+     ]
+    }
+   }
+  },
+  "zamindari-revenue": {
+   "file": "zamindari-revenue.mp3",
+   "voice": "bm_george",
+   "speed": 1,
+   "segments": {
+    "s0": {
+     "h": "x5s5ii",
+     "start": 0,
+     "end": 13.613,
+     "sents": [
+      0,
+      5.761
+     ]
+    },
+    "s1": {
+     "h": "1oo7o9o",
+     "start": 14.363,
+     "end": 33.91,
+     "sents": [
+      14.363,
+      16.561,
+      19.272,
+      22.111,
+      30.24
+     ]
+    },
+    "s2": {
+     "h": "1vkdkz6",
+     "start": 34.66,
+     "end": 58.899,
+     "sents": [
+      34.66,
+      39.355,
+      45.564,
+      49.128
+     ]
+    },
+    "s3": {
+     "h": "zho0is",
+     "start": 59.649,
+     "end": 93.425,
+     "sents": [
+      59.649,
+      65.048,
+      77.423,
+      85.787
+     ]
+    },
+    "quiz": {
+     "h": "1b958nu",
+     "start": 94.175,
+     "end": 101.003,
+     "sents": [
+      94.175,
+      95.392
+     ]
+    }
+   }
+  },
+  "commercialisation": {
+   "file": "commercialisation.mp3",
+   "voice": "bf_emma",
+   "speed": 1,
+   "segments": {
+    "s0": {
+     "h": "cr2sc2",
+     "start": 0,
+     "end": 11.737,
+     "sents": [
+      0,
+      1.857,
+      5.464
+     ]
+    },
+    "s1": {
+     "h": "5el0bn",
+     "start": 12.487,
+     "end": 22.537,
+     "sents": [
+      12.487,
+      15.389
+     ]
+    },
+    "s2": {
+     "h": "1yya79",
+     "start": 23.287,
+     "end": 39.269,
+     "sents": [
+      23.287,
+      28.28,
+      31.759
+     ]
+    },
+    "s3": {
+     "h": "13hu3oi",
+     "start": 40.019,
+     "end": 55.211,
+     "sents": [
+      40.019,
+      41.919,
+      47.616
+     ]
+    },
+    "quiz": {
+     "h": "1ce9eoa",
+     "start": 55.961,
+     "end": 62.513,
+     "sents": [
+      55.961,
+      57.115
+     ]
+    }
+   }
+  },
+  "deindustrialisation": {
+   "file": "deindustrialisation.mp3",
+   "voice": "hm_omega",
+   "speed": 1,
+   "segments": {
+    "s0": {
+     "h": "1ud7b4q",
+     "start": 0,
+     "end": 12.759,
+     "sents": [
+      0,
+      7.191
+     ]
+    },
+    "s1": {
+     "h": "14fbice",
+     "start": 13.509,
+     "end": 31.817,
+     "sents": [
+      13.509,
+      16.711,
+      23.325
+     ]
+    },
+    "s2": {
+     "h": "1hpoxzr",
+     "start": 32.567,
+     "end": 48.571,
+     "sents": [
+      32.567,
+      34.595,
+      41.209,
+      46.352
+     ]
+    },
+    "quiz": {
+     "h": "7jjcfg",
+     "start": 49.321,
+     "end": 55.915,
+     "sents": [
+      49.321,
+      50.496
+     ]
+    }
+   }
+  },
+  "modern-industry": {
+   "file": "modern-industry.mp3",
+   "voice": "hm_psi",
+   "speed": 1,
+   "segments": {
+    "s0": {
+     "h": "yjg35x",
+     "start": 0,
+     "end": 7.682,
+     "sents": [
+      0,
+      5.783
+     ]
+    },
+    "s1": {
+     "h": "1jm09zd",
+     "start": 8.432,
+     "end": 27.809,
+     "sents": [
+      8.432,
+      10.588,
+      17.693,
+      22.665,
+      26.101
+     ]
+    },
+    "s2": {
+     "h": "1oqxbdr",
+     "start": 28.559,
+     "end": 57.279,
+     "sents": [
+      28.559,
+      31.035,
+      36.177,
+      45.928,
+      51.689
+     ]
+    },
+    "s3": {
+     "h": "94p8p5",
+     "start": 58.029,
+     "end": 75.719,
+     "sents": [
+      58.029,
+      64.239,
+      67.76,
+      72.732
+     ]
+    },
+    "quiz": {
+     "h": "1w3exqn",
+     "start": 76.469,
+     "end": 80.098,
+     "sents": [
+      76.469,
+      77.644
+     ]
+    }
+   }
+  },
+  "capital-goods-public-sector": {
+   "file": "capital-goods-public-sector.mp3",
+   "voice": "hf_beta",
+   "speed": 1,
+   "segments": {
+    "s0": {
+     "h": "1780hay",
+     "start": 0,
+     "end": 6.765,
+     "sents": [
+      0,
+      2.199
+     ]
+    },
+    "s1": {
+     "h": "k5mmf4",
+     "start": 7.515,
+     "end": 24.629,
+     "sents": [
+      7.515,
+      13.745,
+      16.051,
+      20.169
+     ]
+    },
+    "s2": {
+     "h": "1e5h890",
+     "start": 25.379,
+     "end": 53.821,
+     "sents": [
+      25.379,
+      27.321,
+      32.869,
+      45.863
+     ]
+    },
+    "quiz": {
+     "h": "b47s8k",
+     "start": 54.571,
+     "end": 57.751,
+     "sents": [
+      54.571,
+      55.681
+     ]
+    }
+   }
+  },
+  "foreign-trade": {
+   "file": "foreign-trade.mp3",
+   "voice": "hm_psi",
+   "speed": 1,
+   "segments": {
+    "s0": {
+     "h": "qh54os",
+     "start": 0,
+     "end": 12.61,
+     "sents": [
+      0,
+      4.503
+     ]
+    },
+    "s1": {
+     "h": "1o4buph",
+     "start": 13.36,
+     "end": 29.703,
+     "sents": [
+      13.36,
+      20.593
+     ]
+    },
+    "s2": {
+     "h": "2wpez7",
+     "start": 30.453,
+     "end": 46.371,
+     "sents": [
+      30.453,
+      35.34,
+      39.821
+     ]
+    },
+    "s3": {
+     "h": "kb8maw",
+     "start": 47.121,
+     "end": 72.449,
+     "sents": [
+      47.121,
+      52.157,
+      60.393,
+      68.843
+     ]
+    },
+    "quiz": {
+     "h": "m6877w",
+     "start": 73.199,
+     "end": 81.115,
+     "sents": [
+      73.199,
+      74.373
+     ]
+    }
+   }
+  },
+  "drain-of-wealth": {
+   "file": "drain-of-wealth.mp3",
+   "voice": "bm_george",
+   "speed": 1,
+   "segments": {
+    "s0": {
+     "h": "652vul",
+     "start": 0,
+     "end": 13.681,
+     "sents": [
+      0,
+      1.58,
+      6.189,
+      8.473,
+      11.419
+     ]
+    },
+    "s1": {
+     "h": "taj3dh",
+     "start": 14.431,
+     "end": 29.431,
+     "sents": [
+      14.431,
+      17.355,
+      24.716
+     ]
+    },
+    "s2": {
+     "h": "1mwg4fg",
+     "start": 30.181,
+     "end": 51.349,
+     "sents": [
+      30.181,
+      32.444,
+      42.984,
+      47.871
+     ]
+    },
+    "s3": {
+     "h": "13fw451",
+     "start": 52.099,
+     "end": 76.122,
+     "sents": [
+      52.099,
+      62.425
+     ]
+    },
+    "quiz": {
+     "h": "9yhr09",
+     "start": 76.872,
+     "end": 82.079,
+     "sents": [
+      76.872,
+      78.089
+     ]
+    }
+   }
+  },
+  "demographic-transition": {
+   "file": "demographic-transition.mp3",
+   "voice": "hm_omega",
+   "speed": 1,
+   "segments": {
+    "s0": {
+     "h": "1e7rq5f",
+     "start": 0,
+     "end": 18.179,
+     "sents": [
+      0,
+      9.217,
+      14.851
+     ]
+    },
+    "s1": {
+     "h": "6z4px5",
+     "start": 18.929,
+     "end": 37.813,
+     "sents": [
+      18.929,
+      24.669,
+      30.281
+     ]
+    },
+    "s2": {
+     "h": "piyqrr",
+     "start": 38.563,
+     "end": 58.705,
+     "sents": [
+      38.563,
+      42.767,
+      52.88
+     ]
+    },
+    "quiz": {
+     "h": "7ynflz",
+     "start": 59.455,
+     "end": 66.539,
+     "sents": [
+      59.455,
+      60.629
+     ]
+    }
+   }
+  },
+  "health-literacy": {
+   "file": "health-literacy.mp3",
+   "voice": "hf_alpha",
+   "speed": 1,
+   "segments": {
+    "s0": {
+     "h": "viagde",
+     "start": 0,
+     "end": 6.379,
+     "sents": [
+      0
+     ]
+    },
+    "s1": {
+     "h": "12cnqqx",
+     "start": 7.129,
+     "end": 27.805,
+     "sents": [
+      7.129,
+      14.747,
+      23.879
+     ]
+    },
+    "s2": {
+     "h": "ofc3yl",
+     "start": 28.555,
+     "end": 37.858,
+     "sents": [
+      28.555,
+      30.775
+     ]
+    },
+    "s3": {
+     "h": "4qnn8f",
+     "start": 38.608,
+     "end": 60.265,
+     "sents": [
+      38.608,
+      49.255,
+      54.205
+     ]
+    },
+    "quiz": {
+     "h": "14j12tj",
+     "start": 61.015,
+     "end": 68.185,
+     "sents": [
+      61.015,
+      62.189
+     ]
+    }
+   }
+  },
+  "occupational-structure": {
+   "file": "occupational-structure.mp3",
+   "voice": "af_heart",
+   "speed": 1,
+   "segments": {
+    "s0": {
+     "h": "jj217e",
+     "start": 0,
+     "end": 11.01,
+     "sents": [
+      0,
+      7.873
+     ]
+    },
+    "s1": {
+     "h": "1rnrbh7",
+     "start": 11.76,
+     "end": 23.453,
+     "sents": [
+      11.76,
+      17.564
+     ]
+    },
+    "s2": {
+     "h": "xurmky",
+     "start": 24.203,
+     "end": 45.241,
+     "sents": [
+      24.203,
+      26.679,
+      39.565
+     ]
+    },
+    "s3": {
+     "h": "fqa939",
+     "start": 45.991,
+     "end": 61.994,
+     "sents": [
+      45.991,
+      55.08,
+      59.22
+     ]
+    },
+    "quiz": {
+     "h": "ns2nnn",
+     "start": 62.744,
+     "end": 69.338,
+     "sents": [
+      62.744,
+      63.919
+     ]
+    }
+   }
+  },
+  "railways": {
+   "file": "railways.mp3",
+   "voice": "hf_beta",
+   "speed": 1,
+   "segments": {
+    "s0": {
+     "h": "124eu6n",
+     "start": 0,
+     "end": 7.746,
+     "sents": [
+      0,
+      5.377
+     ]
+    },
+    "s1": {
+     "h": "13yjtph",
+     "start": 8.496,
+     "end": 38.346,
+     "sents": [
+      8.496,
+      14.919,
+      22.088,
+      29.705
+     ]
+    },
+    "s2": {
+     "h": "n1assl",
+     "start": 39.096,
+     "end": 59.431,
+     "sents": [
+      39.096,
+      42.511,
+      48.571,
+      56.188
+     ]
+    },
+    "s3": {
+     "h": "11b0hus",
+     "start": 60.181,
+     "end": 74.306,
+     "sents": [
+      60.181,
+      68.055
+     ]
+    },
+    "quiz": {
+     "h": "qg69ak",
+     "start": 75.056,
+     "end": 80.733,
+     "sents": [
+      75.056,
+      76.167
+     ]
+    }
+   }
+  },
+  "roads-canals-telegraph": {
+   "file": "roads-canals-telegraph.mp3",
+   "voice": "hm_omega:0.6+bm_george:0.4",
+   "speed": 1,
+   "segments": {
+    "s0": {
+     "h": "1trk6g3",
+     "start": 0,
+     "end": 11.821,
+     "sents": [
+      0,
+      6.359
+     ]
+    },
+    "s1": {
+     "h": "9e3sl",
+     "start": 12.571,
+     "end": 28.317,
+     "sents": [
+      12.571,
+      16.497
+     ]
+    },
+    "s2": {
+     "h": "1dl2ods",
+     "start": 29.067,
+     "end": 66.683,
+     "sents": [
+      29.067,
+      39.137,
+      46.051,
+      58.809,
+      62.864
+     ]
+    },
+    "quiz": {
+     "h": "18xi9hi",
+     "start": 67.433,
+     "end": 72.577,
+     "sents": [
+      67.433,
+      68.608
+     ]
+    }
+   }
+  },
+  "challenges-1947": {
+   "file": "challenges-1947.mp3",
+   "voice": "hf_alpha:0.6+bf_emma:0.4",
+   "speed": 1,
+   "segments": {
+    "s0": {
+     "h": "181h5x1",
+     "start": 0,
+     "end": 9.303,
+     "sents": [
+      0,
+      6.209
+     ]
+    },
+    "s1": {
+     "h": "14jgd2d",
+     "start": 10.053,
+     "end": 37.281,
+     "sents": [
+      10.053,
+      14.513,
+      20.829,
+      25.609,
+      32.053
+     ]
+    },
+    "s2": {
+     "h": "1jvh43e",
+     "start": 38.031,
+     "end": 68.137,
+     "sents": [
+      38.031,
+      43.131,
+      48.508,
+      57.341
+     ]
+    },
+    "s3": {
+     "h": "1dorrtv",
+     "start": 68.887,
+     "end": 81.775,
+     "sents": [
+      68.887,
+      73.709,
+      80.111
+     ]
+    },
+    "quiz": {
+     "h": "9wbuag",
+     "start": 82.525,
+     "end": 89.695,
+     "sents": [
+      82.525,
+      83.721
+     ]
+    }
+   }
+  }
+ }
+}

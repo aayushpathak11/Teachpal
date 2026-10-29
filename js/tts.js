@@ -91,6 +91,8 @@ export function estimateMs(text, rate = 1) {
 // One shared <audio> element for recorded narration. It is unlocked inside the
 // Start tap, so later scenes can play without another tap on iPhone.
 let audioEl = null;
+let loadedFor = null; // which recording the <audio> element holds
+const blobs = new Map(); // recordings loaded whole, for servers without range requests
 const SILENCE = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YQAAAAA=";
 function player() {
   if (!audioEl) {
@@ -104,6 +106,7 @@ export function unlock() {
   // Must run inside a user gesture so mobile browsers allow later speech.
   const a = player();
   a.src = SILENCE;
+  loadedFor = null;
   a.play().catch(() => {});
   if (!synth) return;
   pickVoice();
@@ -155,8 +158,10 @@ export function playClip(clip, { rate = 1, muted = false, onSentence } = {}) {
       return;
     }
 
-    const start = () => {
+    const begin = () => {
       if (done) return;
+      // Some servers can't jump into the middle of a file; then load it whole.
+      if (!canSeek(a, clip.start)) return viaBlob();
       try {
         a.currentTime = clip.start;
       } catch {
@@ -168,14 +173,40 @@ export function playClip(clip, { rate = 1, muted = false, onSentence } = {}) {
       // Backstop in case timeupdate stops (backgrounded tab, stalled network).
       timers.push(setTimeout(() => finish(false), ((clip.end - clip.start) * 1000) / rate + 6000));
     };
-    if (!a.src.endsWith(clip.src) || a.src === SILENCE) {
-      a.src = clip.src;
-      a.addEventListener("loadedmetadata", start, { once: true });
+    const load = (url) => {
+      loadedFor = clip.src;
+      a.src = url;
+      a.addEventListener("loadedmetadata", begin, { once: true });
       a.addEventListener("error", () => finish("failed"), { once: true });
-      timers.push(setTimeout(() => a.readyState < 1 && finish("failed"), 10000));
+      timers.push(setTimeout(() => a.readyState < 1 && finish("failed"), 15000));
       a.load();
-    } else start();
+    };
+    let triedBlob = false;
+    const viaBlob = async () => {
+      if (triedBlob) return finish("failed");
+      triedBlob = true;
+      try {
+        let url = blobs.get(clip.src);
+        if (!url) {
+          const res = await fetch(clip.src);
+          if (!res.ok) return finish("failed");
+          url = URL.createObjectURL(await res.blob());
+          blobs.set(clip.src, url);
+        }
+        if (!done) load(url);
+      } catch {
+        finish("failed");
+      }
+    };
+    if (loadedFor === clip.src && a.readyState >= 1) begin();
+    else load(blobs.get(clip.src) || clip.src);
   });
+}
+
+function canSeek(a, t) {
+  if (t < 0.5) return true;
+  for (let i = 0; i < a.seekable.length; i++) if (a.seekable.start(i) <= t && a.seekable.end(i) >= t) return true;
+  return false;
 }
 
 // Resolves to true if cancelled, false if it finished normally.
