@@ -21,5 +21,14 @@ Every new feature is checked against this list before it's built. The research b
 3. **Next-day explain-it-back,** with AI "why?" follow-ups.
 4. **Mixed daily session** across chapters, prioritising what's about to be forgotten.
 
-## v3 (next)
-Audio revision with recall pauses, fill-in-the-link concept map, a current-affairs linker that creates recall cards, and calibration analytics.
+## v3 (built and live)
+1. **Mixed test** (Practice): MCQs and written answers from every chapter in one sitting, weak and unseen questions first, with per-chapter results. *(interleaving, retrieval)*
+2. **Audio revision with recall pauses** (Revise): question, a 3/5/8-second thinking pause with a countdown, then the answer; due cards can be graded hands-free. Card audio is recorded with Kokoro alongside the narration, with the device voice as fallback. *(retrieval during passive time, avoiding the fluency illusion)*
+3. **Fill-in-the-link concept maps** (Revise, and scheduled into Today): cause-and-effect chains per chapter (`content/maps/`) with random blanks and distractors from the chapter's other chains, then "say it aloud". *(generation, elaboration; spaced 1/4/14 days by score)*
+4. **Current-affairs linker** (Revise): paste a news item; Claude links it to studied reels and drafts 2-3 cards that join the SRS. Without AI, the learner links it and writes the card. *(elaboration, spacing)*
+5. **Calibration analytics** (Progress): accuracy by confidence level and by chapter, plus a "sure but wrong" danger list with re-watch links. *(calibration, hypercorrection)*
+
+## Ideas for later
+- Forgetting forecast per chapter (predicted recall from SRS intervals) to choose what to revise before the exam.
+- Exam-date mode: compress intervals so everything is reviewed at least once in the last two weeks.
+- Previous-year RBI Grade B question tagging, to show which reels map to asked topics.
