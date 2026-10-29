@@ -2,25 +2,45 @@
   "chapter": "eco11-ch03",
   "chains": [
     {
-      "id": "crisis",
-      "title": "How the 1991 crisis built up",
-      "reelIds": ["how-crisis-built", "crisis-and-imf", "concept-bop-forex"],
+      "id": "fiscal",
+      "title": "The government's side of the crisis",
+      "reelIds": [
+        "concept-deficit",
+        "crisis-and-imf"
+      ],
       "steps": [
-        "1980s: government spending far exceeds revenue",
-        "Borrowing to cover it becomes unsustainable",
-        "Imports grow without matching exports",
+        "Late 1980s: government spending far exceeds revenue",
+        "The gap (the deficit) is covered by borrowing",
+        "Borrowing on this scale becomes unsustainable"
+      ]
+    },
+    {
+      "id": "crisis",
+      "title": "The external side: the balance of payments crisis",
+      "reelIds": [
+        "how-crisis-built",
+        "crisis-and-imf",
+        "concept-bop-forex"
+      ],
+      "steps": [
+        "Borrowed foreign exchange spent on consumption; exports neglected",
+        "Imports grow fast without matching exports",
         "Forex reserves can't pay for even two weeks of imports",
-        "India can't repay its foreign borrowings: the balance of payments crisis"
+        "Too little forex even to pay interest to foreign lenders",
+        "India can't repay its foreign borrowings: a balance of payments crisis"
       ]
     },
     {
       "id": "rescue",
       "title": "The rescue and the New Economic Policy",
-      "reelIds": ["crisis-and-imf", "nep-two-kinds"],
+      "reelIds": [
+        "crisis-and-imf",
+        "nep-two-kinds"
+      ],
       "steps": [
         "No country or international funder will lend to India",
         "World Bank (IBRD) and IMF lend $7 billion",
-        "Conditions: liberalise, open to the private sector, remove trade restrictions",
+        "Conditions: free the private sector, shrink government's role, remove trade barriers",
         "India announces the New Economic Policy (NEP)",
         "Reforms under three heads: liberalisation, privatisation, globalisation"
       ]
@@ -28,47 +48,77 @@
     {
       "id": "devaluation",
       "title": "Devaluation of the rupee, 1991",
-      "reelIds": ["concept-devaluation"],
+      "reelIds": [
+        "concept-devaluation"
+      ],
       "steps": [
-        "The rupee is devalued against foreign currencies",
-        "Indian goods get cheaper abroad; imports get dearer",
-        "The inflow of foreign exchange increases",
-        "It sets the tone for markets to decide exchange rates"
+        "1991: rupee devalued as an immediate step against the crisis",
+        "Immediate effect: the inflow of foreign exchange increases",
+        "Longer term: it sets the tone to free the rupee from government control",
+        "Now, more often than not, markets set exchange rates"
       ]
     },
     {
-      "id": "agriculture",
-      "title": "Why the reforms hurt agriculture",
-      "reelIds": ["agriculture-after-reforms"],
+      "id": "farm-imports",
+      "title": "Mahadeva and cheap imports",
+      "reelIds": [
+        "agriculture-after-reforms"
+      ],
       "steps": [
-        "Public investment in farm infrastructure falls",
-        "Partial removal of fertiliser subsidy raises costs",
-        "Lower import duties, low MSP and no quantitative restrictions",
-        "Farmers face international competition",
-        "Small farmers like Mahadeva can't cover their costs"
+        "Restrictions on imports removed; import duties cut",
+        "Cheap imported edible oils flood local markets",
+        "Mahadeva can't sell his groundnut at a price that covers his cost"
+      ]
+    },
+    {
+      "id": "fertiliser",
+      "title": "The fertiliser subsidy cut",
+      "reelIds": [
+        "agriculture-after-reforms"
+      ],
+      "steps": [
+        "Fertiliser subsidy partly removed",
+        "Cost of production rises",
+        "Small and marginal farmers severely affected"
       ]
     },
     {
       "id": "siricilla",
       "title": "Box 3.3: the Siricilla tragedy",
-      "reelIds": ["verdict-lpg"],
+      "reelIds": [
+        "verdict-lpg"
+      ],
       "steps": [
-        "Power sector reforms end subsidised electricity",
-        "Power tariffs rise steeply",
-        "Powerloom weavers' wages are tied to cloth output",
-        "Power cuts mean wage cuts",
-        "A crisis: 50 powerloom workers die by suicide"
+        "Power reforms end subsidised electricity; power tariffs rise steeply",
+        "Workers in small industries such as powerloom weaving are hit",
+        "Wages tied to cloth output, so power cuts also cut wages",
+        "A crisis in the weavers' livelihood",
+        "50 powerloom workers die by suicide in Siricilla"
       ]
     },
     {
       "id": "industry",
-      "title": "Why industrial growth slowed",
-      "reelIds": ["industry-after-reforms"],
+      "title": "Why industrial growth slowed (with weak infrastructure too)",
+      "reelIds": [
+        "industry-after-reforms"
+      ],
       "steps": [
-        "Cheaper imports come in",
-        "Demand for domestic industrial goods falls",
-        "Investment in infrastructure, including power, stays inadequate",
+        "The economy opens to a greater flow of goods from abroad",
+        "Cheaper imports replace demand for domestic goods",
+        "Domestic manufacturers face competition from imports",
         "Industrial growth slows down"
+      ]
+    },
+    {
+      "id": "tax-reform",
+      "title": "Why income tax rates were cut after 1991",
+      "reelIds": [
+        "tax-reforms-gst"
+      ],
+      "steps": [
+        "High income tax rates seen as a main reason for tax evasion",
+        "Taxes on individual incomes cut continuously since 1991",
+        "Moderate rates encourage savings and voluntary disclosure of income"
       ]
     }
   ]

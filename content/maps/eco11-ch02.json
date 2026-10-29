@@ -4,31 +4,42 @@
     {
       "id": "road-to-1991",
       "title": "From planning to the 1991 policy",
-      "reelIds": ["choosing-a-system", "ipr-1956", "import-substitution", "what-went-wrong"],
+      "reelIds": [
+        "choosing-a-system",
+        "what-is-a-plan",
+        "ipr-1956",
+        "import-substitution",
+        "what-went-wrong"
+      ],
       "steps": [
         "A mixed economy, with five year plans (Planning Commission, 1950)",
         "IPR 1956 and licensing put the state in control of industry",
-        "Tariffs and quotas protect domestic industry (import substitution)",
-        "Inefficiency, over-regulation and weak exports (permit licence raj)",
+        "Inward-looking trade: import substitution in the first seven plans",
+        "Loss-making public sector, permit licence raj, weak exports",
         "The new economic policy of 1991"
       ]
     },
     {
       "id": "green-revolution",
       "title": "How the Green Revolution fed the country",
-      "reelIds": ["green-revolution", "marketed-surplus"],
+      "reelIds": [
+        "green-revolution",
+        "marketed-surplus"
+      ],
       "steps": [
         "HYV seeds for wheat and rice",
         "Fertiliser, pesticide and regular water in correct proportions",
         "A large increase in food grain production",
-        "A large marketed surplus; food grain prices fall relative to other goods",
-        "Buffer stocks for shortages; low-income groups gain"
+        "Much grain is sold (marketed surplus); grain prices fall relatively",
+        "Low-income groups gain; the government builds a stock for shortages"
       ]
     },
     {
       "id": "land-to-tiller",
       "title": "Land reforms: land to the tiller",
-      "reelIds": ["land-to-the-tiller"],
+      "reelIds": [
+        "land-to-the-tiller"
+      ],
       "steps": [
         "Intermediaries such as zamindars abolished",
         "About 200 lakh tenants deal directly with the government",
@@ -38,24 +49,43 @@
     },
     {
       "id": "land-ceiling",
-      "title": "Land ceiling and its loopholes",
-      "reelIds": ["land-ceiling"],
+      "title": "Land ceiling and how landlords escaped it",
+      "reelIds": [
+        "land-ceiling"
+      ],
       "steps": [
         "Ceiling: a maximum size of land one person can own",
-        "Aim: reduce concentration of land ownership",
-        "Landlords go to court and register land in relatives' names",
-        "The poorest (sharecroppers, landless labourers) gain little"
+        "Big landlords challenge the law in court, delaying it",
+        "They use the delay to register land in relatives' names",
+        "They escape the legislation and keep their land"
       ]
     },
     {
       "id": "infant-industry",
       "title": "Why protect domestic industry?",
-      "reelIds": ["import-substitution", "industry-report-card"],
+      "reelIds": [
+        "import-substitution",
+        "industry-report-card"
+      ],
       "steps": [
         "Young Indian industries can't yet compete with developed economies",
         "Imports are restricted with tariffs and quotas",
         "Domestic production replaces imports",
         "Electronics and automobile industries develop under protection"
+      ]
+    },
+    {
+      "id": "subsidy-scarcity",
+      "title": "Box 2.6: how subsidies hide scarcity",
+      "reelIds": [
+        "subsidies-debate"
+      ],
+      "steps": [
+        "Water and electricity supplied free or subsidised",
+        "Prices no longer signal scarcity",
+        "They are used wastefully",
+        "Water-intensive crops grown where water is scarce",
+        "Scarce water resources are further depleted"
       ]
     }
   ]

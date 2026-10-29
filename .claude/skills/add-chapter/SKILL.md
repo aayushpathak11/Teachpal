@@ -33,6 +33,10 @@ Do every step, in order. Don't skip the review or the fact-check, even for a sho
 - Follow the practice rules in `docs/content-guidelines.md`, under Quizzes and cards.
 - Add `"practice": "practice/<id>.json"` to the chapter's entry in `content/index.json`.
 
+## 2c. Concept maps
+- Write `content/maps/<id>.json`, following the shape of `content/maps/eco11-ch03.json` and the "Concept maps" rules in `docs/content-guidelines.md`. Use 4-8 chains of 3-5 steps, built only from the reviewed reels' content: the chapter's main cause-and-effect sequences, including the boxes.
+- Add `"maps": "maps/<id>.json"` to the chapter's entry in `content/index.json`. The reviewer in step 4 also checks the chains: one right order, no parallel causes in a row, steps distinct enough to be blanked.
+
 ## 3. Deterministic checks
 - `npm run validate` must pass.
 - `node scripts/pipeline/lint.mjs content/<id>.json`: fix every blocker and major issue. This also lints the practice bank.
@@ -68,7 +72,7 @@ Write `content/reports/<id>.md` with these sections: Status (reviewed / needs at
 - Add the chapter to `content/index.json` with `"status": "reviewed"` or `"needs-attention"`.
 - `npm run validate && npm test`
 - `node scripts/build-artifact.mjs` (writes `dist/artifact/`)
-- Republish to the **same URL** from `HOSTING.md` with the Artifact tool: `file_path: dist/artifact/index.html`, `url`, and `files` mapping only what changed (at minimum `content/index.json`, `content/<id>.json`, `content/practice/<id>.json` and `content/reports/<id>.md`; any changed `js/*.js` or `css/app.css` too). Omit `capabilities` so the stored declaration (db rules, user, sample) is kept, and omit `icon`.
+- Republish to the **same URL** from `HOSTING.md` with the Artifact tool: `file_path: dist/artifact/index.html`, `url`, and `files` mapping only what changed (at minimum `content/index.json`, `content/<id>.json`, `content/practice/<id>.json`, `content/maps/<id>.json` and `content/reports/<id>.md`; any changed `js/*.js` or `css/app.css` too). Omit `capabilities` so the stored declaration (db rules, user, sample) is kept, and omit `icon`.
 - Commit on the working branch and try to push; if the push is refused, say so in one line.
 
 ## 9. Learn: save the lessons

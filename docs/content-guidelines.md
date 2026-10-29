@@ -71,6 +71,11 @@ The single source of rules for writing and reviewing reels. The in-chat workflow
 - Write place names and terms out in full on screen (Tamil Nadu, not TN). Use digit emoji (1️⃣ 2️⃣ 3️⃣) for numbered items.
 - Put only dated facts against a year on a timeline. "1893: born; studied at Presidency and Cambridge" wrongly dates the studies. *(ch02)*
 
+## Concept maps (content/maps/<id>.json)
+- Each chain is a strict sequence: every arrow means "leads to" or "then", so there is exactly one right order. Causes that NCERT gives side by side (parallel causes, or a standing fact like "wages are tied to output") go in one step or in separate chains, never in a row. *(maps review: 13 majors, all this)*
+- Each step needs a subject and is distinct from every step in the chapter's other chains, because those steps are the distractors in the word bank (lint: no repeated step text). Keep NCERT's hedges ("sets the tone to free", "a small section of farmers").
+- Only arrows NCERT draws. An effect NCERT gives as a cost of something else (essentials scarce because of the export surplus) isn't a result of the next step (the drain).
+
 ## Narration written for the ear
 - Short sentences, conversational, explaining *why*. 2-5 sentences per scene, and no more than about 100 words.
 - The app's speech cleanup reads %, ₹, number ranges, <, ~, "e.g." and "WW II" aloud correctly. Still prefer words in `say` ("about 7 percent"). Keep symbols for on-screen text.

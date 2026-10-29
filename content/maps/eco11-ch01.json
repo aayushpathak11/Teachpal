@@ -4,47 +4,70 @@
     {
       "id": "farm-stagnation",
       "title": "Why colonial agriculture stagnated",
-      "reelIds": ["agriculture-stagnation", "zamindari-revenue"],
+      "reelIds": [
+        "agriculture-stagnation",
+        "zamindari-revenue"
+      ],
       "steps": [
-        "Colonial land settlement systems (zamindari)",
-        "Profit from farming goes to zamindars, not cultivators",
-        "Fixed revenue dates: zamindars extract maximum rent",
-        "Little is invested to improve agriculture",
-        "Low productivity: stagnation and deterioration"
+        "Colonial land settlement: the zamindari system",
+        "Zamindars must pay fixed revenue by fixed dates or lose their rights",
+        "Zamindars care only about collecting rent; the profit goes to them",
+        "Little is done to improve farming",
+        "Low productivity: stagnation and, not infrequently, unusual deterioration"
       ]
     },
     {
       "id": "deindustrialisation",
       "title": "The two-fold motive and the fall of handicrafts",
-      "reelIds": ["deindustrialisation", "why-1947"],
+      "reelIds": [
+        "deindustrialisation",
+        "why-1947"
+      ],
       "steps": [
-        "Britain wants raw materials and a market for its goods",
+        "Two-fold motive: India as raw-material exporter and market for British goods",
         "India's world-famous handicrafts decline",
-        "Massive unemployment among artisans",
-        "The demand is met by cheap British imports"
+        "Artisans lose work; locally made goods vanish from markets",
+        "Cheap British imports fill the demand"
       ]
     },
     {
       "id": "drain",
       "title": "Export surplus and the drain of wealth",
-      "reelIds": ["foreign-trade", "drain-of-wealth"],
+      "reelIds": [
+        "foreign-trade",
+        "drain-of-wealth"
+      ],
       "steps": [
-        "India exports primary products, imports finished goods",
+        "India exports primary products and imports finished goods",
         "A large export surplus",
-        "It pays for the colonial office, British wars and invisible imports",
-        "No gold or silver flows in: the drain of wealth",
-        "Essentials like food grains, clothes and kerosene scarce at home"
+        "It pays for an office in Britain, British wars and invisible imports",
+        "No gold or silver flows in: the drain of Indian wealth"
       ]
     },
     {
       "id": "commercialisation",
       "title": "Railways and commercialisation",
-      "reelIds": ["railways", "commercialisation"],
+      "reelIds": [
+        "railways",
+        "commercialisation"
+      ],
       "steps": [
-        "Railways open up long-distance trade",
-        "Farmers shift from food crops to cash crops for sale",
-        "Cash crops ultimately serve British industries",
-        "Village self-sufficiency is hurt; few farmers gain"
+        "Railways carry cash crops to the ports",
+        "Commercialisation: a small section of farmers switch to cash crops",
+        "Village economies lose their self-sufficiency"
+      ]
+    },
+    {
+      "id": "suez",
+      "title": "Box 1.3: the Suez Canal tightens Britain's grip",
+      "reelIds": [
+        "foreign-trade"
+      ],
+      "steps": [
+        "1869: the Suez Canal opens in Egypt",
+        "Ships no longer need to sail around Africa",
+        "Transport costs fall; access to the Indian market gets easier",
+        "British control over India's foreign trade intensifies"
       ]
     }
   ]
