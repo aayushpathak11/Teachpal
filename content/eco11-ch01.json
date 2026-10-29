@@ -1,0 +1,874 @@
+{
+  "id": "eco11-ch01",
+  "subject": "Economics · Class 11 · Indian Economic Development",
+  "chapter": 1,
+  "title": "Indian Economy on the Eve of Independence",
+  "source": "NCERT Class 11, Indian Economic Development, Chapter 1 (Reprint 2026-27)",
+  "exam": "RBI Grade B",
+  "reels": [
+    {
+      "id": "why-1947",
+      "title": "Why 1947 still matters",
+      "emoji": "🇮🇳",
+      "section": "1.1",
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "🇮🇳",
+          "big": "200 years. One economy reshaped.",
+          "sub": "Indian Economy on the Eve of Independence",
+          "say": "Why does a book about India's modern economy start before 1947? Because today's economy has its roots in almost two centuries of British rule. Let's see what India looked like on 15 August 1947."
+        },
+        {
+          "kind": "quote",
+          "text": "India is the pivot of our Empire... if we lose India, the sun of our Empire will have set.",
+          "by": "Viceroy of British India, 1894",
+          "say": "In 1894, the Viceroy said India was the pivot of the British Empire. Lose India, and the sun sets on the Empire. Why was India so valuable? The answer is economics."
+        },
+        {
+          "kind": "flow",
+          "heading": "The colonial deal",
+          "steps": ["India grows raw materials", "Shipped to Britain's factories", "Finished goods sold back to India", "Profits stay in Britain"],
+          "say": "NCERT says the sole purpose of colonial rule was to reduce India to a raw material supplier for Britain's growing industries, and then to use India as a market for Britain's finished goods. Remember this two-way trap. It explains almost everything in this chapter."
+        },
+        {
+          "kind": "points",
+          "heading": "This chapter answers",
+          "items": [
+            { "icon": "📸", "text": "What did India's economy look like in 1947?" },
+            { "icon": "🔍", "text": "Why did it stay underdeveloped and stagnant?" },
+            { "icon": "🧭", "text": "Which problems shaped planning after independence?" }
+          ],
+          "say": "So we'll answer three questions. What did the economy look like in 1947? Why did it stagnate? And which problems shaped the strategy India chose after independence?"
+        }
+      ],
+      "beyond": "Economic historian Angus Maddison estimated that India produced roughly a quarter of world output around 1700, but only about 4 percent by 1950. Such long-run estimates are debated, but they show the scale of relative decline.",
+      "examAngle": "ESI answers on the structural problems of the Indian economy usually open with the colonial legacy. This chapter is your opening paragraph.",
+      "quiz": {
+        "q": "According to NCERT, the main aim of British economic policy in India was to:",
+        "options": ["Industrialise India rapidly", "Make India a raw-material supplier and a market for British goods", "Build welfare infrastructure for Indians", "Raise India's per capita income"],
+        "answer": 1,
+        "why": "Colonial policy protected Britain's interests: India supplied raw materials to British industry and bought its finished goods."
+      },
+      "cards": [
+        { "q": "What two roles did colonial policy force on India?", "a": "Supplier of raw materials to British industry, and a consumer market for finished British goods." },
+        { "q": "Roughly how long did British rule over India last?", "a": "Almost two centuries, ending with independence on 15 August 1947." }
+      ]
+    },
+    {
+      "id": "pre-british-handicrafts",
+      "title": "Before the British: a manufacturing hub",
+      "emoji": "🧵",
+      "section": "1.2",
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "🧵",
+          "big": "India used to export finished goods.",
+          "sub": "An independent economy before British rule",
+          "say": "Here's something people often forget. Before the British arrived, India had an independent economy, and it was famous around the world for things it made."
+        },
+        {
+          "kind": "points",
+          "heading": "Pre-British economy",
+          "items": [
+            { "icon": "🌾", "text": "Agriculture was the main livelihood..." },
+            { "icon": "🛠️", "text": "...but there were many kinds of manufacturing too" },
+            { "icon": "🧶", "text": "Handicrafts: cotton and silk textiles, metal work, precious stone work" },
+            { "icon": "🌍", "text": "Sold worldwide for fine materials and high craftsmanship" }
+          ],
+          "say": "Agriculture was the main source of livelihood, but the economy also had many kinds of manufacturing. Indian handicrafts, like cotton and silk textiles, metal work and precious stone work, had a worldwide market thanks to their quality and craftsmanship."
+        },
+        {
+          "kind": "quote",
+          "text": "Daccai Muslin gained worldwide fame. Its finest variety was called malmal, sometimes 'malmal shahi' or 'malmal khas': fit for royalty.",
+          "by": "NCERT Box 1.1, Textile Industry in Bengal",
+          "say": "The star example is muslin from Dhaka, then spelled Dacca, now the capital of Bangladesh. Its finest variety was called malmal. Foreign travellers called it malmal shahi or malmal khas, meaning cloth fit for royalty."
+        },
+        {
+          "kind": "compare",
+          "heading": "What changed",
+          "left": { "title": "Before British rule", "items": ["Exporter of fine finished goods", "Skilled artisans in demand", "Independent economy"] },
+          "right": { "title": "Under British rule", "items": ["Exporter of raw materials", "Artisans lost their livelihood", "Economy serving Britain"] },
+          "say": "Compare the before and after. India went from exporting fine finished goods to exporting raw materials, and its skilled artisans lost their markets. That reversal is the story of this chapter."
+        }
+      ],
+      "beyond": "There's a popular legend that a whole Dhaka muslin saree was fine enough to pass through a finger ring. Whether or not it's literally true, the legend shows how valuable this cloth was.",
+      "examAngle": "MCQs like to test names from the boxes: Dhaka muslin, malmal, malmal shahi, malmal khas.",
+      "quiz": {
+        "q": "The finest variety of Dhaka muslin was called:",
+        "options": ["Jamdani", "Malmal", "Khadi", "Chanderi"],
+        "answer": 1,
+        "why": "NCERT Box 1.1: the finest muslin was 'malmal', also called 'malmal shahi' or 'malmal khas'."
+      },
+      "cards": [
+        { "q": "Name three handicraft industries India was famous for before British rule.", "a": "Cotton and silk textiles, metal work, and precious stone work." },
+        { "q": "What did 'malmal shahi' or 'malmal khas' mean?", "a": "The finest Dhaka muslin, cloth fit for royalty." }
+      ]
+    },
+    {
+      "id": "national-income-estimates",
+      "title": "How rich was colonial India?",
+      "emoji": "📏",
+      "section": "1.2",
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "📏",
+          "big": "No official attempt to measure India's income.",
+          "sub": "The colonial government never seriously estimated it",
+          "say": "How rich was colonial India? Surprisingly, the colonial government never made a sincere attempt to measure India's national or per capita income."
+        },
+        {
+          "kind": "points",
+          "heading": "First, two terms",
+          "items": [
+            { "icon": "🏦", "text": "National income: value of all final goods and services a country produces in a year" },
+            { "icon": "👤", "text": "Per capita income: national income ÷ population" },
+            { "icon": "🧮", "text": "Example: ₹100 crore income ÷ 10 crore people = ₹10 per person" }
+          ],
+          "say": "Two terms first. National income is the value of all the final goods and services a country produces in a year. Per capita income is national income divided by the population, so it's the average person's share. If a country earns 100 crore rupees and has 10 crore people, per capita income is 10 rupees."
+        },
+        {
+          "kind": "points",
+          "heading": "Who estimated it?",
+          "items": [
+            { "icon": "1️⃣", "text": "Dadabhai Naoroji" },
+            { "icon": "2️⃣", "text": "William Digby" },
+            { "icon": "3️⃣", "text": "Findlay Shirras" },
+            { "icon": "⭐", "text": "V.K.R.V. Rao (the most significant estimates)" },
+            { "icon": "5️⃣", "text": "R.C. Desai" }
+          ],
+          "say": "Some individuals tried, and their results were conflicting and inconsistent. The notable estimators were Dadabhai Naoroji, William Digby, Findlay Shirras, V K R V Rao and R C Desai. Rao's estimates were considered very significant. Memory trick: No Dog Should Run Desperately. Naoroji, Digby, Shirras, Rao, Desai."
+        },
+        {
+          "kind": "stat",
+          "value": "<2%",
+          "label": "yearly growth of total real output, first half of the 20th century",
+          "compare": { "value": "0.5%", "label": "yearly growth of output per person" },
+          "say": "Most studies agree that in the first half of the twentieth century, total real output grew less than 2 percent a year, and output per person only about half a percent. At half a percent a year, it takes roughly 140 years for incomes to double."
+        }
+      ],
+      "beyond": "Rule of 70: divide 70 by the growth rate to get the doubling time. At 0.5% per capita growth, incomes double in about 140 years. At the 6–8% GDP growth India has seen in recent years, the economy doubles in roughly 9–12 years.",
+      "examAngle": "A classic factual MCQ asks whose colonial-era estimates were considered most significant. The answer is V.K.R.V. Rao.",
+      "quiz": {
+        "q": "Whose estimates of national income during the colonial period were considered very significant?",
+        "options": ["Dadabhai Naoroji", "William Digby", "V.K.R.V. Rao", "Findlay Shirras"],
+        "answer": 2,
+        "why": "NCERT names five estimators but singles out V.K.R.V. Rao's estimates as very significant."
+      },
+      "cards": [
+        { "q": "Name the five notable estimators of India's colonial national income.", "a": "Dadabhai Naoroji, William Digby, Findlay Shirras, V.K.R.V. Rao, R.C. Desai (mnemonic: No Dog Should Run Desperately)." },
+        { "q": "Growth of aggregate vs per capita output in the first half of the 20th century?", "a": "Aggregate real output: under 2% a year. Per capita output: about 0.5% a year." },
+        { "q": "Define per capita income.", "a": "National income divided by the population, i.e. the average income per person." }
+      ]
+    },
+    {
+      "id": "agriculture-stagnation",
+      "title": "Agriculture: 85% of people, stuck in place",
+      "emoji": "🌾",
+      "section": "1.3",
+      "scenes": [
+        {
+          "kind": "stat",
+          "value": "85%",
+          "label": "of Indians lived in villages and depended on agriculture",
+          "say": "Under British rule, India's economy stayed fundamentally agrarian. About 85 percent of the population lived in villages and depended on agriculture, directly or indirectly."
+        },
+        {
+          "kind": "quote",
+          "text": "The knowledge I have acquired of Bengal in two visits inclines me to believe that it is richer than Egypt.",
+          "by": "François Bernier, French traveller, 17th century",
+          "say": "Now picture Bengal in the seventeenth century. The French traveller Bernier wrote that it was richer than Egypt, with an abundance of cotton, silk, rice, sugar and butter. Keep that image and compare it with the stagnation two hundred years later."
+        },
+        {
+          "kind": "points",
+          "heading": "Stagnation, explained",
+          "items": [
+            { "icon": "📉", "text": "Agricultural productivity was low" },
+            { "icon": "🗺️", "text": "Output grew a little only because more land was farmed" },
+            { "icon": "🚫", "text": "No investment in terracing, flood control, drainage or desalinisation of soil" }
+          ],
+          "say": "Here's the subtle point. Total farm output grew slightly, but only because more land was brought under cultivation, not because each acre produced more. Productivity stayed low, and there was almost no investment in terracing, flood control, drainage, or removing salt from soil."
+        },
+        {
+          "kind": "points",
+          "heading": "Why did it happen?",
+          "items": [
+            { "icon": "🏛️", "text": "Land settlement systems, especially zamindari" },
+            { "icon": "⚙️", "text": "Low levels of technology" },
+            { "icon": "💧", "text": "Lack of irrigation facilities" },
+            { "icon": "🧪", "text": "Negligible use of fertilisers" }
+          ],
+          "say": "NCERT says the stagnation was caused mainly by the land settlement systems the British introduced. On top of that came low technology, poor irrigation and almost no fertiliser use. We'll unpack the land systems in the next reel."
+        }
+      ],
+      "beyond": "Productivity means output per unit of input, such as tonnes of rice per hectare. A rise in total output with flat productivity is like a shop earning more only by opening more branches while each branch stays just as weak.",
+      "examAngle": "Exercise Q3 asks for the main causes of agricultural stagnation. List: land settlement systems, zamindars' rent focus, revenue terms, low technology, poor irrigation, negligible fertilisers.",
+      "quiz": {
+        "q": "Despite stagnation, India's total agricultural output grew slightly under British rule mainly because of:",
+        "options": ["Expansion of the area under cultivation", "Heavy use of chemical fertilisers", "Mechanisation of farms", "Large irrigation investments"],
+        "answer": 0,
+        "why": "Productivity stayed low. Growth came from expanding the area under cultivation."
+      },
+      "cards": [
+        { "q": "What share of India's population depended on agriculture under British rule?", "a": "About 85% lived in villages and depended on agriculture directly or indirectly." },
+        { "q": "What does NCERT call the main cause of agricultural stagnation?", "a": "The land settlement systems introduced by the colonial government (especially zamindari)." },
+        { "q": "List four causes of low agricultural productivity in colonial India.", "a": "Land settlement systems, low technology, lack of irrigation, negligible fertiliser use (plus no investment in terracing, flood control, drainage)." }
+      ]
+    },
+    {
+      "id": "zamindari-revenue",
+      "title": "Zamindari: who took the harvest?",
+      "emoji": "🏛️",
+      "section": "1.3",
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "🏛️",
+          "big": "The farmer grew the crop. Someone else took the profit.",
+          "sub": "The zamindari system, Bengal Presidency",
+          "say": "Imagine farming land all year, only for most of the profit to go to someone else. That was life under the zamindari system in the Bengal Presidency, which covered parts of today's eastern states."
+        },
+        {
+          "kind": "flow",
+          "heading": "How zamindari worked",
+          "steps": ["Cultivator grows the crop", "Zamindar collects rent", "Zamindar pays a fixed revenue to the British on fixed dates", "Miss the date and the zamindar loses his rights"],
+          "say": "The chain worked like this. The cultivator grows the crop. The zamindar collects rent from him. The zamindar must deposit a fixed sum of revenue with the British by fixed dates, and if he fails, he loses his rights. So zamindars squeezed farmers as hard as they could."
+        },
+        {
+          "kind": "points",
+          "heading": "The result",
+          "items": [
+            { "icon": "💸", "text": "Profit went to zamindars, not cultivators" },
+            { "icon": "🎯", "text": "Zamindars' only interest was collecting rent" },
+            { "icon": "😣", "text": "Immense misery and social tension among cultivators" },
+            { "icon": "🚫", "text": "Neither zamindars nor the government improved agriculture" }
+          ],
+          "say": "The results: profits went to zamindars instead of cultivators. The zamindars' only interest was collecting rent, whatever condition the farmers were in. This caused immense misery and social tension, and neither the zamindars nor the colonial government did anything to improve agriculture."
+        },
+        {
+          "kind": "points",
+          "heading": "Three land revenue systems",
+          "extra": true,
+          "items": [
+            { "icon": "🅰️", "text": "Zamindari / Permanent Settlement: 1793, Lord Cornwallis, Bengal. A zamindar is the intermediary." },
+            { "icon": "🅱️", "text": "Ryotwari: Thomas Munro, Madras and Bombay. The farmer (ryot) pays the state directly." },
+            { "icon": "🅲", "text": "Mahalwari: 1822, North-Western Provinces and Punjab. The village (mahal) pays as a unit." }
+          ],
+          "say": "Beyond NCERT, the British used three main revenue systems. Zamindari, also called the Permanent Settlement, began in Bengal in 1793 under Lord Cornwallis, with the zamindar as the middleman. Under Ryotwari, linked to Thomas Munro in Madras and Bombay, the farmer paid the state directly. Under Mahalwari, from 1822 in the north-west, the whole village paid as one unit."
+        }
+      ],
+      "beyond": "After independence, land reforms set out to abolish intermediaries like zamindars. You'll meet this in the next chapter on 1950–90 policies. NCERT even asks whether zamindari has really been abolished.",
+      "examAngle": "Descriptive questions often ask you to link land tenure to farm productivity. Use the chain: fixed revenue → rent extraction → no investment → stagnation.",
+      "quiz": {
+        "q": "Why did zamindars squeeze cultivators for rent, according to NCERT?",
+        "options": ["The British paid zamindars a share of the crop", "Revenue had to be deposited by fixed dates, or zamindars lost their rights", "Cultivators owned the land and zamindars wanted it", "Cash crops required higher rent"],
+        "answer": 1,
+        "why": "The terms of the revenue settlement fixed the dates and sums. Failing to pay meant losing zamindari rights."
+      },
+      "cards": [
+        { "q": "In the zamindari system, who got the profit from agriculture?", "a": "The zamindars, not the cultivators." },
+        { "q": "How did the terms of revenue settlement make zamindars harsh?", "a": "Fixed sums had to be deposited by fixed dates; failing that, zamindars lost their rights, so they extracted maximum rent." },
+        { "q": "Ryotwari vs Zamindari vs Mahalwari: who paid revenue to the state?", "a": "Ryotwari: the farmer directly. Zamindari: the zamindar (intermediary). Mahalwari: the village community as a unit." }
+      ]
+    },
+    {
+      "id": "commercialisation",
+      "title": "Cash crops boomed. Farmers didn't.",
+      "emoji": "💰",
+      "section": "1.3",
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "💰",
+          "big": "Commercialisation of agriculture",
+          "sub": "Growing crops to sell, not to eat",
+          "say": "There was one bright spot. In some areas, cash crops gave relatively higher yields. This is called the commercialisation of agriculture: growing crops for the market instead of for your own family."
+        },
+        {
+          "kind": "compare",
+          "heading": "Food crops vs cash crops",
+          "left": { "title": "Food crops", "items": ["Rice, wheat, pulses", "Feed the family and the village", "Keep villages self-sufficient"] },
+          "right": { "title": "Cash crops", "items": ["Cotton, jute, indigo, sugarcane", "Sold for money", "Fed British industries"] },
+          "say": "Food crops like rice and wheat feed families. Cash crops like cotton, jute and indigo are grown to sell, and under colonial rule they ultimately fed British factories."
+        },
+        {
+          "kind": "points",
+          "heading": "Why farmers didn't gain",
+          "items": [
+            { "icon": "🇬🇧", "text": "Cash crops went to British industries back home" },
+            { "icon": "👥", "text": "Only a small section of farmers switched crops" },
+            { "icon": "🙅", "text": "Tenants, small farmers and sharecroppers lacked resources, technology and incentive" }
+          ],
+          "say": "Farmers' condition hardly improved, because the crops were used by British industries. Only a small section of farmers switched to commercial crops. A large section of tenants, small farmers and sharecroppers had no resources, no technology, and no incentive to invest."
+        },
+        {
+          "kind": "flow",
+          "heading": "The hidden cost",
+          "steps": ["Railways reach the villages", "Cash crops shipped to ports", "Villages lose food self-sufficiency", "Greater risk in famines"],
+          "say": "There was a hidden cost too. Railways helped carry cash crops to the ports, but this weakened the self-sufficiency of village economies. When harvests failed, villages had less food of their own to fall back on."
+        }
+      ],
+      "beyond": "Indigo shows the dark side. In Champaran, Bihar, farmers were forced to grow indigo on part of their land (the tinkathia system). In 1917 this led to Gandhi's first satyagraha in India.",
+      "examAngle": "If asked whether commercialisation helped Indian farmers: higher yields in some areas, but benefits went to British industry, and small farmers couldn't participate.",
+      "quiz": {
+        "q": "According to NCERT, which group could NOT benefit from the shift to commercial crops?",
+        "options": ["British industrialists", "Zamindars", "Tenants, small farmers and sharecroppers", "Railway companies"],
+        "answer": 2,
+        "why": "They had neither the resources, the technology nor the incentive to invest in agriculture."
+      },
+      "cards": [
+        { "q": "What is commercialisation of agriculture?", "a": "A shift from growing food crops for one's own use to growing cash crops for sale in the market." },
+        { "q": "Why didn't commercialisation improve farmers' condition under British rule?", "a": "Cash crops ultimately served British industries; only a few farmers could switch; tenants, small farmers and sharecroppers lacked resources, technology and incentive." }
+      ]
+    },
+    {
+      "id": "deindustrialisation",
+      "title": "De-industrialisation: the two-fold motive",
+      "emoji": "🏚️",
+      "section": "1.4",
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "🏚️",
+          "big": "Old industries died. New ones weren't allowed to take their place.",
+          "sub": "Systematic de-industrialisation",
+          "say": "India's world-famous handicrafts declined, and no modern industrial base was allowed to replace them. NCERT calls this the systematic de-industrialisation of India."
+        },
+        {
+          "kind": "points",
+          "heading": "The two-fold motive",
+          "items": [
+            { "icon": "1️⃣", "text": "Reduce India to an exporter of raw materials for Britain's modern industries" },
+            { "icon": "2️⃣", "text": "Turn India into a sprawling market for Britain's finished products" }
+          ],
+          "say": "The colonial government had a two-fold motive. First, reduce India to an exporter of important raw materials for Britain's new industries. Second, turn India into a huge market for the finished products of those industries, so they could keep expanding to Britain's advantage."
+        },
+        {
+          "kind": "flow",
+          "heading": "The chain reaction",
+          "steps": ["Handicraft industries decline", "Massive unemployment among artisans", "Locally made goods disappear", "Cheap British imports fill the demand"],
+          "say": "Watch the chain reaction. Handicrafts decline, artisans lose their jobs, and locally made goods disappear from the market. That gap was profitably filled by cheap manufactured imports from Britain. Britain won on both ends."
+        }
+      ],
+      "beyond": "This is the economics behind the Swadeshi movement (1905) and Gandhi's charkha. Boycotting British cloth and spinning khadi were direct answers to de-industrialisation.",
+      "examAngle": "Exercise Q5 is exactly this: the two-fold motive. Write both points, then add the result: unemployment plus new demand met by British imports.",
+      "quiz": {
+        "q": "Which of these was part of the two-fold motive behind de-industrialising India?",
+        "options": ["Building India's capital goods industry", "Making India a market for Britain's finished goods", "Reducing India's exports of raw materials", "Expanding India's public sector"],
+        "answer": 1,
+        "why": "The two motives: make India a raw-material exporter, and make India a market for British finished goods."
+      },
+      "cards": [
+        { "q": "What was the two-fold motive behind the systematic de-industrialisation of India?", "a": "(1) Make India an exporter of raw materials for British industries; (2) make India a big market for British finished goods." },
+        { "q": "What were two effects of the decline of Indian handicrafts?", "a": "Massive unemployment among artisans, and a new demand for goods that was met by cheap British imports." }
+      ]
+    },
+    {
+      "id": "modern-industry",
+      "title": "Modern industry arrives, slowly",
+      "emoji": "🏭",
+      "section": "1.4",
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "🏭",
+          "big": "Second half of the 1800s: the first factories",
+          "sub": "Modern industry took root, but grew very slowly",
+          "say": "In the second half of the nineteenth century, modern industry began to take root in India. But it grew very slowly."
+        },
+        {
+          "kind": "compare",
+          "heading": "The first mills",
+          "left": { "title": "Cotton textile mills", "items": ["Mainly owned by Indians", "Western India", "Maharashtra and Gujarat"] },
+          "right": { "title": "Jute mills", "items": ["Dominated by foreigners", "Eastern India", "Concentrated in Bengal"] },
+          "say": "It started with two industries. Cotton textile mills were mainly owned by Indians and located in the west, in Maharashtra and Gujarat. Jute mills were dominated by foreigners and concentrated in Bengal. Easy way to remember: cotton, west, Indian. Jute, east, foreign."
+        },
+        {
+          "kind": "timeline",
+          "heading": "Milestones",
+          "events": [
+            { "year": "1850s+", "text": "Cotton and jute mills appear" },
+            { "year": "1907", "text": "Tata Iron and Steel Company (TISCO) incorporated" },
+            { "year": "1932", "text": "Tata Airlines starts the aviation sector" },
+            { "year": "After WW II", "text": "Sugar, cement and paper industries come up" }
+          ],
+          "say": "Then come the milestones. Iron and steel arrived in the early twentieth century, and the Tata Iron and Steel Company, TISCO, was incorporated in 1907. Tata Airlines, a division of Tata and Sons, was set up in 1932. A few industries like sugar, cement and paper came up after the Second World War."
+        },
+        {
+          "kind": "points",
+          "heading": "Why Jamshedpur for TISCO?",
+          "extra": true,
+          "items": [
+            { "icon": "⛏️", "text": "Close to iron ore and coal deposits" },
+            { "icon": "💧", "text": "Water from the Subarnarekha and Kharkai rivers" },
+            { "icon": "🚂", "text": "Rail link to markets and ports" }
+          ],
+          "say": "NCERT asks why TISCO was set up at Jamshedpur, in today's Jharkhand. Steel needs iron ore and coal, which were nearby. It needs lots of water, which came from the Subarnarekha and Kharkai rivers. And it needs transport, which the railway provided."
+        }
+      ],
+      "beyond": "Tata Airlines' first flight in 1932 was flown by J.R.D. Tata from Karachi to Bombay. The airline became Air India in 1946.",
+      "examAngle": "Popular MCQs: TISCO's year (1907), Tata Airlines (1932), and who owned which mills (cotton: Indians, west; jute: foreigners, Bengal).",
+      "quiz": {
+        "q": "In colonial India, jute mills were:",
+        "options": ["Mainly Indian-owned, in Gujarat", "Dominated by foreigners, concentrated in Bengal", "Run by the public sector", "Located mainly in Punjab"],
+        "answer": 1,
+        "why": "Cotton mills: mainly Indian, in western India. Jute mills: dominated by foreigners, in Bengal."
+      },
+      "cards": [
+        { "q": "Cotton vs jute mills in colonial India: who owned them and where were they?", "a": "Cotton: mainly Indian-owned, western India (Maharashtra, Gujarat). Jute: foreign-dominated, Bengal." },
+        { "q": "When was TISCO incorporated?", "a": "1907." },
+        { "q": "Which industries came up after the Second World War?", "a": "A few industries such as sugar, cement and paper." }
+      ]
+    },
+    {
+      "id": "capital-goods-public-sector",
+      "title": "Missing: machines that make machines",
+      "emoji": "⚙️",
+      "section": "1.4",
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "⚙️",
+          "big": "Factories, yes. Machine-making industry, hardly any.",
+          "sub": "The capital goods gap",
+          "say": "India now had some factories. But there was hardly any capital goods industry, and that was a serious problem."
+        },
+        {
+          "kind": "compare",
+          "heading": "Know the difference",
+          "left": { "title": "Consumer goods", "items": ["Used directly by people", "Cloth, sugar, soap", "For current consumption"] },
+          "right": { "title": "Capital goods", "items": ["Used to make other goods", "Machine tools, looms, turbines", "Drive further industrialisation"] },
+          "say": "Capital goods industries make machine tools, which are then used to produce goods for everyday consumption. A cloth mill makes consumer goods. A factory that makes the looms for that cloth mill makes capital goods. Without capital goods, every new factory depends on imported machines."
+        },
+        {
+          "kind": "points",
+          "heading": "Other weaknesses of colonial industry",
+          "items": [
+            { "icon": "🔁", "text": "Could not replace the displaced handicraft industries" },
+            { "icon": "🐢", "text": "Low growth rate, small share of GDP / Gross Value Added" },
+            { "icon": "🏢", "text": "Public sector limited to railways, power, communications, ports and a few departmental undertakings" }
+          ],
+          "say": "There were other weaknesses too. A few new factories could not replace the near-wholesale loss of traditional handicrafts. The industrial sector's growth rate and its share of GDP, or Gross Value Added, stayed very small. And the public sector only operated in railways, power generation, communications, ports and some departmental undertakings."
+        }
+      ],
+      "beyond": "This gap explains a big policy choice after 1947. The Second Five Year Plan (1956), based on the Mahalanobis model, put heavy industry and capital goods at its centre.",
+      "examAngle": "Exercise Q8: critically appraise the industrial policy. Cover no capital goods base, slow growth and low GDP share, handicrafts not replaced, and a very limited public sector.",
+      "quiz": {
+        "q": "Which of these is a capital good?",
+        "options": ["A shirt bought by a household", "A packet of sugar", "A machine tool used in a textile mill", "A cinema ticket"],
+        "answer": 2,
+        "why": "Capital goods are used to produce other goods. A machine tool in a mill produces cloth."
+      },
+      "cards": [
+        { "q": "What is a capital goods industry?", "a": "An industry that produces machine tools, which are in turn used to produce articles for current consumption." },
+        { "q": "Where did the colonial public sector operate?", "a": "Only in railways, power generation, communications, ports and some departmental undertakings." }
+      ]
+    },
+    {
+      "id": "foreign-trade",
+      "title": "Foreign trade: a lopsided deal",
+      "emoji": "🚢",
+      "section": "1.5",
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "🚢",
+          "big": "An ancient trading nation, forced into lopsided trade.",
+          "sub": "Structure, composition and volume all changed",
+          "say": "India had been an important trading nation since ancient times. But colonial policies on production, trade and tariffs changed the structure, composition and volume of its foreign trade."
+        },
+        {
+          "kind": "compare",
+          "heading": "What India traded",
+          "left": { "title": "Exports: primary products", "items": ["Raw silk, cotton, wool", "Sugar, indigo, jute"] },
+          "right": { "title": "Imports: finished goods", "items": ["Cotton, silk and woollen clothes", "Capital goods like light machinery from Britain"] },
+          "say": "India became an exporter of primary products like raw silk, cotton, wool, sugar, indigo and jute. It imported finished consumer goods, like cotton, silk and woollen clothes, and capital goods such as light machinery made in British factories."
+        },
+        {
+          "kind": "stat",
+          "value": ">50%",
+          "label": "of India's foreign trade was restricted to Britain",
+          "compare": { "value": "Rest", "label": "China, Ceylon (Sri Lanka), Persia (Iran)" },
+          "say": "Britain kept monopoly control over India's exports and imports. More than half of India's foreign trade was restricted to Britain. The rest was allowed with a few countries like China, Ceylon, now Sri Lanka, and Persia, now Iran."
+        },
+        {
+          "kind": "flow",
+          "heading": "The Suez Canal, 1869",
+          "steps": ["Joins the Mediterranean (Port Said) to the Red Sea (Gulf of Suez)", "Ships stop sailing around Africa", "Transport costs fall", "Britain's grip on India's trade tightens"],
+          "say": "Then in 1869 the Suez Canal opened. It's an artificial waterway in Egypt joining the Mediterranean Sea at Port Said with the Gulf of Suez on the Red Sea. Ships no longer had to sail around Africa, transport became cheaper, and Britain's access to the Indian market got easier. Its control over India's trade grew even stronger."
+        }
+      ],
+      "beyond": "Today the pattern has flipped. India's largest export categories include engineering goods, refined petroleum products and pharmaceuticals, and its trade partners are spread worldwide.",
+      "examAngle": "Exercise Q15 asks for the volume and direction of trade. Direction: more than 50% with Britain. Composition: primary products out, finished goods in.",
+      "quiz": {
+        "q": "The opening of the Suez Canal (1869) affected India's trade by:",
+        "options": ["Ending British control over India's trade", "Making access to the Indian market easier and intensifying British control", "Shifting most trade to China", "Stopping India's raw material exports"],
+        "answer": 1,
+        "why": "It cut transport costs and made the Indian market easier to reach, which intensified British control."
+      },
+      "cards": [
+        { "q": "What was the composition of India's colonial trade?", "a": "Exports: primary products (raw silk, cotton, wool, sugar, indigo, jute). Imports: finished consumer goods and light machinery from Britain." },
+        { "q": "How much of India's foreign trade went to Britain, and who else was allowed?", "a": "More than half; the rest with countries like China, Ceylon (Sri Lanka) and Persia (Iran)." },
+        { "q": "Suez Canal: which year and which seas does it link?", "a": "Opened 1869; links the Mediterranean (Port Said) with the Red Sea (Gulf of Suez)." }
+      ]
+    },
+    {
+      "id": "drain-of-wealth",
+      "title": "Export surplus & the drain of wealth",
+      "emoji": "🩸",
+      "section": "1.5",
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "🤔",
+          "big": "India exported more than it imported. So why did it get poorer?",
+          "sub": "The paradox of the export surplus",
+          "say": "Here's a puzzle. Throughout the colonial period, India had a large export surplus. It sold more than it bought. Normally that would make a country richer. So why did India get poorer?"
+        },
+        {
+          "kind": "points",
+          "heading": "The catch",
+          "items": [
+            { "icon": "🍚", "text": "Food grains, clothes and kerosene were scarcely available at home" },
+            { "icon": "🪙", "text": "The surplus brought no gold or silver into India" }
+          ],
+          "say": "First, the surplus came at a huge cost. Essential goods like food grains, clothes and kerosene were scarcely available in India's own markets. Second, the surplus did not bring any gold or silver into the country."
+        },
+        {
+          "kind": "flow",
+          "heading": "Where the surplus went",
+          "steps": ["Export surplus", "Expenses of the colonial office in Britain", "Britain's war expenses", "Imports of invisible items (services)", "= Drain of Indian wealth"],
+          "say": "So where did the money go? It paid for the expenses of an office the colonial government ran in Britain, for wars fought by the British government, and for imports of invisible items, meaning services. Together, this is called the drain of Indian wealth."
+        },
+        {
+          "kind": "quote",
+          "extra": true,
+          "text": "Drain Theory: India's wealth flowed to Britain through 'Home Charges': salaries and pensions of British officials, interest on debt, and military costs.",
+          "by": "Dadabhai Naoroji, 'Poverty and Un-British Rule in India' (1901)",
+          "say": "Beyond NCERT, the person most associated with this idea is Dadabhai Naoroji, the same man who estimated national income. In his book Poverty and Un-British Rule in India, he argued that India's wealth was being drained to Britain through home charges like officials' salaries and pensions, interest on debt, and military costs."
+        }
+      ],
+      "beyond": "Invisible items are trade in services rather than goods, like shipping, insurance and banking. Today they appear in the 'invisibles' part of India's current account, which you'll study for RBI's balance-of-payments topics.",
+      "examAngle": "Exercise Q9: 'What do you understand by the drain of Indian wealth?' Cover the export surplus, no gold or silver inflow, and the money paying for the British office, wars and invisible imports. Naoroji's name is a bonus.",
+      "quiz": {
+        "q": "India's colonial export surplus was mainly used to:",
+        "options": ["Import gold and silver into India", "Build Indian industries", "Pay for the British colonial office, wars and invisible imports", "Fund famine relief"],
+        "answer": 2,
+        "why": "It brought no gold or silver. It paid for the colonial office in Britain, British wars and invisible imports, which is the drain of wealth."
+      },
+      "cards": [
+        { "q": "What was the 'drain of Indian wealth'?", "a": "India's export surplus brought no gold/silver; it paid for the colonial office in Britain, British wars and invisible imports, so wealth flowed out of India." },
+        { "q": "Who is associated with the Drain Theory and in which book?", "a": "Dadabhai Naoroji, 'Poverty and Un-British Rule in India' (1901)." },
+        { "q": "What cost did India pay for its export surplus at home?", "a": "Essentials like food grains, clothes and kerosene were scarcely available in the domestic market." }
+      ]
+    },
+    {
+      "id": "demographic-transition",
+      "title": "1881 census & the demographic transition",
+      "emoji": "👥",
+      "section": "1.6",
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "👥",
+          "big": "1881: British India's first census",
+          "sub": "Then every ten years",
+          "say": "Detailed information about British India's population was first collected in the census of 1881. It had limitations, but it showed how unevenly India's population was growing. After that, a census was held every ten years."
+        },
+        {
+          "kind": "points",
+          "heading": "Demographic transition, simply",
+          "items": [
+            { "icon": "1️⃣", "text": "Stage 1: high birth rate + high death rate → slow growth" },
+            { "icon": "2️⃣", "text": "Stage 2: death rate falls, birth rate stays high → population grows fast" }
+          ],
+          "say": "Demographic transition describes how population changes as a country develops. In stage one, both birth and death rates are high, so population grows slowly. In stage two, better health and food cut the death rate, but the birth rate stays high, so population grows fast."
+        },
+        {
+          "kind": "timeline",
+          "heading": "India's transition",
+          "events": [
+            { "year": "1881", "text": "First census of British India" },
+            { "year": "Before 1921", "text": "First stage of demographic transition" },
+            { "year": "After 1921", "text": "Second stage begins" }
+          ],
+          "say": "India was in the first stage before 1921. The second stage began after 1921. At this point, neither India's total population nor its growth rate was very high."
+        }
+      ],
+      "beyond": "1921 is often called the 'Year of the Great Divide' in Indian demography. Before it, population rose and fell with famines and epidemics. After it, population grew continuously.",
+      "examAngle": "Two easy marks: the first census (1881) and the year that divides the first and second stages (1921). Exercise Q10 and Q14 ask exactly these.",
+      "quiz": {
+        "q": "Which year marks India's move from the first to the second stage of demographic transition?",
+        "options": ["1881", "1901", "1921", "1947"],
+        "answer": 2,
+        "why": "Before 1921 India was in the first stage. The second stage began after 1921."
+      },
+      "cards": [
+        { "q": "When was the first census of British India held?", "a": "1881 (and every ten years after that)." },
+        { "q": "Which year divides the first and second stages of India's demographic transition?", "a": "1921 (the 'Year of the Great Divide')." },
+        { "q": "What happens in the second stage of demographic transition?", "a": "Death rate falls while birth rate stays high, so population grows rapidly." }
+      ]
+    },
+    {
+      "id": "health-literacy",
+      "title": "Health & literacy at independence",
+      "emoji": "🩺",
+      "section": "1.6",
+      "scenes": [
+        {
+          "kind": "stat",
+          "value": "32 yrs",
+          "label": "life expectancy at independence",
+          "compare": { "value": "70 yrs", "label": "life expectancy today (NCERT)" },
+          "say": "Life expectancy was very low: about 32 years, compared with about 70 years today."
+        },
+        {
+          "kind": "stat",
+          "value": "218",
+          "label": "infant deaths per 1,000 live births (IMR)",
+          "compare": { "value": "28", "label": "infant mortality rate today (NCERT)" },
+          "say": "The infant mortality rate measures how many babies die before their first birthday for every thousand born alive. At independence it was about 218, so more than one in five babies didn't survive their first year. NCERT gives the present figure as 28."
+        },
+        {
+          "kind": "bars",
+          "heading": "Literacy then",
+          "unit": "%",
+          "bars": [
+            { "label": "Overall literacy (colonial India)", "value": 16, "display": "<16%" },
+            { "label": "Female literacy (colonial India)", "value": 7, "display": "~7%" }
+          ],
+          "say": "Literacy was also low. Overall literacy was below 16 percent, and female literacy was a negligible 7 percent or so."
+        },
+        {
+          "kind": "points",
+          "heading": "Why so grim?",
+          "items": [
+            { "icon": "🏥", "text": "Public health facilities unavailable or highly inadequate" },
+            { "icon": "🦠", "text": "Water-borne and air-borne diseases were rampant" },
+            { "icon": "⚰️", "text": "Very high overall mortality rate" },
+            { "icon": "🥣", "text": "Extensive poverty (no reliable data, but clearly widespread)" }
+          ],
+          "say": "The reasons: public health facilities were either unavailable or highly inadequate, so water-borne and air-borne diseases were rampant and the death rate was very high. There's no reliable data on poverty from that time, but extensive poverty clearly existed and made things worse."
+        }
+      ],
+      "beyond": "The Bengal Famine of 1943 killed an estimated 2–3 million people. Amartya Sen's 'Poverty and Famines' argued that famines are often about people losing the ability to buy or access food (their 'entitlements'), not only about too little food. The 2011 Census put literacy at about 74% (female about 65%).",
+      "examAngle": "Exercise Q11 asks for a quantitative appraisal of the demographic profile. Quote the numbers: literacy under 16% (female about 7%), IMR 218 per 1,000, life expectancy 32 years.",
+      "quiz": {
+        "q": "The infant mortality rate at the time of independence was about:",
+        "options": ["28 per thousand", "75 per thousand", "218 per thousand", "320 per thousand"],
+        "answer": 2,
+        "why": "NCERT gives about 218 per thousand at the time, compared with 28 today."
+      },
+      "cards": [
+        { "q": "Give the four key social indicators of colonial India (NCERT).", "a": "Literacy under 16%, female literacy about 7%, infant mortality about 218 per 1,000, life expectancy about 32 years." },
+        { "q": "What is the infant mortality rate (IMR)?", "a": "The number of infants who die before their first birthday per 1,000 live births." },
+        { "q": "Why was mortality so high in colonial India?", "a": "Inadequate or unavailable public health facilities, rampant water- and air-borne diseases, and extensive poverty." }
+      ]
+    },
+    {
+      "id": "occupational-structure",
+      "title": "Where people worked",
+      "emoji": "👩‍🌾",
+      "section": "1.7",
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "👩‍🌾",
+          "big": "Occupational structure: who works in which sector",
+          "sub": "In colonial India it barely changed",
+          "say": "Occupational structure means how a country's workers are spread across sectors like agriculture, manufacturing and services. In colonial India it showed little sign of change."
+        },
+        {
+          "kind": "bars",
+          "heading": "Share of the workforce",
+          "unit": "%",
+          "bars": [
+            { "label": "Agriculture", "value": 72, "display": "70–75%" },
+            { "label": "Services", "value": 17, "display": "15–20%" },
+            { "label": "Manufacturing", "value": 10, "display": "10%" }
+          ],
+          "say": "Agriculture employed the largest share, about 70 to 75 percent of the workforce. Manufacturing employed only about 10 percent, and services about 15 to 20 percent."
+        },
+        {
+          "kind": "compare",
+          "heading": "Growing regional variation",
+          "left": { "title": "Less dependent on farming", "items": ["Madras Presidency (today's TN, AP, Kerala, Karnataka)", "Bombay", "Bengal"] },
+          "right": { "title": "More dependent on farming", "items": ["Orissa", "Rajasthan", "Punjab"] },
+          "say": "There was growing regional variation. In the Madras Presidency, which covered today's Tamil Nadu, Andhra Pradesh, Kerala and Karnataka, and in Bombay and Bengal, dependence on agriculture fell while manufacturing and services grew. In Orissa, Rajasthan and Punjab, agriculture's share of the workforce actually rose."
+        },
+        {
+          "kind": "stat",
+          "extra": true,
+          "value": "~46%",
+          "label": "of India's workers are still in agriculture (PLFS 2023–24, approx.)",
+          "say": "Beyond NCERT: even today, government survey data shows roughly 46 percent of India's workers in agriculture. It's the largest employer, though its share of GDP is far smaller. That structural problem has colonial roots."
+        }
+      ],
+      "beyond": "Economists expect workers to move from agriculture to industry and services as a country develops. India's path has been unusual: services grew faster than manufacturing, and agriculture still holds a large share of jobs.",
+      "examAngle": "Exercise Q12: list the sector shares (70–75 / 10 / 15–20) and the regional variation, naming the regions on both sides.",
+      "quiz": {
+        "q": "In which regions did the share of the workforce in agriculture INCREASE during the colonial period?",
+        "options": ["Madras, Bombay and Bengal", "Orissa, Rajasthan and Punjab", "Gujarat, Maharashtra and Bengal", "Kerala, Karnataka and Tamil Nadu"],
+        "answer": 1,
+        "why": "Madras, Bombay and Bengal moved away from agriculture. Orissa, Rajasthan and Punjab became more dependent on it."
+      },
+      "cards": [
+        { "q": "Colonial India's occupational structure: share of agriculture, manufacturing, services?", "a": "Agriculture 70–75%, manufacturing about 10%, services 15–20%." },
+        { "q": "Which regions saw falling dependence on agriculture, and which saw rising dependence?", "a": "Falling: Madras Presidency, Bombay, Bengal. Rising: Orissa, Rajasthan, Punjab." }
+      ]
+    },
+    {
+      "id": "railways",
+      "title": "Railways: a double-edged track",
+      "emoji": "🚂",
+      "section": "1.8",
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "🚂",
+          "big": "Britain's biggest 'gift', or a tool of empire?",
+          "sub": "Railways in colonial India",
+          "say": "The railways are often called one of Britain's most important contributions to India. Let's look at both edges of this track."
+        },
+        {
+          "kind": "timeline",
+          "heading": "Key dates",
+          "events": [
+            { "year": "1850", "text": "Railways introduced (per NCERT)" },
+            { "year": "1853", "text": "First passenger train: Bombay to Thane (beyond NCERT)" },
+            { "year": "1854", "text": "Photo in NCERT: the first railway bridge linking Bombay with Thane" }
+          ],
+          "say": "NCERT says the British introduced railways in India in 1850. Beyond the book, the first passenger train ran on 16 April 1853, from Bombay to Thane. For exams, remember 1850 from NCERT and 1853 for the first passenger train."
+        },
+        {
+          "kind": "compare",
+          "heading": "Two effects",
+          "left": { "title": "✅ Positive", "items": ["Long-distance travel became possible", "Broke geographical and cultural barriers"] },
+          "right": { "title": "⚠️ Negative", "items": ["Fostered commercialisation of agriculture", "Hurt the self-sufficiency of village economies", "Exports grew, but Indians rarely benefited"] },
+          "say": "Railways affected the economy in two important ways. On one hand, people could travel long distances, which broke geographical and cultural barriers. On the other hand, railways fostered the commercialisation of agriculture, which hurt the self-sufficiency of village economies. Exports grew, but the benefits rarely reached Indians."
+        },
+        {
+          "kind": "points",
+          "heading": "The verdict",
+          "items": [
+            { "icon": "🎯", "text": "Real motive: serve colonial interests, not provide amenities" },
+            { "icon": "⚖️", "text": "Social benefits were outweighed by the country's huge economic loss" }
+          ],
+          "say": "NCERT's verdict: infrastructure was built mainly to serve colonial interests, not to provide basic amenities. The social benefits Indians got from the railways were outweighed by the country's huge economic loss."
+        }
+      ],
+      "beyond": "At independence, India's railway network was among the largest in the world, but it was designed to link the interior to the ports, not to connect Indian regions to each other.",
+      "examAngle": "A frequent 'discuss' question: were the railways a positive contribution? Give both effects, then NCERT's conclusion that the social benefits were outweighed by economic loss.",
+      "quiz": {
+        "q": "According to NCERT, how did railways hurt the Indian economy?",
+        "options": ["They reduced long-distance travel", "They fostered commercialisation of agriculture, hurting village self-sufficiency", "They raised India's import of raw materials", "They stopped exports from India"],
+        "answer": 1,
+        "why": "Commercialisation of agriculture weakened the self-sufficiency of village economies, and the benefits of rising exports rarely reached Indians."
+      },
+      "cards": [
+        { "q": "When did NCERT say railways were introduced in India? When did the first passenger train run?", "a": "Introduced in 1850 (NCERT); first passenger train ran on 16 April 1853, Bombay to Thane." },
+        { "q": "What were the two important effects of railways on the Indian economy?", "a": "(1) Long-distance travel broke geographical and cultural barriers; (2) they fostered commercialisation of agriculture, hurting village self-sufficiency." }
+      ]
+    },
+    {
+      "id": "roads-canals-telegraph",
+      "title": "Roads, canals, telegraph & post",
+      "emoji": "🛣️",
+      "section": "1.8",
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "🛣️",
+          "big": "Built for the Empire, not for the people.",
+          "sub": "Colonial infrastructure beyond the railways",
+          "say": "Railways, ports, water transport, post and telegraph all developed under colonial rule. But the motive was to serve colonial interests, not to provide basic amenities."
+        },
+        {
+          "kind": "flow",
+          "heading": "Why roads were built",
+          "steps": ["Move the army within India", "Carry raw materials to the railway station or port", "Ship them to England and abroad"],
+          "say": "Roads built before the British weren't fit for modern transport. The new roads mainly served two purposes: moving the army within India, and carrying raw materials from the countryside to the nearest railway station or port, to be shipped to England."
+        },
+        {
+          "kind": "points",
+          "heading": "The gaps",
+          "items": [
+            { "icon": "🌧️", "text": "Acute shortage of all-weather roads to rural areas" },
+            { "icon": "🆘", "text": "Villagers suffered during natural calamities and famines" },
+            { "icon": "🛶", "text": "Coast Canal (Orissa): built at huge cost, lost to a parallel railway, then abandoned" },
+            { "icon": "📡", "text": "Expensive electric telegraph: used to maintain law and order" },
+            { "icon": "✉️", "text": "Postal services: useful, but always inadequate" }
+          ],
+          "say": "There was an acute shortage of all-weather roads into rural areas, so villagers suffered badly during the rainy season, natural disasters and famines. Inland waterways were sometimes uneconomical, like the Coast Canal on the Orissa coast. It was built at huge cost, couldn't compete with a railway running parallel to it, and was abandoned. The expensive electric telegraph served law and order. Postal services were useful but remained inadequate throughout."
+        }
+      ],
+      "beyond": "Rural road connectivity stayed a policy priority long after independence. A national programme for all-weather rural roads, the Pradhan Mantri Gram Sadak Yojana, was launched in 2000.",
+      "examAngle": "Exercise Q7: the objectives behind colonial infrastructure. The answer is colonial interests: moving the army, moving raw materials to ports, and law and order through the telegraph.",
+      "quiz": {
+        "q": "The Coast Canal on the Orissa coast was abandoned because:",
+        "options": ["It was destroyed in a cyclone", "It could not compete with a railway running parallel to it", "The British moved trade to the Suez Canal", "It was too small for ships"],
+        "answer": 1,
+        "why": "It was built at huge cost to the exchequer, but the parallel railway was more competitive, so it was abandoned."
+      },
+      "cards": [
+        { "q": "What were the main purposes of roads built under British rule?", "a": "Moving the army within India, and moving raw materials to railway stations and ports for export." },
+        { "q": "What was the purpose of the electric telegraph in colonial India?", "a": "Maintaining law and order." },
+        { "q": "What example does NCERT give of an uneconomical inland waterway?", "a": "The Coast Canal on the Orissa coast, abandoned after failing to compete with a parallel railway." }
+      ]
+    },
+    {
+      "id": "challenges-1947",
+      "title": "1947 balance sheet: the challenges ahead",
+      "emoji": "📋",
+      "section": "1.9",
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "📋",
+          "big": "15 August 1947: the to-do list",
+          "sub": "Every sector needed rebuilding",
+          "say": "By independence, two centuries of colonial rule had left a mark on every part of the economy. Here's the to-do list the new government inherited."
+        },
+        {
+          "kind": "points",
+          "heading": "The challenges",
+          "items": [
+            { "icon": "🌾", "text": "Agriculture: surplus labour, extremely low productivity" },
+            { "icon": "🏭", "text": "Industry: needed modernisation, diversification, capacity building, public investment" },
+            { "icon": "🚢", "text": "Trade: oriented to feed Britain's Industrial Revolution" },
+            { "icon": "🛤️", "text": "Infrastructure: needed upgrading, expansion and public orientation" },
+            { "icon": "🤲", "text": "Poverty and unemployment: needed welfare-oriented policy" }
+          ],
+          "say": "Agriculture had surplus labour and extremely low productivity. Industry needed modernisation, diversification, capacity building and more public investment. Foreign trade had been oriented to feed Britain's Industrial Revolution. Infrastructure, even the famous railways, needed upgrading, expansion and a public orientation. And rampant poverty and unemployment called for welfare-oriented public policy."
+        },
+        {
+          "kind": "compare",
+          "heading": "Debate: was the Raj good for India?",
+          "left": { "title": "Some contributions", "items": ["Railways, ports, telegraph, post", "Some modern industry (TISCO, mills)", "Census and data collection"] },
+          "right": { "title": "Far greater damage", "items": ["Drain of wealth, de-industrialisation", "Agricultural stagnation, famines", "About 0.5% per capita growth"] },
+          "say": "NCERT asks you to debate whether British rule was good for India. On one side: railways, ports, the telegraph, some modern industry and the census. On the other: the drain of wealth, de-industrialisation, agricultural stagnation, famines, and per capita growth of about half a percent. NCERT's own conclusion is that the efforts were driven by selfish motives."
+        },
+        {
+          "kind": "flow",
+          "heading": "What came next",
+          "steps": ["Colonial legacy", "Need for a big public effort", "Planning Commission (1950)", "Five Year Plans"],
+          "say": "That's why independent India chose planned development. It set up the Planning Commission in 1950 and launched Five Year Plans to rebuild on this base. That's the next chapter."
+        }
+      ],
+      "beyond": "The Planning Commission was replaced by NITI Aayog in 2015. Knowing the arc from colonial legacy to planning to reforms helps with descriptive ESI answers on India's growth story.",
+      "examAngle": "Exercise Q13 and Q16. For 'positive contributions', give a balanced answer, then conclude with NCERT's line that the efforts were 'spiced with selfish motives'.",
+      "quiz": {
+        "q": "Which was NOT one of the challenges India faced at independence, according to NCERT?",
+        "options": ["Surplus labour and low productivity in agriculture", "Industry needing modernisation and public investment", "A large and well-developed capital goods sector to manage", "Rampant poverty and unemployment"],
+        "answer": 2,
+        "why": "India had hardly any capital goods industry. Building one was itself a challenge."
+      },
+      "cards": [
+        { "q": "List India's five big economic challenges at independence.", "a": "Agriculture (surplus labour, low productivity), industry (modernise, diversify, public investment), trade (oriented to Britain), infrastructure (upgrade, expand), poverty and unemployment (welfare policy)." },
+        { "q": "How did NCERT conclude on Britain's infrastructure efforts?", "a": "Some efforts were made, but they were 'spiced with selfish motives'; independent India had to build on this base through planning." }
+      ]
+    }
+  ]
+}

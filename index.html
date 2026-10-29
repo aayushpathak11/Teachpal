@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0b12">
+  <meta name="description" content="Turn a textbook chapter into a feed of narrated reels, quizzes and spaced-repetition recall.">
+  <title>TeachPal</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">Teach<span>Pal</span></div>
+      <div class="chapter-title" id="chapter-title"></div>
+      <div class="streak" id="streak" title="Study streak"></div>
+    </header>
+
+    <main id="view"></main>
+
+    <nav class="tabbar" aria-label="Main">
+      <button data-tab="feed" class="active"><span class="ti">▶</span>Feed</button>
+      <button data-tab="review"><span class="ti">🧠</span>Review<span class="badge" id="due-badge" hidden></span></button>
+      <button data-tab="progress"><span class="ti">📈</span>Progress</button>
+    </nav>
+  </div>
+
+  <div id="start" class="start">
+    <div class="start-card">
+      <div class="start-logo">Teach<span>Pal</span></div>
+      <p class="start-sub" id="start-sub">Loading…</p>
+      <ul class="start-how">
+        <li><b>Watch</b> short narrated reels, one concept each</li>
+        <li><b>Answer</b> the question at the end of every reel</li>
+        <li><b>Recall</b> cards come back right before you'd forget them</li>
+      </ul>
+      <button class="btn primary big" id="start-btn" disabled>Start learning 🔊</button>
+      <p class="hint">Sound on. Tap the left or right side of a reel to go back or skip a scene, and the middle to pause.</p>
+    </div>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

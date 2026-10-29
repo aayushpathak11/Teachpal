@@ -1,0 +1,15 @@
+{
+  "name": "teachpal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Turn a textbook chapter into a feed of narrated reels, quizzes and spaced-repetition recall.",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "validate": "node scripts/validate.mjs",
+    "generate": "node scripts/generate-chapter.mjs"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^1.3.0"
+  }
+}
