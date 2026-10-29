@@ -1,0 +1,1068 @@
+{
+  "id": "eco11-ch02",
+  "subject": "Economics · Class 11 · Indian Economic Development",
+  "chapter": 2,
+  "title": "Indian Economy 1950–1990",
+  "source": "NCERT Class 11, Indian Economic Development, Chapter 2 (Reprint 2026-27)",
+  "exam": "RBI Grade B",
+  "reels": [
+    {
+      "id": "choosing-a-system",
+      "title": "1947: which economic system?",
+      "emoji": "🧭",
+      "section": "2.1",
+      "factIds": ["F1", "F2", "F3"],
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "🧭",
+          "big": "Free at last. Now, how should India run its economy?",
+          "sub": "Indian Economy 1950–1990",
+          "say": "On 15 August 1947, India became master of its own destiny. The leaders now had to decide something huge: what type of economic system would promote the welfare of all, rather than a few?"
+        },
+        {
+          "kind": "quote",
+          "text": "The central objective of Planning in India... is to initiate a process of development which will raise the living standards and open out to the people new opportunities for a richer and more varied life.",
+          "by": "First Five Year Plan",
+          "say": "The First Five Year Plan put the aim in one line. The central objective of planning is to start a process of development that raises living standards and opens out to the people new opportunities for a richer and more varied life."
+        },
+        {
+          "kind": "compare",
+          "heading": "What Nehru wanted, and didn't",
+          "left": { "title": "Not this", "items": ["Soviet-style socialism", "Government owns all factories and farms", "No private property"] },
+          "right": { "title": "But this", "items": ["A strong public sector", "Private property and democracy", "Government plans; private sector joins the plan effort"] },
+          "say": "Socialism appealed to Jawaharlal Nehru the most, but not the Soviet kind, where the government owned all the factories and farms and there was no private property. That isn't possible in a democracy like India. So India chose a mix: a strong public sector, but also private property and democracy, with the government planning and the private sector encouraged to join the plan effort."
+        },
+        {
+          "kind": "points",
+          "heading": "The idea in one line",
+          "items": [
+            { "icon": "🤝", "text": "The best features of socialism, without its drawbacks" },
+            { "icon": "⚖️", "text": "An alternative to the extreme versions of capitalism and socialism" },
+            { "icon": "🇮🇳", "text": "This became India's mixed economy model" }
+          ],
+          "say": "In NCERT's words, India's leaders looked for a system that combined the best features of socialism without its drawbacks, an alternative to the extreme versions of both capitalism and socialism. This is what we call India's mixed economy."
+        }
+      ],
+      "beyond": "The word 'socialist' was added to the Preamble of India's Constitution in 1976, by the 42nd Amendment.",
+      "examAngle": "Exercise 2 asks why India opted for planning. Start from this choice: a mixed economy, with the state planning for the welfare of all and the private sector joining the plan effort.",
+      "quiz": {
+        "q": "According to NCERT, the economic system India's leaders chose after independence was:",
+        "options": ["Soviet-style socialism, with no private property", "Pure capitalism, driven only by market forces", "A socialist society with a strong public sector, but also private property and democracy", "A system of free trade with no government planning"],
+        "answer": 2,
+        "why": "India chose a mixed system: a strong public sector, with private property and democracy, and the government planning the economy."
+      },
+      "cards": [
+        { "q": "Why did Nehru reject Soviet-style socialism for India?", "a": "In it the government owned all factories and farms and there was no private property, which isn't possible in a democracy like India." },
+        { "q": "Complete the First Five Year Plan's line: the central objective of planning is to…", "a": "…initiate a process of development which will raise the living standards and open out to the people new opportunities for a richer and more varied life." }
+      ]
+    },
+    {
+      "id": "three-questions",
+      "title": "Capitalism, socialism or mixed?",
+      "emoji": "⚖️",
+      "section": "Box 2.1",
+      "factIds": ["F6", "F7", "F8", "F9"],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "Every society must answer three questions",
+          "items": [
+            { "icon": "1️⃣", "text": "What goods and services should be produced?" },
+            { "icon": "2️⃣", "text": "How should they be produced: more labour or more machines?" },
+            { "icon": "3️⃣", "text": "How should they be distributed among people?" }
+          ],
+          "say": "Every society has to answer three questions. First, what goods and services should be produced? Second, how should they be produced, using more human labour or more machines? And third, how should they be distributed among people? Different economic systems answer them differently."
+        },
+        {
+          "kind": "points",
+          "heading": "Capitalism: the market decides",
+          "items": [
+            { "icon": "📈", "text": "Market forces of supply and demand decide what is made" },
+            { "icon": "💰", "text": "Goods go to those with purchasing power, not to those in need" },
+            { "icon": "🏚️", "text": "Low-cost housing for the poor isn't 'demand', so it isn't built" }
+          ],
+          "say": "In a market economy, also called capitalism, supply and demand decide. If cars are in demand, cars get made. Goods go to people based on purchasing power, the money in their pocket, not on need. So low-cost housing for the poor, though badly needed, doesn't count as demand and doesn't get built. That's why this didn't appeal to Nehru."
+        },
+        {
+          "kind": "compare",
+          "heading": "Socialism vs a mixed economy",
+          "left": { "title": "Socialism", "items": ["Government decides what, how and for whom", "Based on need, e.g. free health care", "Strictly, no private property (e.g. Cuba, China)"] },
+          "right": { "title": "Mixed economy", "items": ["Government and market decide together", "Market provides what it does well", "Government provides essentials the market fails to"] },
+          "say": "Under socialism, the government decides what to produce, how, and for whom, based on what people need. For example, free health care. Strictly, there's no private property; NCERT mentions Cuba and China. Most economies, though, are mixed: the market provides whatever it can produce well, and the government provides the essential goods and services the market fails to."
+        }
+      ],
+      "beyond": "China itself began market reforms in 1978. Today almost every country is some kind of mixed economy; they differ in how much the state does.",
+      "examAngle": "A classic short question: the three central problems of an economy, and how capitalism, socialism and a mixed economy answer them.",
+      "quiz": {
+        "q": "In a capitalist economy, goods are distributed among people mainly on the basis of:",
+        "options": ["What people need", "Purchasing power, the ability to buy", "A government ration list", "Equal shares for everyone"],
+        "answer": 1,
+        "why": "Under capitalism, goods go to those who can pay. That's why low-cost housing for the poor may not be produced."
+      },
+      "cards": [
+        { "q": "What are the three questions every economy must answer?", "a": "What to produce, how to produce it (more labour or more machines), and how to distribute it among people." },
+        { "q": "In a mixed economy, who provides what?", "a": "The market provides what it can produce well; the government provides essential goods and services the market fails to provide." }
+      ]
+    },
+    {
+      "id": "what-is-a-plan",
+      "title": "What is a plan?",
+      "emoji": "🗺️",
+      "section": "2.1, Box 2.2",
+      "factIds": ["F4", "F5", "F10", "F11", "F12"],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "A plan, defined",
+          "items": [
+            { "icon": "🗺️", "text": "Spells out how a nation's resources should be used" },
+            { "icon": "🎯", "text": "General goals plus specific objectives for a fixed period" },
+            { "icon": "5️⃣", "text": "India's plans ran for five years, an idea borrowed from the former Soviet Union" }
+          ],
+          "say": "So what is a plan? NCERT says a plan spells out how the resources of a nation should be put to use. It has general goals and specific objectives to be achieved within a fixed period. India's plans lasted five years, an idea borrowed from the former Soviet Union, the pioneer in national planning."
+        },
+        {
+          "kind": "timeline",
+          "heading": "Setting up planning",
+          "events": [
+            { "year": "1948", "text": "Industrial Policy Resolution reflects the mixed-economy outlook" },
+            { "year": "1950", "text": "Planning Commission set up, Prime Minister as Chairperson" }
+          ],
+          "say": "The Industrial Policy Resolution of 1948 and the Directive Principles of the Constitution reflected this outlook. Then in 1950, the Planning Commission was set up, with the Prime Minister as its Chairperson. The era of five year plans had begun."
+        },
+        {
+          "kind": "points",
+          "heading": "How Indian plans worked",
+          "items": [
+            { "icon": "🔭", "text": "A 20-year 'perspective plan' (in plan documents up to 2017)" },
+            { "icon": "⚔️", "text": "Goals can conflict: modern technology vs employment" },
+            { "icon": "⚡", "text": "Plans didn't fix every good, only key sectors like power and irrigation" }
+          ],
+          "say": "Plan documents up to 2017 also set targets for twenty years, called the perspective plan. Goals can conflict: modern technology may reduce the need for labour, which clashes with creating jobs. And Indian plans did not say how much of every good to make. The Soviet Union tried that and failed. Plans focused on sectors where the state plays a commanding role, like power generation and irrigation, and left the rest to the market."
+        }
+      ],
+      "beyond": "The Planning Commission was replaced by NITI Aayog on 1 January 2015, and the Twelfth Plan (2012–17) was India's last five year plan.",
+      "examAngle": "Exercise 1 (define a plan) and Exercise 3 (why plans need goals). In the match-the-following, 'Prime Minister' pairs with 'Chairperson of the Planning Commission'.",
+      "quiz": {
+        "q": "Who was the Chairperson of the Planning Commission set up in 1950?",
+        "options": ["The President", "The Finance Minister", "The Prime Minister", "The Governor of the RBI"],
+        "answer": 2,
+        "why": "NCERT: the Planning Commission was set up in 1950 with the Prime Minister as its Chairperson."
+      },
+      "cards": [
+        { "q": "Define a plan (NCERT).", "a": "A plan spells out how the resources of a nation should be put to use, with general goals and specific objectives to be achieved within a specified period." },
+        { "q": "When was the Planning Commission set up, and who chaired it?", "a": "1950; the Prime Minister was its Chairperson." },
+        { "q": "What is a 'perspective plan'?", "a": "A long-term (20-year) plan; the five year plans were meant to provide the basis for it." }
+      ]
+    },
+    {
+      "id": "mahalanobis",
+      "title": "Mahalanobis: architect of planning",
+      "emoji": "📐",
+      "section": "Box 2.3",
+      "factIds": ["F13", "F14"],
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "📐",
+          "big": "Planning in the real sense began with the Second Plan.",
+          "sub": "And it was built on one statistician's ideas",
+          "say": "NCERT says planning, in the real sense of the term, began with the Second Five Year Plan. That plan laid down the basic ideas of Indian planning, and it was based on the ideas of the statistician Prasanta Chandra Mahalanobis. That's why he is called the architect of Indian planning."
+        },
+        {
+          "kind": "timeline",
+          "heading": "P.C. Mahalanobis",
+          "events": [
+            { "year": "1893", "text": "Born in Calcutta; studied at Presidency College and Cambridge" },
+            { "year": "1945", "text": "Made a Fellow of Britain's Royal Society" }
+          ],
+          "say": "Mahalanobis was born in 1893 in Calcutta, and studied at Presidency College in Calcutta and at Cambridge University. His work in statistics brought him international fame, and in 1945 he was made a Fellow of Britain's Royal Society, one of the most prestigious organisations of scientists."
+        },
+        {
+          "kind": "points",
+          "heading": "His legacy",
+          "items": [
+            { "icon": "🏛️", "text": "Founded the Indian Statistical Institute (ISI), Calcutta" },
+            { "icon": "📰", "text": "Started the journal Sankhya" },
+            { "icon": "👂", "text": "Invited critics of the Second Plan to advise him" }
+          ],
+          "say": "He set up the Indian Statistical Institute in Calcutta, and started a journal called Sankhya. Both are respected worldwide to this day. During the second plan, he invited many economists to advise him, including ones who were very critical of the plan's socialist principles. NCERT calls that the mark of a great scholar."
+        }
+      ],
+      "beyond": "Mahalanobis's birthday, 29 June, is observed as National Statistics Day in India. The Second Five Year Plan ran from 1956 to 1961 and stressed heavy industry.",
+      "examAngle": "Factual MCQs love this box: 'architect of Indian planning', the Second Plan, ISI, the journal Sankhya, Royal Society Fellow in 1945.",
+      "quiz": {
+        "q": "Which Five Year Plan was based on the ideas of P.C. Mahalanobis?",
+        "options": ["First", "Second", "Third", "Fifth"],
+        "answer": 1,
+        "why": "NCERT: planning in the real sense began with the Second Five Year Plan, which was based on Mahalanobis's ideas."
+      },
+      "cards": [
+        { "q": "Why is P.C. Mahalanobis called the architect of Indian planning?", "a": "The Second Five Year Plan, which laid down the basic ideas of Indian planning, was based on his ideas." },
+        { "q": "Name the institute and journal Mahalanobis founded.", "a": "The Indian Statistical Institute (ISI), Calcutta, and the journal Sankhya." }
+      ]
+    },
+    {
+      "id": "goal-growth",
+      "title": "Goal 1: growth, the GDP cake",
+      "emoji": "🎂",
+      "section": "2.2",
+      "factIds": ["F15", "F16", "F17"],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "The four goals of the plans",
+          "items": [
+            { "icon": "📈", "text": "Growth" },
+            { "icon": "⚙️", "text": "Modernisation" },
+            { "icon": "🛡️", "text": "Self-reliance" },
+            { "icon": "⚖️", "text": "Equity" }
+          ],
+          "say": "The five year plans had four goals: growth, modernisation, self-reliance and equity. With limited resources, each plan had to choose which goal to stress most, while making sure its policies didn't contradict the other goals. Let's start with growth."
+        },
+        {
+          "kind": "points",
+          "heading": "Growth and GDP",
+          "items": [
+            { "icon": "🏭", "text": "Growth: a rise in the country's capacity to produce goods and services" },
+            { "icon": "📊", "text": "Best indicator: a steady increase in GDP" },
+            { "icon": "🧾", "text": "GDP: market value of all final goods and services produced in the country in a year" }
+          ],
+          "say": "Growth means an increase in the country's capacity to produce goods and services, through more productive capital, bigger supporting services like transport and banking, or more efficiency. A good indicator is a steady increase in GDP, Gross Domestic Product: the market value of all the final goods and services produced in the country during a year."
+        },
+        {
+          "kind": "hook",
+          "emoji": "🎂",
+          "big": "Think of GDP as a cake. Growth makes the cake bigger.",
+          "sub": "A bigger cake means more people can enjoy it",
+          "say": "NCERT's analogy: think of GDP as a cake, and growth as an increase in the size of the cake. If the cake is larger, more people can enjoy it. In the First Plan's words, Indians needed more goods and services to enjoy a richer and more varied life."
+        },
+        {
+          "kind": "points",
+          "heading": "Structural composition",
+          "items": [
+            { "icon": "🌾", "text": "Agricultural sector" },
+            { "icon": "🏭", "text": "Industrial sector" },
+            { "icon": "💼", "text": "Service sector" }
+          ],
+          "say": "GDP comes from three sectors: the agricultural sector, the industrial sector and the service sector. The contribution each one makes is called the structural composition of the economy. In some countries agriculture drives growth, in others services do. India's case is unusual, as the next reel shows."
+        }
+      ],
+      "beyond": "Today India's GDP is estimated by the National Statistics Office (NSO), under the Ministry of Statistics and Programme Implementation.",
+      "examAngle": "Exercise 11 asks what the sectoral (structural) composition is. In the match-the-following, GDP pairs with 'the money value of all final goods and services produced within the economy in one year'.",
+      "quiz": {
+        "q": "According to NCERT, a good indicator of economic growth is:",
+        "options": ["A rise in population", "A steady increase in GDP", "A rise in imports", "A fall in prices"],
+        "answer": 1,
+        "why": "Growth is an increase in the capacity to produce; a good indicator is a steady increase in GDP."
+      },
+      "cards": [
+        { "q": "Name the four goals of India's five year plans.", "a": "Growth, modernisation, self-reliance and equity." },
+        { "q": "Define GDP (NCERT).", "a": "The market value of all the final goods and services produced in the country during a year." },
+        { "q": "What is the structural composition of an economy?", "a": "The contribution made by each sector (agriculture, industry, services) to GDP." }
+      ]
+    },
+    {
+      "id": "service-sector-puzzle",
+      "title": "India's peculiar structural change",
+      "emoji": "💼",
+      "section": "Box 2.4",
+      "factIds": ["F18", "F19"],
+      "scenes": [
+        {
+          "kind": "flow",
+          "heading": "The usual path of development",
+          "steps": ["Agriculture's share falls", "Industry becomes dominant", "At higher levels, services lead"],
+          "say": "As a country develops, it goes through structural change. Usually, agriculture's share falls and industry becomes dominant. Only at higher levels of development do services contribute the most. India took a different route."
+        },
+        {
+          "kind": "bars",
+          "heading": "Share of GDP, 1950-51 (%)",
+          "unit": "%",
+          "bars": [
+            { "label": "Agriculture", "value": 59.0, "display": "59.0" },
+            { "label": "Services", "value": 28.0, "display": "28.0" },
+            { "label": "Industry", "value": 13.0, "display": "13.0" }
+          ],
+          "say": "In 1950-51, agriculture contributed 59 percent of GDP, services 28 percent, and industry just 13 percent. That's what you'd expect in a poor country."
+        },
+        {
+          "kind": "bars",
+          "heading": "Share of GDP, 1990-91 (%)",
+          "unit": "%",
+          "bars": [
+            { "label": "Services", "value": 40.5, "display": "40.5" },
+            { "label": "Agriculture", "value": 34.9, "display": "34.9" },
+            { "label": "Industry", "value": 24.6, "display": "24.6" }
+          ],
+          "say": "By 1990-91, services had jumped to 40.5 percent, more than agriculture at 34.9 percent or industry at 24.6 percent. Services leading like this is what we see in developed nations, which is why NCERT calls India's structural change peculiar. This trend sped up after 1991."
+        },
+        {
+          "kind": "points",
+          "heading": "Note the two numbers",
+          "items": [
+            { "icon": "📦", "text": "Box 2.4 text: services' share was 40.59% by 1990" },
+            { "icon": "📋", "text": "The table rounds it to 40.5 (1990-91)" }
+          ],
+          "say": "One detail for exam day. The box text gives the service sector's share as 40.59 percent by 1990, while the table rounds it to 40.5 for 1990-91. They're the same figure, so don't let either one throw you."
+        }
+      ],
+      "beyond": "The trend continued: today services contribute over half of India's gross value added.",
+      "examAngle": "Exercise 11: is it necessary that the service sector contributes the most to GDP? Use India's 'peculiar' path, where services led before industry did.",
+      "quiz": {
+        "q": "By 1990-91, which sector contributed the largest share of India's GDP?",
+        "options": ["Agriculture", "Industry", "Services", "All three were equal"],
+        "answer": 2,
+        "why": "Services: 40.5% in the table (40.59% in the box), ahead of agriculture (34.9%) and industry (24.6%)."
+      },
+      "cards": [
+        { "q": "Sector shares of GDP in 1950-51 vs 1990-91?", "a": "Agriculture 59.0 → 34.9; industry 13.0 → 24.6; services 28.0 → 40.5 (box text: 40.59%)." },
+        { "q": "Why does NCERT call India's structural change 'peculiar'?", "a": "Services became the largest sector (as in developed nations) without industry first becoming dominant." }
+      ]
+    },
+    {
+      "id": "goal-modernisation",
+      "title": "Goal 2: modernisation",
+      "emoji": "⚙️",
+      "section": "2.2",
+      "factIds": ["F20"],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "Modernisation: new technology",
+          "items": [
+            { "icon": "🌱", "text": "A farmer uses new seed varieties" },
+            { "icon": "🏭", "text": "A factory uses a new type of machine" }
+          ],
+          "say": "To produce more, producers must adopt new technology. A farmer can raise output by using new seed varieties instead of old ones. A factory can raise output with a new type of machine. NCERT says adopting new technology is called modernisation."
+        },
+        {
+          "kind": "points",
+          "heading": "It also means a modern outlook",
+          "items": [
+            { "icon": "👩‍💼", "text": "Recognising that women should have the same rights as men" },
+            { "icon": "🏦", "text": "Women working in banks, factories and schools" },
+            { "icon": "✨", "text": "Such societies are also more prosperous" }
+          ],
+          "say": "But modernisation isn't only about technology. It also means changes in social outlook, such as recognising that women should have the same rights as men. In a traditional society women stay at home; a modern society uses women's talents in the workplace, in banks, factories and schools, and such a society is also more prosperous."
+        },
+        {
+          "kind": "compare",
+          "heading": "The built-in conflict",
+          "left": { "title": "Modern technology", "items": ["Machines raise output", "May need fewer workers"] },
+          "right": { "title": "Employment", "items": ["India had many people needing jobs", "Labour-saving machines can cut jobs"] },
+          "say": "Here's the catch, from Box 2.2. Modern technology raises output, but it may reduce the need for workers. That conflicts with the goal of creating employment, in a country with many people needing jobs. Planners had to balance the two, which NCERT calls a very difficult job."
+        }
+      ],
+      "beyond": "The social side of modernisation shows in the laws of the 1950s: the Hindu Marriage Act (1955) and the Hindu Succession Act (1956) gave women new rights in marriage and inheritance.",
+      "examAngle": "Exercise 9: does modernisation create a contradiction with employment generation? Yes: labour-saving technology vs jobs, which planners had to balance.",
+      "quiz": {
+        "q": "Besides adopting new technology, what else does NCERT include in 'modernisation'?",
+        "options": ["Moving people from villages to cities", "Changes in social outlook, such as equal rights for women", "Replacing all imports with Indian goods", "Nationalising private firms"],
+        "answer": 1,
+        "why": "NCERT: modernisation also means changes in social outlook, such as recognising that women should have the same rights as men."
+      },
+      "cards": [
+        { "q": "What two things does modernisation include (NCERT)?", "a": "Adoption of new technology, and changes in social outlook such as recognising women's equal rights." },
+        { "q": "How can modernisation conflict with employment?", "a": "Modern, labour-saving technology may reduce the need for workers, which clashes with the goal of creating jobs." }
+      ]
+    },
+    {
+      "id": "goal-selfreliance-equity",
+      "title": "Goals 3 & 4: self-reliance and equity",
+      "emoji": "🛡️",
+      "section": "2.2",
+      "factIds": ["F21", "F22"],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "Self-reliance",
+          "items": [
+            { "icon": "🚫", "text": "Avoid imports of goods India can produce itself" },
+            { "icon": "🍚", "text": "Especially reduce dependence on imported food" },
+            { "icon": "7️⃣", "text": "Stressed by the first seven five year plans" }
+          ],
+          "say": "Self-reliance means avoiding imports of goods that could be produced in India itself. The first seven five year plans gave it importance. The aim was to reduce dependence on foreign countries, especially for food."
+        },
+        {
+          "kind": "flow",
+          "heading": "Why it mattered then",
+          "steps": ["Recently freed from foreign rule", "Dependence on imported food, technology and capital", "Sovereignty vulnerable to foreign interference"],
+          "say": "It made sense for a people recently freed from foreign domination. Planners feared that depending on imported food, foreign technology and foreign capital could make India's sovereignty vulnerable to foreign interference in its policies."
+        },
+        {
+          "kind": "points",
+          "heading": "Equity: growth for everyone",
+          "items": [
+            { "icon": "🍲", "text": "Everyone should meet basic needs: food, a decent house, education, health care" },
+            { "icon": "📉", "text": "Inequality in the distribution of wealth should be reduced" },
+            { "icon": "🤲", "text": "Benefits must reach the poor, not only the rich" }
+          ],
+          "say": "Growth, modernisation and self-reliance alone may not improve how people actually live. A country can grow fast, with the most modern technology, and still have most people in poverty. So equity matters: every Indian should be able to meet basic needs like food, a decent house, education and health care, and inequality in wealth should be reduced. That's growth with equity."
+        }
+      ],
+      "beyond": "NCERT's Recap calls the third goal 'self-sufficiency', while the main text says 'self-reliance'. Treat them as the same goal in answers.",
+      "examAngle": "Exercise 8 (growth with equity) and Exercise 10 (why self-reliance for a developing country) come straight from this reel.",
+      "quiz": {
+        "q": "According to NCERT, why did planners fear depending on imported food, foreign technology and foreign capital?",
+        "options": ["Imports were always of poor quality", "It could make India's sovereignty vulnerable to foreign interference", "Foreign goods were banned by the Constitution", "India had too much foreign exchange"],
+        "answer": 1,
+        "why": "NCERT: it was feared that such dependence may make India's sovereignty vulnerable to foreign interference in its policies."
+      },
+      "cards": [
+        { "q": "What does self-reliance mean as a planning goal?", "a": "Avoiding imports of goods that could be produced in India, especially food, to reduce dependence on foreign countries." },
+        { "q": "Explain 'growth with equity'.", "a": "Growth's benefits must reach the poor too: everyone should meet basic needs (food, house, education, health care) and wealth inequality should fall." }
+      ]
+    },
+    {
+      "id": "land-to-the-tiller",
+      "title": "Land reforms: land to the tiller",
+      "emoji": "🚜",
+      "section": "2.3",
+      "factIds": ["F23", "F24", "F25", "F27"],
+      "scenes": [
+        {
+          "kind": "flow",
+          "heading": "The problem at independence",
+          "steps": ["Intermediaries (zamindars, jagirdars) collect rent", "Nothing invested in the farms", "Low productivity", "India imports food from the USA"],
+          "say": "Recall chapter one. At independence, land was held through intermediaries, called zamindars, jagirdars and so on, who just collected rent from the actual tillers without improving the farms. Productivity stayed low, and India was forced to import food from the United States."
+        },
+        {
+          "kind": "points",
+          "heading": "Land reforms",
+          "items": [
+            { "icon": "📜", "text": "Land reforms: change in the ownership of landholdings" },
+            { "icon": "✂️", "text": "Abolish intermediaries" },
+            { "icon": "🧑‍🌾", "text": "Make the tillers the owners of land" }
+          ],
+          "say": "Equity in agriculture called for land reforms, which mainly means changing the ownership of landholdings. Just a year after independence, steps were taken to abolish intermediaries and make the tillers the owners of land."
+        },
+        {
+          "kind": "points",
+          "heading": "Box 2.5: why ownership matters",
+          "items": [
+            { "icon": "💡", "text": "Owners keep the profit from higher output, so they invest" },
+            { "icon": "🍎", "text": "Soviet farmers packed rotten fruit with fresh fruit" },
+            { "icon": "🚫", "text": "They owned no land, so they had no incentive to be efficient" }
+          ],
+          "say": "Why would ownership help? Owners keep the profit from higher output, so they have an incentive to invest. Box 2.5 gives an example: in the former Soviet Union, farmers often packed rotten fruit with fresh fruit, spoiling it all. They didn't own the land, so they neither enjoyed the profits nor suffered the losses."
+        },
+        {
+          "kind": "stat",
+          "value": "200 lakh",
+          "label": "tenants came into direct contact with the government",
+          "say": "Abolishing intermediaries meant some 200 lakh tenants, that's 2 crore, came into direct contact with the government, freed from exploitation by zamindars. Ownership gave them the incentive to raise output, which helped agricultural growth."
+        }
+      ],
+      "beyond": "States passed their own zamindari abolition laws in the early 1950s, since land is a state subject under India's Constitution.",
+      "examAngle": "Exercise 6: the need for and types of land reforms. Need: intermediaries, low productivity, food imports. Types: abolition of intermediaries (land to the tiller) and land ceiling.",
+      "quiz": {
+        "q": "How many tenants came into direct contact with the government after intermediaries were abolished, according to NCERT?",
+        "options": ["About 20 lakh", "About 200 lakh", "About 2,000 lakh", "About 75 lakh"],
+        "answer": 1,
+        "why": "NCERT: the abolition of intermediaries meant some 200 lakh tenants came into direct contact with the government."
+      },
+      "cards": [
+        { "q": "What does 'land reforms' primarily refer to (NCERT)?", "a": "Change in the ownership of landholdings." },
+        { "q": "Why was 'land to the tiller' expected to raise output?", "a": "Owners keep the profit from higher output, so they have an incentive to invest in improvements (if capital is available)." },
+        { "q": "How many tenants came into direct contact with the government after intermediaries were abolished?", "a": "Some 200 lakh tenants." }
+      ]
+    },
+    {
+      "id": "land-ceiling",
+      "title": "Land ceiling and its loopholes",
+      "emoji": "📏",
+      "section": "2.3",
+      "factIds": ["F26", "F28", "F29"],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "Land ceiling",
+          "items": [
+            { "icon": "📏", "text": "Fixes the maximum size of land an individual can own" },
+            { "icon": "🎯", "text": "Aim: reduce the concentration of land ownership in a few hands" }
+          ],
+          "say": "Land ceiling was another policy to promote equity in agriculture. It means fixing the maximum size of land an individual can own. The purpose was to reduce the concentration of land ownership in a few hands."
+        },
+        {
+          "kind": "points",
+          "heading": "Why equity wasn't fully served",
+          "items": [
+            { "icon": "🕳️", "text": "Former zamindars kept large areas through loopholes" },
+            { "icon": "🚪", "text": "Tenants were evicted; landowners claimed to be self-cultivators" },
+            { "icon": "😔", "text": "Sharecroppers and landless labourers did not benefit" }
+          ],
+          "say": "But the goal of equity was not fully served. In some areas, former zamindars kept large areas of land using loopholes in the law. Tenants were evicted, and landowners claimed to be the actual tillers. And even where tillers got land, the poorest agricultural labourers, such as sharecroppers and landless labourers, did not benefit."
+        },
+        {
+          "kind": "flow",
+          "heading": "How big landlords dodged the ceiling",
+          "steps": ["Challenge the law in court", "Use the delay to register land in relatives' names", "Exploit loopholes to keep the land"],
+          "say": "Land ceiling laws also faced hurdles. Big landlords challenged them in the courts, delaying implementation. They used the delay to register their lands in the names of close relatives, and exploited loopholes to keep their land."
+        },
+        {
+          "kind": "compare",
+          "heading": "Where it worked",
+          "left": { "title": "Successful", "items": ["Kerala", "West Bengal", "Governments committed to land to the tiller"] },
+          "right": { "title": "Elsewhere", "items": ["Less commitment", "Vast inequality in landholding continues today"] },
+          "say": "Land reforms succeeded in Kerala and West Bengal, because their governments were committed to the policy of land to the tiller. Other states lacked the same commitment, and NCERT says vast inequality in landholding continues to this day."
+        }
+      ],
+      "beyond": "West Bengal's Operation Barga, launched in 1978, recorded the rights of sharecroppers (bargadars), which is part of why land reform there is seen as a success.",
+      "examAngle": "Mains-style answers on land reforms should cover both halves: what was achieved (abolition of intermediaries, ownership incentives) and why equity was not fully served (loopholes, evictions, court delays, landless left out).",
+      "quiz": {
+        "q": "In which two states does NCERT say land reforms were successful?",
+        "options": ["Punjab and Haryana", "Kerala and West Bengal", "Tamil Nadu and Andhra Pradesh", "Uttar Pradesh and Bihar"],
+        "answer": 1,
+        "why": "Kerala and West Bengal had governments committed to the policy of land to the tiller."
+      },
+      "cards": [
+        { "q": "What is land ceiling, and why was it introduced?", "a": "Fixing the maximum size of land an individual can own, to reduce the concentration of land ownership in a few hands." },
+        { "q": "How did big landlords escape land ceiling laws?", "a": "They challenged the laws in court and used the delay to register land in relatives' names; they also exploited loopholes." },
+        { "q": "Which group did not benefit from land reforms, even where tillers got land?", "a": "The poorest agricultural labourers, such as sharecroppers and landless labourers." }
+      ]
+    },
+    {
+      "id": "green-revolution",
+      "title": "The Green Revolution",
+      "emoji": "🌾",
+      "section": "2.3",
+      "factIds": ["F30", "F31", "F32", "F33"],
+      "scenes": [
+        {
+          "kind": "stat",
+          "value": "75%",
+          "label": "of Indians depended on agriculture at independence",
+          "say": "At independence, about 75 percent of India's population depended on agriculture. Productivity was very low, because of old technology and poor infrastructure. Farming depended on the monsoon, and when it fell short, farmers were in trouble unless they had irrigation, which very few did."
+        },
+        {
+          "kind": "points",
+          "heading": "What was the Green Revolution?",
+          "items": [
+            { "icon": "🌱", "text": "Large increase in food grain production" },
+            { "icon": "🧬", "text": "From high yielding variety (HYV) seeds, especially wheat and rice" },
+            { "icon": "🧪", "text": "Needs fertiliser, pesticide and regular water, in correct proportions" }
+          ],
+          "say": "The Green Revolution permanently broke this stagnation. It refers to the large increase in food grain production that came from high yielding variety, or HYV, seeds, especially for wheat and rice. These seeds needed fertiliser, pesticide and a regular water supply, in the correct proportions. So the farmers who could benefit needed reliable irrigation and money to buy inputs."
+        },
+        {
+          "kind": "timeline",
+          "heading": "Two phases",
+          "events": [
+            { "year": "Mid-1960s to mid-1970s", "text": "First phase: affluent states (Punjab, Andhra Pradesh, Tamil Nadu), mainly wheat" },
+            { "year": "Mid-1970s to mid-1980s", "text": "Second phase: more states, more crops" }
+          ],
+          "say": "It came in two phases. In the first phase, roughly the mid-1960s to the mid-1970s, HYV seeds were used only in affluent states such as Punjab, Andhra Pradesh and Tamil Nadu, and mostly helped wheat-growing regions. In the second phase, from the mid-1970s to the mid-1980s, the technology spread to more states and more crops."
+        },
+        {
+          "kind": "hook",
+          "emoji": "🇮🇳",
+          "big": "Self-sufficient in food grains.",
+          "sub": "No longer at the mercy of America, or any other nation",
+          "say": "The result: India became self-sufficient in food grains. In NCERT's words, India no longer had to be at the mercy of America, or any other nation, for meeting its food requirements."
+        }
+      ],
+      "beyond": "M.S. Swaminathan is often called the father of India's Green Revolution. The high-yielding dwarf wheat came from the work of Norman Borlaug, who won the Nobel Peace Prize in 1970.",
+      "examAngle": "Exercise 4 (what are HYV seeds) and Exercise 7 (what was the Green Revolution, why, and how it benefited farmers). In the match-the-following, HYV seeds are 'seeds that give a large proportion of output'.",
+      "quiz": {
+        "q": "In the first phase of the Green Revolution, HYV seeds were mostly used in:",
+        "options": ["Rice-growing regions of eastern India", "Affluent states like Punjab, Andhra Pradesh and Tamil Nadu, mainly for wheat", "All states equally", "Hill states only"],
+        "answer": 1,
+        "why": "NCERT: in the first phase (mid-1960s to mid-1970s), HYV use was restricted to affluent states and mainly benefited wheat-growing regions."
+      },
+      "cards": [
+        { "q": "What was the Green Revolution (NCERT)?", "a": "The large increase in food grain production from high yielding variety (HYV) seeds, especially for wheat and rice." },
+        { "q": "What did HYV seeds need to work?", "a": "Fertiliser, pesticide and a regular supply of water, in correct proportions." },
+        { "q": "Green Revolution phases: dates and spread?", "a": "First phase mid-1960s to mid-1970s: Punjab, Andhra Pradesh, Tamil Nadu, mainly wheat. Second phase mid-1970s to mid-1980s: more states and crops." }
+      ]
+    },
+    {
+      "id": "marketed-surplus",
+      "title": "Marketed surplus and buffer stocks",
+      "emoji": "🧺",
+      "section": "2.3",
+      "factIds": ["F34", "F35"],
+      "scenes": [
+        {
+          "kind": "compare",
+          "heading": "Why selling matters",
+          "left": { "title": "Eaten at home", "items": ["Farmers consume the extra output", "Little difference to the economy"] },
+          "right": { "title": "Sold in the market", "items": ["Extra output reaches others", "Makes a difference to the economy"] },
+          "say": "More output alone isn't enough. If farmers consume most of the increase themselves, it makes little difference to the economy. But if a big share is sold in the market, it can make a real difference."
+        },
+        {
+          "kind": "points",
+          "heading": "Marketed surplus",
+          "items": [
+            { "icon": "🧺", "text": "The portion of agricultural produce sold in the market by farmers" }
+          ],
+          "say": "That portion of farm produce which farmers sell in the market is called marketed surplus. During the Green Revolution, a good share of the rice and wheat grown was sold as marketed surplus."
+        },
+        {
+          "kind": "flow",
+          "heading": "What happened next",
+          "steps": ["More grain sold in the market", "Food grain prices fall relative to other goods", "Low-income groups benefit", "Government builds a food stock for shortages"],
+          "say": "As more grain was sold, food grain prices fell relative to other things people buy. Low-income groups, who spend a large share of their income on food, benefited most. And the government could procure enough grain to build a stock for times of food shortage."
+        }
+      ],
+      "beyond": "The Food Corporation of India, set up in 1965, procures and stores these grains. Today the stocks also supply the Public Distribution System.",
+      "examAngle": "Exercise 5 (what is marketable surplus) and Exercise 13 (how the Green Revolution let the government build food stocks).",
+      "quiz": {
+        "q": "'Marketed surplus' means:",
+        "options": ["Grain stored by the government", "The portion of agricultural produce sold in the market by farmers", "Food exported to other countries", "Crops destroyed by pests"],
+        "answer": 1,
+        "why": "NCERT: the portion of agricultural produce which is sold in the market by the farmers is called marketed surplus."
+      },
+      "cards": [
+        { "q": "Define marketed surplus.", "a": "The portion of agricultural produce sold in the market by farmers." },
+        { "q": "Who benefited when Green Revolution grain was sold in the market, and why?", "a": "Low-income groups: food grain prices fell relative to other goods, and they spend a large share of income on food." }
+      ]
+    },
+    {
+      "id": "gr-risks",
+      "title": "Green Revolution: risks and the state's role",
+      "emoji": "⚠️",
+      "section": "2.3",
+      "factIds": ["F36"],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "The risks",
+          "items": [
+            { "icon": "↔️", "text": "Bigger gap between small and big farmers: only big farmers could afford inputs" },
+            { "icon": "🐛", "text": "HYV crops were more prone to pest attacks" }
+          ],
+          "say": "The technology had risks. It could widen the gap between small and big farmers, since only big farmers could afford the required inputs and would reap most of the benefits. And HYV crops were more prone to pests, so a small farmer could lose everything in one attack."
+        },
+        {
+          "kind": "points",
+          "heading": "What the government did",
+          "items": [
+            { "icon": "🏦", "text": "Loans at low interest rates to small farmers" },
+            { "icon": "🧪", "text": "Subsidised fertilisers" },
+            { "icon": "🔬", "text": "Research institutes to help against pests" }
+          ],
+          "say": "Fortunately, NCERT says, these fears did not come true, because of government action. It gave small farmers loans at low interest rates, and subsidised fertilisers, so they too could buy the inputs. Research institutes set up by the government reduced the risk of pest attacks."
+        },
+        {
+          "kind": "hook",
+          "emoji": "🤝",
+          "big": "Output on small farms caught up with large farms.",
+          "sub": "Without the state, it would have favoured only the rich",
+          "say": "Over time, output on small farms equalled output on large farms, so the Green Revolution benefited small as well as rich farmers. NCERT's key point: it would have favoured only the rich if the state had not played an extensive role."
+        }
+      ],
+      "beyond": "Agricultural research in India is coordinated by the Indian Council of Agricultural Research (ICAR).",
+      "examAngle": "When asked how the Green Revolution benefited farmers, mention both the risks and the government's response: cheap credit, subsidised fertiliser and research institutes.",
+      "quiz": {
+        "q": "According to NCERT, why did the Green Revolution end up benefiting small farmers too?",
+        "options": ["Small farmers had better land", "The government gave cheap loans and subsidised fertilisers, and set up research institutes", "HYV seeds worked only on small farms", "Big farmers did not adopt HYV seeds"],
+        "answer": 1,
+        "why": "Government action (low-interest loans, fertiliser subsidies, research institutes) let small farmers get inputs and reduced pest risk."
+      },
+      "cards": [
+        { "q": "What two risks did the Green Revolution carry?", "a": "Wider disparity between small and big farmers (only big farmers could afford inputs), and HYV crops being more prone to pests." },
+        { "q": "How did the government make sure small farmers gained from the Green Revolution?", "a": "Low-interest loans, subsidised fertilisers, and research institutes that reduced pest risk." }
+      ]
+    },
+    {
+      "id": "subsidies-debate",
+      "title": "The debate over farm subsidies",
+      "emoji": "💸",
+      "section": "2.3, Box 2.6",
+      "factIds": ["F37", "F38"],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "Why subsidies began",
+          "items": [
+            { "icon": "🎲", "text": "Farmers see new technology as risky" },
+            { "icon": "🧪", "text": "Subsidies encouraged them to try HYV technology, especially small farmers" }
+          ],
+          "say": "Whether to keep farm subsidies is, in NCERT's words, a hotly debated question. It's generally agreed they were needed at first. Farmers see any new technology as risky, so subsidies encouraged them, especially small farmers, to test the new HYV technology."
+        },
+        {
+          "kind": "compare",
+          "heading": "Phase them out, or keep them?",
+          "left": { "title": "Phase out", "items": ["Purpose served once technology is adopted", "Much benefits the fertiliser industry", "Mostly helps farmers in prosperous regions", "Huge burden on government finances"] },
+          "right": { "title": "Keep, but target", "items": ["Farming is still a risky business", "Most farmers are very poor", "Removing them raises inequality", "Fix targeting so only poor farmers benefit"] },
+          "say": "Some economists say subsidies should be phased out once the technology is widely adopted. A large part benefits the fertiliser industry, mostly farmers in prosperous regions gain, and it's a huge burden on government finances. Others say keep them: farming is still risky, most farmers are very poor, and removing subsidies would increase inequality. If big farmers and industry gain too much, fix the targeting so only poor farmers benefit, rather than abolishing subsidies."
+        },
+        {
+          "kind": "flow",
+          "heading": "Box 2.6: prices as signals",
+          "steps": ["Prices signal scarcity", "Subsidised or free water and electricity hide scarcity", "Wasteful use, water-hungry crops in dry regions", "Overuse of fertiliser and pesticide harms the environment"],
+          "say": "Box 2.6 adds a deeper point: prices are signals of scarcity. When water and electricity are subsidised or free, people use them wastefully. Farmers grow water-hungry crops even where water is scarce, and fertiliser and pesticide subsidies lead to overuse that harms the environment."
+        }
+      ],
+      "beyond": "The debate continues today. Fertiliser subsidy remains one of the largest items in the Union Budget, and since 2019 the PM-KISAN scheme gives farmers direct income support of ₹6,000 a year.",
+      "examAngle": "Exercise 14 asks you to discuss the usefulness of subsidies given their fiscal burden. Give both sides, then a balanced view: target them to poor farmers.",
+      "quiz": {
+        "q": "Which of these is an argument NCERT gives FOR continuing agricultural subsidies?",
+        "options": ["They mostly benefit the fertiliser industry", "Most farmers are very poor and farming is still risky", "Subsidised water is used more carefully", "They are no burden on government finances"],
+        "answer": 1,
+        "why": "Supporters argue farming is risky and most farmers are too poor to afford inputs without subsidies."
+      },
+      "cards": [
+        { "q": "Give two arguments for phasing out farm subsidies.", "a": "Their purpose (encouraging HYV adoption) has been served; they largely benefit the fertiliser industry and prosperous farmers; they burden government finances." },
+        { "q": "Give two arguments for keeping farm subsidies.", "a": "Farming is still risky, most farmers are very poor, and removing them would raise inequality; instead, target them to poor farmers." },
+        { "q": "What is Box 2.6's point about subsidies and prices?", "a": "Prices signal scarcity; subsidised or free inputs like water and power hide it, causing wasteful use and environmental harm." }
+      ]
+    },
+    {
+      "id": "stuck-in-farming",
+      "title": "Why 65% stayed in farming",
+      "emoji": "🧑‍🌾",
+      "section": "2.3",
+      "factIds": ["F39", "F40", "F41"],
+      "scenes": [
+        {
+          "kind": "hook",
+          "emoji": "🧑‍🌾",
+          "big": "Food self-sufficiency by the late 1960s. Yet about 65% still farmed in 1990.",
+          "sub": "An achievement, and a failure",
+          "say": "By the late 1960s, Indian agriculture produced enough for the country to be self-sufficient in food grains, an achievement to be proud of. On the negative side, some 65 percent of the population was still employed in agriculture even as late as 1990."
+        },
+        {
+          "kind": "compare",
+          "heading": "Two shares that should fall together",
+          "left": { "title": "Agriculture's share of GDP", "items": ["Fell significantly, 1950–1990"] },
+          "right": { "title": "People depending on agriculture", "items": ["67.5% in 1950", "64.9% by 1990", "Barely moved"] },
+          "say": "As a nation becomes more prosperous, both agriculture's share of GDP and the share of people working in it should fall a lot. In India, between 1950 and 1990, agriculture's share of GDP fell significantly, but the population depending on it barely moved: from 67.5 percent in 1950 to 64.9 percent by 1990."
+        },
+        {
+          "kind": "points",
+          "heading": "Why? NCERT's answer",
+          "items": [
+            { "icon": "🏭", "text": "Industry and services did not absorb people from agriculture" },
+            { "icon": "❌", "text": "Many economists call this an important failure of 1950–1990 policies" }
+          ],
+          "say": "Why did so many stay in farming, when output could have grown with far fewer workers? NCERT's answer: the industrial and service sectors did not absorb the people working in agriculture. Many economists call this an important failure of the policies followed from 1950 to 1990."
+        },
+        {
+          "kind": "points",
+          "heading": "Watch the numbers",
+          "items": [
+            { "icon": "1️⃣", "text": "At independence: about 75% depended on agriculture" },
+            { "icon": "2️⃣", "text": "Text: 67.5% (1950) to 64.9% (1990)" },
+            { "icon": "3️⃣", "text": "Workforce table: 72.1% (1950-51) to 66.8% (1990-91)" },
+            { "icon": "4️⃣", "text": "Exercise 15: 65% still in agriculture till 1990" }
+          ],
+          "say": "Careful on exam day: NCERT gives several figures. About 75 percent depended on agriculture at independence. The text says 67.5 percent in 1950 and 64.9 percent by 1990. A workforce table says 72.1 percent in 1950-51 and 66.8 percent in 1990-91. And Exercise 15 rounds it to 65 percent till 1990. Use the one the question points to; the trend is the same."
+        }
+      ],
+      "beyond": "The pattern persists: even in 2023-24, roughly 46% of India's workers were in agriculture, according to the Periodic Labour Force Survey.",
+      "examAngle": "Exercise 15: why did 65% stay in agriculture till 1990 despite the Green Revolution? Because industry and services did not absorb the workforce.",
+      "quiz": {
+        "q": "According to NCERT, why did about 65% of Indians remain in agriculture till 1990?",
+        "options": ["Farm output fell after 1970", "The industrial and service sectors did not absorb people from agriculture", "Land reforms forced people to stay on farms", "Agriculture paid the highest wages"],
+        "answer": 1,
+        "why": "NCERT: industry and services did not absorb the people working in agriculture, an important failure of 1950–1990 policies."
+      },
+      "cards": [
+        { "q": "Population depending on agriculture, 1950 vs 1990 (NCERT text)?", "a": "67.5% in 1950 to 64.9% by 1990 (about 65% 'till 1990'); at independence about 75%." },
+        { "q": "Why did agriculture keep so many workers till 1990?", "a": "The industrial and service sectors did not absorb the people working in agriculture." },
+        { "q": "Occupational structure table, 1950-51 vs 1990-91?", "a": "Agriculture 72.1 → 66.8; industry 10.7 → 12.7; services 17.2 → 20.5." }
+      ]
+    },
+    {
+      "id": "why-public-sector",
+      "title": "Why the public sector led industry",
+      "emoji": "🏗️",
+      "section": "2.4",
+      "factIds": ["F42", "F43"],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "Why industry matters",
+          "items": [
+            { "icon": "💼", "text": "Employment more stable than in agriculture" },
+            { "icon": "⚙️", "text": "Promotes modernisation and overall prosperity" }
+          ],
+          "say": "Economists have found that poor nations progress only if they have a good industrial sector. Industry provides employment that is more stable than in agriculture, and it promotes modernisation and overall prosperity. So the five year plans put a lot of emphasis on industry."
+        },
+        {
+          "kind": "points",
+          "heading": "Industry at independence",
+          "items": [
+            { "icon": "🧵", "text": "Largely confined to cotton textiles and jute" },
+            { "icon": "🔩", "text": "Just two well-managed iron and steel firms: Jamshedpur and Kolkata" }
+          ],
+          "say": "At independence, the variety of industries was very narrow, largely cotton textiles and jute. There were just two well-managed iron and steel firms, one in Jamshedpur and the other in Kolkata. India clearly needed a wider industrial base."
+        },
+        {
+          "kind": "flow",
+          "heading": "Why the state stepped in",
+          "steps": ["Industrialists lacked the capital", "The market was too small for big projects", "Socialist goal: state controls the 'commanding heights'", "Public sector leads; private sector complements it"],
+          "say": "Why the government? Indian industrialists didn't have the capital for big ventures, and the market wasn't big enough to encourage major projects anyway. Also, developing on socialist lines meant the government should control the commanding heights of the economy, as the Second Five Year Plan put it. Private sector policies would complement the public sector, with the public sector leading the way."
+        }
+      ],
+      "beyond": "During the Second Plan, the public sector built steel plants at Bhilai, Rourkela and Durgapur, with help from the Soviet Union, West Germany and Britain.",
+      "examAngle": "Exercise 12: why was the public sector given a leading role? Lack of private capital, a small market, and the socialist goal of controlling the commanding heights.",
+      "quiz": {
+        "q": "Which phrase, from the Second Five Year Plan, describes the state's role in industry?",
+        "options": ["Invisible hand", "Commanding heights of the economy", "Licence-free growth", "Export-led growth"],
+        "answer": 1,
+        "why": "The socialist goal was for the government to control the 'commanding heights' of the economy."
+      },
+      "cards": [
+        { "q": "Give the reasons the public sector led industrial development after 1950.", "a": "Industrialists lacked capital, the market was too small for big projects, and the socialist goal of state control of the commanding heights." },
+        { "q": "What were India's two iron and steel firms at independence?", "a": "One in Jamshedpur and the other in Kolkata." }
+      ]
+    },
+    {
+      "id": "ipr-1956",
+      "title": "IPR 1956 and the licence system",
+      "emoji": "📑",
+      "section": "2.4",
+      "factIds": ["F44", "F45"],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "Industrial Policy Resolution 1956: three categories",
+          "items": [
+            { "icon": "1️⃣", "text": "Exclusively owned by the state" },
+            { "icon": "2️⃣", "text": "Private sector supplements the state, which alone starts new units" },
+            { "icon": "3️⃣", "text": "All remaining industries: private sector" }
+          ],
+          "say": "The Industrial Policy Resolution of 1956 formed the basis of the Second Five Year Plan. It classified industries into three categories. First, industries exclusively owned by the government. Second, industries where the private sector could supplement the public sector, with the government solely responsible for starting new units. Third, all remaining industries, left to the private sector."
+        },
+        {
+          "kind": "flow",
+          "heading": "The licence system",
+          "steps": ["No new industry without a government licence", "Easier licence in backward regions", "Plus tax benefits and cheaper electricity", "Goal: regional equality"],
+          "say": "Even the private sector's share was kept under state control through licences: no new industry without a government licence. Licences were easier to get for units in economically backward areas, which also got concessions like tax benefits and electricity at a lower tariff. The purpose was regional equality."
+        },
+        {
+          "kind": "points",
+          "heading": "Licences for growth too",
+          "items": [
+            { "icon": "📈", "text": "Needed to expand output" },
+            { "icon": "🆕", "text": "Needed to diversify into new goods" },
+            { "icon": "🧮", "text": "Granted only if the government agreed the economy needed more" }
+          ],
+          "say": "Even an existing firm needed a licence to expand output or to diversify into a new variety of goods. A licence to expand was given only if the government was convinced the economy needed more of that good."
+        }
+      ],
+      "beyond": "IPR 1956 listed the state-only industries in Schedule A (17 industries) and the mixed category in Schedule B (12 industries).",
+      "examAngle": "Exercise 18: why and how was the private sector regulated under IPR 1956? Why: socialist pattern and the state's commanding heights. How: the three categories and licensing, including licences for expansion and incentives for backward regions.",
+      "quiz": {
+        "q": "Under the licence system, why were licences easier to get in economically backward areas?",
+        "options": ["To reduce pollution in cities", "To promote regional equality", "To raise export earnings", "To help foreign companies"],
+        "answer": 1,
+        "why": "NCERT: easier licences and concessions in backward areas aimed to promote regional equality."
+      },
+      "cards": [
+        { "q": "What were IPR 1956's three categories of industries?", "a": "(1) Exclusively state-owned; (2) private sector supplementing the state, which alone starts new units; (3) the rest, in the private sector." },
+        { "q": "IPR 1956 formed the basis of which plan?", "a": "The Second Five Year Plan." },
+        { "q": "Why did an existing firm need a licence under the licence system?", "a": "To expand output or diversify production; it was given only if the government was convinced the economy needed more." }
+      ]
+    },
+    {
+      "id": "small-scale-industry",
+      "title": "Small-scale industry",
+      "emoji": "🪡",
+      "section": "2.4",
+      "factIds": ["F46", "F47"],
+      "scenes": [
+        {
+          "kind": "timeline",
+          "heading": "Small-scale industry",
+          "events": [
+            { "year": "1950", "text": "Small-scale unit: maximum investment of ₹5 lakh" },
+            { "year": "1955", "text": "Karve Committee sees small industry as a tool for rural development" }
+          ],
+          "say": "A small-scale industry is defined by the maximum investment allowed in its assets. In 1950, that limit was 5 lakh rupees. In 1955, the Village and Small-Scale Industries Committee, also called the Karve Committee, noted that small-scale industries could promote rural development. NCERT says the limit today is 1 crore rupees."
+        },
+        {
+          "kind": "points",
+          "heading": "Why promote them",
+          "items": [
+            { "icon": "👷", "text": "Labour intensive: use more labour than large firms" },
+            { "icon": "📈", "text": "So they generate more employment" }
+          ],
+          "say": "Small-scale industries are believed to be labour intensive. They use more labour than large-scale industries, and so they generate more employment."
+        },
+        {
+          "kind": "points",
+          "heading": "How they were shielded",
+          "items": [
+            { "icon": "🔒", "text": "Certain products reserved for small-scale industry" },
+            { "icon": "🧾", "text": "Lower excise duty" },
+            { "icon": "🏦", "text": "Bank loans at lower interest rates" }
+          ],
+          "say": "But they can't compete with big firms, so they had to be shielded. Production of a number of products was reserved for small-scale industry, based on whether these units could make them. They also got concessions like lower excise duty and bank loans at lower interest rates."
+        }
+      ],
+      "beyond": "Today small firms are called MSMEs (micro, small and medium enterprises). Since 2020 they are classified by both investment and turnover, and those limits have since been raised.",
+      "examAngle": "MSMEs are a regular RBI topic (priority sector lending). Know the origin: the Karve Committee (1955), the investment-based definition, reservation and concessions.",
+      "quiz": {
+        "q": "In 1950, a small-scale industrial unit was one with a maximum investment of:",
+        "options": ["₹1 lakh", "₹5 lakh", "₹1 crore", "₹10 crore"],
+        "answer": 1,
+        "why": "NCERT: in 1950 the limit was ₹5 lakh; NCERT gives the present limit as ₹1 crore."
+      },
+      "cards": [
+        { "q": "What was the Karve Committee (1955) and what did it note?", "a": "The Village and Small-Scale Industries Committee; it noted small-scale industries could promote rural development." },
+        { "q": "How is a small-scale industry defined, and what were the limits (NCERT)?", "a": "By the maximum investment allowed on its assets: ₹5 lakh in 1950; ₹1 crore at present (per NCERT)." },
+        { "q": "How was small-scale industry protected?", "a": "Products reserved for it, plus concessions such as lower excise duty and cheaper bank loans." }
+      ]
+    },
+    {
+      "id": "import-substitution",
+      "title": "Import substitution: tariffs and quotas",
+      "emoji": "🚧",
+      "section": "2.5",
+      "factIds": ["F48", "F49", "F50"],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "An inward looking trade strategy",
+          "items": [
+            { "icon": "🔁", "text": "Import substitution: replace imports with domestic production" },
+            { "icon": "🚗", "text": "Example: make vehicles in India instead of importing them" }
+          ],
+          "say": "India's trade policy was closely tied to its industrial policy. In the first seven plans, it followed what is commonly called an inward looking trade strategy. Technically, it's called import substitution: replacing imports with domestic production. For example, instead of importing vehicles, industries would be encouraged to make them in India."
+        },
+        {
+          "kind": "compare",
+          "heading": "Two forms of protection",
+          "left": { "title": "Tariff", "items": ["A tax on imported goods", "Makes imports more expensive"] },
+          "right": { "title": "Quota", "items": ["Limits the quantity that can be imported"] },
+          "say": "The government protected domestic industry from foreign competition in two ways. A tariff is a tax on imported goods; it makes them more expensive and discourages their use. A quota specifies the quantity of goods that can be imported. Both restrict imports and protect domestic firms."
+        },
+        {
+          "kind": "points",
+          "heading": "The thinking behind it",
+          "items": [
+            { "icon": "🌱", "text": "Young industries can't yet compete with developed economies" },
+            { "icon": "💱", "text": "Save foreign exchange from being spent on luxury imports" },
+            { "icon": "📦", "text": "Exports got no serious push until the mid-1980s" }
+          ],
+          "say": "Why protect? Industries in developing countries couldn't yet compete with goods from developed economies, and it was assumed that, protected, they would learn to compete in time. Planners also feared foreign exchange being spent on luxury imports. And no serious thought was given to promoting exports until the mid-1980s."
+        }
+      ],
+      "beyond": "Under India's WTO commitments, nearly all quantitative restrictions (quotas) on imports were removed by April 2001.",
+      "examAngle": "Exercise 17: how import substitution protects domestic industry. In the match-the-following, quota pairs with 'quantity of goods that can be imported'.",
+      "quiz": {
+        "q": "A quota, as a tool of protection, is:",
+        "options": ["A tax on imported goods", "A limit on the quantity of goods that can be imported", "A subsidy to exporters", "A licence to start an industry"],
+        "answer": 1,
+        "why": "Tariffs are taxes on imports; quotas specify the quantity that can be imported."
+      },
+      "cards": [
+        { "q": "What is import substitution?", "a": "An inward looking trade strategy of replacing (substituting) imports with domestic production." },
+        { "q": "Tariff vs quota?", "a": "Tariff: a tax on imported goods (makes them costlier). Quota: a limit on the quantity that can be imported." },
+        { "q": "Why did planners protect domestic industry?", "a": "Young industries couldn't compete with developed economies but would learn to; fear of foreign exchange going on luxury imports." }
+      ]
+    },
+    {
+      "id": "industry-report-card",
+      "title": "Industry's report card, 1950–90",
+      "emoji": "📊",
+      "section": "2.5",
+      "factIds": ["F51", "F52", "F58"],
+      "scenes": [
+        {
+          "kind": "stat",
+          "value": "13%",
+          "label": "industry's share of GDP in 1950-51",
+          "compare": { "value": "24.6%", "label": "industry's share of GDP in 1990-91" },
+          "say": "NCERT calls the industrial sector's achievements in the first seven plans impressive indeed. Industry's share of GDP rose from 13 percent in 1950-51 to 24.6 percent in 1990-91, an important indicator of development."
+        },
+        {
+          "kind": "points",
+          "heading": "The gains",
+          "items": [
+            { "icon": "📈", "text": "About 6% annual industrial growth" },
+            { "icon": "🌐", "text": "Well diversified by 1990, largely thanks to the public sector" },
+            { "icon": "🧑‍💼", "text": "Small-scale industry let people without much capital start businesses" },
+            { "icon": "📺", "text": "Protection helped Indian electronics and automobile industries develop" }
+          ],
+          "say": "The industrial sector grew about 6 percent a year, which NCERT calls commendable. It was no longer limited to cotton textiles and jute; by 1990 it was well diversified, largely due to the public sector. Promoting small-scale industry gave opportunities to people without the capital for large firms. And protection from foreign competition helped Indian electronics and automobile industries develop, which otherwise could not have happened."
+        },
+        {
+          "kind": "points",
+          "heading": "Match-the-following, from Exercise 19",
+          "items": [
+            { "icon": "🏛️", "text": "Prime Minister: Chairperson of the Planning Commission" },
+            { "icon": "📊", "text": "GDP: money value of all final goods and services produced in one year" },
+            { "icon": "🚧", "text": "Quota: quantity of goods that can be imported" },
+            { "icon": "🌾", "text": "Land reforms: improvements in agriculture to raise productivity" },
+            { "icon": "🌱", "text": "HYV seeds: seeds that give a large proportion of output" },
+            { "icon": "💸", "text": "Subsidy: monetary help from government for production" }
+          ],
+          "say": "Quick revision with Exercise 19. Prime Minister: chairperson of the Planning Commission. GDP: the money value of all final goods and services produced in one year. Quota: the quantity of goods that can be imported. Land reforms: improvements in agriculture to raise productivity. HYV seeds: seeds that give a large proportion of output. Subsidy: monetary assistance from government for production activities."
+        }
+      ],
+      "beyond": "A landmark of this era: Maruti Udyog, a government joint venture with Japan's Suzuki, launched the Maruti 800 in 1983 and transformed India's car industry.",
+      "examAngle": "The 13% to 24.6% rise and the 6% growth rate are frequent MCQ facts. Exercise 19's matching pairs are easy marks.",
+      "quiz": {
+        "q": "Industry's share of India's GDP rose from 13% in 1950-51 to about what in 1990-91?",
+        "options": ["18%", "24.6%", "34.9%", "40.5%"],
+        "answer": 1,
+        "why": "NCERT: from 13% in 1950-51 to 24.6% in 1990-91."
+      },
+      "cards": [
+        { "q": "Industry's share of GDP: 1950-51 vs 1990-91?", "a": "13% to 24.6%." },
+        { "q": "Name three achievements of industry during 1950–1990.", "a": "About 6% annual growth; diversification by 1990 (largely due to the public sector); electronics and automobile industries developed under protection; SSIs created opportunities." }
+      ]
+    },
+    {
+      "id": "what-went-wrong",
+      "title": "What went wrong, and the road to 1991",
+      "emoji": "🧯",
+      "section": "2.5, 2.6",
+      "factIds": ["F53", "F54", "F55", "F56", "F57"],
+      "scenes": [
+        {
+          "kind": "points",
+          "heading": "The state stayed where it wasn't needed",
+          "items": [
+            { "icon": "☎️", "text": "Telecom reserved for the public sector: long waits for a phone till the late 1990s" },
+            { "icon": "🍞", "text": "Modern Bread: a state bread maker, sold to the private sector in 2001" },
+            { "icon": "🏨", "text": "The government also runs hotels" }
+          ],
+          "say": "Some economists criticise many public sector enterprises. State firms kept producing goods, often as monopolies, after this was no longer needed. Telecommunication stayed reserved for the public sector, so even till the late 1990s people waited a long time for a phone connection. Modern Bread, a bread maker, was run by the state as if the private sector couldn't make bread; it was sold to the private sector in 2001. The government also runs hotels, though the private sector can manage them well."
+        },
+        {
+          "kind": "points",
+          "heading": "Losses and the permit licence raj",
+          "items": [
+            { "icon": "📉", "text": "Loss-making PSUs kept running, draining limited resources" },
+            { "icon": "🧾", "text": "Big firms got licences just to block competitors" },
+            { "icon": "🕴️", "text": "Time went into lobbying, not better products" }
+          ],
+          "say": "Many public sector firms made huge losses but kept running, since it's hard to close a government undertaking, a drain on the nation's limited resources. Licences were misused by big industrial houses, which got them not to start a firm but to stop competitors. This excessive regulation came to be called the permit licence raj, and industrialists spent more time lobbying ministries than improving products."
+        },
+        {
+          "kind": "compare",
+          "heading": "Protection: harm, and the other view",
+          "left": { "title": "Criticism", "items": ["Captive market for Indian producers", "No incentive to improve quality", "Low-quality goods at high prices"] },
+          "right": { "title": "Counter-view", "items": ["Public sector is for welfare, not profit", "Protect producers while rich nations do too"] },
+          "say": "Protection also lasted after it did more harm than good. Indian consumers had to buy whatever Indian producers made, so producers had a captive market and no incentive to improve quality. A few economists disagree: they say public sector firms should be judged on their contribution to welfare, not profits, and that India should protect its producers as long as rich nations do."
+        },
+        {
+          "kind": "flow",
+          "heading": "Where it led",
+          "steps": ["Inefficient, loss-making public sector", "Over-regulation held back entrepreneurship", "Inward-oriented policies failed to build exports", "New economic policy, 1991"],
+          "say": "Putting it together, as NCERT's conclusion does: a loss-making public sector, excessive regulation that held back entrepreneurship, and inward-oriented policies that failed to build a strong export sector. These conflicts, along with other problems, led the government to a new economic policy in 1991, to make the economy more efficient. That's the next chapter."
+        }
+      ],
+      "beyond": "The phrase 'licence-permit raj' was popularised by C. Rajagopalachari, a critic of excessive state control.",
+      "examAngle": "Exercise 16 asks you to discuss PSUs given their losses. Give the criticism (monopolies, losses, licence raj, poor quality) and the counter-view (welfare, not profit), then link both to the 1991 reforms.",
+      "quiz": {
+        "q": "According to NCERT, how did big industrial houses misuse the licence system?",
+        "options": ["They got licences to export goods", "They got licences to block competitors from starting new firms", "They sold licences to foreign firms", "They used licences to avoid taxes"],
+        "answer": 1,
+        "why": "NCERT: a big industrialist would get a licence not to start a new firm but to prevent competitors from starting one."
+      },
+      "cards": [
+        { "q": "Give two NCERT examples of the public sector staying where it wasn't needed.", "a": "Telecom reserved for the public sector (long waits for phones till the late 1990s); Modern Bread, sold to the private sector in 2001; government-run hotels." },
+        { "q": "What was the 'permit licence raj'?", "a": "Excessive licensing regulation: licences were misused to block competitors and firms spent time lobbying rather than improving products." },
+        { "q": "What led to the new economic policy of 1991 (NCERT)?", "a": "Conflicts over the public sector and protection, plus other problems: inefficiency, over-regulation, and inward-oriented policies that failed to build exports." }
+      ]
+    }
+  ]
+}
