@@ -2,6 +2,7 @@ import { esc, h } from "./util.js";
 import { MATURE_DAYS, strength } from "./srs.js";
 import { streak } from "./store.js";
 import { syncStatus } from "./sync.js";
+import * as tts from "./tts.js";
 
 const DAY = 864e5;
 
@@ -25,7 +26,7 @@ export function renderProgress(ctx) {
   const page = h(`
     <div class="page">
       <h2>Progress</h2>
-      <p class="sub">🔥 ${streak(state)}-day streak · ${
+      <p class="sub">${streak(state) ? `🔥 ${streak(state)}-day streak` : "Study today to start a streak"} · ${
         { synced: "☁️ Synced to your Claude account", syncing: "☁️ Syncing…", offline: "⚠️ Sync paused, saved on this device", local: "Saved on this device" }[syncStatus()]
       }</p>
       <div class="stats">
@@ -38,9 +39,37 @@ export function renderProgress(ctx) {
       <div class="forecast">${forecast
         .map((n, d) => `<div class="fcol"><span class="fn">${n || ""}</span><div class="fbar" style="height:${(n / fmax) * 55}px"></div><span>${dayName(d)}</span></div>`)
         .join("")}</div>
+      <div class="section-h">Narration voice</div>
+      <div class="voice-box">
+        <div class="row"><select id="voice-select" aria-label="Narration voice"></select><button class="btn" data-preview>▶ Preview</button></div>
+        <p class="voice-tip">★ = natural-sounding. If every voice sounds robotic, add a better one to your device:
+          <b>iPhone</b>: Settings → Accessibility → Spoken Content → Voices → English → download an "Enhanced" or "Premium" voice.
+          <b>Android</b>: install Speech Services by Google, then download English (India).
+          <b>Windows</b>: open the app in Microsoft Edge, which has "Natural" voices. Then reload.</p>
+      </div>
       <div class="chapters"></div>
       <button class="danger" data-reset>Reset all progress</button>
     </div>`);
+
+  const sel = page.querySelector("#voice-select");
+  const fillVoices = () => {
+    const list = tts.englishVoices();
+    const cur = tts.currentVoice();
+    sel.innerHTML = list.length
+      ? list.map((v) => `<option value="${esc(v.voiceURI)}" ${v === cur ? "selected" : ""}>${tts.voiceScore(v) >= 40 ? "★ " : ""}${esc(v.name)} (${esc(v.lang)})</option>`).join("")
+      : `<option>No voices on this device (captions only)</option>`;
+    sel.disabled = !list.length;
+  };
+  fillVoices();
+  tts.onVoicesChanged(fillVoices);
+  sel.onchange = () => {
+    state.settings.voiceURI = sel.value;
+    tts.setPreferredVoice(sel.value);
+    ctx.commit({ quiet: true });
+    tts.speak("This is how your reels will sound.", state.settings);
+  };
+  page.querySelector("[data-preview]").onclick = () =>
+    tts.speak("In 1947, about 85 percent of Indians depended on agriculture. Let's see why it stagnated.", { ...state.settings, muted: false });
 
   const chWrap = page.querySelector(".chapters");
   for (const ch of ctx.chapters) {

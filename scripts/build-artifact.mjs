@@ -15,7 +15,7 @@ const title = html.match(/<title>.*?<\/title>/s)[0];
 const body = html.match(/<body>([\s\S]*)<\/body>/)[1].trim();
 await writeFile(
   join(out, "index.html"),
-  `${title}\n<meta name="description" content="Chapter-to-reels study feed with quizzes and spaced repetition.">\n<link rel="stylesheet" href="css/app.css">\n${body}\n`
+  `<meta charset="utf-8">\n${title}\n<meta name="description" content="Chapter-to-reels study feed with quizzes and spaced repetition.">\n<link rel="stylesheet" href="css/app.css">\n${body}\n`
 );
 for (const dir of ["css", "js", "content"]) await cp(join(root, dir), join(out, dir), { recursive: true });
 

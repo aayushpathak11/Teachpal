@@ -352,6 +352,13 @@ button { font: inherit; color: inherit; }
 .empty .big { font-size: 54px; }
 .danger { background: none; border: 1px solid rgba(255,107,107,.5); color: var(--bad); border-radius: 12px; padding: 10px 14px; margin-top: 26px; cursor: pointer; width: 100%; }
 
+/* ---------- voice picker ---------- */
+.voice-box { grid-template-columns: minmax(0, 1fr); background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 12px; display: grid; gap: 10px; }
+.voice-box select { flex: 1; min-width: 0; background: var(--panel-2); color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 9px; font: inherit; font-size: 14px; }
+.voice-box .row { min-width: 0; }
+.voice-box .row .btn { flex: none; }
+.voice-tip { margin: 0; color: var(--muted); font-size: 12.5px; line-height: 1.5; }
+
 /* ---------- end of feed ---------- */
 .end { height: 100%; display: flex; flex-direction: column; justify-content: center; gap: 14px; padding: 24px 20px; background: radial-gradient(circle at 50% 20%, rgba(61,220,151,.2), transparent 60%), var(--bg); }
 .end .big { font-size: 60px; }

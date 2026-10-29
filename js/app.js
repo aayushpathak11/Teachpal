@@ -140,6 +140,7 @@ async function boot() {
   const index = await (await fetch("content/index.json")).json();
   ctx.chapters = await Promise.all(index.chapters.map(async (c) => ({ ...(await (await fetch(`content/${c.file}`)).json()), status: c.status })));
   selectChapter(ctx.state.lastFeed?.chapter || ctx.chapters[0].id);
+  tts.setPreferredVoice(ctx.state.settings.voiceURI);
   refreshChrome();
 
   const ch = ctx.chapter;
@@ -150,6 +151,7 @@ async function boot() {
     () => ctx.state,
     (remote) => {
       ctx.state = mergeState(ctx.state, remote);
+      tts.setPreferredVoice(ctx.state.settings.voiceURI);
       saveState(ctx.state);
       refreshChrome();
       if (tab !== "feed") showTab(tab); // re-render review/progress with merged data
