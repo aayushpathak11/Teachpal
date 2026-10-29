@@ -139,7 +139,7 @@ export class Reel {
       muted,
       onSentence: (k) => {
         spans.forEach((sp, j) => (sp.style.opacity = j === k ? 1 : 0.45));
-        if (spans[k]) this.caption.scrollTop = spans[k].offsetTop - this.caption.offsetTop - 10;
+        if (spans[k]) this.caption.scrollTop = spans[k].offsetTop - 10;
       },
     });
     if (cancelled || !this.active || this.paused || this.sceneIdx !== i || this.mode !== "scenes") return;

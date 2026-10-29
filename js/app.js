@@ -1,4 +1,5 @@
-import { loadState, saveState, resetState, markActive, streak } from "./store.js";
+import { loadState, saveState, resetState, markActive, streak, mergeState } from "./store.js";
+import * as sync from "./sync.js";
 import { newCard, grade } from "./srs.js";
 import { createFeed } from "./feed.js";
 import { renderReview } from "./review.js";
@@ -20,6 +21,7 @@ const ctx = {
 
   commit({ quiet } = {}) {
     saveState(ctx.state);
+    sync.schedule();
     if (!quiet) refreshChrome();
   },
 
@@ -63,6 +65,7 @@ const ctx = {
 
   reset() {
     ctx.state = resetState();
+    ctx.commit({ quiet: true });
     feeds.clear();
     selectChapter(ctx.chapters[0].id);
     showTab("progress");
@@ -127,6 +130,7 @@ document.querySelector(".tabbar").addEventListener("click", (e) => {
 });
 
 document.addEventListener("visibilitychange", () => {
+  if (document.hidden) sync.flush();
   if (document.hidden) feed?.pause();
   else if (tab === "feed" && startEl.hidden) feed?.start();
 });
@@ -141,6 +145,16 @@ async function boot() {
   const ch = ctx.chapter;
   document.getElementById("start-sub").innerHTML = `<b>${esc(ch.title)}</b><br>${ch.reels.length} reels · ${ctx.cardRefs(ch).length} recall cards`;
   startBtn.disabled = false;
+
+  sync.connect(
+    () => ctx.state,
+    (remote) => {
+      ctx.state = mergeState(ctx.state, remote);
+      saveState(ctx.state);
+      refreshChrome();
+      if (tab !== "feed") showTab(tab); // re-render review/progress with merged data
+    }
+  );
   startBtn.onclick = () => {
     tts.unlock();
     startEl.hidden = true;
@@ -153,6 +167,6 @@ boot().catch((err) => {
   console.error(err);
 });
 
-if ("serviceWorker" in navigator && location.protocol === "https:") {
+if ("serviceWorker" in navigator && location.protocol === "https:" && !window.claude) {
   navigator.serviceWorker.register("sw.js").catch(() => {});
 }

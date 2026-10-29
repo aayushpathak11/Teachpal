@@ -18,13 +18,14 @@
 
 * { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text); }
+html { box-sizing: border-box; }
 body { overflow: hidden; -webkit-tap-highlight-color: transparent; }
 button { font: inherit; color: inherit; }
 
 #app {
   position: relative;
   max-width: 480px;
-  height: 100dvh;
+  height: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;

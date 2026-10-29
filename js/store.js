@@ -47,3 +47,21 @@ export function streak(state) {
   }
   return n;
 }
+
+// Combine progress from two devices: newest review wins per card, newest quiz per
+// reel, study days are unioned. Position in the feed stays per device.
+export function mergeState(local, remote) {
+  const out = { ...local, cards: { ...remote.cards }, reels: { ...remote.reels } };
+  for (const [k, c] of Object.entries(local.cards || {})) {
+    const r = out.cards[k];
+    if (!r || (c.last || 0) > (r.last || 0) || ((c.last || 0) === (r.last || 0) && c.reps > r.reps)) out.cards[k] = c;
+  }
+  for (const [k, v] of Object.entries(local.reels || {})) {
+    const r = out.reels[k];
+    if (!r || (v.quiz?.at || 0) > (r.quiz?.at || 0)) out.reels[k] = v;
+  }
+  out.days = [...new Set([...(remote.days || []), ...(local.days || [])])].sort().slice(-400);
+  out.settings = { ...local.settings, ...(remote.settings || {}) };
+  out.lastFeed = local.lastFeed || remote.lastFeed || null;
+  return out;
+}

@@ -102,8 +102,10 @@ export function createFeed(chapter, ctx) {
     it.slot.querySelector("[data-top]").onclick = () => scrollToIndex(0);
   }
 
+  // Scroll the feed itself (scrollIntoView could also scroll the page hosting us).
   function scrollToIndex(k, smooth = true) {
-    items[k]?.slot.scrollIntoView({ behavior: smooth ? "smooth" : "instant", block: "start" });
+    const slot = items[k]?.slot;
+    if (slot) root.scrollTo({ top: slot.offsetTop, behavior: smooth ? "smooth" : "instant" });
   }
 
   return {

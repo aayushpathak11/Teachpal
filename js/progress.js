@@ -1,6 +1,7 @@
 import { esc, h } from "./util.js";
 import { MATURE_DAYS, strength } from "./srs.js";
 import { streak } from "./store.js";
+import { syncStatus } from "./sync.js";
 
 const DAY = 864e5;
 
@@ -24,7 +25,9 @@ export function renderProgress(ctx) {
   const page = h(`
     <div class="page">
       <h2>Progress</h2>
-      <p class="sub">🔥 ${streak(state)}-day streak</p>
+      <p class="sub">🔥 ${streak(state)}-day streak · ${
+        { synced: "☁️ Synced to your Claude account", syncing: "☁️ Syncing…", offline: "⚠️ Sync paused, saved on this device", local: "Saved on this device" }[syncStatus()]
+      }</p>
       <div class="stats">
         <div class="stat-tile"><div class="n">${Object.keys(state.reels).length}</div><div class="l">reels completed</div></div>
         <div class="stat-tile"><div class="n">${acc == null ? "–" : acc + "%"}</div><div class="l">quiz accuracy</div></div>
@@ -61,8 +64,16 @@ export function renderProgress(ctx) {
     chWrap.append(list);
   }
 
-  page.querySelector("[data-reset]").onclick = () => {
-    if (confirm("Reset all progress, streaks and recall cards on this device?")) ctx.reset();
+  // Two-step confirm inside the page (hosted pages can't show browser dialogs).
+  const resetBtn = page.querySelector("[data-reset]");
+  resetBtn.onclick = () => {
+    if (resetBtn.dataset.armed) return ctx.reset();
+    resetBtn.dataset.armed = "1";
+    resetBtn.textContent = "Tap again to erase all progress, streaks and cards";
+    setTimeout(() => {
+      delete resetBtn.dataset.armed;
+      resetBtn.textContent = "Reset all progress";
+    }, 4000);
   };
   return page;
 }
