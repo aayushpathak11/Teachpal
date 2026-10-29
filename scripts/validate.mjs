@@ -1,6 +1,6 @@
 // Validates every chapter listed in content/index.json.
 import { readFile } from "node:fs/promises";
-import { validateChapter, validatePractice } from "./schema.mjs";
+import { validateChapter, validateMap, validatePractice } from "./schema.mjs";
 import { existsSync } from "node:fs";
 
 const root = new URL("../content/", import.meta.url);
@@ -19,7 +19,13 @@ for (const entry of index.chapters) {
     errors.push(...validatePractice(pr, ch).map((e) => `practice: ${e}`));
     practice = `${pr.mcq.length} MCQs, ${(pr.descriptive || []).length} descriptive`;
   }
-  console.log(`${errors.length ? "✗" : "✓"} ${entry.file}: ${ch.reels.length} reels, ${scenes} scenes, ${cards} cards; ${practice}`);
+  let maps = "no concept maps";
+  if (entry.maps) {
+    const m = JSON.parse(await readFile(new URL(entry.maps, root), "utf8"));
+    errors.push(...validateMap(m, ch).map((e) => `maps: ${e}`));
+    maps = `${m.chains.length} concept maps`;
+  }
+  console.log(`${errors.length ? "✗" : "✓"} ${entry.file}: ${ch.reels.length} reels, ${scenes} scenes, ${cards} cards; ${practice}; ${maps}`);
   errors.forEach((e) => console.log("   " + e));
   failed ||= errors.length > 0;
 }

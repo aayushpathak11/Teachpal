@@ -3,6 +3,7 @@ import { MATURE_DAYS, strength } from "./srs.js";
 import { streak } from "./store.js";
 import { syncStatus } from "./sync.js";
 import * as tts from "./tts.js";
+import { calibrationSection } from "./calibration.js";
 
 const DAY = 864e5;
 
@@ -46,6 +47,7 @@ export function renderProgress(ctx) {
         <div class="stat-tile"><div class="n">${essayAvg ?? "–"}</div><div class="l">average written-answer score /10</div></div>
         <div class="stat-tile"><div class="n">${Object.values(state.explain || {}).filter((x) => x.attempts).length}</div><div class="l">reels explained back</div></div>
       </div>
+      <div class="calibration"></div>
       <div class="section-h">Reviews due, next 7 days</div>
       <div class="forecast">${forecast
         .map((n, d) => `<div class="fcol"><span class="fn">${n || ""}</span><div class="fbar" style="height:${(n / fmax) * 55}px"></div><span>${dayName(d)}</span></div>`)
@@ -63,6 +65,8 @@ export function renderProgress(ctx) {
       <div class="chapters"></div>
       <button class="danger" data-reset>Reset all progress</button>
     </div>`);
+
+  page.querySelector(".calibration").replaceWith(calibrationSection(ctx));
 
   const sel = page.querySelector("#voice-select");
   const hasRecorded = ctx.chapters.some((c) => c.audio);

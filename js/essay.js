@@ -5,11 +5,13 @@ const words = (t) => t.trim().split(/\s+/).filter(Boolean).length;
 
 // Closed-book written answer for a Phase 2 style question. The model answer and
 // key points stay hidden until the learner has submitted their own attempt.
-export function essayView(item, { saved, onResult, onBack }) {
+// Inside a mixed test, onNext replaces the back link and "Try again" with
+// "Skip" and "Next".
+export function essayView(item, { saved, onResult, onBack, onNext, label = "" }) {
   const el = h(`
     <div class="essay">
-      <button class="link" data-back>← All questions</button>
-      <div class="kicker">${esc(item.source || "Descriptive")} · about ${item.words || 150} words</div>
+      ${onNext ? `<button class="link" data-skip>Skip this question →</button>` : `<button class="link" data-back>← All questions</button>`}
+      <div class="kicker">${label ? `${esc(label)} · ` : ""}${esc(item.source || "Descriptive")} · about ${item.words || 150} words</div>
       <h3>${esc(item.q)}</h3>
       <p class="prompt">Closed book: write from memory, then get feedback.</p>
       <textarea id="essay-${esc(item.id)}" rows="6" placeholder="Write your answer here…"></textarea>
@@ -29,7 +31,10 @@ export function essayView(item, { saved, onResult, onBack }) {
   };
   ta.addEventListener("input", update);
   update();
-  el.querySelector("[data-back]").onclick = onBack;
+  if (onNext) el.querySelector("[data-skip]").onclick = () => onNext({ skipped: true });
+  else el.querySelector("[data-back]").onclick = onBack;
+  const afterButton = () =>
+    onNext ? h(`<button class="btn primary big" data-next>Next</button>`) : h(`<button class="btn" data-again>Try again</button>`);
 
   submit.onclick = async () => {
     const answer = ta.value.trim();
@@ -49,8 +54,8 @@ export function essayView(item, { saved, onResult, onBack }) {
           .map((k, i) => `<li class="${covered.has(i + 1) ? "ok" : "no"}">${covered.has(i + 1) ? "✓" : "✗"} ${esc(k)}</li>`)
           .join("")}</ul></div>
         ${(d.improve || []).length ? `<div class="box"><h4>To improve</h4><ul>${d.improve.map((t) => `<li>${esc(t)}</li>`).join("")}</ul></div>` : ""}
-        ${d.modelAnswer ? `<div class="box"><button class="btn" data-model aria-expanded="false">Show model answer</button><p class="model" hidden>${esc(d.modelAnswer)}</p></div>` : ""}
-        <button class="btn" data-again>Try again</button>`;
+        ${d.modelAnswer ? `<div class="box"><button class="btn" data-model aria-expanded="false">Show model answer</button><p class="model" hidden>${esc(d.modelAnswer)}</p></div>` : ""}`;
+      result.append(afterButton());
       const modelBtn = result.querySelector("[data-model]");
       if (modelBtn) {
         modelBtn.onclick = () => {
@@ -73,14 +78,20 @@ export function essayView(item, { saved, onResult, onBack }) {
         const score = Math.round((10 * ticked) / item.keyPoints.length);
         result.querySelector("[data-score]").replaceWith(h(`<div class="score">${score}<small>/10</small></div>`));
         onResult({ score, answer, last: Date.now(), ai: false });
-        result.append(h(`<button class="btn" data-again>Try again</button>`));
-        result.querySelector("[data-again]").onclick = again;
+        result.append(afterButton());
+        wireAfter();
       };
     }
-    result.querySelector("[data-again]")?.addEventListener("click", again);
+    wireAfter();
     submit.hidden = true;
     reveal(result);
   };
+  function wireAfter() {
+    const a = result.querySelector("[data-again]");
+    if (a) a.onclick = again;
+    const n = result.querySelector("[data-next]");
+    if (n) n.onclick = () => (el.querySelector("[data-skip]")?.remove(), onNext({ skipped: false }));
+  }
   function again() {
     ta.readOnly = false;
     ta.value = "";

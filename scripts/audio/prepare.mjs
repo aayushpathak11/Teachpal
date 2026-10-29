@@ -1,5 +1,6 @@
-// Builds the recording job for one chapter: every scene's narration and the quiz
-// question, cleaned for speech and split into the same sentences the captions use.
+// Builds the recording job for one chapter: every scene's narration, the quiz
+// question, and each recall card's question and answer (for audio revision),
+// cleaned for speech and split into the same sentences the captions use.
 // Each reel gets a voice from docs/voice.json: shuffled with a seed from the
 // chapter id (so re-runs give the same voices), all voices used before any
 // repeats, and never the same voice twice in a row.
@@ -24,7 +25,11 @@ const job = {
   reels: ch.reels.map((r, i) => ({
     id: r.id,
     voice: assigned[i],
-    segments: [...r.scenes.map((s, k) => segment(`s${k}`, s.say)), segment("quiz", "Quick check. " + r.quiz.q)],
+    segments: [
+      ...r.scenes.map((s, k) => segment(`s${k}`, s.say)),
+      segment("quiz", "Quick check. " + r.quiz.q),
+      ...r.cards.flatMap((c, k) => [segment(`c${k}q`, c.q), segment(`c${k}a`, c.a)]),
+    ],
   })),
 };
 console.log(JSON.stringify(job, null, 1));

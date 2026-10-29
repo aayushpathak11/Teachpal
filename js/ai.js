@@ -95,3 +95,28 @@ ${clip(answer, 2000)}
 Reply with only this JSON:
 {"correct": <true or false>, "feedback": "<at most 2 sentences: confirm or correct them, including the right explanation>"}`;
 }
+
+// Current-affairs linker: tie a news item the learner pastes to the chapters
+// they have studied, and turn it into a few recall cards.
+export function newsLinkPrompt(news, chapters) {
+  const catalogue = chapters
+    .map((ch) => `${ch.title}\n${ch.reels.map((r) => `- ${ch.id}/${r.id}: ${r.title} (${clip(r.cards[0]?.a, 90)})`).join("\n")}`)
+    .join("\n\n");
+  return `A learner preparing for the RBI Grade B exam (Economic and Social Issues paper) pasted a news item. Link it to the lessons they have studied, which are listed below as chapterId/reelId: title (key idea). Be accurate and concrete.
+
+Rules:
+- Take facts about the news only from the pasted text: it may be more recent than your knowledge, so don't add or "correct" its figures or dates. You may add general economics background that is well established.
+- Link only to lessons in the list, and only where the connection is real (1 to 3 links). If the item has nothing to do with economics or these lessons, set "relevant" to false.
+- Cards are for spaced repetition: short question, answer under 30 words, one fact or link each. Make 2 or 3: at least one on the news fact itself and one on how it connects to a lesson concept.
+
+Lessons:
+${clip(catalogue, 9000)}
+
+News item:
+"""
+${clip(news, 3000)}
+"""
+
+Reply with only this JSON:
+{"relevant": <true or false>, "title": "<headline, under 80 characters>", "summary": "<what happened, in 2 plain sentences>", "links": [{"chapterId": "<id>", "reelId": "<id>", "why": "<one sentence on the connection>"}], "cards": [{"q": "<question>", "a": "<answer>"}], "examAngle": "<one sentence: how an exam question could use this>"}`;
+}

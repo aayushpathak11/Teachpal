@@ -2,12 +2,15 @@ import { esc, h, relTime } from "./util.js";
 import { flashcard } from "./flashcard.js";
 import { mcqCard } from "./mcq.js";
 import { explainCard } from "./explain.js";
+import { mapExercise } from "./conceptmap.js";
+import { mapsDue, mapPool } from "./revise.js";
 
 const MAX_EXPLAIN = 2;
 const MAX_MCQ = 6;
+const MAX_MAPS = 1;
 
 // Everything due today, interleaved across chapters and item types: recall cards,
-// practice MCQs that are due again, and next-day explain-it-back.
+// practice MCQs that are due again, next-day explain-it-back, and concept maps.
 export function dueItems(ctx, now = Date.now()) {
   const { state } = ctx;
   const cards = ctx
@@ -31,19 +34,20 @@ export function dueItems(ctx, now = Date.now()) {
       if (due != null && due <= now) explains.push({ type: "explain", ch, reel, due });
     }
   explains.sort((a, b) => a.due - b.due);
-  return { cards, mcqs, explains: explains.slice(0, MAX_EXPLAIN) };
+  const maps = mapsDue(ctx, now).slice(0, MAX_MAPS).map((m) => ({ type: "map", ...m }));
+  return { cards, mcqs, explains: explains.slice(0, MAX_EXPLAIN), maps };
 }
 
 export function dueCount(ctx) {
   const d = dueItems(ctx);
-  return d.cards.length + d.mcqs.length + d.explains.length;
+  return d.cards.length + d.mcqs.length + d.explains.length + d.maps.length;
 }
 
-function interleave({ cards, mcqs, explains }) {
+function interleave({ cards, mcqs, explains, maps }) {
   const out = [];
-  const pattern = ["card", "card", "mcq", "card", "explain"];
-  const pools = { card: [...cards], mcq: [...mcqs], explain: [...explains] };
-  while (pools.card.length || pools.mcq.length || pools.explain.length)
+  const pattern = ["card", "card", "mcq", "card", "explain", "card", "map"];
+  const pools = { card: [...cards], mcq: [...mcqs], explain: [...explains], map: [...maps] };
+  while (Object.values(pools).some((p) => p.length))
     for (const t of pattern) if (pools[t].length) out.push(pools[t].shift());
   return out;
 }
@@ -72,6 +76,14 @@ export function renderToday(ctx) {
           onDone: (r) => (r.record ? ctx.recordMcq(it.item.id, r.correct, r.conf) : advance()),
         })
       );
+    if (it.type === "map")
+      wrap.append(
+        mapExercise(it.chain, {
+          pool: mapPool(it.ch, it.chain),
+          onScore: (score) => ctx.recordMap(it.ch.id, it.chain.id, score),
+          onDone: advance,
+        })
+      );
     if (it.type === "explain") wrap.append(explainCard(it.reel, { onDone: ({ score }) => (ctx.recordExplain(it.ch.id, it.reel.id, score), advance()) }));
     body.replaceChildren(wrap);
     page.scrollTop = 0;
@@ -83,6 +95,7 @@ export function renderToday(ctx) {
       ...Object.values(ctx.state.cards).map((c) => c.due),
       ...Object.values(ctx.state.practice).map((p) => p.due),
       ...Object.values(ctx.state.explain).map((x) => x.due),
+      ...Object.values(ctx.state.maps || {}).map((x) => x.due),
     ]
       .filter((d) => d > now)
       .sort((a, b) => a - b)[0];

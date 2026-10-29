@@ -6,6 +6,8 @@ import { renderToday, dueCount } from "./today.js";
 import { renderPractice } from "./practice.js";
 import { scheduleMcq, scheduleExplain, firstExplainDue } from "./schedule.js";
 import { renderProgress } from "./progress.js";
+import { renderRevise } from "./revise.js";
+import { newsCardRefs } from "./news.js";
 import { esc, h } from "./util.js";
 import * as tts from "./tts.js";
 import { textHash } from "./tts.js";
@@ -42,17 +44,30 @@ const ctx = {
     const rec = ch.audio?.reels?.[reel.id];
     const seg = rec?.segments?.[key];
     if (!seg) return null;
-    const text = key === "quiz" ? "Quick check. " + reel.quiz.q : reel.scenes[+key.slice(1)]?.say;
+    const card = /^c(\d+)([qa])$/.exec(key);
+    const text = card ? reel.cards[+card[1]]?.[card[2]] : key === "quiz" ? "Quick check. " + reel.quiz.q : reel.scenes[+key.slice(1)]?.say;
     if (!text || seg.h !== textHash(text)) return null;
     return { src: `${ch.audioBase}${rec.file}`, start: seg.start, end: seg.end, sents: seg.sents };
   },
 
+  // Every card in the reviews: chapter cards plus cards saved from the news.
   allCardRefs() {
-    return ctx.chapters.flatMap((ch) => ctx.cardRefs(ch));
+    return [...ctx.chapters.flatMap((ch) => ctx.cardRefs(ch)), ...newsCardRefs(ctx)];
+  },
+
+  // Recorded audio for a card's question ("q") or answer ("a"), for audio revision.
+  cardClip(ref, side) {
+    const ch = ctx.chapters.find((c) => c.id === ref.chapterId);
+    const reel = ch?.reels.find((r) => r.id === ref.reelId);
+    return reel ? ctx.clipFor(ch, reel, `c${ref.key.split("/").pop()}${side}`) : null;
   },
 
   allMcqs() {
     return ctx.chapters.flatMap((ch) => (ctx.practice[ch.id]?.mcq || []).map((m) => ({ ...m, chapterId: ch.id, chapterTitle: ch.title })));
+  },
+
+  allEssays() {
+    return ctx.chapters.flatMap((ch) => (ctx.practice[ch.id]?.descriptive || []).map((d) => ({ ...d, chapterId: ch.id, chapterTitle: ch.title })));
   },
 
   recordMcq(id, correct, conf) {
@@ -71,6 +86,32 @@ const ctx = {
     const k = `${chId}/${reelId}`;
     ctx.state.explain[k] = scheduleExplain(ctx.state.explain[k], score);
     markActive(ctx.state);
+    ctx.commit();
+  },
+
+  recordMap(chId, chainId, score) {
+    const k = `${chId}/${chainId}`;
+    ctx.state.maps[k] = scheduleExplain(ctx.state.maps[k], score);
+    markActive(ctx.state);
+    ctx.commit();
+  },
+
+  // A news item linked to the chapters; its cards start tomorrow, like a reel's.
+  saveNews(item) {
+    const now = Date.now();
+    const id = now.toString(36);
+    ctx.state.news[id] = { ...item, id, at: now, last: now };
+    item.cards.forEach((_, i) => (ctx.state.cards[`news/${id}/${i}`] = newCard(now, { dueNow: false })));
+    markActive(ctx.state);
+    ctx.commit();
+  },
+
+  // Kept as a marker (not removed) so a sync from another device doesn't bring it back.
+  deleteNews(id) {
+    const n = ctx.state.news[id];
+    if (!n) return;
+    n.cards.forEach((_, i) => delete ctx.state.cards[`news/${id}/${i}`]);
+    ctx.state.news[id] = { id, deleted: true, last: Date.now(), cards: [] };
     ctx.commit();
   },
 
@@ -164,7 +205,8 @@ function showTab(name) {
     view.replaceChildren(feed.el);
     feed.start();
   } else {
-    pageEl.replaceChildren(name === "today" ? renderToday(ctx) : name === "practice" ? renderPractice(ctx) : renderProgress(ctx));
+    const render = { today: renderToday, practice: renderPractice, revise: renderRevise, progress: renderProgress }[name];
+    pageEl.replaceChildren(render(ctx));
     view.replaceChildren(pageEl);
   }
   refreshChrome();
@@ -188,6 +230,7 @@ async function boot() {
     index.chapters.map(async (c) => {
       const ch = { ...(await (await fetch(`content/${c.file}`)).json()), status: c.status };
       if (c.practice) ctx.practice[ch.id] = await fetch(`content/${c.practice}`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+      if (c.maps) ch.maps = await fetch(`content/${c.maps}`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
       if (c.audio) {
         ch.audioBase = `content/${c.audio.replace(/[^/]+$/, "")}`;
         ch.audio = await fetch(`content/${c.audio}`).then((r) => (r.ok ? r.json() : null)).catch(() => null);

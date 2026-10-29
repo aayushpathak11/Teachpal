@@ -4,7 +4,7 @@
 const KEY = "teachpal:v1";
 
 function blank() {
-  return { cards: {}, reels: {}, practice: {}, essays: {}, explain: {}, pretest: {}, days: [], settings: { rate: 1, muted: false, pretest: true }, lastFeed: null };
+  return { cards: {}, reels: {}, practice: {}, essays: {}, explain: {}, pretest: {}, maps: {}, news: {}, days: [], settings: { rate: 1, muted: false, pretest: true }, lastFeed: null };
 }
 
 export function loadState() {
@@ -64,8 +64,8 @@ export function mergeState(local, remote) {
     const r = out.reels[k];
     if (!r || (v.quiz?.at || 0) > (r.quiz?.at || 0)) out.reels[k] = v;
   }
-  // v2 items: keep whichever side touched each entry last.
-  for (const k of ["practice", "essays", "explain", "pretest"]) {
+  // v2/v3 items: keep whichever side touched each entry last.
+  for (const k of ["practice", "essays", "explain", "pretest", "maps", "news"]) {
     out[k] = { ...(remote[k] || {}) };
     for (const [id, v] of Object.entries(local[k] || {})) if (!out[k][id] || (v.last || 0) >= (out[k][id].last || 0)) out[k][id] = v;
   }

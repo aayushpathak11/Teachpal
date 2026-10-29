@@ -1,0 +1,75 @@
+{
+  "chapter": "eco11-ch03",
+  "chains": [
+    {
+      "id": "crisis",
+      "title": "How the 1991 crisis built up",
+      "reelIds": ["how-crisis-built", "crisis-and-imf", "concept-bop-forex"],
+      "steps": [
+        "1980s: government spending far exceeds revenue",
+        "Borrowing to cover it becomes unsustainable",
+        "Imports grow without matching exports",
+        "Forex reserves can't pay for even two weeks of imports",
+        "India can't repay its foreign borrowings: the balance of payments crisis"
+      ]
+    },
+    {
+      "id": "rescue",
+      "title": "The rescue and the New Economic Policy",
+      "reelIds": ["crisis-and-imf", "nep-two-kinds"],
+      "steps": [
+        "No country or international funder will lend to India",
+        "World Bank (IBRD) and IMF lend $7 billion",
+        "Conditions: liberalise, open to the private sector, remove trade restrictions",
+        "India announces the New Economic Policy (NEP)",
+        "Reforms under three heads: liberalisation, privatisation, globalisation"
+      ]
+    },
+    {
+      "id": "devaluation",
+      "title": "Devaluation of the rupee, 1991",
+      "reelIds": ["concept-devaluation"],
+      "steps": [
+        "The rupee is devalued against foreign currencies",
+        "Indian goods get cheaper abroad; imports get dearer",
+        "The inflow of foreign exchange increases",
+        "It sets the tone for markets to decide exchange rates"
+      ]
+    },
+    {
+      "id": "agriculture",
+      "title": "Why the reforms hurt agriculture",
+      "reelIds": ["agriculture-after-reforms"],
+      "steps": [
+        "Public investment in farm infrastructure falls",
+        "Partial removal of fertiliser subsidy raises costs",
+        "Lower import duties, low MSP and no quantitative restrictions",
+        "Farmers face international competition",
+        "Small farmers like Mahadeva can't cover their costs"
+      ]
+    },
+    {
+      "id": "siricilla",
+      "title": "Box 3.3: the Siricilla tragedy",
+      "reelIds": ["verdict-lpg"],
+      "steps": [
+        "Power sector reforms end subsidised electricity",
+        "Power tariffs rise steeply",
+        "Powerloom weavers' wages are tied to cloth output",
+        "Power cuts mean wage cuts",
+        "A crisis: 50 powerloom workers die by suicide"
+      ]
+    },
+    {
+      "id": "industry",
+      "title": "Why industrial growth slowed",
+      "reelIds": ["industry-after-reforms"],
+      "steps": [
+        "Cheaper imports come in",
+        "Demand for domestic industrial goods falls",
+        "Investment in infrastructure, including power, stays inadequate",
+        "Industrial growth slows down"
+      ]
+    }
+  ]
+}

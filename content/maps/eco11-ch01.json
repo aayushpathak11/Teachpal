@@ -1,0 +1,51 @@
+{
+  "chapter": "eco11-ch01",
+  "chains": [
+    {
+      "id": "farm-stagnation",
+      "title": "Why colonial agriculture stagnated",
+      "reelIds": ["agriculture-stagnation", "zamindari-revenue"],
+      "steps": [
+        "Colonial land settlement systems (zamindari)",
+        "Profit from farming goes to zamindars, not cultivators",
+        "Fixed revenue dates: zamindars extract maximum rent",
+        "Little is invested to improve agriculture",
+        "Low productivity: stagnation and deterioration"
+      ]
+    },
+    {
+      "id": "deindustrialisation",
+      "title": "The two-fold motive and the fall of handicrafts",
+      "reelIds": ["deindustrialisation", "why-1947"],
+      "steps": [
+        "Britain wants raw materials and a market for its goods",
+        "India's world-famous handicrafts decline",
+        "Massive unemployment among artisans",
+        "The demand is met by cheap British imports"
+      ]
+    },
+    {
+      "id": "drain",
+      "title": "Export surplus and the drain of wealth",
+      "reelIds": ["foreign-trade", "drain-of-wealth"],
+      "steps": [
+        "India exports primary products, imports finished goods",
+        "A large export surplus",
+        "It pays for the colonial office, British wars and invisible imports",
+        "No gold or silver flows in: the drain of wealth",
+        "Essentials like food grains, clothes and kerosene scarce at home"
+      ]
+    },
+    {
+      "id": "commercialisation",
+      "title": "Railways and commercialisation",
+      "reelIds": ["railways", "commercialisation"],
+      "steps": [
+        "Railways open up long-distance trade",
+        "Farmers shift from food crops to cash crops for sale",
+        "Cash crops ultimately serve British industries",
+        "Village self-sufficiency is hurt; few farmers gain"
+      ]
+    }
+  ]
+}

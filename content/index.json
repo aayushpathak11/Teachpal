@@ -7,7 +7,8 @@
       "subject": "Economics · Class 11",
       "status": "reviewed",
       "audio": "audio/eco11-ch01/manifest.json",
-      "practice": "practice/eco11-ch01.json"
+      "practice": "practice/eco11-ch01.json",
+      "maps": "maps/eco11-ch01.json"
     },
     {
       "id": "eco11-ch02",
@@ -16,7 +17,8 @@
       "subject": "Economics · Class 11",
       "status": "reviewed",
       "audio": "audio/eco11-ch02/manifest.json",
-      "practice": "practice/eco11-ch02.json"
+      "practice": "practice/eco11-ch02.json",
+      "maps": "maps/eco11-ch02.json"
     },
     {
       "id": "eco11-ch03",
@@ -25,7 +27,8 @@
       "subject": "Economics · Class 11",
       "status": "reviewed",
       "audio": "audio/eco11-ch03/manifest.json",
-      "practice": "practice/eco11-ch03.json"
+      "practice": "practice/eco11-ch03.json",
+      "maps": "maps/eco11-ch03.json"
     }
   ]
 }

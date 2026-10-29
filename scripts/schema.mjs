@@ -81,3 +81,27 @@ export function validatePractice(pr, chapter) {
   if (!(pr.mcq || []).length) errors.push("practice bank has no MCQs");
   return errors;
 }
+
+// Concept-map chains (content/maps/<id>.json): ordered cause-and-effect steps.
+export function validateMap(map, chapter) {
+  const errors = [];
+  const reelIds = new Set(chapter.reels.map((r) => r.id));
+  const ids = new Set();
+  const all = new Set();
+  if (map.chapter !== chapter.id) errors.push(`chapter "${map.chapter}" does not match "${chapter.id}"`);
+  (map.chains || []).forEach((c, i) => {
+    const p = `chains[${i}] ${c.id || ""}`;
+    if (!c.id || ids.has(c.id)) errors.push(`${p}: missing or duplicate id`);
+    ids.add(c.id);
+    if (!c.title) errors.push(`${p}: needs a title`);
+    if (!Array.isArray(c.steps) || c.steps.length < 3) errors.push(`${p}: needs at least 3 steps`);
+    for (const s of c.steps || []) {
+      if (all.has(s)) errors.push(`${p}: step repeated in this chapter's maps ("${s}"), so a blank could have two answers`);
+      all.add(s);
+    }
+    if (!(c.reelIds || []).length) errors.push(`${p}: needs reelIds`);
+    for (const r of c.reelIds || []) if (!reelIds.has(r)) errors.push(`${p}: unknown reelId ${r}`);
+  });
+  if (!(map.chains || []).length) errors.push("map has no chains");
+  return errors;
+}

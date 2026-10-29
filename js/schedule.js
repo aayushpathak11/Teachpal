@@ -12,7 +12,9 @@ export function scheduleMcq(prev, correct, conf, now = Date.now()) {
   if (!correct) due = now + (conf === "sure" ? 10 * MIN : 60 * MIN);
   else if (conf === "sure") due = now + Math.min(60, 3 * 2 ** (streak - 1)) * DAY;
   else due = now + 1 * DAY; // right but unsure: check again tomorrow
-  return { attempts: p.attempts + 1, correct: p.correct + (correct ? 1 : 0), streak, conf, lastCorrect: correct, last: now, due };
+  // log: the last 10 attempts as [confidence, 1 if right], for calibration analytics.
+  const log = [...(p.log || []).slice(-9), [conf, correct ? 1 : 0]];
+  return { attempts: p.attempts + 1, correct: p.correct + (correct ? 1 : 0), streak, conf, lastCorrect: correct, last: now, due, log };
 }
 
 export function firstExplainDue(now = Date.now()) {
