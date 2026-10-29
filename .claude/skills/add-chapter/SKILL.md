@@ -50,7 +50,7 @@ Tell it to read the PDF itself and to report only real problems.
 - Minor issues: fix the ones that are clearly right and cheap to fix, and list the rest in the report.
 
 ## 6b. Record narration
-- After the text is final, record it with Kokoro following `scripts/audio/README.md` (setup, `prepare.mjs`, `synth.py`), with a random voice per reel from `docs/voice.json` (the user's preference, so reels don't sound monotonous). Run the 3 shards in the background while you write the report, then `merge.mjs`.
+- After the text is final, record it with Kokoro following `scripts/audio/README.md` (setup, `prepare.mjs`, `synth.py`), with a random voice per reel from `docs/voice.json` (the user's preference, so reels don't sound monotonous). Run `scripts/audio/record.sh <id>` in the background while you write the report. Start it once the text is final: it re-records only reels whose text changed, so recording during review wastes time on reels that will change.
 - Add `"audio": "audio/<id>/manifest.json"` to the chapter's entry in `content/index.json`, and publish `content/audio/<id>/*.mp3` and `content/audio/<id>/manifest.json` with the chapter (not the per-reel timing `.json` files).
 - If the user reports a mispronounced word, add it to `docs/pronunciations.json` and re-record the affected chapters.
 

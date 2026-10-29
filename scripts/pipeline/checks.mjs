@@ -46,6 +46,11 @@ export function lintChapter(ch) {
     const opts = r.quiz?.options || [];
     if (opts.length !== 4) out.push(issue(r.id, "quiz", "minor", `${opts.length} options; use 4`, "Give exactly 4 options."));
     if (new Set(opts.map((o) => o.trim().toLowerCase())).size !== opts.length) out.push(issue(r.id, "quiz", "major", "duplicate quiz options", "Make every option distinct."));
+    // The right answer shouldn't stand out by length (ch01/ch02: 18 of 38 quizzes did).
+    const lens = opts.map((o) => o.length);
+    const runnerUp = [...lens].sort((x, y) => y - x)[1] ?? 0;
+    if (Number.isInteger(r.quiz?.answer) && lens[r.quiz.answer] === Math.max(...lens) && lens[r.quiz.answer] >= runnerUp * 1.25 && lens[r.quiz.answer] - runnerUp >= 12)
+      out.push(issue(r.id, "quiz", "major", "the correct option is clearly the longest, so it can be guessed", "Make the wrong options as long and as specific as the right one."));
     if (opts.some((o) => /\b(all|none|both) of the (above|these)\b/i.test(o)))
       out.push(issue(r.id, "quiz", "major", "'all/none of the above' breaks when the app shuffles options", "Replace it with a concrete option."));
     if ((r.cards || []).length < 2) out.push(issue(r.id, "cards", "minor", "fewer than 2 recall cards", "Add a card for another key fact."));

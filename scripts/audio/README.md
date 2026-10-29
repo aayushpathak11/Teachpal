@@ -12,10 +12,9 @@ ffmpeg must be installed.
 
 ## Record a chapter
 ```bash
-node scripts/audio/prepare.mjs content/<id>.json > .work/<id>/audio-job.json
-for k in 1 2 3; do .venv-tts/bin/python -I scripts/audio/synth.py .work/<id>/audio-job.json content/audio/<id> .models --shard $k/3 & done; wait
-node scripts/audio/merge.mjs .work/<id>/audio-job.json content/audio/<id>
+scripts/audio/record.sh <id>          # prepare → 3 parallel shards → manifest; only changed reels are re-recorded
 ```
+(Set `TTS_PY` and `TTS_MODELS` if the venv or models live elsewhere. When you stop a recording run, match `synth[.]py`; a pattern like `tts/bin/python` also matches your own shell command and kills it.)
 Then set `"audio": "audio/<id>/manifest.json"` on the chapter's entry in `content/index.json`. Recording runs at a few times real time on a 4-CPU machine; a 17-reel chapter takes roughly 15-25 minutes with 3 shards and produces about 8 MB of MP3. An interrupted run resumes: reels already recorded with the same voice and text are skipped.
 
 - **Voices:** every reel gets a randomly assigned voice from `docs/voice.json`. The user liked all 9 voices and wants variety, so the feed never sounds monotonous. The assignment is seeded by the chapter id, so it's stable across re-runs; all voices are used before any repeats, and neighbouring reels never share a voice. Change the list only when the user asks.

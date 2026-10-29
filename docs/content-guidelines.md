@@ -38,6 +38,7 @@ The single source of rules for writing and reviewing reels. The in-chat workflow
 - Exactly one defensible answer, **even using knowledge from outside NCERT**. A distractor must be clearly wrong, not merely "not the book's answer". *(ch01: Jamdani is also a fine Dhaka muslin.)*
 - Tie the stem to NCERT ("According to NCERT…") when sources disagree.
 - No "all/none of the above" or "both": the app shuffles options.
+- The correct option must not stand out by length or detail. Write the wrong options to be as long and as specific as the right one. *(ch01/ch02: in 18 of 38 quizzes the longest option was the answer, and neither reviewer caught it. Lint now flags it as major.)*
 - Cards: short, self-contained answers (no more than about 45 words). Add a card for every high-value name, number, date and exact NCERT line.
 - `examAngle` must give the answer material, not just name the exercise: "Exercise 11: not necessarily, because…". Every exercise question, including each matching pair, needs a reel that answers it and a card. *(ch02)*
 
@@ -60,5 +61,5 @@ The single source of rules for writing and reviewing reels. The in-chat workflow
 
 ## Workflow habits
 - Run the independent reviewer and the web fact-checker in parallel, each with fresh context. Fix everything major, and the minor issues that are cheap to fix.
-- A round-2 review checks only changed reels, and must confirm that round-1 fixes were actually applied. Applying the suggested fix text without re-reading it once caused a new error. *(ch01: GVA)*
+- A round-2 review checks only changed reels, and must confirm that round-1 fixes were actually applied. Applying the suggested fix text without re-reading it has caused new errors twice. *(ch01: GVA; ch02: a fix dated the Directive Principles to 1948.)* Read every suggested fix against the PDF before pasting it in.
 - Keep `factIds` on reels; publish the report and the `reviewed` status with the chapter.

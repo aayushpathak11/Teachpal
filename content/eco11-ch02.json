@@ -56,6 +56,10 @@
           "heading": "The idea in one line",
           "items": [
             {
+              "icon": "⚖️",
+              "text": "An alternative to the extreme versions of capitalism and socialism"
+            },
+            {
               "icon": "🤝",
               "text": "Text: the best features of socialism, without its drawbacks"
             },
@@ -68,7 +72,7 @@
               "text": "This culminated in the mixed economy model"
             }
           ],
-          "say": "NCERT says it in two ways, and you should know both. The main text says India's leaders found a system that combined the best features of socialism without its drawbacks. The Recap says it combines the best features of socialism and capitalism. Either way, this culminated in India's mixed economy model."
+          "say": "NCERT says it in two ways, and you should know both. The main text says India's leaders sought an alternative to the extreme versions of capitalism and socialism, and found a system combining the best features of socialism without its drawbacks. The Recap says it combines the best features of socialism and capitalism. Either way, this culminated in India's mixed economy model."
         }
       ],
       "beyond": "The word 'socialist' was added to the Preamble of India's Constitution in 1976, by the 42nd Amendment.",
@@ -76,10 +80,10 @@
       "quiz": {
         "q": "According to NCERT, the economic system India's leaders chose after independence was:",
         "options": [
-          "Soviet-style socialism, with no private property",
-          "Pure capitalism, driven only by market forces",
+          "Soviet-style socialism, where the state owns all factories, farms and other property",
+          "Pure capitalism, with market forces of supply and demand deciding all production",
           "A socialist society with a strong public sector, but also private property and democracy",
-          "A system of free trade with no government planning"
+          "A free-trade economy with no government planning and no public sector at all"
         ],
         "answer": 2,
         "why": "India chose a mixed system: a strong public sector, with private property and democracy, and the government planning the economy."
@@ -234,14 +238,18 @@
           "events": [
             {
               "year": "1948",
-              "text": "Industrial Policy Resolution and the Directive Principles reflect the mixed-economy outlook"
+              "text": "Industrial Policy Resolution reflects the mixed-economy outlook"
+            },
+            {
+              "year": "Constitution",
+              "text": "Directive Principles (guidelines for state policy) reflect it too"
             },
             {
               "year": "1950",
               "text": "Planning Commission set up, Prime Minister as Chairperson"
             }
           ],
-          "say": "The Industrial Policy Resolution of 1948, and the Directive Principles of the Constitution, which are guidelines for state policy, reflected this mixed-economy outlook. Then in 1950, the Planning Commission was set up, with the Prime Minister as its Chairperson. The era of five year plans had begun."
+          "say": "The Industrial Policy Resolution of 1948 reflected this mixed-economy outlook. So did the Directive Principles of the Constitution, which are guidelines for state policy. Then in 1950, the Planning Commission was set up, with the Prime Minister as its Chairperson. The era of five year plans had begun."
         },
         {
           "kind": "points",
@@ -348,7 +356,7 @@
               "text": "Invited economists, including critics; some later won Nobel Prizes"
             }
           ],
-          "say": "He set up the Indian Statistical Institute in Calcutta, and started a journal called Sankhya. Both are respected worldwide to this day. During the second plan, he invited many economists from India and abroad to advise him. Some later won Nobel Prizes, and some were very critical of the plan's socialist principles; NCERT calls his willingness to listen the mark of a great scholar. Many economists today reject his approach to planning, but he's remembered for putting India on the road to economic progress."
+          "say": "He set up the Indian Statistical Institute in Calcutta, and started a journal called Sankhya. Both are respected worldwide to this day. During the second plan, he invited many economists from India and abroad to advise him. Some later won Nobel Prizes, and some were very critical of the plan's socialist principles; NCERT calls his willingness to listen the mark of a great scholar. Many economists today reject his approach to planning, but he's remembered for putting India on the road to economic progress. NCERT's source for this box is the economist Sukhamoy Chakravarty."
         }
       ],
       "beyond": "Mahalanobis's birthday, 29 June, is observed as National Statistics Day in India. The Second Five Year Plan ran from 1956 to 1961 and stressed heavy industry.",
@@ -661,10 +669,10 @@
       "quiz": {
         "q": "Besides adopting new technology, what else does NCERT include in 'modernisation'?",
         "options": [
-          "Moving people from villages to cities",
+          "Moving people from villages to cities to work in factories",
           "Changes in social outlook, such as equal rights for women",
-          "Replacing all imports with Indian goods",
-          "Nationalising private firms"
+          "Replacing all imports with goods made in Indian factories",
+          "Nationalising private firms to bring them under the state"
         ],
         "answer": 1,
         "why": "NCERT: modernisation also means changes in social outlook, such as recognising that women should have the same rights as men."
@@ -743,15 +751,15 @@
           "say": "Growth, modernisation and self-reliance alone may not improve how people actually live. A country can grow fast, with the most modern technology, and still have most people in poverty. So equity matters: the benefits of economic prosperity must reach the poor as well, not only the rich. Every Indian should be able to meet basic needs like food, a decent house, education and health care, and inequality in the distribution of wealth should be reduced. That's growth with equity."
         }
       ],
-      "beyond": "Before the Green Revolution, India relied on food imports from the USA under the PL-480 ('Food for Peace') programme of the 1950s and 1960s. NCERT's cartoon shows PL-480 sacks being turned away after the Green Revolution.",
+      "beyond": "Before the Green Revolution, India relied on food imports from the USA under the PL-480 programme (started in 1954, later called 'Food for Peace'). NCERT's cartoon shows PL-480 sacks being turned away after the Green Revolution.",
       "examAngle": "Exercise 8 (growth with equity) and Exercise 10 (why self-reliance for a developing country) come straight from this reel.",
       "quiz": {
         "q": "According to NCERT, why did planners fear depending on imported food, foreign technology and foreign capital?",
         "options": [
-          "Imports were always of poor quality",
+          "Imports were always of poorer quality than Indian-made goods",
           "It could make India's sovereignty vulnerable to foreign interference",
-          "Foreign goods were banned by the Constitution",
-          "India had too much foreign exchange"
+          "Foreign goods and capital were banned by India's Constitution",
+          "India already had more foreign exchange than it could ever use"
         ],
         "answer": 1,
         "why": "NCERT: it was feared that such dependence may make India's sovereignty vulnerable to foreign interference in its policies."
@@ -929,8 +937,7 @@
             "items": [
               "Kerala",
               "West Bengal",
-              "Governments committed to land to the tiller",
-              "Overall: the hated zamindari system abolished"
+              "Governments committed to land to the tiller"
             ]
           },
           "right": {
@@ -940,7 +947,14 @@
               "Vast inequality in landholding continues today"
             ]
           },
-          "say": "Land reforms succeeded in Kerala and West Bengal, because their governments were committed to the policy of land to the tiller. Other states lacked the same commitment, and NCERT says vast inequality in landholding continues to this day. Still, NCERT's conclusion gives land reforms one clear win: the abolition of the hated zamindari system."
+          "say": "Land reforms succeeded in Kerala and West Bengal, because their governments were committed to the policy of land to the tiller. Other states lacked the same commitment, and NCERT says vast inequality in landholding continues to this day."
+        },
+        {
+          "kind": "hook",
+          "emoji": "✅",
+          "big": "One clear win: the hated zamindari system was abolished.",
+          "sub": "NCERT's conclusion on land reforms",
+          "say": "Still, NCERT's conclusion gives land reforms one clear win: they resulted in the abolition of the hated zamindari system."
         }
       ],
       "beyond": "West Bengal's Operation Barga, launched in 1978, recorded the rights of sharecroppers (bargadars), which is part of why land reform there is seen as a success.",
@@ -968,6 +982,10 @@
         {
           "q": "Which group did not benefit from land reforms, even where tillers got land?",
           "a": "The poorest agricultural labourers, such as sharecroppers and landless labourers."
+        },
+        {
+          "q": "What does NCERT's conclusion say land reforms achieved?",
+          "a": "The abolition of the hated zamindari system."
         }
       ]
     },
@@ -1036,10 +1054,10 @@
       "quiz": {
         "q": "In the first phase of the Green Revolution, HYV seeds were mostly used in:",
         "options": [
-          "Rice-growing regions of eastern India",
+          "Rice-growing regions of eastern India, such as Bihar and Odisha",
           "Affluent states like Punjab, Andhra Pradesh and Tamil Nadu, mainly for wheat",
-          "All states equally",
-          "Hill states only"
+          "All states equally, for every major food and cash crop grown",
+          "Hill states such as Himachal Pradesh, mainly for maize and pulses"
         ],
         "answer": 1,
         "why": "NCERT: in the first phase (mid-1960s to mid-1970s), HYV use was restricted to affluent states and mainly benefited wheat-growing regions."
@@ -1122,17 +1140,17 @@
             "title": "Marketed surplus",
             "items": [
               "What farmers actually sell in the market",
-              "NCERT's text uses this term"
+              "NCERT's main text uses this term"
             ]
           },
           "right": {
             "title": "Marketable surplus",
             "items": [
               "What farmers could sell: output minus their own needs",
-              "Exercise 5 uses this term"
+              "Exercise 5 and a Work These Out box use this term"
             ]
           },
-          "say": "Beyond the book: NCERT's text defines marketed surplus, but Exercise 5 asks about marketable surplus. Economists separate the two. Marketed surplus is what farmers actually sell in the market. Marketable surplus is what they could sell: total output minus what they keep for their own consumption, seed, feed and payments in kind. For Exercise 5, give NCERT's definition, and mention the difference if you have space."
+          "say": "Beyond the book: NCERT's text defines marketed surplus, but Exercise 5 and a Work These Out box say marketable surplus. Economists separate the two. Marketed surplus is what farmers actually sell in the market. Marketable surplus is what they could sell: total output minus what they keep for their own consumption, seed, feed and payments in kind. For Exercise 5, give NCERT's definition, and mention the difference if you have space."
         }
       ],
       "beyond": "The Food Corporation of India, set up in 1965, procures and stores these grains. Today the stocks also supply the Public Distribution System.",
@@ -1140,10 +1158,10 @@
       "quiz": {
         "q": "'Marketed surplus' means:",
         "options": [
-          "Grain stored by the government",
+          "Grain procured and stored by the government as a buffer stock",
           "The portion of agricultural produce sold in the market by farmers",
-          "Food exported to other countries",
-          "Crops destroyed by pests"
+          "Food grains exported to other countries after meeting home needs",
+          "The part of the harvest lost to pests, floods and poor storage"
         ],
         "answer": 1,
         "why": "NCERT: the portion of agricultural produce which is sold in the market by the farmers is called marketed surplus."
@@ -1223,10 +1241,10 @@
       "quiz": {
         "q": "According to NCERT, why did the Green Revolution end up benefiting small farmers too?",
         "options": [
-          "Small farmers had better land",
+          "Small farmers owned more fertile, better-irrigated land than big farmers",
           "The government gave cheap loans and subsidised fertilisers, and set up research institutes",
-          "HYV seeds worked only on small farms",
-          "Big farmers did not adopt HYV seeds"
+          "HYV seeds gave higher yields only on small farms, never on large estates",
+          "Big farmers refused to adopt HYV seeds, leaving the gains to small farmers"
         ],
         "answer": 1,
         "why": "Government action (low-interest loans, fertiliser subsidies, research institutes) let small farmers get inputs and reduced pest risk."
@@ -1302,7 +1320,7 @@
           "say": "Box 2.6 adds a deeper point: prices are signals of scarcity. When water and electricity are subsidised or free, people use them wastefully. Farmers grow water-hungry crops even where water is scarce, and fertiliser and pesticide subsidies lead to overuse that harms the environment."
         }
       ],
-      "beyond": "The debate continues today. Fertiliser is the second-largest subsidy in the Union Budget, after food, and since 2019 the PM-KISAN scheme gives farmers direct income support of ₹6,000 a year.",
+      "beyond": "The debate continues today. Fertiliser is the second-largest subsidy in the Union Budget, after food, and since 2019 the PM-KISAN scheme gives landholding farmer families direct income support of ₹6,000 a year, paid in three instalments of ₹2,000.",
       "examAngle": "Exercise 14 asks you to discuss the usefulness of subsidies given their fiscal burden. Give both sides, then a balanced view: target them to poor farmers.",
       "quiz": {
         "q": "Which of these is an argument NCERT gives FOR continuing agricultural subsidies?",
@@ -1411,10 +1429,10 @@
       "quiz": {
         "q": "According to NCERT, why did about 65% of Indians remain in agriculture till 1990?",
         "options": [
-          "Farm output fell after 1970",
+          "Farm output fell steadily after 1970, so more workers were needed",
           "The industrial and service sectors did not absorb people from agriculture",
-          "Land reforms forced people to stay on farms",
-          "Agriculture paid the highest wages"
+          "Land reforms legally forced tenant families to stay on their farms",
+          "Agriculture paid the highest wages of any sector in the economy"
         ],
         "answer": 1,
         "why": "NCERT: industry and services did not absorb the people working in agriculture, an important failure of 1950–1990 policies."
@@ -1491,10 +1509,10 @@
       "quiz": {
         "q": "Which phrase, from the Second Five Year Plan, describes the state's role in industry?",
         "options": [
-          "Invisible hand",
+          "Invisible hand of the market",
           "Commanding heights of the economy",
-          "Licence-free growth",
-          "Export-led growth"
+          "Licence-free industrial growth",
+          "Export-led industrial growth"
         ],
         "answer": 1,
         "why": "The socialist goal was for the government to control the 'commanding heights' of the economy."
@@ -1759,10 +1777,10 @@
       "quiz": {
         "q": "A quota, as a tool of protection, is:",
         "options": [
-          "A tax on imported goods",
+          "A tax charged on goods brought into the country",
           "A limit on the quantity of goods that can be imported",
-          "A subsidy to exporters",
-          "A licence to start an industry"
+          "A subsidy given to firms that export Indian goods",
+          "A licence needed to start or expand an industry"
         ],
         "answer": 1,
         "why": "Tariffs are taxes on imports; quotas specify the quantity that can be imported."
@@ -1855,7 +1873,7 @@
               "text": "Subsidy: monetary help from government for production"
             }
           ],
-          "say": "Quick revision with Exercise 19. Prime Minister: chairperson of the Planning Commission. GDP: the money value of all final goods and services produced in one year. Quota: the quantity of goods that can be imported. Land reforms: improvements in agriculture to raise productivity. Note that the chapter's text defines land reforms more narrowly, as change in the ownership of landholdings; use whichever the question asks for. HYV seeds: seeds that give a large proportion of output. Subsidy: monetary assistance from government for production activities."
+          "say": "Quick revision with Exercise 19. Prime Minister: chairperson of the Planning Commission. GDP: the money value of all final goods and services produced in one year. Quota: the quantity of goods that can be imported. Land reforms: improvements in agriculture to raise productivity. Note that the chapter's text defines land reforms more narrowly, as change in the ownership of landholdings; for a matching question use the exercise's pairing, and in a written answer give the text's definition. HYV seeds: seeds that give a large proportion of output. Subsidy: monetary assistance from government for production activities."
         }
       ],
       "beyond": "A landmark of this era: Maruti Udyog, a government joint venture with Japan's Suzuki, launched the Maruti 800 in 1983 and transformed India's car industry.",
@@ -1917,14 +1935,14 @@
             },
             {
               "icon": "🍞",
-              "text": "Modern Bread: a state bread maker, sold to the private sector in 2001"
+              "text": "Modern Bread: run by the state as if private firms couldn't make bread; sold in 2001"
             },
             {
               "icon": "🏨",
-              "text": "The government also runs hotels"
+              "text": "The government runs hotels, which the private sector manages well"
             }
           ],
-          "say": "NCERT's main point: after four decades, no distinction was made between what only the public sector can do, like national defence, and what the private sector can also do. So state firms kept their monopolies when no longer needed. Telecom stayed reserved for the public sector, so even till the late 1990s people waited long for a phone connection. Modern Bread, a state bread maker, was sold to the private sector in 2001. And the government still runs hotels."
+          "say": "NCERT's main point: after four decades, no distinction was made between what only the public sector can do, like national defence, and what the private sector can also do. Telecom stayed reserved for the public sector, so till the late 1990s people waited long for a phone. Modern Bread was run by the state as if private firms couldn't make bread; it was sold in 2001. And the government runs hotels, which the private sector manages well."
         },
         {
           "kind": "points",
@@ -1982,15 +2000,19 @@
       "quiz": {
         "q": "According to NCERT, how did big industrial houses misuse the licence system?",
         "options": [
-          "They got licences to export goods",
+          "They got export licences to sell their goods in foreign markets",
           "They got licences to block competitors from starting new firms",
-          "They sold licences to foreign firms",
-          "They used licences to avoid taxes"
+          "They sold their licences to foreign firms wanting to enter India",
+          "They used licences to avoid paying taxes on their factories"
         ],
         "answer": 1,
         "why": "NCERT: a big industrialist would get a licence not to start a new firm but to prevent competitors from starting one."
       },
       "cards": [
+        {
+          "q": "What does NCERT say was not distinguished after four decades of planning?",
+          "a": "What only the public sector can do (e.g. national defence) and what the private sector can also do."
+        },
         {
           "q": "Give two NCERT examples of the public sector staying where it wasn't needed.",
           "a": "Telecom reserved for the public sector (long waits for phones till the late 1990s); Modern Bread, sold to the private sector in 2001; government-run hotels."

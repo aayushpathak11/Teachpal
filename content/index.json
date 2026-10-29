@@ -13,7 +13,8 @@
       "file": "eco11-ch02.json",
       "title": "Indian Economy 1950–1990",
       "subject": "Economics · Class 11",
-      "status": "draft"
+      "status": "reviewed",
+      "audio": "audio/eco11-ch02/manifest.json"
     }
   ]
 }

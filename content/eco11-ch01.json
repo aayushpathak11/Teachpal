@@ -61,10 +61,10 @@
       "quiz": {
         "q": "According to NCERT, the main aim of British economic policy in India was to:",
         "options": [
-          "Industrialise India rapidly",
+          "Industrialise India rapidly through modern factories and machines",
           "Make India a raw-material supplier and a market for British goods",
-          "Build welfare infrastructure for Indians",
-          "Raise India's per capita income"
+          "Build welfare infrastructure such as schools and hospitals for Indians",
+          "Raise India's per capita income through fair trade with Britain"
         ],
         "answer": 1,
         "why": "Colonial policy protected Britain's interests: India supplied raw materials to British industry and bought its finished goods."
@@ -461,10 +461,10 @@
       "quiz": {
         "q": "Why did zamindars squeeze cultivators for rent, according to NCERT?",
         "options": [
-          "The British paid zamindars a share of the crop",
+          "The British paid zamindars a fixed share of every crop collected",
           "Revenue had to be deposited by fixed dates, or zamindars lost their rights",
-          "Cultivators owned the land and zamindars wanted it",
-          "Cash crops required higher rent"
+          "Cultivators legally owned the land and zamindars wanted it back",
+          "Cash crops needed higher rents because they used more water"
         ],
         "answer": 1,
         "why": "The terms of the revenue settlement fixed the dates and sums. Failing to pay meant losing zamindari rights."
@@ -557,10 +557,10 @@
       "quiz": {
         "q": "According to NCERT, which group could NOT benefit from the shift to commercial crops?",
         "options": [
-          "British industrialists",
-          "Zamindars",
+          "British industries that used Indian raw materials",
+          "Zamindars who collected rent from the cultivators",
           "Tenants, small farmers and sharecroppers",
-          "Railway companies"
+          "Railway companies carrying cash crops to the ports"
         ],
         "answer": 2,
         "why": "They had neither the resources, the technology nor the incentive to invest in agriculture."
@@ -727,10 +727,10 @@
       "quiz": {
         "q": "In colonial India, jute mills were:",
         "options": [
-          "Mainly Indian-owned, in Gujarat",
+          "Mainly Indian-owned, concentrated in Gujarat",
           "Dominated by foreigners, concentrated in Bengal",
-          "Run by the public sector",
-          "Located mainly in Punjab"
+          "Run by the public sector, spread across India",
+          "Mainly Indian-owned, located mostly in Punjab"
         ],
         "answer": 1,
         "why": "Cotton mills: mainly Indian, in western India. Jute mills: dominated by foreigners, in Bengal."
@@ -887,10 +887,10 @@
       "quiz": {
         "q": "The opening of the Suez Canal (1869) affected India's trade by:",
         "options": [
-          "Ending British control over India's trade",
+          "Ending British control by opening India's trade to all nations",
           "Making access to the Indian market easier and intensifying British control",
-          "Shifting most trade to China",
-          "Stopping India's raw material exports"
+          "Shifting most of India's trade away from Britain towards China",
+          "Stopping India's raw material exports by raising shipping costs"
         ],
         "answer": 1,
         "why": "It cut transport costs and made the Indian market easier to reach, which intensified British control."
@@ -980,10 +980,10 @@
       "quiz": {
         "q": "India's colonial export surplus was mainly used to:",
         "options": [
-          "Import gold and silver into India",
-          "Build Indian industries",
+          "Bring gold and silver into India to build its reserves",
+          "Build new Indian industries, roads and modern factories",
           "Pay for the British colonial office, wars and invisible imports",
-          "Fund famine relief"
+          "Fund famine relief and public health across British India"
         ],
         "answer": 2,
         "why": "It brought no gold or silver. It paid for the colonial office in Britain, British wars and invisible imports, which is the drain of wealth."
@@ -1341,10 +1341,10 @@
       "quiz": {
         "q": "According to NCERT, how did railways hurt the Indian economy?",
         "options": [
-          "They reduced long-distance travel",
+          "They reduced long-distance travel and cut India off from world markets",
           "They fostered commercialisation of agriculture, hurting village self-sufficiency",
-          "They raised India's import of raw materials",
-          "They stopped exports from India"
+          "They raised India's imports of raw materials from Britain and Europe",
+          "They stopped India's exports by making shipping to ports too costly"
         ],
         "answer": 1,
         "why": "Commercialisation of agriculture weakened the self-sufficiency of village economies, and the benefits of rising exports rarely reached Indians."
@@ -1420,10 +1420,10 @@
       "quiz": {
         "q": "The Coast Canal on the Orissa coast was abandoned because:",
         "options": [
-          "It was destroyed in a cyclone",
+          "It was destroyed by a cyclone soon after it was opened",
           "It could not compete with a railway running parallel to it",
-          "The British moved trade to the Suez Canal",
-          "It was too small for ships"
+          "Trade shifted to the Suez Canal after it opened in 1869",
+          "It was too narrow and shallow for cargo boats to use"
         ],
         "answer": 1,
         "why": "It was built at huge cost to the exchequer, but the parallel railway was more competitive, so it was abandoned."
