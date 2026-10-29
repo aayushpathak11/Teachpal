@@ -1,1 +1,14 @@
-{ "voice": "hf_alpha:0.6+bf_emma:0.4", "_note": "Chosen narration voice for recordings (user preference). Change only when the user picks another." }
+{
+  "_note": "User preference: every reel gets a randomly assigned voice from this list (fixed per reel, no two neighbouring reels alike) so a feed never sounds monotonous. The user liked all 9. Add or remove voices only when the user asks.",
+  "voices": [
+    { "id": "hf_alpha", "label": "Indian female 1" },
+    { "id": "hf_beta", "label": "Indian female 2" },
+    { "id": "hm_omega", "label": "Indian male 1" },
+    { "id": "hm_psi", "label": "Indian male 2" },
+    { "id": "hf_alpha:0.6+bf_emma:0.4", "label": "Indian–British female blend" },
+    { "id": "hm_omega:0.6+bm_george:0.4", "label": "Indian–British male blend" },
+    { "id": "af_heart", "label": "American female" },
+    { "id": "bf_emma", "label": "British female" },
+    { "id": "bm_george", "label": "British male" }
+  ]
+}

@@ -45,7 +45,8 @@ The single source of rules for writing and reviewing reels. The in-chat workflow
 - Spell out abbreviations the way they should be spoken, and say a name the way the learner should remember it.
 
 ## Voice and pronunciation
-- Narration is recorded with Kokoro. The user wanted a natural, Indian-sounding voice, because the device voices sounded robotic.
+- Narration is recorded with Kokoro. The user wanted a natural, Indian-sounding voice, because the device voices sounded robotic. They liked all 9 sample voices and asked for **a random voice per reel**, for variety (`docs/voice.json`; never the same voice twice in a row).
+- Write narration that works in any of the voices: no first-person persona or gendered self-reference ("as a teacher, I…").
 - When a word is mispronounced (Indian names, Hindi terms, abbreviations), add a respelling to `docs/pronunciations.json`. Abbreviations read letter by letter are written with spaces ("N C E R T").
 
 ## Workflow habits

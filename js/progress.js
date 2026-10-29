@@ -57,7 +57,7 @@ export function renderProgress(ctx) {
   const fillVoices = () => {
     const list = tts.englishVoices();
     const cur = tts.currentVoice();
-    const rec = hasRecorded ? `<option value="recorded" ${usingRecorded() ? "selected" : ""}>★ TeachPal natural voice (recorded)</option>` : "";
+    const rec = hasRecorded ? `<option value="recorded" ${usingRecorded() ? "selected" : ""}>★ TeachPal natural voices (recorded, a new voice each reel)</option>` : "";
     sel.innerHTML =
       rec +
       list.map((v) => `<option value="${esc(v.voiceURI)}" ${!usingRecorded() && v === cur ? "selected" : ""}>${tts.voiceScore(v) >= 40 ? "★ " : ""}${esc(v.name)} (${esc(v.lang)})</option>`).join("");

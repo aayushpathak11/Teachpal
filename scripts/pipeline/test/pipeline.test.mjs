@@ -72,3 +72,13 @@ test("extra claims include every Beyond-NCERT field and extra scene", () => {
   assert.equal(claims.filter((c) => c.where === "beyond").length, ch1.reels.filter((r) => r.beyond).length);
   assert.ok(claims.some((c) => c.id === "drain-of-wealth#scene4"));
 });
+
+test("voice assignment: stable, uses every voice before repeating, no neighbours alike", async () => {
+  const { assignVoices } = await import("../../audio/prepare-lib.mjs");
+  const ids = ["a", "b", "c", "d"];
+  const v = assignVoices("eco11-ch01", 13, ids);
+  assert.deepEqual(v, assignVoices("eco11-ch01", 13, ids), "same seed, same voices");
+  assert.equal(new Set(v.slice(0, 4)).size, 4, "all voices before any repeat");
+  assert.ok(v.every((x, i) => i === 0 || x !== v[i - 1]), "no neighbouring repeats");
+  assert.notDeepEqual(v, assignVoices("eco11-ch02", 13, ids), "different chapters get different orders");
+});
