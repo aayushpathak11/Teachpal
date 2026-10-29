@@ -21,7 +21,7 @@
           "kind": "quote",
           "text": "There is a consensus in the world today that economic development is not all and the GDP is not necessarily a measure of progress of a society.",
           "by": "K.R. Narayanan, Former President of India",
-          "say": "The chapter opens with former President K R Narayanan: There is a consensus in the world today that economic development is not all and the GDP is not necessarily a measure of progress of a society. Keep that in mind as we judge the 1991 reforms."
+          "say": "The chapter opens with former President K R Narayanan: There is a consensus in the world today that economic development is not all and the GDP is not necessarily a measure of progress of a society. G D P, gross domestic product, is the total value of the final goods and services a country produces in a year. Keep that line in mind as we judge the 1991 reforms."
         },
         {
           "kind": "compare",
@@ -259,9 +259,13 @@
             {
               "icon": "💳",
               "text": "Like a household that keeps funding its bills on credit"
+            },
+            {
+              "icon": "🇮🇳",
+              "text": "Indian example: Budget 2025-26 target, 4.4% of GDP"
             }
           ],
-          "say": "Beyond the book, the key measure is the fiscal deficit: the government's total expenditure minus its total receipts, not counting borrowings. In other words, how much it must borrow in a year. It's usually quoted as a percentage of G D P. Think of a household that keeps paying its bills on a credit card: fine for a while, dangerous if it never stops."
+          "say": "Beyond the book, the key measure is the fiscal deficit: the government's total expenditure minus its total receipts, not counting borrowings. In other words, how much it must borrow in a year. It's usually quoted as a percentage of G D P. Think of a household that keeps paying its bills on a credit card: fine for a while, dangerous if it never stops. A real Indian example: the Union Budget for 2025-26 set a fiscal deficit target of 4.4 percent of G D P."
         }
       ],
       "beyond": "India's FRBM Act (Fiscal Responsibility and Budget Management Act, 2003) set rules to bring the fiscal deficit down. The Union Budget states each year's fiscal deficit target.",
@@ -499,6 +503,22 @@
           "say": "The New Economic Policy was a wide-ranging set of reforms. Its thrust, NCERT says, was creating a more competitive environment in the economy, and removing the barriers to entry and growth of firms."
         },
         {
+          "kind": "points",
+          "heading": "Inflation, in one line",
+          "extra": true,
+          "items": [
+            {
+              "icon": "📈",
+              "text": "Inflation: a sustained rise in the general level of prices"
+            },
+            {
+              "icon": "🛒",
+              "text": "Same ₹100 buys less than before"
+            }
+          ],
+          "say": "First, one term, beyond the book. Inflation is a sustained rise in the general level of prices, so the same hundred rupees buys less than before. Controlling it is one of the RBI's main jobs."
+        },
+        {
           "kind": "compare",
           "heading": "Two kinds of measures",
           "left": {
@@ -527,7 +547,7 @@
             "title": "Stabilisation = emergency care",
             "items": [
               "Stop the bleeding now",
-              "1991: rebuild forex reserves, control prices"
+              "1991: rebuild forex reserves, bring inflation down"
             ]
           },
           "right": {
@@ -537,23 +557,7 @@
               "1991: abolish industrial licensing, cut tariffs"
             ]
           },
-          "say": "An analogy, beyond the book. Stabilisation is like emergency treatment for a patient: stop the bleeding now. In 1991, that meant rebuilding foreign exchange reserves and controlling prices. Structural reform is like changing the patient's lifestyle so the illness doesn't return: abolishing industrial licensing and cutting tariffs, so the economy becomes efficient for the long run."
-        },
-        {
-          "kind": "points",
-          "heading": "Inflation, in one line",
-          "extra": true,
-          "items": [
-            {
-              "icon": "📈",
-              "text": "Inflation: a sustained rise in the general level of prices"
-            },
-            {
-              "icon": "🛒",
-              "text": "Same ₹100 buys less than before"
-            }
-          ],
-          "say": "Beyond the book, a quick definition. Inflation is a sustained rise in the general level of prices, so the same hundred rupees buys less than before. Controlling it is one of the RBI's main jobs."
+          "say": "An analogy, beyond the book. Stabilisation is like emergency treatment for a patient: stop the bleeding now. In 1991, that meant rebuilding foreign exchange reserves and bringing inflation down. Structural reform is like changing the patient's lifestyle so the illness doesn't return: abolishing industrial licensing and cutting tariffs, so the economy becomes efficient for the long run."
         },
         {
           "kind": "flow",
@@ -832,10 +836,10 @@
             "title": "Indirect taxes",
             "items": [
               "Levied on goods and services",
-              "e.g. GST, customs duty"
+              "e.g. GST (NCERT), customs duty"
             ]
           },
-          "say": "The government's taxation and public expenditure policies together are called its fiscal policy. There are two types of taxes. Direct taxes are on the incomes of individuals and the profits of businesses, like income tax and corporation tax. Indirect taxes are levied on goods and services. Examples, beyond the book, are G S T and customs duty."
+          "say": "The government's taxation and public expenditure policies together are called its fiscal policy. There are two types of taxes. Direct taxes are on the incomes of individuals and the profits of businesses, like income tax and corporation tax. Indirect taxes are levied on goods and services. Examples are G S T, which NCERT discusses next, and, beyond the book, customs duty."
         },
         {
           "kind": "flow",
@@ -877,7 +881,7 @@
               "text": "Before: central excise, service tax, state VAT, entry tax and more, varying by state"
             },
             {
-              "icon": "1️⃣",
+              "icon": "🔗",
               "text": "From 1 July 2017: one tax on the supply of goods and services, shared by Centre and states"
             },
             {
@@ -1079,7 +1083,7 @@
               "Works through quantity"
             ]
           },
-          "say": "An analogy, beyond the book. A tariff is like an entry fee at a gate: anyone can come in, but it costs more. A quota is like a guest list: only a fixed number get in, however much they'd pay. NCERT gives a real quota example later: the U S A kept quotas on textile imports from India and China."
+          "say": "An analogy, beyond the book. A tariff is like an entry fee at a gate: anyone can come in, but it costs more. A quota is like a guest list: only a fixed number get in, however much they'd pay. NCERT gives a quota example later: the U S A's quotas on textile imports from India and China. Beyond the book, those textile quotas ended in 2005."
         },
         {
           "kind": "points",
@@ -1194,7 +1198,7 @@
             },
             {
               "icon": "🌍",
-              "text": "Expected to attract foreign direct investment"
+              "text": "Privatisation was expected to attract foreign direct investment (FDI)"
             }
           ],
           "say": "Privatising public sector enterprises, or P S Es, by selling part of their equity, meaning shares, to the public is called disinvestment. The government's stated purpose was mainly to improve financial discipline and help modernisation, using private capital and managerial skills to improve the P S Us. It also hoped privatisation would give a strong push to foreign direct investment, or F D I: foreigners building or buying into businesses in India for the long term."
@@ -1399,7 +1403,7 @@
               "text": "Recap: the outcome of liberalisation and privatisation"
             }
           ],
-          "say": "Globalisation is generally understood as integrating a country's economy with the world economy. But NCERT calls it a complex phenomenon: it creates networks and activities that cross economic, social and geographical boundaries, so that events miles away can influence what happens in India. It's turning the world into one whole, a borderless world. NCERT's Recap puts it simply: globalisation is the outcome of the policies of liberalisation and privatisation."
+          "say": "Globalisation is generally understood as integrating a country's economy with the world economy. But NCERT calls it a complex phenomenon: it creates networks and activities that cross economic, social and geographical boundaries, so that events miles away can influence what happens in India. It's turning the world into one whole, a borderless world. NCERT's text calls it the outcome of a set of policies aimed at greater interdependence and integration of the world; the Recap puts it simply: the outcome of the policies of liberalisation and privatisation."
         },
         {
           "kind": "flow",
@@ -1501,7 +1505,7 @@
             "items": [
               "Builds or buys into a business",
               "Long-term, with a say in management",
-              "e.g. a foreign carmaker's factory in India"
+              "e.g. Hyundai's car plant near Chennai"
             ]
           },
           "right": {
@@ -1512,7 +1516,7 @@
               "e.g. a foreign pension fund buying Indian shares"
             ]
           },
-          "say": "NCERT names both kinds of foreign investment but doesn't define them, so here's the difference, beyond the book. Foreign direct investment, F D I, means building or buying into a business for the long term, with a say in management, like a foreign carmaker setting up a factory in India. Foreign institutional investment, F I I, means buying shares and bonds in financial markets. It can move in and out quickly, like a foreign pension fund buying Indian shares. Think of buying a house to live in and run, versus buying shares you could sell tomorrow."
+          "say": "NCERT names both kinds of foreign investment but doesn't define them, so here's the difference, beyond the book. Foreign direct investment, F D I, means building or buying into a business for the long term, with a say in management, like Hyundai's car plant near Chennai. Foreign institutional investment, F I I, means buying shares and bonds in financial markets. It can move in and out quickly, like a foreign pension fund buying Indian shares. Think of buying a house and moving in, versus renting a room you can leave at a month's notice."
         },
         {
           "kind": "points",
@@ -1667,7 +1671,7 @@
           "say": "As an important member, India has pushed for fair global rules and the interests of developing countries, and kept its commitments by removing quantitative restrictions and reducing tariffs. But some scholars question its value. Most international trade happens among developed nations. While developed countries file complaints over agricultural subsidies, developing countries feel cheated: forced to open their markets, without access to developed markets."
         }
       ],
-      "beyond": "The WTO is headquartered in Geneva, Switzerland. Its top decision-making body is the Ministerial Conference, which meets about every two years.",
+      "beyond": "The WTO is headquartered in Geneva, Switzerland. Its top decision-making body is the Ministerial Conference, which meets about every two years. GATT was signed by 23 countries in 1947 and came into force on 1 January 1948. NCERT gives 1948; if an MCQ offers only 1947, that is the signing year.",
       "examAngle": "Exercise 2: membership gives a rule-based trading regime where nations can't place arbitrary restrictions, greater market access as tariff and non-tariff barriers fall, and a voice in framing global rules; India uses it to advocate the interests of developing countries. Exercise 6(ii) bilateral vs multilateral and 6(iii) tariff vs non-tariff barriers. Dates: GATT 1948 (23 countries), WTO 1995. NCERT spells GATT as 'General Agreement on Trade and Tariff'; the official name is 'General Agreement on Tariffs and Trade'.",
       "quiz": {
         "q": "Which is correct about GATT and the WTO, according to NCERT?",
@@ -1831,14 +1835,14 @@
           "items": [
             {
               "icon": "📏",
-              "text": "The 2021-22 sector figures are GVA (gross value added)"
+              "text": "2021-22 sector figures are GVA: agriculture 4.8, industry 12.7, services 9.2 (%)"
             },
             {
               "icon": "🧮",
               "text": "NCERT: GVA = GDP + subsidies on production − indirect taxes"
             }
           ],
-          "say": "One note on the table: its 2021-22 sector figures are gross value added, or G V A, not G D P. NCERT explains that G V A is estimated from G D P by adding subsidies on production and subtracting indirect taxes. So the two are close, but not the same."
+          "say": "One note on the table: its 2021-22 sector figures, agriculture 4.8, industry 12.7 and services 9.2 percent, are gross value added, or G V A, not G D P. NCERT explains that G V A is estimated from G D P by adding subsidies on production and subtracting indirect taxes. So the two are close, but not the same."
         }
       ],
       "beyond": "India switched to the GVA-based way of reporting sector growth in 2015, with 2011-12 as the base year. In February 2026 the base year was revised to 2022-23, so newer data will not match NCERT’s table exactly.",
@@ -1998,7 +2002,7 @@
               "text": "Fiscal management"
             }
           ],
-          "say": "The reforms have been widely criticised for failing to address basic problems in employment, agriculture, industry, infrastructure and fiscal management. Scholars point out that reform-led growth hasn't generated enough jobs. Let's start with agriculture, where NCERT says the reforms haven't benefited farmers and growth has been decelerating. NCERT adds, though, that the evidence so far shows this criticism is not completely true, and asks what you think."
+          "say": "The reforms have been widely criticised for failing to address basic problems in employment, agriculture, industry, infrastructure and fiscal management. NCERT adds that the evidence so far shows this criticism is not completely true, and asks what you think. Scholars also point out that reform-led growth hasn't generated enough jobs. Let's start with agriculture, where NCERT says the reforms haven't benefited farmers and growth has been decelerating."
         },
         {
           "kind": "points",
@@ -2122,7 +2126,7 @@
           "say": "And India still lacks access to developed countries' markets because of high non-tariff barriers. NCERT's example: although India removed all quota restrictions on exports of textiles and clothing, the U S A did not remove its quota restrictions on textile imports from India and China."
         }
       ],
-      "beyond": "Many non-tariff barriers today take the form of strict product standards. Examples are food safety and pesticide limits, and technical rules on electronics.",
+      "beyond": "Many non-tariff barriers today take the form of strict product standards. Examples are food safety and pesticide limits, and technical rules on electronics. NCERT's textile example is dated: textile quotas between WTO members ended on 1 January 2005, when the Agreement on Textiles and Clothing expired. Use NCERT's example for NCERT questions.",
       "examAngle": "Exercise 15: why did industry perform poorly? Cheaper imports, inadequate infrastructure investment, and developed countries' non-tariff barriers (the USA's textile quota example).",
       "quiz": {
         "q": "What example does NCERT give of a non-tariff barrier faced by India?",
