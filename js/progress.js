@@ -44,7 +44,7 @@ export function renderProgress(ctx) {
 
   const chWrap = page.querySelector(".chapters");
   for (const ch of ctx.chapters) {
-    chWrap.append(h(`<div class="section-h">${esc(ch.title)}</div>`));
+    chWrap.append(h(`<div class="section-h">${esc(ch.title)}${ch.status === "reviewed" ? " · ✅ reviewed" : ch.status === "needs-attention" ? " · ⚠️ needs attention" : ""}</div>`));
     const list = h(`<div class="reel-list"></div>`);
     ch.reels.forEach((r) => {
       const rs = state.reels[`${ch.id}/${r.id}`];

@@ -549,7 +549,7 @@
             "Commercialisation of agriculture spreads",
             "Village economies lose their self-sufficiency"
           ],
-          "say": "There was a hidden cost too. Railways linked the countryside to the ports and helped commercialisation spread. NCERT says this hurt the self-sufficiency of India's village economies, which had once produced most of what they needed."
+          "say": "There was a hidden cost too. Railways carried cash crops from the countryside to the ports and helped commercialisation spread. NCERT says this hurt the self-sufficiency of India's village economies, which had once produced most of what they needed."
         }
       ],
       "beyond": "Indigo shows the dark side. In Champaran, Bihar, farmers were forced to grow indigo on part of their land (the tinkathia system). In 1917 this led to Gandhi's first satyagraha in India.",
@@ -679,7 +679,7 @@
           "heading": "Milestones",
           "events": [
             {
-              "year": "Late 1800s",
+              "year": "2nd half of 1800s",
               "text": "Cotton and jute mills appear"
             },
             {
@@ -801,7 +801,7 @@
               "text": "Public sector limited to railways, power, communications, ports and a few departmental undertakings"
             }
           ],
-          "say": "There were other weaknesses too. A few new factories could not replace the near-wholesale loss of traditional handicrafts. The industrial sector's growth rate stayed very small, and so did its share of GDP, the total value of everything produced in the country, also measured as Gross Value Added. And the public sector only operated in railways, power generation, communications, ports and some departmental undertakings."
+          "say": "There were other weaknesses too. A few new factories could not replace the near-wholesale loss of traditional handicrafts. The industrial sector's growth rate stayed very small, and so did its contribution to GDP, the value of all final goods and services produced in the country, or to Gross Value Added, a closely related measure. And the public sector only operated in railways, power generation, communications, ports and some departmental undertakings."
         }
       ],
       "beyond": "This gap explains a big policy choice after 1947. The Second Five Year Plan (1956), based on the Mahalanobis model, put heavy industry and capital goods at its centre.",
@@ -882,7 +882,7 @@
           "say": "Then in 1869 the Suez Canal opened. It's an artificial waterway in Egypt joining the Mediterranean Sea at Port Said with the Gulf of Suez on the Red Sea. Ships no longer had to sail around Africa, transport became cheaper, and Britain's access to the Indian market got easier. Its control over India's trade grew even stronger."
         }
       ],
-      "beyond": "Today the pattern has flipped. India's largest export categories include engineering goods, refined petroleum products and pharmaceuticals, and its trade partners are spread worldwide. The Economic Survey, published every year by the Ministry of Finance, Government of India, is the standard source for these trade figures.",
+      "beyond": "Today the pattern has flipped. India's largest export categories include engineering goods, refined petroleum products and pharmaceuticals, and its trade partners are spread worldwide. NCERT itself points you to the Economic Survey, published every year by the Ministry of Finance, Government of India, for these trade figures.",
       "examAngle": "Exercise Q15 asks for the volume and direction of trade. Volume: a large export surplus, which came at a huge cost and was drained away (next reel). Direction: more than 50% with Britain. Composition: primary products out, finished goods in.",
       "quiz": {
         "q": "The opening of the Suez Canal (1869) affected India's trade by:",
@@ -949,10 +949,10 @@
             "Export surplus",
             "Expenses of the colonial office in Britain",
             "Britain's war expenses",
-            "Imports of invisible items (e.g. shipping, insurance)",
+            "Imports of invisible items",
             "= Drain of Indian wealth"
           ],
-          "say": "So where did the money go? It paid for the expenses of an office the colonial government ran in Britain, for wars fought by the British government, and for imports of invisible items, like shipping and insurance services. Together, this is called the drain of Indian wealth."
+          "say": "So where did the money go? It paid for the expenses of an office the colonial government ran in Britain, for wars fought by the British government, and for imports of invisible items. Beyond the book, these were mostly services such as shipping and insurance. Together, this is called the drain of Indian wealth."
         },
         {
           "kind": "points",
@@ -975,7 +975,7 @@
           ]
         }
       ],
-      "beyond": "Invisibles are the non-goods part of trade. In India's current account today, 'invisibles' cover services (like shipping, insurance, banking and software), transfers such as remittances, and income such as interest and dividends. You'll study them in RBI's balance-of-payments topics.",
+      "beyond": "'Invisibles' are the part of India's current account that isn't trade in goods: services (like shipping, insurance, banking and software), transfers such as remittances, and income such as interest and dividends. You'll study them in RBI's balance-of-payments topics.",
       "examAngle": "Exercise Q9: 'What do you understand by the drain of Indian wealth?' Cover the export surplus, no gold or silver inflow, and the money paying for the British office, wars and invisible imports. Naoroji's name is a bonus.",
       "quiz": {
         "q": "India's colonial export surplus was mainly used to:",
@@ -1103,7 +1103,7 @@
             "value": "28",
             "label": "infant mortality rate today (NCERT)"
           },
-          "say": "The infant mortality rate measures how many babies die before their first birthday for every thousand born alive. At independence it was about 218, so more than one in five babies didn't survive their first year. NCERT gives the present figure as 28."
+          "say": "The infant mortality rate measures how many babies die before their first birthday for every thousand born alive. In colonial India, around independence, it was about 218, so more than one in five babies didn't survive their first year. NCERT gives the present figure as 28."
         },
         {
           "kind": "bars",
@@ -1295,10 +1295,10 @@
             },
             {
               "year": "1854",
-              "text": "Photo in NCERT: the first railway bridge linking Bombay with Thane"
+              "text": "NCERT photo: first railway bridge linking Bombay with Thane"
             }
           ],
-          "say": "NCERT says the British introduced railways in India in 1850, and its photo shows the first railway bridge linking Bombay with Thane, from 1854. Beyond the book, the first passenger train ran on 16 April 1853, from Bombay to Thane. For exams, remember 1850 from NCERT and 1853 for the first passenger train."
+          "say": "NCERT says the British introduced railways in India in 1850. Beyond the book, the first passenger train ran on 16 April 1853, from Bombay to Thane. NCERT's photo shows the first railway bridge linking Bombay with Thane, from 1854. For exams, remember 1850 from NCERT and 1853 for the first passenger train."
         },
         {
           "kind": "compare",
@@ -1412,7 +1412,7 @@
               "text": "Postal services: useful, but always inadequate"
             }
           ],
-          "say": "There was an acute shortage of all-weather roads into rural areas, so villagers suffered badly during natural calamities and famines. Measures for inland trade and sea lanes were, in NCERT's words, far from satisfactory. The Coast Canal on the Orissa coast was built at huge cost, couldn't compete with a railway running parallel to it, and was abandoned. The expensive electric telegraph served law and order. Postal services were useful but remained inadequate."
+          "say": "There was an acute shortage of all-weather roads into rural areas, so villagers suffered badly during the rainy season, natural calamities and famines. Measures for inland trade and sea lanes were, in NCERT's words, far from satisfactory. Inland waterways at times proved uneconomical too: the Coast Canal on the Orissa coast was built at huge cost, couldn't compete with a railway running parallel to it, and was abandoned. The expensive electric telegraph served law and order. Postal services were useful but remained inadequate."
         }
       ],
       "beyond": "Rural road connectivity stayed a policy priority long after independence. A national programme for all-weather rural roads, the Pradhan Mantri Gram Sadak Yojana, was launched in 2000.",
@@ -1502,7 +1502,7 @@
               "About 0.5% per capita growth"
             ]
           },
-          "say": "NCERT asks you to debate whether British rule was good for India. On one side: railways, ports, the telegraph, some modern industry and the census. On the other: the drain of wealth, de-industrialisation, agricultural stagnation, famines, and per capita growth of about half a percent. NCERT concludes that the efforts were spiced with selfish motives, and independent India had to build on this base through planning."
+          "say": "NCERT asks you to debate whether British rule was good for India. On one side: railways, ports, the telegraph, some modern industry and the census. On the other: the drain of wealth, de-industrialisation, agricultural stagnation, famines, and per capita growth of about half a percent. NCERT concludes that the colonial government's infrastructure efforts were spiced with selfish motives, and independent India had to build on this base through planning."
         },
         {
           "kind": "flow",

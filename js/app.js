@@ -138,7 +138,7 @@ document.addEventListener("visibilitychange", () => {
 // ---------- boot ----------
 async function boot() {
   const index = await (await fetch("content/index.json")).json();
-  ctx.chapters = await Promise.all(index.chapters.map(async (c) => (await fetch(`content/${c.file}`)).json()));
+  ctx.chapters = await Promise.all(index.chapters.map(async (c) => ({ ...(await (await fetch(`content/${c.file}`)).json()), status: c.status })));
   selectChapter(ctx.state.lastFeed?.chapter || ctx.chapters[0].id);
   refreshChrome();
 
