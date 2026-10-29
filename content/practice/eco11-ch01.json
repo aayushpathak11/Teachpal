@@ -160,7 +160,7 @@
     {
       "id": "c1m13",
       "reelId": "demographic-transition",
-      "q": "Consider the following statements about India's demographic transition:\n1. Before 1921, India was in the first stage of demographic transition.\n2. The second stage began after 1947.\nWhich of the statements given above is/are correct?",
+      "q": "Consider the following statements about India's demographic transition (NCERT):\n1. Before 1921, India was in the first stage of demographic transition.\n2. The second stage of demographic transition began after 1947.\nWhich of the statements given above is/are correct?",
       "options": [
         "1 only",
         "2 only",
@@ -186,15 +186,15 @@
     {
       "id": "c1m15",
       "reelId": "why-1947",
-      "q": "Who described India as 'the pivot of our Empire' in 1894?",
+      "q": "According to NCERT's opening quote, who was the Viceroy of British India who in 1894 called India 'the pivot of our Empire'?",
       "options": [
-        "Viceroy Victor Alexander Bruce (Lord Elgin)",
-        "Governor-General Lord Cornwallis",
-        "Viceroy Lord Curzon",
-        "Governor-General Lord Dalhousie"
+        "Victor Alexander Bruce (Lord Elgin)",
+        "Edward Robert Lytton (Lord Lytton)",
+        "George Robinson (Lord Ripon)",
+        "Frederick Temple (Lord Dufferin)"
       ],
       "answer": 0,
-      "why": "NCERT's opening quote is from the Viceroy of British India in 1894, printed as 'Victor Alexander Vruce', i.e. Victor Alexander Bruce, Lord Elgin."
+      "why": "NCERT quotes the Viceroy of British India in 1894, printed as 'Victor Alexander Vruce', i.e. Victor Alexander Bruce, Lord Elgin."
     },
     {
       "id": "c1m16",
@@ -269,6 +269,7 @@
       "q": "What were the main causes of India's agricultural stagnation during the colonial period?",
       "keyPoints": [
         "Land settlement systems, especially zamindari: profits went to zamindars",
+        "A considerable number of zamindars, and not just the colonial government, did nothing to improve agriculture",
         "Zamindars only collected rent; revenue settlement terms (fixed dates) made them harsh",
         "Low technology",
         "Lack of irrigation facilities",

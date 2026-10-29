@@ -26,9 +26,16 @@ Do every step, in order. Don't skip the review or the fact-check, even for a sho
 - Use the book's exact numbers and names. Anything not from the book goes in a scene with `"extra": true` or in `beyond`, never attributed to NCERT.
 - Keep `factIds` on each reel.
 
+## 2b. Practice bank
+- Write `content/practice/<id>.json` (shape: `content/practice/eco11-ch02.json`; checked by `validatePractice` in `scripts/schema.mjs`):
+  - **About 18 exam-style MCQs.** Use RBI formats: statement pairs ("1 only / 2 only / Both 1 and 2 / Neither 1 nor 2", varying which code is right), chronology, matching, and "which is NOT". Cover the high-value numbers, names, dates and each exercise. Each MCQ has `reelId` and `why`.
+  - **One descriptive item per substantive exercise question.** Each has `source`, `words` and `reelIds`, plus `keyPoints`: the grading rubric for the AI.
+- Follow the practice rules in `docs/content-guidelines.md`, under Quizzes and cards.
+- Add `"practice": "practice/<id>.json"` to the chapter's entry in `content/index.json`.
+
 ## 3. Deterministic checks
 - `npm run validate` must pass.
-- `node scripts/pipeline/lint.mjs content/<id>.json`: fix every blocker and major issue.
+- `node scripts/pipeline/lint.mjs content/<id>.json`: fix every blocker and major issue. This also lints the practice bank.
 
 ## 4. Independent review (fresh context)
 Spawn a **general-purpose subagent** as the reviewer. It must not be given your reasoning, only:
@@ -37,7 +44,7 @@ Spawn a **general-purpose subagent** as the reviewer. It must not be given your 
 - `docs/content-guidelines.md`, with the instruction to flag any breach of it
 - the output shape `{"issues":[{reelId, where, severity, type, problem, fix}], "scores":[{reelId, accuracy, clarity, engagement}], "missing":[{factId, reelId, note}]}`, saved to `.work/<id>/review-<round>.json`
 
-Tell it to read the PDF itself and to report only real problems.
+Tell it to read the PDF itself and to report only real problems. Also have it review the practice bank, either in the same pass or in a parallel reviewer. For MCQs: exactly one defensible answer even with outside knowledge, and no giveaway by length or labels. For key points: they answer the exact question, so a correct standard answer can't lose marks.
 
 ## 5. Web fact-check (fresh context)
 - `node scripts/pipeline/lint.mjs content/<id>.json --claims` lists every Beyond-NCERT claim.
@@ -61,7 +68,7 @@ Write `content/reports/<id>.md` with these sections: Status (reviewed / needs at
 - Add the chapter to `content/index.json` with `"status": "reviewed"` or `"needs-attention"`.
 - `npm run validate && npm test`
 - `node scripts/build-artifact.mjs` (writes `dist/artifact/`)
-- Republish to the **same URL** from `HOSTING.md` with the Artifact tool: `file_path: dist/artifact/index.html`, `url`, and `files` mapping only what changed (at minimum `content/index.json` and `content/<id>.json`, plus `content/reports/<id>.md`; any changed `js/*.js` or `css/app.css` too). Omit `capabilities` so the db declaration is kept, and omit `icon`.
+- Republish to the **same URL** from `HOSTING.md` with the Artifact tool: `file_path: dist/artifact/index.html`, `url`, and `files` mapping only what changed (at minimum `content/index.json`, `content/<id>.json`, `content/practice/<id>.json` and `content/reports/<id>.md`; any changed `js/*.js` or `css/app.css` too). Omit `capabilities` so the stored declaration (db rules, user, sample) is kept, and omit `icon`.
 - Commit on the working branch and try to push; if the push is refused, say so in one line.
 
 ## 9. Learn: save the lessons

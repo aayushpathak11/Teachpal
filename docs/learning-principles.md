@@ -15,10 +15,11 @@ Every new feature is checked against this list before it's built. The research b
 | Avoid the fluency illusion | Passive features (audio replay, summaries) are supplements and need recall pauses. Effortless isn't the same as learned. |
 | Calibration | Analytics compare confidence with accuracy and forecast forgetting; no vanity metrics. |
 
-## v2 plan, in order of fit with these principles
+## v2 (built and live)
 1. **Exam practice:** interleaved MCQ sets with confidence ratings and immediate feedback; wrong answers go back into the SRS. Closed-book Phase 2 descriptive answers with AI feedback, and the model answer shown only after submitting.
 2. **Pretest:** each reel's question is shown before the reel plays.
 3. **Next-day explain-it-back,** with AI "why?" follow-ups.
 4. **Mixed daily session** across chapters, prioritising what's about to be forgotten.
 
-v3: audio revision with recall pauses, fill-in-the-link concept map, a current-affairs linker that creates recall cards, and calibration analytics.
+## v3 (next)
+Audio revision with recall pauses, fill-in-the-link concept map, a current-affairs linker that creates recall cards, and calibration analytics.

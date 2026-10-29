@@ -42,6 +42,13 @@ The single source of rules for writing and reviewing reels. The in-chat workflow
 - Cards: short, self-contained answers (no more than about 45 words). Add a card for every high-value name, number, date and exact NCERT line.
 - `examAngle` must give the answer material, not just name the exercise: "Exercise 11: not necessarily, because…". Every exercise question, including each matching pair, needs a reel that answers it and a card. *(ch02)*
 
+## Practice banks (MCQs and written questions)
+- Tie the stem to NCERT ("According to NCERT…") whenever outside sources could argue another option. For example, historians record gold and silver inflows, and others link the "pivot of the Empire" idea to Curzon. *(practice review, ch01)*
+- Vary which statement code is right; "1 only" was right in 6 of 9 at first. Don't repeat an option label ("Services: … / Services: …"). The lint flags both. *(practice review)*
+- Key points must answer the exact question asked. Definitions get the definition as the core point; extras are marked "(Optional)", so a correct standard answer can't lose marks. Accept both NCERT terms where they differ. *(c2d3, c2d5)*
+- Don't credit an achievement to the wrong cause in a rubric. Industry's GDP-share rise is credited to import substitution (Recap); diversification is credited to the public sector. *(c2d16)*
+- When NCERT's "present" figures are out of date, say so in the `why` (₹1 crore SSI limit vs today's MSME limits). *(c2m16)*
+
 ## Visuals that match the narration
 - Every item on screen gets spoken, in the **same order**: timeline events, flow steps, list items. *(ch01: the timeline and narration order didn't match.)*
 - No cause-and-effect chain the book doesn't make, unless it's marked extra. *(ch01: "railways → famine")*

@@ -73,11 +73,11 @@
       "options": [
         "Services: 40.5 per cent",
         "Industry: 30.5 per cent",
-        "Agriculture: 44.9 per cent",
-        "Agriculture: 59.0 per cent"
+        "Agriculture: 59.0 per cent",
+        "Industry and services together: 52.5 per cent"
       ],
       "answer": 0,
-      "why": "1990-91: agriculture 34.9, industry 24.6, services 40.5. (59.0 was agriculture's share in 1950-51.)"
+      "why": "1990-91: agriculture 34.9, industry 24.6, services 40.5 (so industry and services together were 65.1). 59.0 was agriculture's share in 1950-51."
     },
     {
       "id": "c2m7",
@@ -155,7 +155,7 @@
         "Bharat Foods"
       ],
       "answer": 0,
-      "why": "NCERT's example: Modern Bread, run by the state as if the private sector couldn't make bread, sold to the private sector in 2001."
+      "why": "NCERT's example: Modern Bread, run by the state as if the private sector couldn't make bread, sold to the private sector in 2001. Answer with NCERT's date."
     },
     {
       "id": "c2m13",
@@ -185,8 +185,8 @@
     },
     {
       "id": "c2m15",
-      "reelId": "industry-report-card",
-      "q": "Match: which pair from NCERT's Exercise 19 is correct?",
+      "reelId": "green-revolution",
+      "q": "Which of the following pairs from NCERT's 'match the following' exercise (Exercise 19) is correctly matched?",
       "options": [
         "HYV seeds: seeds that give a large proportion of output",
         "Quota: a tax charged on imported goods",
@@ -207,7 +207,7 @@
         "₹25 lakh"
       ],
       "answer": 0,
-      "why": "₹5 lakh in 1950; NCERT gives the present limit as ₹1 crore."
+      "why": "₹5 lakh in 1950; NCERT gives the 'present' limit as ₹1 crore. (Beyond the book: that figure is out of date. Today's MSME limits are far higher and use both investment and turnover.)"
     },
     {
       "id": "c2m17",
@@ -249,7 +249,7 @@
         "A plan spells out how the resources of a nation should be put to use",
         "It has general goals and specific objectives",
         "To be achieved within a specified period of time",
-        "In India, plans were of five years (an idea borrowed from the former Soviet Union)"
+        "(Optional) In India plans were of five years, an idea borrowed from the former Soviet Union"
       ]
     },
     {
@@ -262,10 +262,10 @@
       ],
       "q": "Why should plans have goals?",
       "keyPoints": [
-        "A plan should have clearly specified goals",
-        "Resources are limited, so each plan must choose which goal gets priority",
-        "Goals can conflict (e.g. modern technology vs employment), so planners balance them",
-        "Policies should not contradict the four goals: growth, modernisation, self-reliance, equity"
+        "Goals give the use of a nation's limited resources a clear direction",
+        "Clearly specified goals let each plan set priorities, since not every goal can get equal importance",
+        "Goals act as a yardstick to check that policies don't contradict them (growth, modernisation, self-reliance, equity)",
+        "(Optional) Goals can conflict, e.g. modern technology vs employment, so planners balance them"
       ]
     },
     {
@@ -278,6 +278,7 @@
       "q": "What are High Yielding Variety (HYV) seeds?",
       "keyPoints": [
         "Seeds that give a large proportion of output (high yield)",
+        "They led to a large increase in food grain production (the Green Revolution)",
         "Used especially for wheat and rice in the Green Revolution",
         "Need fertiliser, pesticide and regular water in correct proportions",
         "So farmers needed irrigation and money for inputs"
@@ -292,10 +293,9 @@
       ],
       "q": "What is marketable surplus?",
       "keyPoints": [
-        "NCERT defines marketed surplus: the portion of agricultural produce sold in the market by farmers",
-        "(Beyond the book) marketable surplus is what could be sold: output minus farmers' own needs",
-        "A large marketed surplus lowered food grain prices relative to other goods, helping the poor",
-        "It let the government procure grain for buffer stocks"
+        "Core definition: the portion of agricultural produce that farmers sell in the market (NCERT's text calls it 'marketed surplus'; accept either term)",
+        "(Optional, beyond the book) Strictly, marketable surplus is what could be sold: output minus farmers' own consumption, seed, feed and payments in kind",
+        "(Optional) Significance: a large marketed surplus during the Green Revolution lowered food grain prices relative to other goods and let the government build buffer stocks"
       ]
     },
     {

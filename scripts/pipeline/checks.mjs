@@ -111,3 +111,26 @@ export function coverageIssues(result, facts) {
 }
 
 export const actionable = (issues) => issues.filter((i) => i.severity === "blocker" || i.severity === "major");
+
+// Practice bank checks (content/practice/<id>.json), from the ch01/ch02 practice reviews.
+export function lintPractice(pr) {
+  const out = [];
+  const iss = (id, severity, problem, fix) => out.push({ reelId: id, where: "practice", severity, type: "lint", problem, fix, source: "lint" });
+  const STATEMENT = /^(\d( and \d)? only|Both \d and \d|Neither \d nor \d)$/;
+  const statementAnswers = [];
+  for (const m of pr.mcq || []) {
+    const lens = m.options.map((o) => o.length);
+    const runnerUp = [...lens].sort((x, y) => y - x)[1] ?? 0;
+    if (lens[m.answer] === Math.max(...lens) && lens[m.answer] >= runnerUp * 1.25 && lens[m.answer] - runnerUp >= 12)
+      iss(m.id, "major", "the correct option is clearly the longest", "Make the wrong options as long and as specific as the right one.");
+    if (new Set(m.options.map((o) => o.split(":")[0].trim().toLowerCase())).size < m.options.length && m.options.every((o) => o.includes(":")))
+      iss(m.id, "minor", "two options share the same label, which hints at the answer", "Use four different labels.");
+    if (m.options.every((o) => STATEMENT.test(o))) statementAnswers.push(m.answer);
+  }
+  if (statementAnswers.length >= 4) {
+    const top = Math.max(...[0, 1, 2, 3].map((a) => statementAnswers.filter((x) => x === a).length));
+    if (top / statementAnswers.length > 0.5) iss(null, "major", `statement questions: one answer code is right in ${top} of ${statementAnswers.length}`, "Vary which code (1 only / 2 only / Both / Neither) is correct.");
+  }
+  for (const d of pr.descriptive || []) if ((d.keyPoints || []).length < 3) iss(d.id, "minor", "fewer than 3 key points", "Give the grader a fuller rubric.");
+  return out;
+}
